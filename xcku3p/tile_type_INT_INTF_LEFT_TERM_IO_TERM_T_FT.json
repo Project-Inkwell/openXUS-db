@@ -1,0 +1,9 @@
+{
+  "pips": {},
+  "sites": [],
+  "tile_type": "INT_INTF_LEFT_TERM_IO_TERM_T_FT",
+  "wires": {
+    "CLOCK_DR_FT0": null,
+    "SHIFT_DR_FT0": null
+  }
+}

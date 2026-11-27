@@ -1,0 +1,9 @@
+{
+  "pips": {},
+  "sites": [],
+  "tile_type": "CFG_CONFIG_PCIE4",
+  "wires": {
+    "MCAP_PERST0_B_FT0": null,
+    "MCAP_PERST1_B_FT0": null
+  }
+}

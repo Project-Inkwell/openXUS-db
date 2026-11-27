@@ -1,0 +1,77 @@
+{
+  "functions": [
+    {
+      "bit": 11,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 13,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 13,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 14,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 15,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 7,
+      "occupancies": [
+        [
+          "0:BUFGCE_HDIO+1:BUFGCE_HDIO+2:BUFGCE_HDIO+3:BUFGCE_HDIO",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    }
+  ],
+  "tile_type": "RCLK_HDIO"
+}

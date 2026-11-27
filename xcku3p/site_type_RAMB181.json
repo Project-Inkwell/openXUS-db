@@ -1,0 +1,1995 @@
+{
+  "RAMB181": {
+    "bels": {
+      "CLK_OPTINV_CLKA_U": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKAU"
+          },
+          "CLK_OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OPTINV_CLKA_U_CLK_OUT"
+          }
+        },
+        "type": "BRAM_CLK_OPTINV"
+      },
+      "CLK_OPTINV_CLKB_U": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLKBU"
+          },
+          "CLK_OUT": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OPTINV_CLKB_U_CLK_OUT"
+          }
+        },
+        "type": "BRAM_CLK_OPTINV"
+      },
+      "OPTINV_ENARDEN_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "ENAU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_ENARDEN_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "OPTINV_ENBWREN_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "ENBU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_ENBWREN_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "OPTINV_RSTRAMA_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "RSTRAMAU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_RSTRAMA_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "OPTINV_RSTRAMB_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "RSTRAMBU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_RSTRAMB_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "OPTINV_RSTREGA_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "RSTREGAU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_RSTREGA_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "OPTINV_RSTREGB_U": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "RSTREGBU"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_RSTREGB_U_O"
+          }
+        },
+        "type": "BRAM_OPTINV"
+      },
+      "RAMB18E2_U": {
+        "class": "BEL",
+        "pins": {
+          "ADDRARDADDR0": {
+            "dir": "INPUT",
+            "wire": "ADDRAU1"
+          },
+          "ADDRARDADDR1": {
+            "dir": "INPUT",
+            "wire": "ADDRAU2"
+          },
+          "ADDRARDADDR10": {
+            "dir": "INPUT",
+            "wire": "ADDRAU11"
+          },
+          "ADDRARDADDR11": {
+            "dir": "INPUT",
+            "wire": "ADDRAU12"
+          },
+          "ADDRARDADDR12": {
+            "dir": "INPUT",
+            "wire": "ADDRAU13"
+          },
+          "ADDRARDADDR13": {
+            "dir": "INPUT",
+            "wire": "ADDRAU14"
+          },
+          "ADDRARDADDR2": {
+            "dir": "INPUT",
+            "wire": "ADDRAU3"
+          },
+          "ADDRARDADDR3": {
+            "dir": "INPUT",
+            "wire": "ADDRAU4"
+          },
+          "ADDRARDADDR4": {
+            "dir": "INPUT",
+            "wire": "ADDRAU5"
+          },
+          "ADDRARDADDR5": {
+            "dir": "INPUT",
+            "wire": "ADDRAU6"
+          },
+          "ADDRARDADDR6": {
+            "dir": "INPUT",
+            "wire": "ADDRAU7"
+          },
+          "ADDRARDADDR7": {
+            "dir": "INPUT",
+            "wire": "ADDRAU8"
+          },
+          "ADDRARDADDR8": {
+            "dir": "INPUT",
+            "wire": "ADDRAU9"
+          },
+          "ADDRARDADDR9": {
+            "dir": "INPUT",
+            "wire": "ADDRAU10"
+          },
+          "ADDRBWRADDR0": {
+            "dir": "INPUT",
+            "wire": "ADDRBU1"
+          },
+          "ADDRBWRADDR1": {
+            "dir": "INPUT",
+            "wire": "ADDRBU2"
+          },
+          "ADDRBWRADDR10": {
+            "dir": "INPUT",
+            "wire": "ADDRBU11"
+          },
+          "ADDRBWRADDR11": {
+            "dir": "INPUT",
+            "wire": "ADDRBU12"
+          },
+          "ADDRBWRADDR12": {
+            "dir": "INPUT",
+            "wire": "ADDRBU13"
+          },
+          "ADDRBWRADDR13": {
+            "dir": "INPUT",
+            "wire": "ADDRBU14"
+          },
+          "ADDRBWRADDR2": {
+            "dir": "INPUT",
+            "wire": "ADDRBU3"
+          },
+          "ADDRBWRADDR3": {
+            "dir": "INPUT",
+            "wire": "ADDRBU4"
+          },
+          "ADDRBWRADDR4": {
+            "dir": "INPUT",
+            "wire": "ADDRBU5"
+          },
+          "ADDRBWRADDR5": {
+            "dir": "INPUT",
+            "wire": "ADDRBU6"
+          },
+          "ADDRBWRADDR6": {
+            "dir": "INPUT",
+            "wire": "ADDRBU7"
+          },
+          "ADDRBWRADDR7": {
+            "dir": "INPUT",
+            "wire": "ADDRBU8"
+          },
+          "ADDRBWRADDR8": {
+            "dir": "INPUT",
+            "wire": "ADDRBU9"
+          },
+          "ADDRBWRADDR9": {
+            "dir": "INPUT",
+            "wire": "ADDRBU10"
+          },
+          "ADDRENA": {
+            "dir": "INPUT",
+            "wire": "ADDRENAU"
+          },
+          "ADDRENB": {
+            "dir": "INPUT",
+            "wire": "ADDRENBU"
+          },
+          "CASDIMUXA": {
+            "dir": "INPUT",
+            "wire": "CASDIMUXAU"
+          },
+          "CASDIMUXB": {
+            "dir": "INPUT",
+            "wire": "CASDIMUXBU"
+          },
+          "CASDINA0": {
+            "dir": "INPUT",
+            "wire": "CASDIAU0"
+          },
+          "CASDINA1": {
+            "dir": "INPUT",
+            "wire": "CASDIAU1"
+          },
+          "CASDINA10": {
+            "dir": "INPUT",
+            "wire": "CASDIAU10"
+          },
+          "CASDINA11": {
+            "dir": "INPUT",
+            "wire": "CASDIAU11"
+          },
+          "CASDINA12": {
+            "dir": "INPUT",
+            "wire": "CASDIAU12"
+          },
+          "CASDINA13": {
+            "dir": "INPUT",
+            "wire": "CASDIAU13"
+          },
+          "CASDINA14": {
+            "dir": "INPUT",
+            "wire": "CASDIAU14"
+          },
+          "CASDINA15": {
+            "dir": "INPUT",
+            "wire": "CASDIAU15"
+          },
+          "CASDINA2": {
+            "dir": "INPUT",
+            "wire": "CASDIAU2"
+          },
+          "CASDINA3": {
+            "dir": "INPUT",
+            "wire": "CASDIAU3"
+          },
+          "CASDINA4": {
+            "dir": "INPUT",
+            "wire": "CASDIAU4"
+          },
+          "CASDINA5": {
+            "dir": "INPUT",
+            "wire": "CASDIAU5"
+          },
+          "CASDINA6": {
+            "dir": "INPUT",
+            "wire": "CASDIAU6"
+          },
+          "CASDINA7": {
+            "dir": "INPUT",
+            "wire": "CASDIAU7"
+          },
+          "CASDINA8": {
+            "dir": "INPUT",
+            "wire": "CASDIAU8"
+          },
+          "CASDINA9": {
+            "dir": "INPUT",
+            "wire": "CASDIAU9"
+          },
+          "CASDINB0": {
+            "dir": "INPUT",
+            "wire": "CASDIBU0"
+          },
+          "CASDINB1": {
+            "dir": "INPUT",
+            "wire": "CASDIBU1"
+          },
+          "CASDINB10": {
+            "dir": "INPUT",
+            "wire": "CASDIBU10"
+          },
+          "CASDINB11": {
+            "dir": "INPUT",
+            "wire": "CASDIBU11"
+          },
+          "CASDINB12": {
+            "dir": "INPUT",
+            "wire": "CASDIBU12"
+          },
+          "CASDINB13": {
+            "dir": "INPUT",
+            "wire": "CASDIBU13"
+          },
+          "CASDINB14": {
+            "dir": "INPUT",
+            "wire": "CASDIBU14"
+          },
+          "CASDINB15": {
+            "dir": "INPUT",
+            "wire": "CASDIBU15"
+          },
+          "CASDINB2": {
+            "dir": "INPUT",
+            "wire": "CASDIBU2"
+          },
+          "CASDINB3": {
+            "dir": "INPUT",
+            "wire": "CASDIBU3"
+          },
+          "CASDINB4": {
+            "dir": "INPUT",
+            "wire": "CASDIBU4"
+          },
+          "CASDINB5": {
+            "dir": "INPUT",
+            "wire": "CASDIBU5"
+          },
+          "CASDINB6": {
+            "dir": "INPUT",
+            "wire": "CASDIBU6"
+          },
+          "CASDINB7": {
+            "dir": "INPUT",
+            "wire": "CASDIBU7"
+          },
+          "CASDINB8": {
+            "dir": "INPUT",
+            "wire": "CASDIBU8"
+          },
+          "CASDINB9": {
+            "dir": "INPUT",
+            "wire": "CASDIBU9"
+          },
+          "CASDINPA0": {
+            "dir": "INPUT",
+            "wire": "CASDIPAU0"
+          },
+          "CASDINPA1": {
+            "dir": "INPUT",
+            "wire": "CASDIPAU1"
+          },
+          "CASDINPB0": {
+            "dir": "INPUT",
+            "wire": "CASDIPBU0"
+          },
+          "CASDINPB1": {
+            "dir": "INPUT",
+            "wire": "CASDIPBU1"
+          },
+          "CASDOMUXA": {
+            "dir": "INPUT",
+            "wire": "CASDOMUXAU"
+          },
+          "CASDOMUXB": {
+            "dir": "INPUT",
+            "wire": "CASDOMUXBU"
+          },
+          "CASDOMUXEN_A": {
+            "dir": "INPUT",
+            "wire": "CASDOMUXENAU"
+          },
+          "CASDOMUXEN_B": {
+            "dir": "INPUT",
+            "wire": "CASDOMUXENBU"
+          },
+          "CASDOUTA0": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU0"
+          },
+          "CASDOUTA1": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU1"
+          },
+          "CASDOUTA10": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU10"
+          },
+          "CASDOUTA11": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU11"
+          },
+          "CASDOUTA12": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU12"
+          },
+          "CASDOUTA13": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU13"
+          },
+          "CASDOUTA14": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU14"
+          },
+          "CASDOUTA15": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU15"
+          },
+          "CASDOUTA2": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU2"
+          },
+          "CASDOUTA3": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU3"
+          },
+          "CASDOUTA4": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU4"
+          },
+          "CASDOUTA5": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU5"
+          },
+          "CASDOUTA6": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU6"
+          },
+          "CASDOUTA7": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU7"
+          },
+          "CASDOUTA8": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU8"
+          },
+          "CASDOUTA9": {
+            "dir": "OUTPUT",
+            "wire": "CASDOAU9"
+          },
+          "CASDOUTB0": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU0"
+          },
+          "CASDOUTB1": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU1"
+          },
+          "CASDOUTB10": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU10"
+          },
+          "CASDOUTB11": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU11"
+          },
+          "CASDOUTB12": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU12"
+          },
+          "CASDOUTB13": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU13"
+          },
+          "CASDOUTB14": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU14"
+          },
+          "CASDOUTB15": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU15"
+          },
+          "CASDOUTB2": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU2"
+          },
+          "CASDOUTB3": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU3"
+          },
+          "CASDOUTB4": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU4"
+          },
+          "CASDOUTB5": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU5"
+          },
+          "CASDOUTB6": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU6"
+          },
+          "CASDOUTB7": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU7"
+          },
+          "CASDOUTB8": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU8"
+          },
+          "CASDOUTB9": {
+            "dir": "OUTPUT",
+            "wire": "CASDOBU9"
+          },
+          "CASDOUTPA0": {
+            "dir": "OUTPUT",
+            "wire": "CASDOPAU0"
+          },
+          "CASDOUTPA1": {
+            "dir": "OUTPUT",
+            "wire": "CASDOPAU1"
+          },
+          "CASDOUTPB0": {
+            "dir": "OUTPUT",
+            "wire": "CASDOPBU0"
+          },
+          "CASDOUTPB1": {
+            "dir": "OUTPUT",
+            "wire": "CASDOPBU1"
+          },
+          "CASOREGIMUXA": {
+            "dir": "INPUT",
+            "wire": "CASOREGIMUXAU"
+          },
+          "CASOREGIMUXB": {
+            "dir": "INPUT",
+            "wire": "CASOREGIMUXBU"
+          },
+          "CASOREGIMUXEN_A": {
+            "dir": "INPUT",
+            "wire": "CASOREGIMUXENAU"
+          },
+          "CASOREGIMUXEN_B": {
+            "dir": "INPUT",
+            "wire": "CASOREGIMUXENBU"
+          },
+          "CLKARDCLK": {
+            "dir": "INPUT",
+            "wire": "CLK_OPTINV_CLKA_U_CLK_OUT"
+          },
+          "CLKBWRCLK": {
+            "dir": "INPUT",
+            "wire": "CLK_OPTINV_CLKB_U_CLK_OUT"
+          },
+          "DINADIN0": {
+            "dir": "INPUT",
+            "wire": "DIAU0"
+          },
+          "DINADIN1": {
+            "dir": "INPUT",
+            "wire": "DIAU1"
+          },
+          "DINADIN10": {
+            "dir": "INPUT",
+            "wire": "DIAU10"
+          },
+          "DINADIN11": {
+            "dir": "INPUT",
+            "wire": "DIAU11"
+          },
+          "DINADIN12": {
+            "dir": "INPUT",
+            "wire": "DIAU12"
+          },
+          "DINADIN13": {
+            "dir": "INPUT",
+            "wire": "DIAU13"
+          },
+          "DINADIN14": {
+            "dir": "INPUT",
+            "wire": "DIAU14"
+          },
+          "DINADIN15": {
+            "dir": "INPUT",
+            "wire": "DIAU15"
+          },
+          "DINADIN2": {
+            "dir": "INPUT",
+            "wire": "DIAU2"
+          },
+          "DINADIN3": {
+            "dir": "INPUT",
+            "wire": "DIAU3"
+          },
+          "DINADIN4": {
+            "dir": "INPUT",
+            "wire": "DIAU4"
+          },
+          "DINADIN5": {
+            "dir": "INPUT",
+            "wire": "DIAU5"
+          },
+          "DINADIN6": {
+            "dir": "INPUT",
+            "wire": "DIAU6"
+          },
+          "DINADIN7": {
+            "dir": "INPUT",
+            "wire": "DIAU7"
+          },
+          "DINADIN8": {
+            "dir": "INPUT",
+            "wire": "DIAU8"
+          },
+          "DINADIN9": {
+            "dir": "INPUT",
+            "wire": "DIAU9"
+          },
+          "DINBDIN0": {
+            "dir": "INPUT",
+            "wire": "DIBU0"
+          },
+          "DINBDIN1": {
+            "dir": "INPUT",
+            "wire": "DIBU1"
+          },
+          "DINBDIN10": {
+            "dir": "INPUT",
+            "wire": "DIBU10"
+          },
+          "DINBDIN11": {
+            "dir": "INPUT",
+            "wire": "DIBU11"
+          },
+          "DINBDIN12": {
+            "dir": "INPUT",
+            "wire": "DIBU12"
+          },
+          "DINBDIN13": {
+            "dir": "INPUT",
+            "wire": "DIBU13"
+          },
+          "DINBDIN14": {
+            "dir": "INPUT",
+            "wire": "DIBU14"
+          },
+          "DINBDIN15": {
+            "dir": "INPUT",
+            "wire": "DIBU15"
+          },
+          "DINBDIN2": {
+            "dir": "INPUT",
+            "wire": "DIBU2"
+          },
+          "DINBDIN3": {
+            "dir": "INPUT",
+            "wire": "DIBU3"
+          },
+          "DINBDIN4": {
+            "dir": "INPUT",
+            "wire": "DIBU4"
+          },
+          "DINBDIN5": {
+            "dir": "INPUT",
+            "wire": "DIBU5"
+          },
+          "DINBDIN6": {
+            "dir": "INPUT",
+            "wire": "DIBU6"
+          },
+          "DINBDIN7": {
+            "dir": "INPUT",
+            "wire": "DIBU7"
+          },
+          "DINBDIN8": {
+            "dir": "INPUT",
+            "wire": "DIBU8"
+          },
+          "DINBDIN9": {
+            "dir": "INPUT",
+            "wire": "DIBU9"
+          },
+          "DINPADINP0": {
+            "dir": "INPUT",
+            "wire": "DIPAU0"
+          },
+          "DINPADINP1": {
+            "dir": "INPUT",
+            "wire": "DIPAU1"
+          },
+          "DINPBDINP0": {
+            "dir": "INPUT",
+            "wire": "DIPBU0"
+          },
+          "DINPBDINP1": {
+            "dir": "INPUT",
+            "wire": "DIPBU1"
+          },
+          "DOUTADOUT0": {
+            "dir": "OUTPUT",
+            "wire": "DOAU0"
+          },
+          "DOUTADOUT1": {
+            "dir": "OUTPUT",
+            "wire": "DOAU1"
+          },
+          "DOUTADOUT10": {
+            "dir": "OUTPUT",
+            "wire": "DOAU10"
+          },
+          "DOUTADOUT11": {
+            "dir": "OUTPUT",
+            "wire": "DOAU11"
+          },
+          "DOUTADOUT12": {
+            "dir": "OUTPUT",
+            "wire": "DOAU12"
+          },
+          "DOUTADOUT13": {
+            "dir": "OUTPUT",
+            "wire": "DOAU13"
+          },
+          "DOUTADOUT14": {
+            "dir": "OUTPUT",
+            "wire": "DOAU14"
+          },
+          "DOUTADOUT15": {
+            "dir": "OUTPUT",
+            "wire": "DOAU15"
+          },
+          "DOUTADOUT2": {
+            "dir": "OUTPUT",
+            "wire": "DOAU2"
+          },
+          "DOUTADOUT3": {
+            "dir": "OUTPUT",
+            "wire": "DOAU3"
+          },
+          "DOUTADOUT4": {
+            "dir": "OUTPUT",
+            "wire": "DOAU4"
+          },
+          "DOUTADOUT5": {
+            "dir": "OUTPUT",
+            "wire": "DOAU5"
+          },
+          "DOUTADOUT6": {
+            "dir": "OUTPUT",
+            "wire": "DOAU6"
+          },
+          "DOUTADOUT7": {
+            "dir": "OUTPUT",
+            "wire": "DOAU7"
+          },
+          "DOUTADOUT8": {
+            "dir": "OUTPUT",
+            "wire": "DOAU8"
+          },
+          "DOUTADOUT9": {
+            "dir": "OUTPUT",
+            "wire": "DOAU9"
+          },
+          "DOUTBDOUT0": {
+            "dir": "OUTPUT",
+            "wire": "DOBU0"
+          },
+          "DOUTBDOUT1": {
+            "dir": "OUTPUT",
+            "wire": "DOBU1"
+          },
+          "DOUTBDOUT10": {
+            "dir": "OUTPUT",
+            "wire": "DOBU10"
+          },
+          "DOUTBDOUT11": {
+            "dir": "OUTPUT",
+            "wire": "DOBU11"
+          },
+          "DOUTBDOUT12": {
+            "dir": "OUTPUT",
+            "wire": "DOBU12"
+          },
+          "DOUTBDOUT13": {
+            "dir": "OUTPUT",
+            "wire": "DOBU13"
+          },
+          "DOUTBDOUT14": {
+            "dir": "OUTPUT",
+            "wire": "DOBU14"
+          },
+          "DOUTBDOUT15": {
+            "dir": "OUTPUT",
+            "wire": "DOBU15"
+          },
+          "DOUTBDOUT2": {
+            "dir": "OUTPUT",
+            "wire": "DOBU2"
+          },
+          "DOUTBDOUT3": {
+            "dir": "OUTPUT",
+            "wire": "DOBU3"
+          },
+          "DOUTBDOUT4": {
+            "dir": "OUTPUT",
+            "wire": "DOBU4"
+          },
+          "DOUTBDOUT5": {
+            "dir": "OUTPUT",
+            "wire": "DOBU5"
+          },
+          "DOUTBDOUT6": {
+            "dir": "OUTPUT",
+            "wire": "DOBU6"
+          },
+          "DOUTBDOUT7": {
+            "dir": "OUTPUT",
+            "wire": "DOBU7"
+          },
+          "DOUTBDOUT8": {
+            "dir": "OUTPUT",
+            "wire": "DOBU8"
+          },
+          "DOUTBDOUT9": {
+            "dir": "OUTPUT",
+            "wire": "DOBU9"
+          },
+          "DOUTPADOUTP0": {
+            "dir": "OUTPUT",
+            "wire": "DOPAU0"
+          },
+          "DOUTPADOUTP1": {
+            "dir": "OUTPUT",
+            "wire": "DOPAU1"
+          },
+          "DOUTPBDOUTP0": {
+            "dir": "OUTPUT",
+            "wire": "DOPBU0"
+          },
+          "DOUTPBDOUTP1": {
+            "dir": "OUTPUT",
+            "wire": "DOPBU1"
+          },
+          "ENARDEN": {
+            "dir": "INPUT",
+            "wire": "OPTINV_ENARDEN_U_O"
+          },
+          "ENBWREN": {
+            "dir": "INPUT",
+            "wire": "OPTINV_ENBWREN_U_O"
+          },
+          "REGCEAREGCE": {
+            "dir": "INPUT",
+            "wire": "REGCEAU"
+          },
+          "REGCEB": {
+            "dir": "INPUT",
+            "wire": "REGCEBU"
+          },
+          "RSTRAMARSTRAM": {
+            "dir": "INPUT",
+            "wire": "OPTINV_RSTRAMA_U_O"
+          },
+          "RSTRAMB": {
+            "dir": "INPUT",
+            "wire": "OPTINV_RSTRAMB_U_O"
+          },
+          "RSTREGARSTREG": {
+            "dir": "INPUT",
+            "wire": "OPTINV_RSTREGA_U_O"
+          },
+          "RSTREGB": {
+            "dir": "INPUT",
+            "wire": "OPTINV_RSTREGB_U_O"
+          },
+          "SLEEP": {
+            "dir": "INPUT",
+            "wire": "SLEEPU"
+          },
+          "WEA0": {
+            "dir": "INPUT",
+            "wire": "WEAU0"
+          },
+          "WEA1": {
+            "dir": "INPUT",
+            "wire": "WEAU1"
+          },
+          "WEA2": {
+            "dir": "INPUT",
+            "wire": "WEAU2"
+          },
+          "WEA3": {
+            "dir": "INPUT",
+            "wire": "WEAU3"
+          },
+          "WEBWE0": {
+            "dir": "INPUT",
+            "wire": "WEBU0"
+          },
+          "WEBWE1": {
+            "dir": "INPUT",
+            "wire": "WEBU1"
+          },
+          "WEBWE2": {
+            "dir": "INPUT",
+            "wire": "WEBU2"
+          },
+          "WEBWE3": {
+            "dir": "INPUT",
+            "wire": "WEBU3"
+          }
+        },
+        "type": "RAMB18E2_U_RAMB18E2"
+      }
+    },
+    "pins": {
+      "ADDRAU1": {
+        "dir": "INPUT",
+        "primary": "ADDRAU1",
+        "wire": "ADDRAU1"
+      },
+      "ADDRAU10": {
+        "dir": "INPUT",
+        "primary": "ADDRAU10",
+        "wire": "ADDRAU10"
+      },
+      "ADDRAU11": {
+        "dir": "INPUT",
+        "primary": "ADDRAU11",
+        "wire": "ADDRAU11"
+      },
+      "ADDRAU12": {
+        "dir": "INPUT",
+        "primary": "ADDRAU12",
+        "wire": "ADDRAU12"
+      },
+      "ADDRAU13": {
+        "dir": "INPUT",
+        "primary": "ADDRAU13",
+        "wire": "ADDRAU13"
+      },
+      "ADDRAU14": {
+        "dir": "INPUT",
+        "primary": "ADDRAU14",
+        "wire": "ADDRAU14"
+      },
+      "ADDRAU2": {
+        "dir": "INPUT",
+        "primary": "ADDRAU2",
+        "wire": "ADDRAU2"
+      },
+      "ADDRAU3": {
+        "dir": "INPUT",
+        "primary": "ADDRAU3",
+        "wire": "ADDRAU3"
+      },
+      "ADDRAU4": {
+        "dir": "INPUT",
+        "primary": "ADDRAU4",
+        "wire": "ADDRAU4"
+      },
+      "ADDRAU5": {
+        "dir": "INPUT",
+        "primary": "ADDRAU5",
+        "wire": "ADDRAU5"
+      },
+      "ADDRAU6": {
+        "dir": "INPUT",
+        "primary": "ADDRAU6",
+        "wire": "ADDRAU6"
+      },
+      "ADDRAU7": {
+        "dir": "INPUT",
+        "primary": "ADDRAU7",
+        "wire": "ADDRAU7"
+      },
+      "ADDRAU8": {
+        "dir": "INPUT",
+        "primary": "ADDRAU8",
+        "wire": "ADDRAU8"
+      },
+      "ADDRAU9": {
+        "dir": "INPUT",
+        "primary": "ADDRAU9",
+        "wire": "ADDRAU9"
+      },
+      "ADDRBU1": {
+        "dir": "INPUT",
+        "primary": "ADDRBU1",
+        "wire": "ADDRBU1"
+      },
+      "ADDRBU10": {
+        "dir": "INPUT",
+        "primary": "ADDRBU10",
+        "wire": "ADDRBU10"
+      },
+      "ADDRBU11": {
+        "dir": "INPUT",
+        "primary": "ADDRBU11",
+        "wire": "ADDRBU11"
+      },
+      "ADDRBU12": {
+        "dir": "INPUT",
+        "primary": "ADDRBU12",
+        "wire": "ADDRBU12"
+      },
+      "ADDRBU13": {
+        "dir": "INPUT",
+        "primary": "ADDRBU13",
+        "wire": "ADDRBU13"
+      },
+      "ADDRBU14": {
+        "dir": "INPUT",
+        "primary": "ADDRBU14",
+        "wire": "ADDRBU14"
+      },
+      "ADDRBU2": {
+        "dir": "INPUT",
+        "primary": "ADDRBU2",
+        "wire": "ADDRBU2"
+      },
+      "ADDRBU3": {
+        "dir": "INPUT",
+        "primary": "ADDRBU3",
+        "wire": "ADDRBU3"
+      },
+      "ADDRBU4": {
+        "dir": "INPUT",
+        "primary": "ADDRBU4",
+        "wire": "ADDRBU4"
+      },
+      "ADDRBU5": {
+        "dir": "INPUT",
+        "primary": "ADDRBU5",
+        "wire": "ADDRBU5"
+      },
+      "ADDRBU6": {
+        "dir": "INPUT",
+        "primary": "ADDRBU6",
+        "wire": "ADDRBU6"
+      },
+      "ADDRBU7": {
+        "dir": "INPUT",
+        "primary": "ADDRBU7",
+        "wire": "ADDRBU7"
+      },
+      "ADDRBU8": {
+        "dir": "INPUT",
+        "primary": "ADDRBU8",
+        "wire": "ADDRBU8"
+      },
+      "ADDRBU9": {
+        "dir": "INPUT",
+        "primary": "ADDRBU9",
+        "wire": "ADDRBU9"
+      },
+      "ADDRENAU": {
+        "dir": "INPUT",
+        "primary": "ADDRENAU",
+        "wire": "ADDRENAU"
+      },
+      "ADDRENBU": {
+        "dir": "INPUT",
+        "primary": "ADDRENBU",
+        "wire": "ADDRENBU"
+      },
+      "CASDIAU0": {
+        "dir": "INPUT",
+        "primary": "CASDIAU0",
+        "wire": "CASDIAU0"
+      },
+      "CASDIAU1": {
+        "dir": "INPUT",
+        "primary": "CASDIAU1",
+        "wire": "CASDIAU1"
+      },
+      "CASDIAU10": {
+        "dir": "INPUT",
+        "primary": "CASDIAU10",
+        "wire": "CASDIAU10"
+      },
+      "CASDIAU11": {
+        "dir": "INPUT",
+        "primary": "CASDIAU11",
+        "wire": "CASDIAU11"
+      },
+      "CASDIAU12": {
+        "dir": "INPUT",
+        "primary": "CASDIAU12",
+        "wire": "CASDIAU12"
+      },
+      "CASDIAU13": {
+        "dir": "INPUT",
+        "primary": "CASDIAU13",
+        "wire": "CASDIAU13"
+      },
+      "CASDIAU14": {
+        "dir": "INPUT",
+        "primary": "CASDIAU14",
+        "wire": "CASDIAU14"
+      },
+      "CASDIAU15": {
+        "dir": "INPUT",
+        "primary": "CASDIAU15",
+        "wire": "CASDIAU15"
+      },
+      "CASDIAU2": {
+        "dir": "INPUT",
+        "primary": "CASDIAU2",
+        "wire": "CASDIAU2"
+      },
+      "CASDIAU3": {
+        "dir": "INPUT",
+        "primary": "CASDIAU3",
+        "wire": "CASDIAU3"
+      },
+      "CASDIAU4": {
+        "dir": "INPUT",
+        "primary": "CASDIAU4",
+        "wire": "CASDIAU4"
+      },
+      "CASDIAU5": {
+        "dir": "INPUT",
+        "primary": "CASDIAU5",
+        "wire": "CASDIAU5"
+      },
+      "CASDIAU6": {
+        "dir": "INPUT",
+        "primary": "CASDIAU6",
+        "wire": "CASDIAU6"
+      },
+      "CASDIAU7": {
+        "dir": "INPUT",
+        "primary": "CASDIAU7",
+        "wire": "CASDIAU7"
+      },
+      "CASDIAU8": {
+        "dir": "INPUT",
+        "primary": "CASDIAU8",
+        "wire": "CASDIAU8"
+      },
+      "CASDIAU9": {
+        "dir": "INPUT",
+        "primary": "CASDIAU9",
+        "wire": "CASDIAU9"
+      },
+      "CASDIBU0": {
+        "dir": "INPUT",
+        "primary": "CASDIBU0",
+        "wire": "CASDIBU0"
+      },
+      "CASDIBU1": {
+        "dir": "INPUT",
+        "primary": "CASDIBU1",
+        "wire": "CASDIBU1"
+      },
+      "CASDIBU10": {
+        "dir": "INPUT",
+        "primary": "CASDIBU10",
+        "wire": "CASDIBU10"
+      },
+      "CASDIBU11": {
+        "dir": "INPUT",
+        "primary": "CASDIBU11",
+        "wire": "CASDIBU11"
+      },
+      "CASDIBU12": {
+        "dir": "INPUT",
+        "primary": "CASDIBU12",
+        "wire": "CASDIBU12"
+      },
+      "CASDIBU13": {
+        "dir": "INPUT",
+        "primary": "CASDIBU13",
+        "wire": "CASDIBU13"
+      },
+      "CASDIBU14": {
+        "dir": "INPUT",
+        "primary": "CASDIBU14",
+        "wire": "CASDIBU14"
+      },
+      "CASDIBU15": {
+        "dir": "INPUT",
+        "primary": "CASDIBU15",
+        "wire": "CASDIBU15"
+      },
+      "CASDIBU2": {
+        "dir": "INPUT",
+        "primary": "CASDIBU2",
+        "wire": "CASDIBU2"
+      },
+      "CASDIBU3": {
+        "dir": "INPUT",
+        "primary": "CASDIBU3",
+        "wire": "CASDIBU3"
+      },
+      "CASDIBU4": {
+        "dir": "INPUT",
+        "primary": "CASDIBU4",
+        "wire": "CASDIBU4"
+      },
+      "CASDIBU5": {
+        "dir": "INPUT",
+        "primary": "CASDIBU5",
+        "wire": "CASDIBU5"
+      },
+      "CASDIBU6": {
+        "dir": "INPUT",
+        "primary": "CASDIBU6",
+        "wire": "CASDIBU6"
+      },
+      "CASDIBU7": {
+        "dir": "INPUT",
+        "primary": "CASDIBU7",
+        "wire": "CASDIBU7"
+      },
+      "CASDIBU8": {
+        "dir": "INPUT",
+        "primary": "CASDIBU8",
+        "wire": "CASDIBU8"
+      },
+      "CASDIBU9": {
+        "dir": "INPUT",
+        "primary": "CASDIBU9",
+        "wire": "CASDIBU9"
+      },
+      "CASDIMUXAU": {
+        "dir": "INPUT",
+        "primary": "CASDIMUXAU",
+        "wire": "CASDIMUXAU"
+      },
+      "CASDIMUXBU": {
+        "dir": "INPUT",
+        "primary": "CASDIMUXBU",
+        "wire": "CASDIMUXBU"
+      },
+      "CASDIPAU0": {
+        "dir": "INPUT",
+        "primary": "CASDIPAU0",
+        "wire": "CASDIPAU0"
+      },
+      "CASDIPAU1": {
+        "dir": "INPUT",
+        "primary": "CASDIPAU1",
+        "wire": "CASDIPAU1"
+      },
+      "CASDIPBU0": {
+        "dir": "INPUT",
+        "primary": "CASDIPBU0",
+        "wire": "CASDIPBU0"
+      },
+      "CASDIPBU1": {
+        "dir": "INPUT",
+        "primary": "CASDIPBU1",
+        "wire": "CASDIPBU1"
+      },
+      "CASDOAU0": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU0",
+        "wire": "CASDOAU0"
+      },
+      "CASDOAU1": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU1",
+        "wire": "CASDOAU1"
+      },
+      "CASDOAU10": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU10",
+        "wire": "CASDOAU10"
+      },
+      "CASDOAU11": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU11",
+        "wire": "CASDOAU11"
+      },
+      "CASDOAU12": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU12",
+        "wire": "CASDOAU12"
+      },
+      "CASDOAU13": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU13",
+        "wire": "CASDOAU13"
+      },
+      "CASDOAU14": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU14",
+        "wire": "CASDOAU14"
+      },
+      "CASDOAU15": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU15",
+        "wire": "CASDOAU15"
+      },
+      "CASDOAU2": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU2",
+        "wire": "CASDOAU2"
+      },
+      "CASDOAU3": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU3",
+        "wire": "CASDOAU3"
+      },
+      "CASDOAU4": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU4",
+        "wire": "CASDOAU4"
+      },
+      "CASDOAU5": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU5",
+        "wire": "CASDOAU5"
+      },
+      "CASDOAU6": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU6",
+        "wire": "CASDOAU6"
+      },
+      "CASDOAU7": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU7",
+        "wire": "CASDOAU7"
+      },
+      "CASDOAU8": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU8",
+        "wire": "CASDOAU8"
+      },
+      "CASDOAU9": {
+        "dir": "OUTPUT",
+        "primary": "CASDOAU9",
+        "wire": "CASDOAU9"
+      },
+      "CASDOBU0": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU0",
+        "wire": "CASDOBU0"
+      },
+      "CASDOBU1": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU1",
+        "wire": "CASDOBU1"
+      },
+      "CASDOBU10": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU10",
+        "wire": "CASDOBU10"
+      },
+      "CASDOBU11": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU11",
+        "wire": "CASDOBU11"
+      },
+      "CASDOBU12": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU12",
+        "wire": "CASDOBU12"
+      },
+      "CASDOBU13": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU13",
+        "wire": "CASDOBU13"
+      },
+      "CASDOBU14": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU14",
+        "wire": "CASDOBU14"
+      },
+      "CASDOBU15": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU15",
+        "wire": "CASDOBU15"
+      },
+      "CASDOBU2": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU2",
+        "wire": "CASDOBU2"
+      },
+      "CASDOBU3": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU3",
+        "wire": "CASDOBU3"
+      },
+      "CASDOBU4": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU4",
+        "wire": "CASDOBU4"
+      },
+      "CASDOBU5": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU5",
+        "wire": "CASDOBU5"
+      },
+      "CASDOBU6": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU6",
+        "wire": "CASDOBU6"
+      },
+      "CASDOBU7": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU7",
+        "wire": "CASDOBU7"
+      },
+      "CASDOBU8": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU8",
+        "wire": "CASDOBU8"
+      },
+      "CASDOBU9": {
+        "dir": "OUTPUT",
+        "primary": "CASDOBU9",
+        "wire": "CASDOBU9"
+      },
+      "CASDOMUXAU": {
+        "dir": "INPUT",
+        "primary": "CASDOMUXAU",
+        "wire": "CASDOMUXAU"
+      },
+      "CASDOMUXBU": {
+        "dir": "INPUT",
+        "primary": "CASDOMUXBU",
+        "wire": "CASDOMUXBU"
+      },
+      "CASDOMUXENAU": {
+        "dir": "INPUT",
+        "primary": "CASDOMUXENAU",
+        "wire": "CASDOMUXENAU"
+      },
+      "CASDOMUXENBU": {
+        "dir": "INPUT",
+        "primary": "CASDOMUXENBU",
+        "wire": "CASDOMUXENBU"
+      },
+      "CASDOPAU0": {
+        "dir": "OUTPUT",
+        "primary": "CASDOPAU0",
+        "wire": "CASDOPAU0"
+      },
+      "CASDOPAU1": {
+        "dir": "OUTPUT",
+        "primary": "CASDOPAU1",
+        "wire": "CASDOPAU1"
+      },
+      "CASDOPBU0": {
+        "dir": "OUTPUT",
+        "primary": "CASDOPBU0",
+        "wire": "CASDOPBU0"
+      },
+      "CASDOPBU1": {
+        "dir": "OUTPUT",
+        "primary": "CASDOPBU1",
+        "wire": "CASDOPBU1"
+      },
+      "CASOREGIMUXAU": {
+        "dir": "INPUT",
+        "primary": "CASOREGIMUXAU",
+        "wire": "CASOREGIMUXAU"
+      },
+      "CASOREGIMUXBU": {
+        "dir": "INPUT",
+        "primary": "CASOREGIMUXBU",
+        "wire": "CASOREGIMUXBU"
+      },
+      "CASOREGIMUXENAU": {
+        "dir": "INPUT",
+        "primary": "CASOREGIMUXENAU",
+        "wire": "CASOREGIMUXENAU"
+      },
+      "CASOREGIMUXENBU": {
+        "dir": "INPUT",
+        "primary": "CASOREGIMUXENBU",
+        "wire": "CASOREGIMUXENBU"
+      },
+      "CLKAU": {
+        "dir": "INPUT",
+        "primary": "CLKAU",
+        "wire": "CLKAU"
+      },
+      "CLKBU": {
+        "dir": "INPUT",
+        "primary": "CLKBU",
+        "wire": "CLKBU"
+      },
+      "DIAU0": {
+        "dir": "INPUT",
+        "primary": "DIAU0",
+        "wire": "DIAU0"
+      },
+      "DIAU1": {
+        "dir": "INPUT",
+        "primary": "DIAU1",
+        "wire": "DIAU1"
+      },
+      "DIAU10": {
+        "dir": "INPUT",
+        "primary": "DIAU10",
+        "wire": "DIAU10"
+      },
+      "DIAU11": {
+        "dir": "INPUT",
+        "primary": "DIAU11",
+        "wire": "DIAU11"
+      },
+      "DIAU12": {
+        "dir": "INPUT",
+        "primary": "DIAU12",
+        "wire": "DIAU12"
+      },
+      "DIAU13": {
+        "dir": "INPUT",
+        "primary": "DIAU13",
+        "wire": "DIAU13"
+      },
+      "DIAU14": {
+        "dir": "INPUT",
+        "primary": "DIAU14",
+        "wire": "DIAU14"
+      },
+      "DIAU15": {
+        "dir": "INPUT",
+        "primary": "DIAU15",
+        "wire": "DIAU15"
+      },
+      "DIAU2": {
+        "dir": "INPUT",
+        "primary": "DIAU2",
+        "wire": "DIAU2"
+      },
+      "DIAU3": {
+        "dir": "INPUT",
+        "primary": "DIAU3",
+        "wire": "DIAU3"
+      },
+      "DIAU4": {
+        "dir": "INPUT",
+        "primary": "DIAU4",
+        "wire": "DIAU4"
+      },
+      "DIAU5": {
+        "dir": "INPUT",
+        "primary": "DIAU5",
+        "wire": "DIAU5"
+      },
+      "DIAU6": {
+        "dir": "INPUT",
+        "primary": "DIAU6",
+        "wire": "DIAU6"
+      },
+      "DIAU7": {
+        "dir": "INPUT",
+        "primary": "DIAU7",
+        "wire": "DIAU7"
+      },
+      "DIAU8": {
+        "dir": "INPUT",
+        "primary": "DIAU8",
+        "wire": "DIAU8"
+      },
+      "DIAU9": {
+        "dir": "INPUT",
+        "primary": "DIAU9",
+        "wire": "DIAU9"
+      },
+      "DIBU0": {
+        "dir": "INPUT",
+        "primary": "DIBU0",
+        "wire": "DIBU0"
+      },
+      "DIBU1": {
+        "dir": "INPUT",
+        "primary": "DIBU1",
+        "wire": "DIBU1"
+      },
+      "DIBU10": {
+        "dir": "INPUT",
+        "primary": "DIBU10",
+        "wire": "DIBU10"
+      },
+      "DIBU11": {
+        "dir": "INPUT",
+        "primary": "DIBU11",
+        "wire": "DIBU11"
+      },
+      "DIBU12": {
+        "dir": "INPUT",
+        "primary": "DIBU12",
+        "wire": "DIBU12"
+      },
+      "DIBU13": {
+        "dir": "INPUT",
+        "primary": "DIBU13",
+        "wire": "DIBU13"
+      },
+      "DIBU14": {
+        "dir": "INPUT",
+        "primary": "DIBU14",
+        "wire": "DIBU14"
+      },
+      "DIBU15": {
+        "dir": "INPUT",
+        "primary": "DIBU15",
+        "wire": "DIBU15"
+      },
+      "DIBU2": {
+        "dir": "INPUT",
+        "primary": "DIBU2",
+        "wire": "DIBU2"
+      },
+      "DIBU3": {
+        "dir": "INPUT",
+        "primary": "DIBU3",
+        "wire": "DIBU3"
+      },
+      "DIBU4": {
+        "dir": "INPUT",
+        "primary": "DIBU4",
+        "wire": "DIBU4"
+      },
+      "DIBU5": {
+        "dir": "INPUT",
+        "primary": "DIBU5",
+        "wire": "DIBU5"
+      },
+      "DIBU6": {
+        "dir": "INPUT",
+        "primary": "DIBU6",
+        "wire": "DIBU6"
+      },
+      "DIBU7": {
+        "dir": "INPUT",
+        "primary": "DIBU7",
+        "wire": "DIBU7"
+      },
+      "DIBU8": {
+        "dir": "INPUT",
+        "primary": "DIBU8",
+        "wire": "DIBU8"
+      },
+      "DIBU9": {
+        "dir": "INPUT",
+        "primary": "DIBU9",
+        "wire": "DIBU9"
+      },
+      "DIPAU0": {
+        "dir": "INPUT",
+        "primary": "DIPAU0",
+        "wire": "DIPAU0"
+      },
+      "DIPAU1": {
+        "dir": "INPUT",
+        "primary": "DIPAU1",
+        "wire": "DIPAU1"
+      },
+      "DIPBU0": {
+        "dir": "INPUT",
+        "primary": "DIPBU0",
+        "wire": "DIPBU0"
+      },
+      "DIPBU1": {
+        "dir": "INPUT",
+        "primary": "DIPBU1",
+        "wire": "DIPBU1"
+      },
+      "DOAU0": {
+        "dir": "OUTPUT",
+        "primary": "DOAU0",
+        "wire": "DOAU0"
+      },
+      "DOAU1": {
+        "dir": "OUTPUT",
+        "primary": "DOAU1",
+        "wire": "DOAU1"
+      },
+      "DOAU10": {
+        "dir": "OUTPUT",
+        "primary": "DOAU10",
+        "wire": "DOAU10"
+      },
+      "DOAU11": {
+        "dir": "OUTPUT",
+        "primary": "DOAU11",
+        "wire": "DOAU11"
+      },
+      "DOAU12": {
+        "dir": "OUTPUT",
+        "primary": "DOAU12",
+        "wire": "DOAU12"
+      },
+      "DOAU13": {
+        "dir": "OUTPUT",
+        "primary": "DOAU13",
+        "wire": "DOAU13"
+      },
+      "DOAU14": {
+        "dir": "OUTPUT",
+        "primary": "DOAU14",
+        "wire": "DOAU14"
+      },
+      "DOAU15": {
+        "dir": "OUTPUT",
+        "primary": "DOAU15",
+        "wire": "DOAU15"
+      },
+      "DOAU2": {
+        "dir": "OUTPUT",
+        "primary": "DOAU2",
+        "wire": "DOAU2"
+      },
+      "DOAU3": {
+        "dir": "OUTPUT",
+        "primary": "DOAU3",
+        "wire": "DOAU3"
+      },
+      "DOAU4": {
+        "dir": "OUTPUT",
+        "primary": "DOAU4",
+        "wire": "DOAU4"
+      },
+      "DOAU5": {
+        "dir": "OUTPUT",
+        "primary": "DOAU5",
+        "wire": "DOAU5"
+      },
+      "DOAU6": {
+        "dir": "OUTPUT",
+        "primary": "DOAU6",
+        "wire": "DOAU6"
+      },
+      "DOAU7": {
+        "dir": "OUTPUT",
+        "primary": "DOAU7",
+        "wire": "DOAU7"
+      },
+      "DOAU8": {
+        "dir": "OUTPUT",
+        "primary": "DOAU8",
+        "wire": "DOAU8"
+      },
+      "DOAU9": {
+        "dir": "OUTPUT",
+        "primary": "DOAU9",
+        "wire": "DOAU9"
+      },
+      "DOBU0": {
+        "dir": "OUTPUT",
+        "primary": "DOBU0",
+        "wire": "DOBU0"
+      },
+      "DOBU1": {
+        "dir": "OUTPUT",
+        "primary": "DOBU1",
+        "wire": "DOBU1"
+      },
+      "DOBU10": {
+        "dir": "OUTPUT",
+        "primary": "DOBU10",
+        "wire": "DOBU10"
+      },
+      "DOBU11": {
+        "dir": "OUTPUT",
+        "primary": "DOBU11",
+        "wire": "DOBU11"
+      },
+      "DOBU12": {
+        "dir": "OUTPUT",
+        "primary": "DOBU12",
+        "wire": "DOBU12"
+      },
+      "DOBU13": {
+        "dir": "OUTPUT",
+        "primary": "DOBU13",
+        "wire": "DOBU13"
+      },
+      "DOBU14": {
+        "dir": "OUTPUT",
+        "primary": "DOBU14",
+        "wire": "DOBU14"
+      },
+      "DOBU15": {
+        "dir": "OUTPUT",
+        "primary": "DOBU15",
+        "wire": "DOBU15"
+      },
+      "DOBU2": {
+        "dir": "OUTPUT",
+        "primary": "DOBU2",
+        "wire": "DOBU2"
+      },
+      "DOBU3": {
+        "dir": "OUTPUT",
+        "primary": "DOBU3",
+        "wire": "DOBU3"
+      },
+      "DOBU4": {
+        "dir": "OUTPUT",
+        "primary": "DOBU4",
+        "wire": "DOBU4"
+      },
+      "DOBU5": {
+        "dir": "OUTPUT",
+        "primary": "DOBU5",
+        "wire": "DOBU5"
+      },
+      "DOBU6": {
+        "dir": "OUTPUT",
+        "primary": "DOBU6",
+        "wire": "DOBU6"
+      },
+      "DOBU7": {
+        "dir": "OUTPUT",
+        "primary": "DOBU7",
+        "wire": "DOBU7"
+      },
+      "DOBU8": {
+        "dir": "OUTPUT",
+        "primary": "DOBU8",
+        "wire": "DOBU8"
+      },
+      "DOBU9": {
+        "dir": "OUTPUT",
+        "primary": "DOBU9",
+        "wire": "DOBU9"
+      },
+      "DOPAU0": {
+        "dir": "OUTPUT",
+        "primary": "DOPAU0",
+        "wire": "DOPAU0"
+      },
+      "DOPAU1": {
+        "dir": "OUTPUT",
+        "primary": "DOPAU1",
+        "wire": "DOPAU1"
+      },
+      "DOPBU0": {
+        "dir": "OUTPUT",
+        "primary": "DOPBU0",
+        "wire": "DOPBU0"
+      },
+      "DOPBU1": {
+        "dir": "OUTPUT",
+        "primary": "DOPBU1",
+        "wire": "DOPBU1"
+      },
+      "ENAU": {
+        "dir": "INPUT",
+        "primary": "ENAU",
+        "wire": "ENAU"
+      },
+      "ENBU": {
+        "dir": "INPUT",
+        "primary": "ENBU",
+        "wire": "ENBU"
+      },
+      "REGCEAU": {
+        "dir": "INPUT",
+        "primary": "REGCEAU",
+        "wire": "REGCEAU"
+      },
+      "REGCEBU": {
+        "dir": "INPUT",
+        "primary": "REGCEBU",
+        "wire": "REGCEBU"
+      },
+      "RSTRAMAU": {
+        "dir": "INPUT",
+        "primary": "RSTRAMAU",
+        "wire": "RSTRAMAU"
+      },
+      "RSTRAMBU": {
+        "dir": "INPUT",
+        "primary": "RSTRAMBU",
+        "wire": "RSTRAMBU"
+      },
+      "RSTREGAU": {
+        "dir": "INPUT",
+        "primary": "RSTREGAU",
+        "wire": "RSTREGAU"
+      },
+      "RSTREGBU": {
+        "dir": "INPUT",
+        "primary": "RSTREGBU",
+        "wire": "RSTREGBU"
+      },
+      "SLEEPU": {
+        "dir": "INPUT",
+        "primary": "SLEEPU",
+        "wire": "SLEEPU"
+      },
+      "WEAU0": {
+        "dir": "INPUT",
+        "primary": "WEAU0",
+        "wire": "WEAU0"
+      },
+      "WEAU1": {
+        "dir": "INPUT",
+        "primary": "WEAU1",
+        "wire": "WEAU1"
+      },
+      "WEAU2": {
+        "dir": "INPUT",
+        "primary": "WEAU2",
+        "wire": "WEAU2"
+      },
+      "WEAU3": {
+        "dir": "INPUT",
+        "primary": "WEAU3",
+        "wire": "WEAU3"
+      },
+      "WEBU0": {
+        "dir": "INPUT",
+        "primary": "WEBU0",
+        "wire": "WEBU0"
+      },
+      "WEBU1": {
+        "dir": "INPUT",
+        "primary": "WEBU1",
+        "wire": "WEBU1"
+      },
+      "WEBU2": {
+        "dir": "INPUT",
+        "primary": "WEBU2",
+        "wire": "WEBU2"
+      },
+      "WEBU3": {
+        "dir": "INPUT",
+        "primary": "WEBU3",
+        "wire": "WEBU3"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CLK_OPTINV_CLKA_U",
+        "from_pin": "CLK",
+        "to_pin": "CLK_OUT"
+      },
+      {
+        "bel": "CLK_OPTINV_CLKB_U",
+        "from_pin": "CLK",
+        "to_pin": "CLK_OUT"
+      },
+      {
+        "bel": "OPTINV_ENARDEN_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      },
+      {
+        "bel": "OPTINV_ENBWREN_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      },
+      {
+        "bel": "OPTINV_RSTRAMA_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      },
+      {
+        "bel": "OPTINV_RSTRAMB_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      },
+      {
+        "bel": "OPTINV_RSTREGA_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      },
+      {
+        "bel": "OPTINV_RSTREGB_U",
+        "from_pin": "I",
+        "to_pin": "O"
+      }
+    ]
+  }
+}

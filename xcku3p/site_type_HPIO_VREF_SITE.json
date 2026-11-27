@@ -1,0 +1,165 @@
+{
+  "HPIO_VREF_SITE": {
+    "bels": {
+      "HPIO_VREF1": {
+        "class": "BEL",
+        "pins": {
+          "FABRIC_VREF_TUNE0": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE0"
+          },
+          "FABRIC_VREF_TUNE1": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE1"
+          },
+          "FABRIC_VREF_TUNE2": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE2"
+          },
+          "FABRIC_VREF_TUNE3": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE3"
+          },
+          "FABRIC_VREF_TUNE4": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE4"
+          },
+          "FABRIC_VREF_TUNE5": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE5"
+          },
+          "FABRIC_VREF_TUNE6": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF1_TUNE6"
+          },
+          "VREF": {
+            "dir": "OUTPUT",
+            "wire": "VREF1"
+          }
+        },
+        "type": "HPIO_VREF"
+      },
+      "HPIO_VREF2": {
+        "class": "BEL",
+        "pins": {
+          "FABRIC_VREF_TUNE0": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE0"
+          },
+          "FABRIC_VREF_TUNE1": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE1"
+          },
+          "FABRIC_VREF_TUNE2": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE2"
+          },
+          "FABRIC_VREF_TUNE3": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE3"
+          },
+          "FABRIC_VREF_TUNE4": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE4"
+          },
+          "FABRIC_VREF_TUNE5": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE5"
+          },
+          "FABRIC_VREF_TUNE6": {
+            "dir": "INPUT",
+            "wire": "FABRIC_VREF2_TUNE6"
+          },
+          "VREF": {
+            "dir": "OUTPUT",
+            "wire": "VREF2"
+          }
+        },
+        "type": "HPIO_VREF"
+      }
+    },
+    "pins": {
+      "FABRIC_VREF1_TUNE0": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE0",
+        "wire": "FABRIC_VREF1_TUNE0"
+      },
+      "FABRIC_VREF1_TUNE1": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE1",
+        "wire": "FABRIC_VREF1_TUNE1"
+      },
+      "FABRIC_VREF1_TUNE2": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE2",
+        "wire": "FABRIC_VREF1_TUNE2"
+      },
+      "FABRIC_VREF1_TUNE3": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE3",
+        "wire": "FABRIC_VREF1_TUNE3"
+      },
+      "FABRIC_VREF1_TUNE4": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE4",
+        "wire": "FABRIC_VREF1_TUNE4"
+      },
+      "FABRIC_VREF1_TUNE5": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE5",
+        "wire": "FABRIC_VREF1_TUNE5"
+      },
+      "FABRIC_VREF1_TUNE6": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF1_TUNE6",
+        "wire": "FABRIC_VREF1_TUNE6"
+      },
+      "FABRIC_VREF2_TUNE0": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE0",
+        "wire": "FABRIC_VREF2_TUNE0"
+      },
+      "FABRIC_VREF2_TUNE1": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE1",
+        "wire": "FABRIC_VREF2_TUNE1"
+      },
+      "FABRIC_VREF2_TUNE2": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE2",
+        "wire": "FABRIC_VREF2_TUNE2"
+      },
+      "FABRIC_VREF2_TUNE3": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE3",
+        "wire": "FABRIC_VREF2_TUNE3"
+      },
+      "FABRIC_VREF2_TUNE4": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE4",
+        "wire": "FABRIC_VREF2_TUNE4"
+      },
+      "FABRIC_VREF2_TUNE5": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE5",
+        "wire": "FABRIC_VREF2_TUNE5"
+      },
+      "FABRIC_VREF2_TUNE6": {
+        "dir": "INPUT",
+        "primary": "FABRIC_VREF2_TUNE6",
+        "wire": "FABRIC_VREF2_TUNE6"
+      },
+      "VREF1": {
+        "dir": "OUTPUT",
+        "primary": "VREF1",
+        "wire": "VREF1"
+      },
+      "VREF2": {
+        "dir": "OUTPUT",
+        "primary": "VREF2",
+        "wire": "VREF2"
+      }
+    },
+    "pips": []
+  }
+}

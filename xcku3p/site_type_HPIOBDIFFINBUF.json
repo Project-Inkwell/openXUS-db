@@ -1,0 +1,192 @@
+{
+  "HPIOBDIFFINBUF": {
+    "bels": {
+      "DIFFINBUF": {
+        "class": "BEL",
+        "pins": {
+          "DIFF_IN_N": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_1"
+          },
+          "DIFF_IN_P": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_0"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "LVDS_TRUE"
+          },
+          "OSC0": {
+            "dir": "INPUT",
+            "wire": "OSC0"
+          },
+          "OSC1": {
+            "dir": "INPUT",
+            "wire": "OSC1"
+          },
+          "OSC2": {
+            "dir": "INPUT",
+            "wire": "OSC2"
+          },
+          "OSC3": {
+            "dir": "INPUT",
+            "wire": "OSC3"
+          },
+          "OSC_EN0": {
+            "dir": "INPUT",
+            "wire": "OSC_EN"
+          },
+          "OSC_EN1": {
+            "dir": "INPUT",
+            "wire": "CTLE_IN_1"
+          },
+          "O_B": {
+            "dir": "OUTPUT",
+            "wire": "LVDS_COMP"
+          },
+          "VREF": {
+            "dir": "INPUT",
+            "wire": "VREF"
+          }
+        },
+        "type": "HPIOBDIFFINBUF_DIFFINBUF"
+      },
+      "DPHY_DIFFINBUF": {
+        "class": "BEL",
+        "pins": {
+          "DIFF_IN_N": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_1"
+          },
+          "DIFF_IN_P": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_0"
+          },
+          "HSRX_DISABLE": {
+            "dir": "INPUT",
+            "wire": "HSRX_DISABLE"
+          },
+          "HSRX_O": {
+            "dir": "OUTPUT",
+            "wire": "LVDS_TRUE"
+          },
+          "LPRX_DISABLE": {
+            "dir": "INPUT",
+            "wire": "LPRX_DISABLE"
+          },
+          "LPRX_O_N": {
+            "dir": "OUTPUT",
+            "wire": "LPRX_O_N"
+          },
+          "LPRX_O_P": {
+            "dir": "OUTPUT",
+            "wire": "LPRX_O_P"
+          },
+          "OSC0": {
+            "dir": "INPUT",
+            "wire": "OSC0"
+          },
+          "OSC1": {
+            "dir": "INPUT",
+            "wire": "OSC1"
+          },
+          "OSC2": {
+            "dir": "INPUT",
+            "wire": "OSC2"
+          },
+          "OSC3": {
+            "dir": "INPUT",
+            "wire": "OSC3"
+          },
+          "OSC_EN0": {
+            "dir": "INPUT",
+            "wire": "OSC_EN"
+          },
+          "OSC_EN1": {
+            "dir": "INPUT",
+            "wire": "CTLE_IN_1"
+          }
+        },
+        "type": "HPIOB_DPHY_DIFFINBUF"
+      }
+    },
+    "pins": {
+      "CTLE_IN_1": {
+        "dir": "INPUT",
+        "primary": "CTLE_IN_1",
+        "wire": "CTLE_IN_1"
+      },
+      "HSRX_DISABLE": {
+        "dir": "INPUT",
+        "primary": "HSRX_DISABLE",
+        "wire": "HSRX_DISABLE"
+      },
+      "LPRX_DISABLE": {
+        "dir": "INPUT",
+        "primary": "LPRX_DISABLE",
+        "wire": "LPRX_DISABLE"
+      },
+      "LPRX_O_N": {
+        "dir": "OUTPUT",
+        "primary": "LPRX_O_N",
+        "wire": "LPRX_O_N"
+      },
+      "LPRX_O_P": {
+        "dir": "OUTPUT",
+        "primary": "LPRX_O_P",
+        "wire": "LPRX_O_P"
+      },
+      "LVDS_COMP": {
+        "dir": "OUTPUT",
+        "primary": "LVDS_COMP",
+        "wire": "LVDS_COMP"
+      },
+      "LVDS_TRUE": {
+        "dir": "OUTPUT",
+        "primary": "LVDS_TRUE",
+        "wire": "LVDS_TRUE"
+      },
+      "OSC0": {
+        "dir": "INPUT",
+        "primary": "OSC0",
+        "wire": "OSC0"
+      },
+      "OSC1": {
+        "dir": "INPUT",
+        "primary": "OSC1",
+        "wire": "OSC1"
+      },
+      "OSC2": {
+        "dir": "INPUT",
+        "primary": "OSC2",
+        "wire": "OSC2"
+      },
+      "OSC3": {
+        "dir": "INPUT",
+        "primary": "OSC3",
+        "wire": "OSC3"
+      },
+      "OSC_EN": {
+        "dir": "INPUT",
+        "primary": "OSC_EN",
+        "wire": "OSC_EN"
+      },
+      "PAD_RES_0": {
+        "dir": "INPUT",
+        "primary": "PAD_RES_0",
+        "wire": "PAD_RES_0"
+      },
+      "PAD_RES_1": {
+        "dir": "INPUT",
+        "primary": "PAD_RES_1",
+        "wire": "PAD_RES_1"
+      },
+      "VREF": {
+        "dir": "INPUT",
+        "primary": "VREF",
+        "wire": "VREF"
+      }
+    },
+    "pips": []
+  }
+}

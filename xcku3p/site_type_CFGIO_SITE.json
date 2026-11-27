@@ -1,0 +1,13 @@
+{
+  "CFGIO_SITE": {
+    "bels": {
+      "CFGIO_I": {
+        "class": "BEL",
+        "pins": {},
+        "type": "CFGIO_BEL"
+      }
+    },
+    "pins": {},
+    "pips": []
+  }
+}

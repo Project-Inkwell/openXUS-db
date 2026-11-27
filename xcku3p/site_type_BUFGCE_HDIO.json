@@ -1,0 +1,81 @@
+{
+  "BUFGCE_HDIO": {
+    "bels": {
+      "BUFCE": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEINV_CE"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IINV_I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT"
+          }
+        },
+        "type": "BUFCE_BUFCE"
+      },
+      "CEINV": {
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "OUTPUT",
+            "wire": "CEINV_CE"
+          },
+          "CE_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE_PRE_OPTINV"
+          }
+        },
+        "type": "BUFCE_CEINV"
+      },
+      "IINV": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "OUTPUT",
+            "wire": "IINV_I"
+          },
+          "I_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          }
+        },
+        "type": "BUFCE_IINV"
+      }
+    },
+    "pins": {
+      "CE_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "CE_PRE_OPTINV",
+        "wire": "CE_PRE_OPTINV"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "CLK_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT",
+        "wire": "CLK_OUT"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CEINV",
+        "from_pin": "CE_PREINV",
+        "to_pin": "CE"
+      },
+      {
+        "bel": "IINV",
+        "from_pin": "I_PREINV",
+        "to_pin": "I"
+      }
+    ]
+  }
+}

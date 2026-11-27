@@ -1,0 +1,209 @@
+{
+  "functions": [
+    {
+      "bit": 1390,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                0
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                1
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 301,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                1
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                0
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 31,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                1
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                0
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 33,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                1
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                0
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 35,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                1
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                0
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 42,
+      "occupancies": [
+        [
+          "@29:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@29:HDIOB_S",
+          {
+            "entries": [
+              [
+                [
+                  "LVCMOS18"
+                ],
+                1
+              ],
+              [
+                [
+                  "LVCMOS33"
+                ],
+                0
+              ]
+            ],
+            "table": [
+              "29/OUTBUF/OSTANDARD"
+            ]
+          }
+        ]
+      ],
+      "row": 1
+    }
+  ],
+  "tile_type": "HDIO_TOP_RIGHT"
+}

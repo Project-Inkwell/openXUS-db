@@ -1,0 +1,13 @@
+{
+  "HDIO_VREF": {
+    "bels": {
+      "VREF": {
+        "class": "BEL",
+        "pins": {},
+        "type": "HDIOB_VREF"
+      }
+    },
+    "pins": {},
+    "pips": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "pips": {},
+  "sites": [],
+  "tile_type": "CFRM_CBRK_L_TERM_T",
+  "wires": {
+    "GND_WIRE0": null,
+    "GND_WIRE1": null,
+    "GND_WIRE2": null,
+    "GND_WIRE3": null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pips": {},
+  "sites": [],
+  "tile_type": "CFRM_TERM_T",
+  "wires": {
+    "CLOCK_DR_BP": null,
+    "SHIFT_DR_BP": null
+  }
+}

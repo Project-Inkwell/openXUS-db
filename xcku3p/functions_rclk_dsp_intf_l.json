@@ -1,0 +1,61 @@
+{
+  "functions": [
+    {
+      "bit": 5,
+      "occupancies": [
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "entries": [
+              [
+                [
+                  "SYNC"
+                ],
+                0
+              ],
+              [
+                [
+                  "ASYNC"
+                ],
+                1
+              ]
+            ],
+            "table": [
+              "1/BUFCE/CE_TYPE"
+            ]
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 9,
+      "occupancies": [
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "entries": [
+              [
+                [
+                  "SYNC"
+                ],
+                0
+              ],
+              [
+                [
+                  "ASYNC"
+                ],
+                1
+              ]
+            ],
+            "table": [
+              "1/BUFCE/CE_TYPE"
+            ]
+          }
+        ]
+      ],
+      "row": 5
+    }
+  ],
+  "tile_type": "RCLK_DSP_INTF_L"
+}

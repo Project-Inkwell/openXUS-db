@@ -1,0 +1,71 @@
+{
+  "HARD_SYNC": {
+    "bels": {
+      "SYN_OPTINV_CLK": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "OUTPUT",
+            "wire": "SYN_OPTINV_CLK_CLK"
+          },
+          "CLK_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          }
+        },
+        "type": "HARD_SYNC_SYNC_OPTINV"
+      },
+      "SYN_UNIT": {
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "SYN_OPTINV_CLK_CLK"
+          },
+          "DIN": {
+            "dir": "INPUT",
+            "wire": "DIN"
+          },
+          "DOUT": {
+            "dir": "OUTPUT",
+            "wire": "DOUT"
+          },
+          "SR": {
+            "dir": "INPUT",
+            "wire": "SR"
+          }
+        },
+        "type": "HARD_SYNC_SYNC_UNIT"
+      }
+    },
+    "pins": {
+      "CLK": {
+        "dir": "INPUT",
+        "primary": "CLK",
+        "wire": "CLK"
+      },
+      "DIN": {
+        "dir": "INPUT",
+        "primary": "DIN",
+        "wire": "DIN"
+      },
+      "DOUT": {
+        "dir": "OUTPUT",
+        "primary": "DOUT",
+        "wire": "DOUT"
+      },
+      "SR": {
+        "dir": "INPUT",
+        "primary": "SR",
+        "wire": "SR"
+      }
+    },
+    "pips": [
+      {
+        "bel": "SYN_OPTINV_CLK",
+        "from_pin": "CLK_PREINV",
+        "to_pin": "CLK"
+      }
+    ]
+  }
+}

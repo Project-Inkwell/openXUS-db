@@ -1,0 +1,122 @@
+{
+  "BUFCE_LEAF": {
+    "bels": {
+      "BUFCE": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEINV_CE"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IINV_I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "BUFCE_O"
+          }
+        },
+        "type": "BUFCE_BUFCE_LEAF"
+      },
+      "CEINV": {
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "OUTPUT",
+            "wire": "CEINV_CE"
+          },
+          "CE_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE_INT"
+          }
+        },
+        "type": "BUFCE_CEINV_LEAF"
+      },
+      "IINV": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "OUTPUT",
+            "wire": "IINV_I"
+          },
+          "I_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          }
+        },
+        "type": "BUFCE_IINV_LEAF"
+      },
+      "LCLK_TEST_DELAY": {
+        "class": "BEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "BUFCE_O"
+          },
+          "I_CASC": {
+            "dir": "INPUT",
+            "wire": "CLK_CASC_IN"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_LEAF"
+          },
+          "O_CASC": {
+            "dir": "OUTPUT",
+            "wire": "CLK_CASC_OUT"
+          },
+          "TAP8_FORCE_B": {
+            "dir": "INPUT",
+            "wire": "ENSEL_PROG"
+          }
+        },
+        "type": "LCLK_DELAY"
+      }
+    },
+    "pins": {
+      "CE_INT": {
+        "dir": "INPUT",
+        "primary": "CE_INT",
+        "wire": "CE_INT"
+      },
+      "CLK_CASC_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_CASC_IN",
+        "wire": "CLK_CASC_IN"
+      },
+      "CLK_CASC_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_CASC_OUT",
+        "wire": "CLK_CASC_OUT"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "CLK_LEAF": {
+        "dir": "OUTPUT",
+        "primary": "CLK_LEAF",
+        "wire": "CLK_LEAF"
+      },
+      "ENSEL_PROG": {
+        "dir": "INPUT",
+        "primary": "ENSEL_PROG",
+        "wire": "ENSEL_PROG"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CEINV",
+        "from_pin": "CE_PREINV",
+        "to_pin": "CE"
+      },
+      {
+        "bel": "IINV",
+        "from_pin": "I_PREINV",
+        "to_pin": "I"
+      }
+    ]
+  }
+}

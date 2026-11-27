@@ -1,0 +1,29 @@
+{
+  "functions": [
+    {
+      "bit": 1165,
+      "occupancies": [
+        [
+          "23:HDIOB_M+28:HDIOB_M",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 973,
+      "occupancies": [
+        [
+          "23:HDIOB_M+28:HDIOB_M",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    }
+  ],
+  "tile_type": "HDIO_BOT_RIGHT"
+}

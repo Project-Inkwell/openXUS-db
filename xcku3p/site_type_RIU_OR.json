@@ -1,0 +1,474 @@
+{
+  "RIU_OR": {
+    "bels": {
+      "RIU_OR": {
+        "class": "BEL",
+        "pins": {
+          "RIU_RD_DATA0": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA0"
+          },
+          "RIU_RD_DATA1": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA1"
+          },
+          "RIU_RD_DATA10": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA10"
+          },
+          "RIU_RD_DATA11": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA11"
+          },
+          "RIU_RD_DATA12": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA12"
+          },
+          "RIU_RD_DATA13": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA13"
+          },
+          "RIU_RD_DATA14": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA14"
+          },
+          "RIU_RD_DATA15": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA15"
+          },
+          "RIU_RD_DATA2": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA2"
+          },
+          "RIU_RD_DATA3": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA3"
+          },
+          "RIU_RD_DATA4": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA4"
+          },
+          "RIU_RD_DATA5": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA5"
+          },
+          "RIU_RD_DATA6": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA6"
+          },
+          "RIU_RD_DATA7": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA7"
+          },
+          "RIU_RD_DATA8": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA8"
+          },
+          "RIU_RD_DATA9": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_DATA9"
+          },
+          "RIU_RD_DATA_LOW0": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW0"
+          },
+          "RIU_RD_DATA_LOW1": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW1"
+          },
+          "RIU_RD_DATA_LOW10": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW10"
+          },
+          "RIU_RD_DATA_LOW11": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW11"
+          },
+          "RIU_RD_DATA_LOW12": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW12"
+          },
+          "RIU_RD_DATA_LOW13": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW13"
+          },
+          "RIU_RD_DATA_LOW14": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW14"
+          },
+          "RIU_RD_DATA_LOW15": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW15"
+          },
+          "RIU_RD_DATA_LOW2": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW2"
+          },
+          "RIU_RD_DATA_LOW3": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW3"
+          },
+          "RIU_RD_DATA_LOW4": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW4"
+          },
+          "RIU_RD_DATA_LOW5": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW5"
+          },
+          "RIU_RD_DATA_LOW6": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW6"
+          },
+          "RIU_RD_DATA_LOW7": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW7"
+          },
+          "RIU_RD_DATA_LOW8": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW8"
+          },
+          "RIU_RD_DATA_LOW9": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_LOW9"
+          },
+          "RIU_RD_DATA_UPP0": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP0"
+          },
+          "RIU_RD_DATA_UPP1": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP1"
+          },
+          "RIU_RD_DATA_UPP10": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP10"
+          },
+          "RIU_RD_DATA_UPP11": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP11"
+          },
+          "RIU_RD_DATA_UPP12": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP12"
+          },
+          "RIU_RD_DATA_UPP13": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP13"
+          },
+          "RIU_RD_DATA_UPP14": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP14"
+          },
+          "RIU_RD_DATA_UPP15": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP15"
+          },
+          "RIU_RD_DATA_UPP2": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP2"
+          },
+          "RIU_RD_DATA_UPP3": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP3"
+          },
+          "RIU_RD_DATA_UPP4": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP4"
+          },
+          "RIU_RD_DATA_UPP5": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP5"
+          },
+          "RIU_RD_DATA_UPP6": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP6"
+          },
+          "RIU_RD_DATA_UPP7": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP7"
+          },
+          "RIU_RD_DATA_UPP8": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP8"
+          },
+          "RIU_RD_DATA_UPP9": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_DATA_UPP9"
+          },
+          "RIU_RD_VALID": {
+            "dir": "OUTPUT",
+            "wire": "RIU_RD_VALID"
+          },
+          "RIU_RD_VALID_LOW": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_VALID_LOW"
+          },
+          "RIU_RD_VALID_UPP": {
+            "dir": "INPUT",
+            "wire": "RIU_RD_VALID_UPP"
+          }
+        },
+        "type": "RIU_OR_BEL"
+      }
+    },
+    "pins": {
+      "RIU_RD_DATA0": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA0",
+        "wire": "RIU_RD_DATA0"
+      },
+      "RIU_RD_DATA1": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA1",
+        "wire": "RIU_RD_DATA1"
+      },
+      "RIU_RD_DATA10": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA10",
+        "wire": "RIU_RD_DATA10"
+      },
+      "RIU_RD_DATA11": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA11",
+        "wire": "RIU_RD_DATA11"
+      },
+      "RIU_RD_DATA12": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA12",
+        "wire": "RIU_RD_DATA12"
+      },
+      "RIU_RD_DATA13": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA13",
+        "wire": "RIU_RD_DATA13"
+      },
+      "RIU_RD_DATA14": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA14",
+        "wire": "RIU_RD_DATA14"
+      },
+      "RIU_RD_DATA15": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA15",
+        "wire": "RIU_RD_DATA15"
+      },
+      "RIU_RD_DATA2": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA2",
+        "wire": "RIU_RD_DATA2"
+      },
+      "RIU_RD_DATA3": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA3",
+        "wire": "RIU_RD_DATA3"
+      },
+      "RIU_RD_DATA4": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA4",
+        "wire": "RIU_RD_DATA4"
+      },
+      "RIU_RD_DATA5": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA5",
+        "wire": "RIU_RD_DATA5"
+      },
+      "RIU_RD_DATA6": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA6",
+        "wire": "RIU_RD_DATA6"
+      },
+      "RIU_RD_DATA7": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA7",
+        "wire": "RIU_RD_DATA7"
+      },
+      "RIU_RD_DATA8": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA8",
+        "wire": "RIU_RD_DATA8"
+      },
+      "RIU_RD_DATA9": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_DATA9",
+        "wire": "RIU_RD_DATA9"
+      },
+      "RIU_RD_DATA_LOW0": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW0",
+        "wire": "RIU_RD_DATA_LOW0"
+      },
+      "RIU_RD_DATA_LOW1": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW1",
+        "wire": "RIU_RD_DATA_LOW1"
+      },
+      "RIU_RD_DATA_LOW10": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW10",
+        "wire": "RIU_RD_DATA_LOW10"
+      },
+      "RIU_RD_DATA_LOW11": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW11",
+        "wire": "RIU_RD_DATA_LOW11"
+      },
+      "RIU_RD_DATA_LOW12": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW12",
+        "wire": "RIU_RD_DATA_LOW12"
+      },
+      "RIU_RD_DATA_LOW13": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW13",
+        "wire": "RIU_RD_DATA_LOW13"
+      },
+      "RIU_RD_DATA_LOW14": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW14",
+        "wire": "RIU_RD_DATA_LOW14"
+      },
+      "RIU_RD_DATA_LOW15": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW15",
+        "wire": "RIU_RD_DATA_LOW15"
+      },
+      "RIU_RD_DATA_LOW2": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW2",
+        "wire": "RIU_RD_DATA_LOW2"
+      },
+      "RIU_RD_DATA_LOW3": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW3",
+        "wire": "RIU_RD_DATA_LOW3"
+      },
+      "RIU_RD_DATA_LOW4": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW4",
+        "wire": "RIU_RD_DATA_LOW4"
+      },
+      "RIU_RD_DATA_LOW5": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW5",
+        "wire": "RIU_RD_DATA_LOW5"
+      },
+      "RIU_RD_DATA_LOW6": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW6",
+        "wire": "RIU_RD_DATA_LOW6"
+      },
+      "RIU_RD_DATA_LOW7": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW7",
+        "wire": "RIU_RD_DATA_LOW7"
+      },
+      "RIU_RD_DATA_LOW8": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW8",
+        "wire": "RIU_RD_DATA_LOW8"
+      },
+      "RIU_RD_DATA_LOW9": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_LOW9",
+        "wire": "RIU_RD_DATA_LOW9"
+      },
+      "RIU_RD_DATA_UPP0": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP0",
+        "wire": "RIU_RD_DATA_UPP0"
+      },
+      "RIU_RD_DATA_UPP1": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP1",
+        "wire": "RIU_RD_DATA_UPP1"
+      },
+      "RIU_RD_DATA_UPP10": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP10",
+        "wire": "RIU_RD_DATA_UPP10"
+      },
+      "RIU_RD_DATA_UPP11": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP11",
+        "wire": "RIU_RD_DATA_UPP11"
+      },
+      "RIU_RD_DATA_UPP12": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP12",
+        "wire": "RIU_RD_DATA_UPP12"
+      },
+      "RIU_RD_DATA_UPP13": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP13",
+        "wire": "RIU_RD_DATA_UPP13"
+      },
+      "RIU_RD_DATA_UPP14": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP14",
+        "wire": "RIU_RD_DATA_UPP14"
+      },
+      "RIU_RD_DATA_UPP15": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP15",
+        "wire": "RIU_RD_DATA_UPP15"
+      },
+      "RIU_RD_DATA_UPP2": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP2",
+        "wire": "RIU_RD_DATA_UPP2"
+      },
+      "RIU_RD_DATA_UPP3": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP3",
+        "wire": "RIU_RD_DATA_UPP3"
+      },
+      "RIU_RD_DATA_UPP4": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP4",
+        "wire": "RIU_RD_DATA_UPP4"
+      },
+      "RIU_RD_DATA_UPP5": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP5",
+        "wire": "RIU_RD_DATA_UPP5"
+      },
+      "RIU_RD_DATA_UPP6": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP6",
+        "wire": "RIU_RD_DATA_UPP6"
+      },
+      "RIU_RD_DATA_UPP7": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP7",
+        "wire": "RIU_RD_DATA_UPP7"
+      },
+      "RIU_RD_DATA_UPP8": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP8",
+        "wire": "RIU_RD_DATA_UPP8"
+      },
+      "RIU_RD_DATA_UPP9": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_DATA_UPP9",
+        "wire": "RIU_RD_DATA_UPP9"
+      },
+      "RIU_RD_VALID": {
+        "dir": "OUTPUT",
+        "primary": "RIU_RD_VALID",
+        "wire": "RIU_RD_VALID"
+      },
+      "RIU_RD_VALID_LOW": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_VALID_LOW",
+        "wire": "RIU_RD_VALID_LOW"
+      },
+      "RIU_RD_VALID_UPP": {
+        "dir": "INPUT",
+        "primary": "RIU_RD_VALID_UPP",
+        "wire": "RIU_RD_VALID_UPP"
+      }
+    },
+    "pips": []
+  }
+}

@@ -1,0 +1,2782 @@
+{
+  "SYSMONE4": {
+    "bels": {
+      "IPAD1": {
+        "class": "BEL",
+        "pins": {
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "IPAD1_O"
+          }
+        },
+        "type": "SYSMON_IPAD1"
+      },
+      "IPAD2": {
+        "class": "BEL",
+        "pins": {
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "IPAD2_O"
+          }
+        },
+        "type": "SYSMON_IPAD2"
+      },
+      "OPTINV_CONVSTCLK": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CONVST_CLK"
+          },
+          "CLKOUT": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_CONVSTCLK_CLKOUT"
+          }
+        },
+        "type": "OPTINV_CONVSTCLK"
+      },
+      "OPTINV_DCLK": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "DCLK"
+          },
+          "CLKOUT": {
+            "dir": "OUTPUT",
+            "wire": "OPTINV_DCLK_CLKOUT"
+          }
+        },
+        "type": "OPTINV_DCLK"
+      },
+      "SYSMONE4": {
+        "class": "BEL",
+        "pins": {
+          "ADC_DATA0": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA0"
+          },
+          "ADC_DATA1": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA1"
+          },
+          "ADC_DATA10": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA10"
+          },
+          "ADC_DATA11": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA11"
+          },
+          "ADC_DATA12": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA12"
+          },
+          "ADC_DATA13": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA13"
+          },
+          "ADC_DATA14": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA14"
+          },
+          "ADC_DATA15": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA15"
+          },
+          "ADC_DATA2": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA2"
+          },
+          "ADC_DATA3": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA3"
+          },
+          "ADC_DATA4": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA4"
+          },
+          "ADC_DATA5": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA5"
+          },
+          "ADC_DATA6": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA6"
+          },
+          "ADC_DATA7": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA7"
+          },
+          "ADC_DATA8": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA8"
+          },
+          "ADC_DATA9": {
+            "dir": "OUTPUT",
+            "wire": "ADC_DATA9"
+          },
+          "ALM0": {
+            "dir": "OUTPUT",
+            "wire": "ALM0"
+          },
+          "ALM1": {
+            "dir": "OUTPUT",
+            "wire": "ALM1"
+          },
+          "ALM10": {
+            "dir": "OUTPUT",
+            "wire": "ALM10"
+          },
+          "ALM11": {
+            "dir": "OUTPUT",
+            "wire": "ALM11"
+          },
+          "ALM12": {
+            "dir": "OUTPUT",
+            "wire": "ALM12"
+          },
+          "ALM13": {
+            "dir": "OUTPUT",
+            "wire": "ALM13"
+          },
+          "ALM14": {
+            "dir": "OUTPUT",
+            "wire": "ALM14"
+          },
+          "ALM15": {
+            "dir": "OUTPUT",
+            "wire": "ALM15"
+          },
+          "ALM2": {
+            "dir": "OUTPUT",
+            "wire": "ALM2"
+          },
+          "ALM3": {
+            "dir": "OUTPUT",
+            "wire": "ALM3"
+          },
+          "ALM4": {
+            "dir": "OUTPUT",
+            "wire": "ALM4"
+          },
+          "ALM5": {
+            "dir": "OUTPUT",
+            "wire": "ALM5"
+          },
+          "ALM6": {
+            "dir": "OUTPUT",
+            "wire": "ALM6"
+          },
+          "ALM7": {
+            "dir": "OUTPUT",
+            "wire": "ALM7"
+          },
+          "ALM8": {
+            "dir": "OUTPUT",
+            "wire": "ALM8"
+          },
+          "ALM9": {
+            "dir": "OUTPUT",
+            "wire": "ALM9"
+          },
+          "BUSY": {
+            "dir": "OUTPUT",
+            "wire": "BUSY"
+          },
+          "CHANNEL0": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL0"
+          },
+          "CHANNEL1": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL1"
+          },
+          "CHANNEL2": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL2"
+          },
+          "CHANNEL3": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL3"
+          },
+          "CHANNEL4": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL4"
+          },
+          "CHANNEL5": {
+            "dir": "OUTPUT",
+            "wire": "CHANNEL5"
+          },
+          "CONVST": {
+            "dir": "INPUT",
+            "wire": "CONVST"
+          },
+          "CONVSTCLK": {
+            "dir": "INPUT",
+            "wire": "OPTINV_CONVSTCLK_CLKOUT"
+          },
+          "DADDR0": {
+            "dir": "INPUT",
+            "wire": "DADDR0"
+          },
+          "DADDR1": {
+            "dir": "INPUT",
+            "wire": "DADDR1"
+          },
+          "DADDR2": {
+            "dir": "INPUT",
+            "wire": "DADDR2"
+          },
+          "DADDR3": {
+            "dir": "INPUT",
+            "wire": "DADDR3"
+          },
+          "DADDR4": {
+            "dir": "INPUT",
+            "wire": "DADDR4"
+          },
+          "DADDR5": {
+            "dir": "INPUT",
+            "wire": "DADDR5"
+          },
+          "DADDR6": {
+            "dir": "INPUT",
+            "wire": "DADDR6"
+          },
+          "DADDR7": {
+            "dir": "INPUT",
+            "wire": "DADDR7"
+          },
+          "DATAREADYADCF": {
+            "dir": "INPUT",
+            "wire": "DATA_READY_ADC_F"
+          },
+          "DCLK": {
+            "dir": "INPUT",
+            "wire": "OPTINV_DCLK_CLKOUT"
+          },
+          "DECOUTADCF0": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F0"
+          },
+          "DECOUTADCF1": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F1"
+          },
+          "DECOUTADCF10": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F10"
+          },
+          "DECOUTADCF11": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F11"
+          },
+          "DECOUTADCF12": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F12"
+          },
+          "DECOUTADCF13": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F13"
+          },
+          "DECOUTADCF14": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F14"
+          },
+          "DECOUTADCF15": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F15"
+          },
+          "DECOUTADCF2": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F2"
+          },
+          "DECOUTADCF3": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F3"
+          },
+          "DECOUTADCF4": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F4"
+          },
+          "DECOUTADCF5": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F5"
+          },
+          "DECOUTADCF6": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F6"
+          },
+          "DECOUTADCF7": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F7"
+          },
+          "DECOUTADCF8": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F8"
+          },
+          "DECOUTADCF9": {
+            "dir": "INPUT",
+            "wire": "DEC_OUT_ADC_F9"
+          },
+          "DEN": {
+            "dir": "INPUT",
+            "wire": "DEN"
+          },
+          "DI0": {
+            "dir": "INPUT",
+            "wire": "DI0"
+          },
+          "DI1": {
+            "dir": "INPUT",
+            "wire": "DI1"
+          },
+          "DI10": {
+            "dir": "INPUT",
+            "wire": "DI10"
+          },
+          "DI11": {
+            "dir": "INPUT",
+            "wire": "DI11"
+          },
+          "DI12": {
+            "dir": "INPUT",
+            "wire": "DI12"
+          },
+          "DI13": {
+            "dir": "INPUT",
+            "wire": "DI13"
+          },
+          "DI14": {
+            "dir": "INPUT",
+            "wire": "DI14"
+          },
+          "DI15": {
+            "dir": "INPUT",
+            "wire": "DI15"
+          },
+          "DI2": {
+            "dir": "INPUT",
+            "wire": "DI2"
+          },
+          "DI3": {
+            "dir": "INPUT",
+            "wire": "DI3"
+          },
+          "DI4": {
+            "dir": "INPUT",
+            "wire": "DI4"
+          },
+          "DI5": {
+            "dir": "INPUT",
+            "wire": "DI5"
+          },
+          "DI6": {
+            "dir": "INPUT",
+            "wire": "DI6"
+          },
+          "DI7": {
+            "dir": "INPUT",
+            "wire": "DI7"
+          },
+          "DI8": {
+            "dir": "INPUT",
+            "wire": "DI8"
+          },
+          "DI9": {
+            "dir": "INPUT",
+            "wire": "DI9"
+          },
+          "DO0": {
+            "dir": "OUTPUT",
+            "wire": "DOUT0"
+          },
+          "DO1": {
+            "dir": "OUTPUT",
+            "wire": "DOUT1"
+          },
+          "DO10": {
+            "dir": "OUTPUT",
+            "wire": "DOUT10"
+          },
+          "DO11": {
+            "dir": "OUTPUT",
+            "wire": "DOUT11"
+          },
+          "DO12": {
+            "dir": "OUTPUT",
+            "wire": "DOUT12"
+          },
+          "DO13": {
+            "dir": "OUTPUT",
+            "wire": "DOUT13"
+          },
+          "DO14": {
+            "dir": "OUTPUT",
+            "wire": "DOUT14"
+          },
+          "DO15": {
+            "dir": "OUTPUT",
+            "wire": "DOUT15"
+          },
+          "DO2": {
+            "dir": "OUTPUT",
+            "wire": "DOUT2"
+          },
+          "DO3": {
+            "dir": "OUTPUT",
+            "wire": "DOUT3"
+          },
+          "DO4": {
+            "dir": "OUTPUT",
+            "wire": "DOUT4"
+          },
+          "DO5": {
+            "dir": "OUTPUT",
+            "wire": "DOUT5"
+          },
+          "DO6": {
+            "dir": "OUTPUT",
+            "wire": "DOUT6"
+          },
+          "DO7": {
+            "dir": "OUTPUT",
+            "wire": "DOUT7"
+          },
+          "DO8": {
+            "dir": "OUTPUT",
+            "wire": "DOUT8"
+          },
+          "DO9": {
+            "dir": "OUTPUT",
+            "wire": "DOUT9"
+          },
+          "DRDY": {
+            "dir": "OUTPUT",
+            "wire": "DRDY"
+          },
+          "DWE": {
+            "dir": "INPUT",
+            "wire": "DWE"
+          },
+          "EOC": {
+            "dir": "OUTPUT",
+            "wire": "EOC"
+          },
+          "EOS": {
+            "dir": "OUTPUT",
+            "wire": "EOS"
+          },
+          "I2C_SCLK": {
+            "dir": "INPUT",
+            "wire": "I2C_SCLK_IN"
+          },
+          "I2C_SCLK_TS": {
+            "dir": "OUTPUT",
+            "wire": "I2C_SCLK_TS"
+          },
+          "I2C_SDA": {
+            "dir": "INPUT",
+            "wire": "I2C_SDA_IN"
+          },
+          "I2C_SDA_TS": {
+            "dir": "OUTPUT",
+            "wire": "I2C_SDA_TS"
+          },
+          "JTAGBUSY": {
+            "dir": "OUTPUT",
+            "wire": "JTAG_BUSY"
+          },
+          "JTAGLOCKED": {
+            "dir": "OUTPUT",
+            "wire": "JTAG_LOCKED"
+          },
+          "JTAGMODIFIED": {
+            "dir": "OUTPUT",
+            "wire": "JTAG_MODIFIED"
+          },
+          "MUXADDR0": {
+            "dir": "OUTPUT",
+            "wire": "MUX_ADDR0"
+          },
+          "MUXADDR1": {
+            "dir": "OUTPUT",
+            "wire": "MUX_ADDR1"
+          },
+          "MUXADDR2": {
+            "dir": "OUTPUT",
+            "wire": "MUX_ADDR2"
+          },
+          "MUXADDR3": {
+            "dir": "OUTPUT",
+            "wire": "MUX_ADDR3"
+          },
+          "MUXADDR4": {
+            "dir": "OUTPUT",
+            "wire": "MUX_ADDR4"
+          },
+          "OT": {
+            "dir": "OUTPUT",
+            "wire": "OT"
+          },
+          "RESET": {
+            "dir": "INPUT",
+            "wire": "RESET_USER"
+          },
+          "SMBALERT_TS": {
+            "dir": "OUTPUT",
+            "wire": "SMBALERT_TS"
+          },
+          "TESTADCCLK0": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_CLK0"
+          },
+          "TESTADCCLK1": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_CLK1"
+          },
+          "TESTADCCLK2": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_CLK2"
+          },
+          "TESTADCCLK3": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_CLK3"
+          },
+          "TESTADCIN0": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN0"
+          },
+          "TESTADCIN1": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN1"
+          },
+          "TESTADCIN10": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN10"
+          },
+          "TESTADCIN11": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN11"
+          },
+          "TESTADCIN12": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN12"
+          },
+          "TESTADCIN13": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN13"
+          },
+          "TESTADCIN14": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN14"
+          },
+          "TESTADCIN15": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN15"
+          },
+          "TESTADCIN16": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN16"
+          },
+          "TESTADCIN17": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN17"
+          },
+          "TESTADCIN18": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN18"
+          },
+          "TESTADCIN19": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN19"
+          },
+          "TESTADCIN2": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2"
+          },
+          "TESTADCIN20": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN20"
+          },
+          "TESTADCIN21": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN21"
+          },
+          "TESTADCIN22": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN22"
+          },
+          "TESTADCIN23": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN23"
+          },
+          "TESTADCIN24": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN24"
+          },
+          "TESTADCIN25": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN25"
+          },
+          "TESTADCIN26": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN26"
+          },
+          "TESTADCIN27": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN27"
+          },
+          "TESTADCIN28": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN28"
+          },
+          "TESTADCIN29": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN29"
+          },
+          "TESTADCIN3": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN3"
+          },
+          "TESTADCIN30": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN30"
+          },
+          "TESTADCIN31": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN31"
+          },
+          "TESTADCIN4": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN4"
+          },
+          "TESTADCIN5": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN5"
+          },
+          "TESTADCIN6": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN6"
+          },
+          "TESTADCIN7": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN7"
+          },
+          "TESTADCIN8": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN8"
+          },
+          "TESTADCIN9": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN9"
+          },
+          "TESTADCIN_20": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_0"
+          },
+          "TESTADCIN_21": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_1"
+          },
+          "TESTADCIN_210": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_10"
+          },
+          "TESTADCIN_211": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_11"
+          },
+          "TESTADCIN_212": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_12"
+          },
+          "TESTADCIN_213": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_13"
+          },
+          "TESTADCIN_214": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_14"
+          },
+          "TESTADCIN_215": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_15"
+          },
+          "TESTADCIN_216": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_16"
+          },
+          "TESTADCIN_217": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_17"
+          },
+          "TESTADCIN_218": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_18"
+          },
+          "TESTADCIN_219": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_19"
+          },
+          "TESTADCIN_22": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_2"
+          },
+          "TESTADCIN_220": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_20"
+          },
+          "TESTADCIN_221": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_21"
+          },
+          "TESTADCIN_222": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_22"
+          },
+          "TESTADCIN_223": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_23"
+          },
+          "TESTADCIN_224": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_24"
+          },
+          "TESTADCIN_225": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_25"
+          },
+          "TESTADCIN_226": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_26"
+          },
+          "TESTADCIN_227": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_27"
+          },
+          "TESTADCIN_228": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_28"
+          },
+          "TESTADCIN_229": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_29"
+          },
+          "TESTADCIN_23": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_3"
+          },
+          "TESTADCIN_230": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_30"
+          },
+          "TESTADCIN_231": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_31"
+          },
+          "TESTADCIN_24": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_4"
+          },
+          "TESTADCIN_25": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_5"
+          },
+          "TESTADCIN_26": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_6"
+          },
+          "TESTADCIN_27": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_7"
+          },
+          "TESTADCIN_28": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_8"
+          },
+          "TESTADCIN_29": {
+            "dir": "INPUT",
+            "wire": "TEST_ADC_IN2_9"
+          },
+          "TESTADCOUT0": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT0"
+          },
+          "TESTADCOUT1": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT1"
+          },
+          "TESTADCOUT10": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT10"
+          },
+          "TESTADCOUT11": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT11"
+          },
+          "TESTADCOUT12": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT12"
+          },
+          "TESTADCOUT13": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT13"
+          },
+          "TESTADCOUT14": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT14"
+          },
+          "TESTADCOUT15": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT15"
+          },
+          "TESTADCOUT16": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT16"
+          },
+          "TESTADCOUT17": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT17"
+          },
+          "TESTADCOUT18": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT18"
+          },
+          "TESTADCOUT19": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT19"
+          },
+          "TESTADCOUT2": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT2"
+          },
+          "TESTADCOUT3": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT3"
+          },
+          "TESTADCOUT4": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT4"
+          },
+          "TESTADCOUT5": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT5"
+          },
+          "TESTADCOUT6": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT6"
+          },
+          "TESTADCOUT7": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT7"
+          },
+          "TESTADCOUT8": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT8"
+          },
+          "TESTADCOUT9": {
+            "dir": "OUTPUT",
+            "wire": "TEST_ADC_OUT9"
+          },
+          "TESTCAPTURE": {
+            "dir": "INPUT",
+            "wire": "TEST_CAPTURE"
+          },
+          "TESTDB0": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB0"
+          },
+          "TESTDB1": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB1"
+          },
+          "TESTDB10": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB10"
+          },
+          "TESTDB11": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB11"
+          },
+          "TESTDB12": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB12"
+          },
+          "TESTDB13": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB13"
+          },
+          "TESTDB14": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB14"
+          },
+          "TESTDB15": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB15"
+          },
+          "TESTDB2": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB2"
+          },
+          "TESTDB3": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB3"
+          },
+          "TESTDB4": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB4"
+          },
+          "TESTDB5": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB5"
+          },
+          "TESTDB6": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB6"
+          },
+          "TESTDB7": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB7"
+          },
+          "TESTDB8": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB8"
+          },
+          "TESTDB9": {
+            "dir": "OUTPUT",
+            "wire": "TEST_DB9"
+          },
+          "TESTDRCK": {
+            "dir": "INPUT",
+            "wire": "TEST_DRCK"
+          },
+          "TESTENJTAG": {
+            "dir": "INPUT",
+            "wire": "TEST_EN_JTAG"
+          },
+          "TESTRST": {
+            "dir": "INPUT",
+            "wire": "TEST_RST"
+          },
+          "TESTSCANCLK0": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_CLK0"
+          },
+          "TESTSCANCLK1": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_CLK1"
+          },
+          "TESTSCANCLK2": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_CLK2"
+          },
+          "TESTSCANCLK3": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_CLK3"
+          },
+          "TESTSCANCLK4": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_CLK4"
+          },
+          "TESTSCANMODE0": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_MODE0"
+          },
+          "TESTSCANMODE1": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_MODE1"
+          },
+          "TESTSCANMODE2": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_MODE2"
+          },
+          "TESTSCANMODE3": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_MODE3"
+          },
+          "TESTSCANMODE4": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_MODE4"
+          },
+          "TESTSCANRESET": {
+            "dir": "INPUT",
+            "wire": "TEST_SCAN_RESET"
+          },
+          "TESTSE0": {
+            "dir": "INPUT",
+            "wire": "TEST_SE0"
+          },
+          "TESTSE1": {
+            "dir": "INPUT",
+            "wire": "TEST_SE1"
+          },
+          "TESTSE2": {
+            "dir": "INPUT",
+            "wire": "TEST_SE2"
+          },
+          "TESTSE3": {
+            "dir": "INPUT",
+            "wire": "TEST_SE3"
+          },
+          "TESTSE4": {
+            "dir": "INPUT",
+            "wire": "TEST_SE4"
+          },
+          "TESTSEL": {
+            "dir": "INPUT",
+            "wire": "TEST_SEL"
+          },
+          "TESTSHIFT": {
+            "dir": "INPUT",
+            "wire": "TEST_SHIFT"
+          },
+          "TESTSI0": {
+            "dir": "INPUT",
+            "wire": "TEST_SI0"
+          },
+          "TESTSI1": {
+            "dir": "INPUT",
+            "wire": "TEST_SI1"
+          },
+          "TESTSI2": {
+            "dir": "INPUT",
+            "wire": "TEST_SI2"
+          },
+          "TESTSI3": {
+            "dir": "INPUT",
+            "wire": "TEST_SI3"
+          },
+          "TESTSI4": {
+            "dir": "INPUT",
+            "wire": "TEST_SI4"
+          },
+          "TESTSI5": {
+            "dir": "INPUT",
+            "wire": "TEST_SI5"
+          },
+          "TESTSI6": {
+            "dir": "INPUT",
+            "wire": "TEST_SI6"
+          },
+          "TESTSI7": {
+            "dir": "INPUT",
+            "wire": "TEST_SI7"
+          },
+          "TESTSI8": {
+            "dir": "INPUT",
+            "wire": "TEST_SI8"
+          },
+          "TESTSI9": {
+            "dir": "INPUT",
+            "wire": "TEST_SI9"
+          },
+          "TESTSO0": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO0"
+          },
+          "TESTSO1": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO1"
+          },
+          "TESTSO2": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO2"
+          },
+          "TESTSO3": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO3"
+          },
+          "TESTSO4": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO4"
+          },
+          "TESTSO5": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO5"
+          },
+          "TESTSO6": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO6"
+          },
+          "TESTSO7": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO7"
+          },
+          "TESTSO8": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO8"
+          },
+          "TESTSO9": {
+            "dir": "OUTPUT",
+            "wire": "TEST_SO9"
+          },
+          "TESTTDI": {
+            "dir": "INPUT",
+            "wire": "TEST_TDI"
+          },
+          "TESTTDO": {
+            "dir": "OUTPUT",
+            "wire": "TEST_TDO"
+          },
+          "TESTUPDATE": {
+            "dir": "INPUT",
+            "wire": "TEST_UPDATE"
+          },
+          "VAUXN0": {
+            "dir": "INPUT",
+            "wire": "VN_AUX0"
+          },
+          "VAUXN1": {
+            "dir": "INPUT",
+            "wire": "VN_AUX1"
+          },
+          "VAUXN10": {
+            "dir": "INPUT",
+            "wire": "VN_AUX10"
+          },
+          "VAUXN11": {
+            "dir": "INPUT",
+            "wire": "VN_AUX11"
+          },
+          "VAUXN12": {
+            "dir": "INPUT",
+            "wire": "VN_AUX12"
+          },
+          "VAUXN13": {
+            "dir": "INPUT",
+            "wire": "VN_AUX13"
+          },
+          "VAUXN14": {
+            "dir": "INPUT",
+            "wire": "VN_AUX14"
+          },
+          "VAUXN15": {
+            "dir": "INPUT",
+            "wire": "VN_AUX15"
+          },
+          "VAUXN2": {
+            "dir": "INPUT",
+            "wire": "VN_AUX2"
+          },
+          "VAUXN3": {
+            "dir": "INPUT",
+            "wire": "VN_AUX3"
+          },
+          "VAUXN4": {
+            "dir": "INPUT",
+            "wire": "VN_AUX4"
+          },
+          "VAUXN5": {
+            "dir": "INPUT",
+            "wire": "VN_AUX5"
+          },
+          "VAUXN6": {
+            "dir": "INPUT",
+            "wire": "VN_AUX6"
+          },
+          "VAUXN7": {
+            "dir": "INPUT",
+            "wire": "VN_AUX7"
+          },
+          "VAUXN8": {
+            "dir": "INPUT",
+            "wire": "VN_AUX8"
+          },
+          "VAUXN9": {
+            "dir": "INPUT",
+            "wire": "VN_AUX9"
+          },
+          "VAUXP0": {
+            "dir": "INPUT",
+            "wire": "VP_AUX0"
+          },
+          "VAUXP1": {
+            "dir": "INPUT",
+            "wire": "VP_AUX1"
+          },
+          "VAUXP10": {
+            "dir": "INPUT",
+            "wire": "VP_AUX10"
+          },
+          "VAUXP11": {
+            "dir": "INPUT",
+            "wire": "VP_AUX11"
+          },
+          "VAUXP12": {
+            "dir": "INPUT",
+            "wire": "VP_AUX12"
+          },
+          "VAUXP13": {
+            "dir": "INPUT",
+            "wire": "VP_AUX13"
+          },
+          "VAUXP14": {
+            "dir": "INPUT",
+            "wire": "VP_AUX14"
+          },
+          "VAUXP15": {
+            "dir": "INPUT",
+            "wire": "VP_AUX15"
+          },
+          "VAUXP2": {
+            "dir": "INPUT",
+            "wire": "VP_AUX2"
+          },
+          "VAUXP3": {
+            "dir": "INPUT",
+            "wire": "VP_AUX3"
+          },
+          "VAUXP4": {
+            "dir": "INPUT",
+            "wire": "VP_AUX4"
+          },
+          "VAUXP5": {
+            "dir": "INPUT",
+            "wire": "VP_AUX5"
+          },
+          "VAUXP6": {
+            "dir": "INPUT",
+            "wire": "VP_AUX6"
+          },
+          "VAUXP7": {
+            "dir": "INPUT",
+            "wire": "VP_AUX7"
+          },
+          "VAUXP8": {
+            "dir": "INPUT",
+            "wire": "VP_AUX8"
+          },
+          "VAUXP9": {
+            "dir": "INPUT",
+            "wire": "VP_AUX9"
+          },
+          "VN": {
+            "dir": "INPUT",
+            "wire": "IPAD2_O"
+          },
+          "VP": {
+            "dir": "INPUT",
+            "wire": "IPAD1_O"
+          }
+        },
+        "type": "SYSMONE4_SYSMONE4"
+      }
+    },
+    "pins": {
+      "ADC_DATA0": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA0",
+        "wire": "ADC_DATA0"
+      },
+      "ADC_DATA1": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA1",
+        "wire": "ADC_DATA1"
+      },
+      "ADC_DATA10": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA10",
+        "wire": "ADC_DATA10"
+      },
+      "ADC_DATA11": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA11",
+        "wire": "ADC_DATA11"
+      },
+      "ADC_DATA12": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA12",
+        "wire": "ADC_DATA12"
+      },
+      "ADC_DATA13": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA13",
+        "wire": "ADC_DATA13"
+      },
+      "ADC_DATA14": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA14",
+        "wire": "ADC_DATA14"
+      },
+      "ADC_DATA15": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA15",
+        "wire": "ADC_DATA15"
+      },
+      "ADC_DATA2": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA2",
+        "wire": "ADC_DATA2"
+      },
+      "ADC_DATA3": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA3",
+        "wire": "ADC_DATA3"
+      },
+      "ADC_DATA4": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA4",
+        "wire": "ADC_DATA4"
+      },
+      "ADC_DATA5": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA5",
+        "wire": "ADC_DATA5"
+      },
+      "ADC_DATA6": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA6",
+        "wire": "ADC_DATA6"
+      },
+      "ADC_DATA7": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA7",
+        "wire": "ADC_DATA7"
+      },
+      "ADC_DATA8": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA8",
+        "wire": "ADC_DATA8"
+      },
+      "ADC_DATA9": {
+        "dir": "OUTPUT",
+        "primary": "ADC_DATA9",
+        "wire": "ADC_DATA9"
+      },
+      "ALM0": {
+        "dir": "OUTPUT",
+        "primary": "ALM0",
+        "wire": "ALM0"
+      },
+      "ALM1": {
+        "dir": "OUTPUT",
+        "primary": "ALM1",
+        "wire": "ALM1"
+      },
+      "ALM10": {
+        "dir": "OUTPUT",
+        "primary": "ALM10",
+        "wire": "ALM10"
+      },
+      "ALM11": {
+        "dir": "OUTPUT",
+        "primary": "ALM11",
+        "wire": "ALM11"
+      },
+      "ALM12": {
+        "dir": "OUTPUT",
+        "primary": "ALM12",
+        "wire": "ALM12"
+      },
+      "ALM13": {
+        "dir": "OUTPUT",
+        "primary": "ALM13",
+        "wire": "ALM13"
+      },
+      "ALM14": {
+        "dir": "OUTPUT",
+        "primary": "ALM14",
+        "wire": "ALM14"
+      },
+      "ALM15": {
+        "dir": "OUTPUT",
+        "primary": "ALM15",
+        "wire": "ALM15"
+      },
+      "ALM2": {
+        "dir": "OUTPUT",
+        "primary": "ALM2",
+        "wire": "ALM2"
+      },
+      "ALM3": {
+        "dir": "OUTPUT",
+        "primary": "ALM3",
+        "wire": "ALM3"
+      },
+      "ALM4": {
+        "dir": "OUTPUT",
+        "primary": "ALM4",
+        "wire": "ALM4"
+      },
+      "ALM5": {
+        "dir": "OUTPUT",
+        "primary": "ALM5",
+        "wire": "ALM5"
+      },
+      "ALM6": {
+        "dir": "OUTPUT",
+        "primary": "ALM6",
+        "wire": "ALM6"
+      },
+      "ALM7": {
+        "dir": "OUTPUT",
+        "primary": "ALM7",
+        "wire": "ALM7"
+      },
+      "ALM8": {
+        "dir": "OUTPUT",
+        "primary": "ALM8",
+        "wire": "ALM8"
+      },
+      "ALM9": {
+        "dir": "OUTPUT",
+        "primary": "ALM9",
+        "wire": "ALM9"
+      },
+      "BUSY": {
+        "dir": "OUTPUT",
+        "primary": "BUSY",
+        "wire": "BUSY"
+      },
+      "CHANNEL0": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL0",
+        "wire": "CHANNEL0"
+      },
+      "CHANNEL1": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL1",
+        "wire": "CHANNEL1"
+      },
+      "CHANNEL2": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL2",
+        "wire": "CHANNEL2"
+      },
+      "CHANNEL3": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL3",
+        "wire": "CHANNEL3"
+      },
+      "CHANNEL4": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL4",
+        "wire": "CHANNEL4"
+      },
+      "CHANNEL5": {
+        "dir": "OUTPUT",
+        "primary": "CHANNEL5",
+        "wire": "CHANNEL5"
+      },
+      "CONVST": {
+        "dir": "INPUT",
+        "primary": "CONVST",
+        "wire": "CONVST"
+      },
+      "CONVST_CLK": {
+        "dir": "INPUT",
+        "primary": "CONVST_CLK",
+        "wire": "CONVST_CLK"
+      },
+      "DADDR0": {
+        "dir": "INPUT",
+        "primary": "DADDR0",
+        "wire": "DADDR0"
+      },
+      "DADDR1": {
+        "dir": "INPUT",
+        "primary": "DADDR1",
+        "wire": "DADDR1"
+      },
+      "DADDR2": {
+        "dir": "INPUT",
+        "primary": "DADDR2",
+        "wire": "DADDR2"
+      },
+      "DADDR3": {
+        "dir": "INPUT",
+        "primary": "DADDR3",
+        "wire": "DADDR3"
+      },
+      "DADDR4": {
+        "dir": "INPUT",
+        "primary": "DADDR4",
+        "wire": "DADDR4"
+      },
+      "DADDR5": {
+        "dir": "INPUT",
+        "primary": "DADDR5",
+        "wire": "DADDR5"
+      },
+      "DADDR6": {
+        "dir": "INPUT",
+        "primary": "DADDR6",
+        "wire": "DADDR6"
+      },
+      "DADDR7": {
+        "dir": "INPUT",
+        "primary": "DADDR7",
+        "wire": "DADDR7"
+      },
+      "DATA_READY_ADC_F": {
+        "dir": "INPUT",
+        "primary": "DATA_READY_ADC_F",
+        "wire": "DATA_READY_ADC_F"
+      },
+      "DCLK": {
+        "dir": "INPUT",
+        "primary": "DCLK",
+        "wire": "DCLK"
+      },
+      "DEC_OUT_ADC_F0": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F0",
+        "wire": "DEC_OUT_ADC_F0"
+      },
+      "DEC_OUT_ADC_F1": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F1",
+        "wire": "DEC_OUT_ADC_F1"
+      },
+      "DEC_OUT_ADC_F10": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F10",
+        "wire": "DEC_OUT_ADC_F10"
+      },
+      "DEC_OUT_ADC_F11": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F11",
+        "wire": "DEC_OUT_ADC_F11"
+      },
+      "DEC_OUT_ADC_F12": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F12",
+        "wire": "DEC_OUT_ADC_F12"
+      },
+      "DEC_OUT_ADC_F13": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F13",
+        "wire": "DEC_OUT_ADC_F13"
+      },
+      "DEC_OUT_ADC_F14": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F14",
+        "wire": "DEC_OUT_ADC_F14"
+      },
+      "DEC_OUT_ADC_F15": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F15",
+        "wire": "DEC_OUT_ADC_F15"
+      },
+      "DEC_OUT_ADC_F2": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F2",
+        "wire": "DEC_OUT_ADC_F2"
+      },
+      "DEC_OUT_ADC_F3": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F3",
+        "wire": "DEC_OUT_ADC_F3"
+      },
+      "DEC_OUT_ADC_F4": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F4",
+        "wire": "DEC_OUT_ADC_F4"
+      },
+      "DEC_OUT_ADC_F5": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F5",
+        "wire": "DEC_OUT_ADC_F5"
+      },
+      "DEC_OUT_ADC_F6": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F6",
+        "wire": "DEC_OUT_ADC_F6"
+      },
+      "DEC_OUT_ADC_F7": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F7",
+        "wire": "DEC_OUT_ADC_F7"
+      },
+      "DEC_OUT_ADC_F8": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F8",
+        "wire": "DEC_OUT_ADC_F8"
+      },
+      "DEC_OUT_ADC_F9": {
+        "dir": "INPUT",
+        "primary": "DEC_OUT_ADC_F9",
+        "wire": "DEC_OUT_ADC_F9"
+      },
+      "DEN": {
+        "dir": "INPUT",
+        "primary": "DEN",
+        "wire": "DEN"
+      },
+      "DI0": {
+        "dir": "INPUT",
+        "primary": "DI0",
+        "wire": "DI0"
+      },
+      "DI1": {
+        "dir": "INPUT",
+        "primary": "DI1",
+        "wire": "DI1"
+      },
+      "DI10": {
+        "dir": "INPUT",
+        "primary": "DI10",
+        "wire": "DI10"
+      },
+      "DI11": {
+        "dir": "INPUT",
+        "primary": "DI11",
+        "wire": "DI11"
+      },
+      "DI12": {
+        "dir": "INPUT",
+        "primary": "DI12",
+        "wire": "DI12"
+      },
+      "DI13": {
+        "dir": "INPUT",
+        "primary": "DI13",
+        "wire": "DI13"
+      },
+      "DI14": {
+        "dir": "INPUT",
+        "primary": "DI14",
+        "wire": "DI14"
+      },
+      "DI15": {
+        "dir": "INPUT",
+        "primary": "DI15",
+        "wire": "DI15"
+      },
+      "DI2": {
+        "dir": "INPUT",
+        "primary": "DI2",
+        "wire": "DI2"
+      },
+      "DI3": {
+        "dir": "INPUT",
+        "primary": "DI3",
+        "wire": "DI3"
+      },
+      "DI4": {
+        "dir": "INPUT",
+        "primary": "DI4",
+        "wire": "DI4"
+      },
+      "DI5": {
+        "dir": "INPUT",
+        "primary": "DI5",
+        "wire": "DI5"
+      },
+      "DI6": {
+        "dir": "INPUT",
+        "primary": "DI6",
+        "wire": "DI6"
+      },
+      "DI7": {
+        "dir": "INPUT",
+        "primary": "DI7",
+        "wire": "DI7"
+      },
+      "DI8": {
+        "dir": "INPUT",
+        "primary": "DI8",
+        "wire": "DI8"
+      },
+      "DI9": {
+        "dir": "INPUT",
+        "primary": "DI9",
+        "wire": "DI9"
+      },
+      "DOUT0": {
+        "dir": "OUTPUT",
+        "primary": "DOUT0",
+        "wire": "DOUT0"
+      },
+      "DOUT1": {
+        "dir": "OUTPUT",
+        "primary": "DOUT1",
+        "wire": "DOUT1"
+      },
+      "DOUT10": {
+        "dir": "OUTPUT",
+        "primary": "DOUT10",
+        "wire": "DOUT10"
+      },
+      "DOUT11": {
+        "dir": "OUTPUT",
+        "primary": "DOUT11",
+        "wire": "DOUT11"
+      },
+      "DOUT12": {
+        "dir": "OUTPUT",
+        "primary": "DOUT12",
+        "wire": "DOUT12"
+      },
+      "DOUT13": {
+        "dir": "OUTPUT",
+        "primary": "DOUT13",
+        "wire": "DOUT13"
+      },
+      "DOUT14": {
+        "dir": "OUTPUT",
+        "primary": "DOUT14",
+        "wire": "DOUT14"
+      },
+      "DOUT15": {
+        "dir": "OUTPUT",
+        "primary": "DOUT15",
+        "wire": "DOUT15"
+      },
+      "DOUT2": {
+        "dir": "OUTPUT",
+        "primary": "DOUT2",
+        "wire": "DOUT2"
+      },
+      "DOUT3": {
+        "dir": "OUTPUT",
+        "primary": "DOUT3",
+        "wire": "DOUT3"
+      },
+      "DOUT4": {
+        "dir": "OUTPUT",
+        "primary": "DOUT4",
+        "wire": "DOUT4"
+      },
+      "DOUT5": {
+        "dir": "OUTPUT",
+        "primary": "DOUT5",
+        "wire": "DOUT5"
+      },
+      "DOUT6": {
+        "dir": "OUTPUT",
+        "primary": "DOUT6",
+        "wire": "DOUT6"
+      },
+      "DOUT7": {
+        "dir": "OUTPUT",
+        "primary": "DOUT7",
+        "wire": "DOUT7"
+      },
+      "DOUT8": {
+        "dir": "OUTPUT",
+        "primary": "DOUT8",
+        "wire": "DOUT8"
+      },
+      "DOUT9": {
+        "dir": "OUTPUT",
+        "primary": "DOUT9",
+        "wire": "DOUT9"
+      },
+      "DRDY": {
+        "dir": "OUTPUT",
+        "primary": "DRDY",
+        "wire": "DRDY"
+      },
+      "DWE": {
+        "dir": "INPUT",
+        "primary": "DWE",
+        "wire": "DWE"
+      },
+      "EOC": {
+        "dir": "OUTPUT",
+        "primary": "EOC",
+        "wire": "EOC"
+      },
+      "EOS": {
+        "dir": "OUTPUT",
+        "primary": "EOS",
+        "wire": "EOS"
+      },
+      "I2C_SCLK_IN": {
+        "dir": "INPUT",
+        "primary": "I2C_SCLK_IN",
+        "wire": "I2C_SCLK_IN"
+      },
+      "I2C_SCLK_TS": {
+        "dir": "OUTPUT",
+        "primary": "I2C_SCLK_TS",
+        "wire": "I2C_SCLK_TS"
+      },
+      "I2C_SDA_IN": {
+        "dir": "INPUT",
+        "primary": "I2C_SDA_IN",
+        "wire": "I2C_SDA_IN"
+      },
+      "I2C_SDA_TS": {
+        "dir": "OUTPUT",
+        "primary": "I2C_SDA_TS",
+        "wire": "I2C_SDA_TS"
+      },
+      "JTAG_BUSY": {
+        "dir": "OUTPUT",
+        "primary": "JTAG_BUSY",
+        "wire": "JTAG_BUSY"
+      },
+      "JTAG_LOCKED": {
+        "dir": "OUTPUT",
+        "primary": "JTAG_LOCKED",
+        "wire": "JTAG_LOCKED"
+      },
+      "JTAG_MODIFIED": {
+        "dir": "OUTPUT",
+        "primary": "JTAG_MODIFIED",
+        "wire": "JTAG_MODIFIED"
+      },
+      "MUX_ADDR0": {
+        "dir": "OUTPUT",
+        "primary": "MUX_ADDR0",
+        "wire": "MUX_ADDR0"
+      },
+      "MUX_ADDR1": {
+        "dir": "OUTPUT",
+        "primary": "MUX_ADDR1",
+        "wire": "MUX_ADDR1"
+      },
+      "MUX_ADDR2": {
+        "dir": "OUTPUT",
+        "primary": "MUX_ADDR2",
+        "wire": "MUX_ADDR2"
+      },
+      "MUX_ADDR3": {
+        "dir": "OUTPUT",
+        "primary": "MUX_ADDR3",
+        "wire": "MUX_ADDR3"
+      },
+      "MUX_ADDR4": {
+        "dir": "OUTPUT",
+        "primary": "MUX_ADDR4",
+        "wire": "MUX_ADDR4"
+      },
+      "OT": {
+        "dir": "OUTPUT",
+        "primary": "OT",
+        "wire": "OT"
+      },
+      "RESET_USER": {
+        "dir": "INPUT",
+        "primary": "RESET_USER",
+        "wire": "RESET_USER"
+      },
+      "SMBALERT_TS": {
+        "dir": "OUTPUT",
+        "primary": "SMBALERT_TS",
+        "wire": "SMBALERT_TS"
+      },
+      "TEST_ADC_CLK0": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_CLK0",
+        "wire": "TEST_ADC_CLK0"
+      },
+      "TEST_ADC_CLK1": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_CLK1",
+        "wire": "TEST_ADC_CLK1"
+      },
+      "TEST_ADC_CLK2": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_CLK2",
+        "wire": "TEST_ADC_CLK2"
+      },
+      "TEST_ADC_CLK3": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_CLK3",
+        "wire": "TEST_ADC_CLK3"
+      },
+      "TEST_ADC_IN0": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN0",
+        "wire": "TEST_ADC_IN0"
+      },
+      "TEST_ADC_IN1": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN1",
+        "wire": "TEST_ADC_IN1"
+      },
+      "TEST_ADC_IN10": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN10",
+        "wire": "TEST_ADC_IN10"
+      },
+      "TEST_ADC_IN11": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN11",
+        "wire": "TEST_ADC_IN11"
+      },
+      "TEST_ADC_IN12": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN12",
+        "wire": "TEST_ADC_IN12"
+      },
+      "TEST_ADC_IN13": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN13",
+        "wire": "TEST_ADC_IN13"
+      },
+      "TEST_ADC_IN14": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN14",
+        "wire": "TEST_ADC_IN14"
+      },
+      "TEST_ADC_IN15": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN15",
+        "wire": "TEST_ADC_IN15"
+      },
+      "TEST_ADC_IN16": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN16",
+        "wire": "TEST_ADC_IN16"
+      },
+      "TEST_ADC_IN17": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN17",
+        "wire": "TEST_ADC_IN17"
+      },
+      "TEST_ADC_IN18": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN18",
+        "wire": "TEST_ADC_IN18"
+      },
+      "TEST_ADC_IN19": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN19",
+        "wire": "TEST_ADC_IN19"
+      },
+      "TEST_ADC_IN2": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2",
+        "wire": "TEST_ADC_IN2"
+      },
+      "TEST_ADC_IN20": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN20",
+        "wire": "TEST_ADC_IN20"
+      },
+      "TEST_ADC_IN21": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN21",
+        "wire": "TEST_ADC_IN21"
+      },
+      "TEST_ADC_IN22": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN22",
+        "wire": "TEST_ADC_IN22"
+      },
+      "TEST_ADC_IN23": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN23",
+        "wire": "TEST_ADC_IN23"
+      },
+      "TEST_ADC_IN24": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN24",
+        "wire": "TEST_ADC_IN24"
+      },
+      "TEST_ADC_IN25": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN25",
+        "wire": "TEST_ADC_IN25"
+      },
+      "TEST_ADC_IN26": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN26",
+        "wire": "TEST_ADC_IN26"
+      },
+      "TEST_ADC_IN27": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN27",
+        "wire": "TEST_ADC_IN27"
+      },
+      "TEST_ADC_IN28": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN28",
+        "wire": "TEST_ADC_IN28"
+      },
+      "TEST_ADC_IN29": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN29",
+        "wire": "TEST_ADC_IN29"
+      },
+      "TEST_ADC_IN2_0": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_0",
+        "wire": "TEST_ADC_IN2_0"
+      },
+      "TEST_ADC_IN2_1": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_1",
+        "wire": "TEST_ADC_IN2_1"
+      },
+      "TEST_ADC_IN2_10": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_10",
+        "wire": "TEST_ADC_IN2_10"
+      },
+      "TEST_ADC_IN2_11": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_11",
+        "wire": "TEST_ADC_IN2_11"
+      },
+      "TEST_ADC_IN2_12": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_12",
+        "wire": "TEST_ADC_IN2_12"
+      },
+      "TEST_ADC_IN2_13": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_13",
+        "wire": "TEST_ADC_IN2_13"
+      },
+      "TEST_ADC_IN2_14": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_14",
+        "wire": "TEST_ADC_IN2_14"
+      },
+      "TEST_ADC_IN2_15": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_15",
+        "wire": "TEST_ADC_IN2_15"
+      },
+      "TEST_ADC_IN2_16": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_16",
+        "wire": "TEST_ADC_IN2_16"
+      },
+      "TEST_ADC_IN2_17": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_17",
+        "wire": "TEST_ADC_IN2_17"
+      },
+      "TEST_ADC_IN2_18": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_18",
+        "wire": "TEST_ADC_IN2_18"
+      },
+      "TEST_ADC_IN2_19": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_19",
+        "wire": "TEST_ADC_IN2_19"
+      },
+      "TEST_ADC_IN2_2": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_2",
+        "wire": "TEST_ADC_IN2_2"
+      },
+      "TEST_ADC_IN2_20": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_20",
+        "wire": "TEST_ADC_IN2_20"
+      },
+      "TEST_ADC_IN2_21": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_21",
+        "wire": "TEST_ADC_IN2_21"
+      },
+      "TEST_ADC_IN2_22": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_22",
+        "wire": "TEST_ADC_IN2_22"
+      },
+      "TEST_ADC_IN2_23": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_23",
+        "wire": "TEST_ADC_IN2_23"
+      },
+      "TEST_ADC_IN2_24": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_24",
+        "wire": "TEST_ADC_IN2_24"
+      },
+      "TEST_ADC_IN2_25": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_25",
+        "wire": "TEST_ADC_IN2_25"
+      },
+      "TEST_ADC_IN2_26": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_26",
+        "wire": "TEST_ADC_IN2_26"
+      },
+      "TEST_ADC_IN2_27": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_27",
+        "wire": "TEST_ADC_IN2_27"
+      },
+      "TEST_ADC_IN2_28": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_28",
+        "wire": "TEST_ADC_IN2_28"
+      },
+      "TEST_ADC_IN2_29": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_29",
+        "wire": "TEST_ADC_IN2_29"
+      },
+      "TEST_ADC_IN2_3": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_3",
+        "wire": "TEST_ADC_IN2_3"
+      },
+      "TEST_ADC_IN2_30": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_30",
+        "wire": "TEST_ADC_IN2_30"
+      },
+      "TEST_ADC_IN2_31": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_31",
+        "wire": "TEST_ADC_IN2_31"
+      },
+      "TEST_ADC_IN2_4": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_4",
+        "wire": "TEST_ADC_IN2_4"
+      },
+      "TEST_ADC_IN2_5": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_5",
+        "wire": "TEST_ADC_IN2_5"
+      },
+      "TEST_ADC_IN2_6": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_6",
+        "wire": "TEST_ADC_IN2_6"
+      },
+      "TEST_ADC_IN2_7": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_7",
+        "wire": "TEST_ADC_IN2_7"
+      },
+      "TEST_ADC_IN2_8": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_8",
+        "wire": "TEST_ADC_IN2_8"
+      },
+      "TEST_ADC_IN2_9": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN2_9",
+        "wire": "TEST_ADC_IN2_9"
+      },
+      "TEST_ADC_IN3": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN3",
+        "wire": "TEST_ADC_IN3"
+      },
+      "TEST_ADC_IN30": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN30",
+        "wire": "TEST_ADC_IN30"
+      },
+      "TEST_ADC_IN31": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN31",
+        "wire": "TEST_ADC_IN31"
+      },
+      "TEST_ADC_IN4": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN4",
+        "wire": "TEST_ADC_IN4"
+      },
+      "TEST_ADC_IN5": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN5",
+        "wire": "TEST_ADC_IN5"
+      },
+      "TEST_ADC_IN6": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN6",
+        "wire": "TEST_ADC_IN6"
+      },
+      "TEST_ADC_IN7": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN7",
+        "wire": "TEST_ADC_IN7"
+      },
+      "TEST_ADC_IN8": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN8",
+        "wire": "TEST_ADC_IN8"
+      },
+      "TEST_ADC_IN9": {
+        "dir": "INPUT",
+        "primary": "TEST_ADC_IN9",
+        "wire": "TEST_ADC_IN9"
+      },
+      "TEST_ADC_OUT0": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT0",
+        "wire": "TEST_ADC_OUT0"
+      },
+      "TEST_ADC_OUT1": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT1",
+        "wire": "TEST_ADC_OUT1"
+      },
+      "TEST_ADC_OUT10": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT10",
+        "wire": "TEST_ADC_OUT10"
+      },
+      "TEST_ADC_OUT11": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT11",
+        "wire": "TEST_ADC_OUT11"
+      },
+      "TEST_ADC_OUT12": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT12",
+        "wire": "TEST_ADC_OUT12"
+      },
+      "TEST_ADC_OUT13": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT13",
+        "wire": "TEST_ADC_OUT13"
+      },
+      "TEST_ADC_OUT14": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT14",
+        "wire": "TEST_ADC_OUT14"
+      },
+      "TEST_ADC_OUT15": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT15",
+        "wire": "TEST_ADC_OUT15"
+      },
+      "TEST_ADC_OUT16": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT16",
+        "wire": "TEST_ADC_OUT16"
+      },
+      "TEST_ADC_OUT17": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT17",
+        "wire": "TEST_ADC_OUT17"
+      },
+      "TEST_ADC_OUT18": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT18",
+        "wire": "TEST_ADC_OUT18"
+      },
+      "TEST_ADC_OUT19": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT19",
+        "wire": "TEST_ADC_OUT19"
+      },
+      "TEST_ADC_OUT2": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT2",
+        "wire": "TEST_ADC_OUT2"
+      },
+      "TEST_ADC_OUT3": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT3",
+        "wire": "TEST_ADC_OUT3"
+      },
+      "TEST_ADC_OUT4": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT4",
+        "wire": "TEST_ADC_OUT4"
+      },
+      "TEST_ADC_OUT5": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT5",
+        "wire": "TEST_ADC_OUT5"
+      },
+      "TEST_ADC_OUT6": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT6",
+        "wire": "TEST_ADC_OUT6"
+      },
+      "TEST_ADC_OUT7": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT7",
+        "wire": "TEST_ADC_OUT7"
+      },
+      "TEST_ADC_OUT8": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT8",
+        "wire": "TEST_ADC_OUT8"
+      },
+      "TEST_ADC_OUT9": {
+        "dir": "OUTPUT",
+        "primary": "TEST_ADC_OUT9",
+        "wire": "TEST_ADC_OUT9"
+      },
+      "TEST_CAPTURE": {
+        "dir": "INPUT",
+        "primary": "TEST_CAPTURE",
+        "wire": "TEST_CAPTURE"
+      },
+      "TEST_DB0": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB0",
+        "wire": "TEST_DB0"
+      },
+      "TEST_DB1": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB1",
+        "wire": "TEST_DB1"
+      },
+      "TEST_DB10": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB10",
+        "wire": "TEST_DB10"
+      },
+      "TEST_DB11": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB11",
+        "wire": "TEST_DB11"
+      },
+      "TEST_DB12": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB12",
+        "wire": "TEST_DB12"
+      },
+      "TEST_DB13": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB13",
+        "wire": "TEST_DB13"
+      },
+      "TEST_DB14": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB14",
+        "wire": "TEST_DB14"
+      },
+      "TEST_DB15": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB15",
+        "wire": "TEST_DB15"
+      },
+      "TEST_DB2": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB2",
+        "wire": "TEST_DB2"
+      },
+      "TEST_DB3": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB3",
+        "wire": "TEST_DB3"
+      },
+      "TEST_DB4": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB4",
+        "wire": "TEST_DB4"
+      },
+      "TEST_DB5": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB5",
+        "wire": "TEST_DB5"
+      },
+      "TEST_DB6": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB6",
+        "wire": "TEST_DB6"
+      },
+      "TEST_DB7": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB7",
+        "wire": "TEST_DB7"
+      },
+      "TEST_DB8": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB8",
+        "wire": "TEST_DB8"
+      },
+      "TEST_DB9": {
+        "dir": "OUTPUT",
+        "primary": "TEST_DB9",
+        "wire": "TEST_DB9"
+      },
+      "TEST_DRCK": {
+        "dir": "INPUT",
+        "primary": "TEST_DRCK",
+        "wire": "TEST_DRCK"
+      },
+      "TEST_EN_JTAG": {
+        "dir": "INPUT",
+        "primary": "TEST_EN_JTAG",
+        "wire": "TEST_EN_JTAG"
+      },
+      "TEST_RST": {
+        "dir": "INPUT",
+        "primary": "TEST_RST",
+        "wire": "TEST_RST"
+      },
+      "TEST_SCAN_CLK0": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_CLK0",
+        "wire": "TEST_SCAN_CLK0"
+      },
+      "TEST_SCAN_CLK1": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_CLK1",
+        "wire": "TEST_SCAN_CLK1"
+      },
+      "TEST_SCAN_CLK2": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_CLK2",
+        "wire": "TEST_SCAN_CLK2"
+      },
+      "TEST_SCAN_CLK3": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_CLK3",
+        "wire": "TEST_SCAN_CLK3"
+      },
+      "TEST_SCAN_CLK4": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_CLK4",
+        "wire": "TEST_SCAN_CLK4"
+      },
+      "TEST_SCAN_MODE0": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_MODE0",
+        "wire": "TEST_SCAN_MODE0"
+      },
+      "TEST_SCAN_MODE1": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_MODE1",
+        "wire": "TEST_SCAN_MODE1"
+      },
+      "TEST_SCAN_MODE2": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_MODE2",
+        "wire": "TEST_SCAN_MODE2"
+      },
+      "TEST_SCAN_MODE3": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_MODE3",
+        "wire": "TEST_SCAN_MODE3"
+      },
+      "TEST_SCAN_MODE4": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_MODE4",
+        "wire": "TEST_SCAN_MODE4"
+      },
+      "TEST_SCAN_RESET": {
+        "dir": "INPUT",
+        "primary": "TEST_SCAN_RESET",
+        "wire": "TEST_SCAN_RESET"
+      },
+      "TEST_SE0": {
+        "dir": "INPUT",
+        "primary": "TEST_SE0",
+        "wire": "TEST_SE0"
+      },
+      "TEST_SE1": {
+        "dir": "INPUT",
+        "primary": "TEST_SE1",
+        "wire": "TEST_SE1"
+      },
+      "TEST_SE2": {
+        "dir": "INPUT",
+        "primary": "TEST_SE2",
+        "wire": "TEST_SE2"
+      },
+      "TEST_SE3": {
+        "dir": "INPUT",
+        "primary": "TEST_SE3",
+        "wire": "TEST_SE3"
+      },
+      "TEST_SE4": {
+        "dir": "INPUT",
+        "primary": "TEST_SE4",
+        "wire": "TEST_SE4"
+      },
+      "TEST_SEL": {
+        "dir": "INPUT",
+        "primary": "TEST_SEL",
+        "wire": "TEST_SEL"
+      },
+      "TEST_SHIFT": {
+        "dir": "INPUT",
+        "primary": "TEST_SHIFT",
+        "wire": "TEST_SHIFT"
+      },
+      "TEST_SI0": {
+        "dir": "INPUT",
+        "primary": "TEST_SI0",
+        "wire": "TEST_SI0"
+      },
+      "TEST_SI1": {
+        "dir": "INPUT",
+        "primary": "TEST_SI1",
+        "wire": "TEST_SI1"
+      },
+      "TEST_SI2": {
+        "dir": "INPUT",
+        "primary": "TEST_SI2",
+        "wire": "TEST_SI2"
+      },
+      "TEST_SI3": {
+        "dir": "INPUT",
+        "primary": "TEST_SI3",
+        "wire": "TEST_SI3"
+      },
+      "TEST_SI4": {
+        "dir": "INPUT",
+        "primary": "TEST_SI4",
+        "wire": "TEST_SI4"
+      },
+      "TEST_SI5": {
+        "dir": "INPUT",
+        "primary": "TEST_SI5",
+        "wire": "TEST_SI5"
+      },
+      "TEST_SI6": {
+        "dir": "INPUT",
+        "primary": "TEST_SI6",
+        "wire": "TEST_SI6"
+      },
+      "TEST_SI7": {
+        "dir": "INPUT",
+        "primary": "TEST_SI7",
+        "wire": "TEST_SI7"
+      },
+      "TEST_SI8": {
+        "dir": "INPUT",
+        "primary": "TEST_SI8",
+        "wire": "TEST_SI8"
+      },
+      "TEST_SI9": {
+        "dir": "INPUT",
+        "primary": "TEST_SI9",
+        "wire": "TEST_SI9"
+      },
+      "TEST_SO0": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO0",
+        "wire": "TEST_SO0"
+      },
+      "TEST_SO1": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO1",
+        "wire": "TEST_SO1"
+      },
+      "TEST_SO2": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO2",
+        "wire": "TEST_SO2"
+      },
+      "TEST_SO3": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO3",
+        "wire": "TEST_SO3"
+      },
+      "TEST_SO4": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO4",
+        "wire": "TEST_SO4"
+      },
+      "TEST_SO5": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO5",
+        "wire": "TEST_SO5"
+      },
+      "TEST_SO6": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO6",
+        "wire": "TEST_SO6"
+      },
+      "TEST_SO7": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO7",
+        "wire": "TEST_SO7"
+      },
+      "TEST_SO8": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO8",
+        "wire": "TEST_SO8"
+      },
+      "TEST_SO9": {
+        "dir": "OUTPUT",
+        "primary": "TEST_SO9",
+        "wire": "TEST_SO9"
+      },
+      "TEST_TDI": {
+        "dir": "INPUT",
+        "primary": "TEST_TDI",
+        "wire": "TEST_TDI"
+      },
+      "TEST_TDO": {
+        "dir": "OUTPUT",
+        "primary": "TEST_TDO",
+        "wire": "TEST_TDO"
+      },
+      "TEST_UPDATE": {
+        "dir": "INPUT",
+        "primary": "TEST_UPDATE",
+        "wire": "TEST_UPDATE"
+      },
+      "VN_AUX0": {
+        "dir": "INPUT",
+        "primary": "VN_AUX0",
+        "wire": "VN_AUX0"
+      },
+      "VN_AUX1": {
+        "dir": "INPUT",
+        "primary": "VN_AUX1",
+        "wire": "VN_AUX1"
+      },
+      "VN_AUX10": {
+        "dir": "INPUT",
+        "primary": "VN_AUX10",
+        "wire": "VN_AUX10"
+      },
+      "VN_AUX11": {
+        "dir": "INPUT",
+        "primary": "VN_AUX11",
+        "wire": "VN_AUX11"
+      },
+      "VN_AUX12": {
+        "dir": "INPUT",
+        "primary": "VN_AUX12",
+        "wire": "VN_AUX12"
+      },
+      "VN_AUX13": {
+        "dir": "INPUT",
+        "primary": "VN_AUX13",
+        "wire": "VN_AUX13"
+      },
+      "VN_AUX14": {
+        "dir": "INPUT",
+        "primary": "VN_AUX14",
+        "wire": "VN_AUX14"
+      },
+      "VN_AUX15": {
+        "dir": "INPUT",
+        "primary": "VN_AUX15",
+        "wire": "VN_AUX15"
+      },
+      "VN_AUX2": {
+        "dir": "INPUT",
+        "primary": "VN_AUX2",
+        "wire": "VN_AUX2"
+      },
+      "VN_AUX3": {
+        "dir": "INPUT",
+        "primary": "VN_AUX3",
+        "wire": "VN_AUX3"
+      },
+      "VN_AUX4": {
+        "dir": "INPUT",
+        "primary": "VN_AUX4",
+        "wire": "VN_AUX4"
+      },
+      "VN_AUX5": {
+        "dir": "INPUT",
+        "primary": "VN_AUX5",
+        "wire": "VN_AUX5"
+      },
+      "VN_AUX6": {
+        "dir": "INPUT",
+        "primary": "VN_AUX6",
+        "wire": "VN_AUX6"
+      },
+      "VN_AUX7": {
+        "dir": "INPUT",
+        "primary": "VN_AUX7",
+        "wire": "VN_AUX7"
+      },
+      "VN_AUX8": {
+        "dir": "INPUT",
+        "primary": "VN_AUX8",
+        "wire": "VN_AUX8"
+      },
+      "VN_AUX9": {
+        "dir": "INPUT",
+        "primary": "VN_AUX9",
+        "wire": "VN_AUX9"
+      },
+      "VP_AUX0": {
+        "dir": "INPUT",
+        "primary": "VP_AUX0",
+        "wire": "VP_AUX0"
+      },
+      "VP_AUX1": {
+        "dir": "INPUT",
+        "primary": "VP_AUX1",
+        "wire": "VP_AUX1"
+      },
+      "VP_AUX10": {
+        "dir": "INPUT",
+        "primary": "VP_AUX10",
+        "wire": "VP_AUX10"
+      },
+      "VP_AUX11": {
+        "dir": "INPUT",
+        "primary": "VP_AUX11",
+        "wire": "VP_AUX11"
+      },
+      "VP_AUX12": {
+        "dir": "INPUT",
+        "primary": "VP_AUX12",
+        "wire": "VP_AUX12"
+      },
+      "VP_AUX13": {
+        "dir": "INPUT",
+        "primary": "VP_AUX13",
+        "wire": "VP_AUX13"
+      },
+      "VP_AUX14": {
+        "dir": "INPUT",
+        "primary": "VP_AUX14",
+        "wire": "VP_AUX14"
+      },
+      "VP_AUX15": {
+        "dir": "INPUT",
+        "primary": "VP_AUX15",
+        "wire": "VP_AUX15"
+      },
+      "VP_AUX2": {
+        "dir": "INPUT",
+        "primary": "VP_AUX2",
+        "wire": "VP_AUX2"
+      },
+      "VP_AUX3": {
+        "dir": "INPUT",
+        "primary": "VP_AUX3",
+        "wire": "VP_AUX3"
+      },
+      "VP_AUX4": {
+        "dir": "INPUT",
+        "primary": "VP_AUX4",
+        "wire": "VP_AUX4"
+      },
+      "VP_AUX5": {
+        "dir": "INPUT",
+        "primary": "VP_AUX5",
+        "wire": "VP_AUX5"
+      },
+      "VP_AUX6": {
+        "dir": "INPUT",
+        "primary": "VP_AUX6",
+        "wire": "VP_AUX6"
+      },
+      "VP_AUX7": {
+        "dir": "INPUT",
+        "primary": "VP_AUX7",
+        "wire": "VP_AUX7"
+      },
+      "VP_AUX8": {
+        "dir": "INPUT",
+        "primary": "VP_AUX8",
+        "wire": "VP_AUX8"
+      },
+      "VP_AUX9": {
+        "dir": "INPUT",
+        "primary": "VP_AUX9",
+        "wire": "VP_AUX9"
+      }
+    },
+    "pips": [
+      {
+        "bel": "OPTINV_CONVSTCLK",
+        "from_pin": "CLK",
+        "to_pin": "CLKOUT"
+      },
+      {
+        "bel": "OPTINV_DCLK",
+        "from_pin": "CLK",
+        "to_pin": "CLKOUT"
+      }
+    ]
+  }
+}

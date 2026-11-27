@@ -1,0 +1,3503 @@
+{
+  "CONFIG_SITE": {
+    "bels": {
+      "BSCAN1": {
+        "class": "BEL",
+        "pins": {
+          "CAPTURE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CDR1"
+          },
+          "DRCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CLKDR1"
+          },
+          "INTERNAL_TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN1_INTERNAL_TCK"
+          },
+          "INTERNAL_TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN1_INTERNAL_TDI"
+          },
+          "INTERNAL_TDO": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN1_INTERNAL_TDO"
+          },
+          "INTERNAL_TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN1_INTERNAL_TMS"
+          },
+          "RESET": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TLR1"
+          },
+          "RUNTEST": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_RTI1"
+          },
+          "SEL": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SEL1"
+          },
+          "SHIFT": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SDR1"
+          },
+          "TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TCK1"
+          },
+          "TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TDI1"
+          },
+          "TDO": {
+            "dir": "INPUT",
+            "wire": "BSCAN_TDO1"
+          },
+          "TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TMS1"
+          },
+          "UPDATE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_UDR1"
+          }
+        },
+        "type": "BSCAN1"
+      },
+      "BSCAN2": {
+        "class": "BEL",
+        "pins": {
+          "CAPTURE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CDR2"
+          },
+          "DRCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CLKDR2"
+          },
+          "INTERNAL_TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN2_INTERNAL_TCK"
+          },
+          "INTERNAL_TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN2_INTERNAL_TDI"
+          },
+          "INTERNAL_TDO": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN2_INTERNAL_TDO"
+          },
+          "INTERNAL_TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN2_INTERNAL_TMS"
+          },
+          "RESET": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TLR2"
+          },
+          "RUNTEST": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_RTI2"
+          },
+          "SEL": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SEL2"
+          },
+          "SHIFT": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SDR2"
+          },
+          "TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TCK2"
+          },
+          "TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TDI2"
+          },
+          "TDO": {
+            "dir": "INPUT",
+            "wire": "BSCAN_TDO2"
+          },
+          "TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TMS2"
+          },
+          "UPDATE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_UDR2"
+          }
+        },
+        "type": "BSCAN2"
+      },
+      "BSCAN3": {
+        "class": "BEL",
+        "pins": {
+          "CAPTURE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CDR3"
+          },
+          "DRCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CLKDR3"
+          },
+          "INTERNAL_TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN3_INTERNAL_TCK"
+          },
+          "INTERNAL_TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN3_INTERNAL_TDI"
+          },
+          "INTERNAL_TDO": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN3_INTERNAL_TDO"
+          },
+          "INTERNAL_TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN3_INTERNAL_TMS"
+          },
+          "RESET": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TLR3"
+          },
+          "RUNTEST": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_RTI3"
+          },
+          "SEL": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SEL3"
+          },
+          "SHIFT": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SDR3"
+          },
+          "TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TCK3"
+          },
+          "TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TDI3"
+          },
+          "TDO": {
+            "dir": "INPUT",
+            "wire": "BSCAN_TDO3"
+          },
+          "TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TMS3"
+          },
+          "UPDATE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_UDR3"
+          }
+        },
+        "type": "BSCAN3"
+      },
+      "BSCAN4": {
+        "class": "BEL",
+        "pins": {
+          "CAPTURE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CDR4"
+          },
+          "DRCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_CLKDR4"
+          },
+          "INTERNAL_TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN4_INTERNAL_TCK"
+          },
+          "INTERNAL_TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN4_INTERNAL_TDI"
+          },
+          "INTERNAL_TDO": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN4_INTERNAL_TDO"
+          },
+          "INTERNAL_TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN4_INTERNAL_TMS"
+          },
+          "RESET": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TLR4"
+          },
+          "RUNTEST": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_RTI4"
+          },
+          "SEL": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SEL4"
+          },
+          "SHIFT": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_SDR4"
+          },
+          "TCK": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TCK4"
+          },
+          "TDI": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TDI4"
+          },
+          "TDO": {
+            "dir": "INPUT",
+            "wire": "BSCAN_TDO4"
+          },
+          "TMS": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_TMS4"
+          },
+          "UPDATE": {
+            "dir": "OUTPUT",
+            "wire": "BSCAN_UDR4"
+          }
+        },
+        "type": "BSCAN4"
+      },
+      "CFG_IO_ACCESS": {
+        "class": "BEL",
+        "pins": {
+          "CCLK": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CCLK"
+          },
+          "CFGDATA0": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA0"
+          },
+          "CFGDATA1": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA1"
+          },
+          "CFGDATA10": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA10"
+          },
+          "CFGDATA11": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA11"
+          },
+          "CFGDATA12": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA12"
+          },
+          "CFGDATA13": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA13"
+          },
+          "CFGDATA14": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA14"
+          },
+          "CFGDATA15": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA15"
+          },
+          "CFGDATA16": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA16"
+          },
+          "CFGDATA17": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA17"
+          },
+          "CFGDATA18": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA18"
+          },
+          "CFGDATA19": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA19"
+          },
+          "CFGDATA2": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA2"
+          },
+          "CFGDATA20": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA20"
+          },
+          "CFGDATA21": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA21"
+          },
+          "CFGDATA22": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA22"
+          },
+          "CFGDATA23": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA23"
+          },
+          "CFGDATA24": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA24"
+          },
+          "CFGDATA25": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA25"
+          },
+          "CFGDATA26": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA26"
+          },
+          "CFGDATA27": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA27"
+          },
+          "CFGDATA28": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA28"
+          },
+          "CFGDATA29": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA29"
+          },
+          "CFGDATA3": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA3"
+          },
+          "CFGDATA30": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA30"
+          },
+          "CFGDATA31": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA31"
+          },
+          "CFGDATA4": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA4"
+          },
+          "CFGDATA5": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA5"
+          },
+          "CFGDATA6": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA6"
+          },
+          "CFGDATA7": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA7"
+          },
+          "CFGDATA8": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA8"
+          },
+          "CFGDATA9": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGDATA9"
+          },
+          "INITBI": {
+            "dir": "OUTPUT",
+            "wire": "IOX_INITBI"
+          },
+          "INITBO": {
+            "dir": "INPUT",
+            "wire": "IOX_INITBO"
+          },
+          "MASTER": {
+            "dir": "OUTPUT",
+            "wire": "IOX_CFGMASTER"
+          },
+          "MODE0": {
+            "dir": "OUTPUT",
+            "wire": "IOX_MODE0"
+          },
+          "MODE1": {
+            "dir": "OUTPUT",
+            "wire": "IOX_MODE1"
+          },
+          "MODE2": {
+            "dir": "OUTPUT",
+            "wire": "IOX_MODE2"
+          },
+          "PUDCB": {
+            "dir": "OUTPUT",
+            "wire": "IOX_PUDCB"
+          },
+          "RDWRB": {
+            "dir": "OUTPUT",
+            "wire": "IOX_RDWRB"
+          },
+          "TDO": {
+            "dir": "INPUT",
+            "wire": "IOX_TDO"
+          },
+          "VGGCOMPOUT": {
+            "dir": "OUTPUT",
+            "wire": "IOX_VGG_COMP_OUT"
+          }
+        },
+        "type": "CFG_IO_ACCESS"
+      },
+      "DCIRESET": {
+        "class": "BEL",
+        "pins": {
+          "LOCKED": {
+            "dir": "OUTPUT",
+            "wire": "DCI_LOCK"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "DCI_USR_RESET_IN"
+          }
+        },
+        "type": "DCIRESET"
+      },
+      "DNA_PORT": {
+        "class": "BEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "USR_DNA_CLK"
+          },
+          "DIN": {
+            "dir": "INPUT",
+            "wire": "USR_DNA_DIN"
+          },
+          "DOUT": {
+            "dir": "OUTPUT",
+            "wire": "USR_DNA_OUT"
+          },
+          "READ": {
+            "dir": "INPUT",
+            "wire": "USR_DNA_READ"
+          },
+          "SHIFT": {
+            "dir": "INPUT",
+            "wire": "USR_DNA_SHIFT"
+          }
+        },
+        "type": "DNA_PORT"
+      },
+      "EFUSE_USR": {
+        "class": "BEL",
+        "pins": {
+          "EFUSEUSR0": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE0"
+          },
+          "EFUSEUSR1": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE1"
+          },
+          "EFUSEUSR10": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE10"
+          },
+          "EFUSEUSR11": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE11"
+          },
+          "EFUSEUSR12": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE12"
+          },
+          "EFUSEUSR13": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE13"
+          },
+          "EFUSEUSR14": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE14"
+          },
+          "EFUSEUSR15": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE15"
+          },
+          "EFUSEUSR16": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE16"
+          },
+          "EFUSEUSR17": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE17"
+          },
+          "EFUSEUSR18": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE18"
+          },
+          "EFUSEUSR19": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE19"
+          },
+          "EFUSEUSR2": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE2"
+          },
+          "EFUSEUSR20": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE20"
+          },
+          "EFUSEUSR21": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE21"
+          },
+          "EFUSEUSR22": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE22"
+          },
+          "EFUSEUSR23": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE23"
+          },
+          "EFUSEUSR24": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE24"
+          },
+          "EFUSEUSR25": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE25"
+          },
+          "EFUSEUSR26": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE26"
+          },
+          "EFUSEUSR27": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE27"
+          },
+          "EFUSEUSR28": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE28"
+          },
+          "EFUSEUSR29": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE29"
+          },
+          "EFUSEUSR3": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE3"
+          },
+          "EFUSEUSR30": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE30"
+          },
+          "EFUSEUSR31": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE31"
+          },
+          "EFUSEUSR4": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE4"
+          },
+          "EFUSEUSR5": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE5"
+          },
+          "EFUSEUSR6": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE6"
+          },
+          "EFUSEUSR7": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE7"
+          },
+          "EFUSEUSR8": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE8"
+          },
+          "EFUSEUSR9": {
+            "dir": "OUTPUT",
+            "wire": "USR_EFUSE9"
+          }
+        },
+        "type": "EFUSE_USR"
+      },
+      "FRAME_ECC": {
+        "class": "BEL",
+        "pins": {
+          "CRCERROR": {
+            "dir": "OUTPUT",
+            "wire": "RBCRC_ERROR"
+          },
+          "ECCERRORNOTSINGLE": {
+            "dir": "OUTPUT",
+            "wire": "ECC_ERROR_NOTSINGLE"
+          },
+          "ECCERRORSINGLE": {
+            "dir": "OUTPUT",
+            "wire": "ECC_ERROR_SINGLE"
+          },
+          "ENDOFFRAME": {
+            "dir": "OUTPUT",
+            "wire": "ECC_END_OF_FRAME"
+          },
+          "ENDOFSCAN": {
+            "dir": "OUTPUT",
+            "wire": "ECC_END_OF_SCAN"
+          },
+          "FAR0": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR0"
+          },
+          "FAR1": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR1"
+          },
+          "FAR10": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR10"
+          },
+          "FAR11": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR11"
+          },
+          "FAR12": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR12"
+          },
+          "FAR13": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR13"
+          },
+          "FAR14": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR14"
+          },
+          "FAR15": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR15"
+          },
+          "FAR16": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR16"
+          },
+          "FAR17": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR17"
+          },
+          "FAR18": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR18"
+          },
+          "FAR19": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR19"
+          },
+          "FAR2": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR2"
+          },
+          "FAR20": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR20"
+          },
+          "FAR21": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR21"
+          },
+          "FAR22": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR22"
+          },
+          "FAR23": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR23"
+          },
+          "FAR24": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR24"
+          },
+          "FAR25": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR25"
+          },
+          "FAR26": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR26"
+          },
+          "FAR3": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR3"
+          },
+          "FAR4": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR4"
+          },
+          "FAR5": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR5"
+          },
+          "FAR6": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR6"
+          },
+          "FAR7": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR7"
+          },
+          "FAR8": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR8"
+          },
+          "FAR9": {
+            "dir": "OUTPUT",
+            "wire": "ECC_FAR9"
+          },
+          "FARSEL0": {
+            "dir": "INPUT",
+            "wire": "ECC_FAR_SEL0"
+          },
+          "FARSEL1": {
+            "dir": "INPUT",
+            "wire": "ECC_FAR_SEL1"
+          },
+          "ICAPBOTCLK": {
+            "dir": "INPUT",
+            "wire": "ICAP_CLK_BOT"
+          },
+          "ICAPTOPCLK": {
+            "dir": "INPUT",
+            "wire": "ICAP_CLK_TOP"
+          }
+        },
+        "type": "FRAME_ECC"
+      },
+      "ICAP_BOT": {
+        "class": "BEL",
+        "pins": {
+          "AVAIL": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_AVAIL_BOT"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "ICAP_CLK_BOT"
+          },
+          "CSIB": {
+            "dir": "INPUT",
+            "wire": "ICAP_CS_B_BOT"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT1"
+          },
+          "I10": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT10"
+          },
+          "I11": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT11"
+          },
+          "I12": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT12"
+          },
+          "I13": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT13"
+          },
+          "I14": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT14"
+          },
+          "I15": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT15"
+          },
+          "I16": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT16"
+          },
+          "I17": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT17"
+          },
+          "I18": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT18"
+          },
+          "I19": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT19"
+          },
+          "I2": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT2"
+          },
+          "I20": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT20"
+          },
+          "I21": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT21"
+          },
+          "I22": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT22"
+          },
+          "I23": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT23"
+          },
+          "I24": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT24"
+          },
+          "I25": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT25"
+          },
+          "I26": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT26"
+          },
+          "I27": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT27"
+          },
+          "I28": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT28"
+          },
+          "I29": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT29"
+          },
+          "I3": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT3"
+          },
+          "I30": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT30"
+          },
+          "I31": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT31"
+          },
+          "I4": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT4"
+          },
+          "I5": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT5"
+          },
+          "I6": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT6"
+          },
+          "I7": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT7"
+          },
+          "I8": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT8"
+          },
+          "I9": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_BOT9"
+          },
+          "O0": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT0"
+          },
+          "O1": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT1"
+          },
+          "O10": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT10"
+          },
+          "O11": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT11"
+          },
+          "O12": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT12"
+          },
+          "O13": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT13"
+          },
+          "O14": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT14"
+          },
+          "O15": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT15"
+          },
+          "O16": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT16"
+          },
+          "O17": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT17"
+          },
+          "O18": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT18"
+          },
+          "O19": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT19"
+          },
+          "O2": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT2"
+          },
+          "O20": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT20"
+          },
+          "O21": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT21"
+          },
+          "O22": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT22"
+          },
+          "O23": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT23"
+          },
+          "O24": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT24"
+          },
+          "O25": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT25"
+          },
+          "O26": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT26"
+          },
+          "O27": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT27"
+          },
+          "O28": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT28"
+          },
+          "O29": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT29"
+          },
+          "O3": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT3"
+          },
+          "O30": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT30"
+          },
+          "O31": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT31"
+          },
+          "O4": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT4"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT5"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT6"
+          },
+          "O7": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT7"
+          },
+          "O8": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT8"
+          },
+          "O9": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_BOT9"
+          },
+          "PRDONE": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_PR_DONE_BOT"
+          },
+          "PRERROR": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_PR_ERROR_BOT"
+          },
+          "RDWRB": {
+            "dir": "INPUT",
+            "wire": "ICAP_RDWR_B_BOT"
+          }
+        },
+        "type": "ICAP_BOT"
+      },
+      "ICAP_TOP": {
+        "class": "BEL",
+        "pins": {
+          "AVAIL": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_AVAIL_TOP"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "ICAP_CLK_TOP"
+          },
+          "CSIB": {
+            "dir": "INPUT",
+            "wire": "ICAP_CS_B_TOP"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP1"
+          },
+          "I10": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP10"
+          },
+          "I11": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP11"
+          },
+          "I12": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP12"
+          },
+          "I13": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP13"
+          },
+          "I14": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP14"
+          },
+          "I15": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP15"
+          },
+          "I16": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP16"
+          },
+          "I17": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP17"
+          },
+          "I18": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP18"
+          },
+          "I19": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP19"
+          },
+          "I2": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP2"
+          },
+          "I20": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP20"
+          },
+          "I21": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP21"
+          },
+          "I22": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP22"
+          },
+          "I23": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP23"
+          },
+          "I24": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP24"
+          },
+          "I25": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP25"
+          },
+          "I26": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP26"
+          },
+          "I27": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP27"
+          },
+          "I28": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP28"
+          },
+          "I29": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP29"
+          },
+          "I3": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP3"
+          },
+          "I30": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP30"
+          },
+          "I31": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP31"
+          },
+          "I4": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP4"
+          },
+          "I5": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP5"
+          },
+          "I6": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP6"
+          },
+          "I7": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP7"
+          },
+          "I8": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP8"
+          },
+          "I9": {
+            "dir": "INPUT",
+            "wire": "ICAP_DATA_TOP9"
+          },
+          "O0": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP0"
+          },
+          "O1": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP1"
+          },
+          "O10": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP10"
+          },
+          "O11": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP11"
+          },
+          "O12": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP12"
+          },
+          "O13": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP13"
+          },
+          "O14": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP14"
+          },
+          "O15": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP15"
+          },
+          "O16": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP16"
+          },
+          "O17": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP17"
+          },
+          "O18": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP18"
+          },
+          "O19": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP19"
+          },
+          "O2": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP2"
+          },
+          "O20": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP20"
+          },
+          "O21": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP21"
+          },
+          "O22": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP22"
+          },
+          "O23": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP23"
+          },
+          "O24": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP24"
+          },
+          "O25": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP25"
+          },
+          "O26": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP26"
+          },
+          "O27": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP27"
+          },
+          "O28": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP28"
+          },
+          "O29": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP29"
+          },
+          "O3": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP3"
+          },
+          "O30": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP30"
+          },
+          "O31": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP31"
+          },
+          "O4": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP4"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP5"
+          },
+          "O6": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP6"
+          },
+          "O7": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP7"
+          },
+          "O8": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP8"
+          },
+          "O9": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_OUT_TOP9"
+          },
+          "PRDONE": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_PR_DONE_TOP"
+          },
+          "PRERROR": {
+            "dir": "OUTPUT",
+            "wire": "ICAP_PR_ERROR_TOP"
+          },
+          "RDWRB": {
+            "dir": "INPUT",
+            "wire": "ICAP_RDWR_B_TOP"
+          }
+        },
+        "type": "ICAP_TOP"
+      },
+      "MASTER_JTAG": {
+        "class": "BEL",
+        "pins": {
+          "TCK": {
+            "dir": "INPUT",
+            "wire": "USR_TCK"
+          },
+          "TDI": {
+            "dir": "INPUT",
+            "wire": "USR_TDI"
+          },
+          "TDO": {
+            "dir": "OUTPUT",
+            "wire": "USR_TDO"
+          },
+          "TMS": {
+            "dir": "INPUT",
+            "wire": "USR_TMS"
+          }
+        },
+        "type": "MASTER_JTAG"
+      },
+      "STARTUP": {
+        "class": "BEL",
+        "pins": {
+          "CCLK": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_CCLK"
+          },
+          "CFGCLK": {
+            "dir": "OUTPUT",
+            "wire": "START_CFG_CLK"
+          },
+          "CFGMCLK": {
+            "dir": "OUTPUT",
+            "wire": "START_CFG_MCLK"
+          },
+          "DATA_IN0": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_IN0"
+          },
+          "DATA_IN1": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_IN1"
+          },
+          "DATA_IN2": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_IN2"
+          },
+          "DATA_IN3": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_IN3"
+          },
+          "DATA_OUT0": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_OUT0"
+          },
+          "DATA_OUT1": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_OUT1"
+          },
+          "DATA_OUT2": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_OUT2"
+          },
+          "DATA_OUT3": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DATA_OUT3"
+          },
+          "DI0": {
+            "dir": "OUTPUT",
+            "wire": "USR_D_PIN_CFGIO0"
+          },
+          "DI1": {
+            "dir": "OUTPUT",
+            "wire": "USR_D_PIN_CFGIO1"
+          },
+          "DI2": {
+            "dir": "OUTPUT",
+            "wire": "USR_D_PIN_CFGIO2"
+          },
+          "DI3": {
+            "dir": "OUTPUT",
+            "wire": "USR_D_PIN_CFGIO3"
+          },
+          "DO0": {
+            "dir": "INPUT",
+            "wire": "USR_D_O_CFGIO0"
+          },
+          "DO1": {
+            "dir": "INPUT",
+            "wire": "USR_D_O_CFGIO1"
+          },
+          "DO2": {
+            "dir": "INPUT",
+            "wire": "USR_D_O_CFGIO2"
+          },
+          "DO3": {
+            "dir": "INPUT",
+            "wire": "USR_D_O_CFGIO3"
+          },
+          "DONE": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_DONE"
+          },
+          "DTS0": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_D_TS_CFGIO0"
+          },
+          "DTS1": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_D_TS_CFGIO1"
+          },
+          "DTS2": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_D_TS_CFGIO2"
+          },
+          "DTS3": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_D_TS_CFGIO3"
+          },
+          "EOS": {
+            "dir": "OUTPUT",
+            "wire": "EOS"
+          },
+          "FCSBO": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_FCS_B_O"
+          },
+          "FCSBTS": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_FCS_B_TS"
+          },
+          "FCS_B": {
+            "dir": "OUTPUT",
+            "wire": "STARTUP_FCS_B"
+          },
+          "GSR": {
+            "dir": "INPUT",
+            "tie": 0,
+            "wire": "USR_GSR"
+          },
+          "GTS": {
+            "dir": "INPUT",
+            "tie": 0,
+            "wire": "USR_GTS"
+          },
+          "KEYCLEARB": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "KEY_CLEAR"
+          },
+          "PACK": {
+            "dir": "INPUT",
+            "tie": 0,
+            "wire": "PROG_ACK"
+          },
+          "PREQ": {
+            "dir": "OUTPUT",
+            "wire": "PROG_REQ"
+          },
+          "USRCCLKO": {
+            "dir": "INPUT",
+            "tie": 0,
+            "wire": "USR_CCLK_O"
+          },
+          "USRCCLKTS": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_CCLK_TS"
+          },
+          "USRDONEO": {
+            "dir": "INPUT",
+            "tie": 0,
+            "wire": "USR_DONE_O"
+          },
+          "USRDONETS": {
+            "dir": "INPUT",
+            "tie": 1,
+            "wire": "USR_DONE_TS"
+          }
+        },
+        "type": "STARTUP"
+      },
+      "USR_ACCESS": {
+        "class": "BEL",
+        "pins": {
+          "CCLK": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_CCLK"
+          },
+          "CFGCLK": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_CLK"
+          },
+          "DATA0": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA0"
+          },
+          "DATA1": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA1"
+          },
+          "DATA10": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA10"
+          },
+          "DATA11": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA11"
+          },
+          "DATA12": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA12"
+          },
+          "DATA13": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA13"
+          },
+          "DATA14": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA14"
+          },
+          "DATA15": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA15"
+          },
+          "DATA16": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA16"
+          },
+          "DATA17": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA17"
+          },
+          "DATA18": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA18"
+          },
+          "DATA19": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA19"
+          },
+          "DATA2": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA2"
+          },
+          "DATA20": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA20"
+          },
+          "DATA21": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA21"
+          },
+          "DATA22": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA22"
+          },
+          "DATA23": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA23"
+          },
+          "DATA24": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA24"
+          },
+          "DATA25": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA25"
+          },
+          "DATA26": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA26"
+          },
+          "DATA27": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA27"
+          },
+          "DATA28": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA28"
+          },
+          "DATA29": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA29"
+          },
+          "DATA3": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA3"
+          },
+          "DATA30": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA30"
+          },
+          "DATA31": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA31"
+          },
+          "DATA4": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA4"
+          },
+          "DATA5": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA5"
+          },
+          "DATA6": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA6"
+          },
+          "DATA7": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA7"
+          },
+          "DATA8": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA8"
+          },
+          "DATA9": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_DATA9"
+          },
+          "DATAVALID": {
+            "dir": "OUTPUT",
+            "wire": "USR_ACCESS_VALID"
+          }
+        },
+        "type": "USR_ACCESS"
+      }
+    },
+    "pins": {
+      "BSCAN_CDR1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CDR1",
+        "wire": "BSCAN_CDR1"
+      },
+      "BSCAN_CDR2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CDR2",
+        "wire": "BSCAN_CDR2"
+      },
+      "BSCAN_CDR3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CDR3",
+        "wire": "BSCAN_CDR3"
+      },
+      "BSCAN_CDR4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CDR4",
+        "wire": "BSCAN_CDR4"
+      },
+      "BSCAN_CLKDR1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CLKDR1",
+        "wire": "BSCAN_CLKDR1"
+      },
+      "BSCAN_CLKDR2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CLKDR2",
+        "wire": "BSCAN_CLKDR2"
+      },
+      "BSCAN_CLKDR3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CLKDR3",
+        "wire": "BSCAN_CLKDR3"
+      },
+      "BSCAN_CLKDR4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_CLKDR4",
+        "wire": "BSCAN_CLKDR4"
+      },
+      "BSCAN_RTI1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_RTI1",
+        "wire": "BSCAN_RTI1"
+      },
+      "BSCAN_RTI2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_RTI2",
+        "wire": "BSCAN_RTI2"
+      },
+      "BSCAN_RTI3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_RTI3",
+        "wire": "BSCAN_RTI3"
+      },
+      "BSCAN_RTI4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_RTI4",
+        "wire": "BSCAN_RTI4"
+      },
+      "BSCAN_SDR1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SDR1",
+        "wire": "BSCAN_SDR1"
+      },
+      "BSCAN_SDR2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SDR2",
+        "wire": "BSCAN_SDR2"
+      },
+      "BSCAN_SDR3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SDR3",
+        "wire": "BSCAN_SDR3"
+      },
+      "BSCAN_SDR4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SDR4",
+        "wire": "BSCAN_SDR4"
+      },
+      "BSCAN_SEL1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SEL1",
+        "wire": "BSCAN_SEL1"
+      },
+      "BSCAN_SEL2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SEL2",
+        "wire": "BSCAN_SEL2"
+      },
+      "BSCAN_SEL3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SEL3",
+        "wire": "BSCAN_SEL3"
+      },
+      "BSCAN_SEL4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_SEL4",
+        "wire": "BSCAN_SEL4"
+      },
+      "BSCAN_TCK1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TCK1",
+        "wire": "BSCAN_TCK1"
+      },
+      "BSCAN_TCK2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TCK2",
+        "wire": "BSCAN_TCK2"
+      },
+      "BSCAN_TCK3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TCK3",
+        "wire": "BSCAN_TCK3"
+      },
+      "BSCAN_TCK4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TCK4",
+        "wire": "BSCAN_TCK4"
+      },
+      "BSCAN_TDI1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TDI1",
+        "wire": "BSCAN_TDI1"
+      },
+      "BSCAN_TDI2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TDI2",
+        "wire": "BSCAN_TDI2"
+      },
+      "BSCAN_TDI3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TDI3",
+        "wire": "BSCAN_TDI3"
+      },
+      "BSCAN_TDI4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TDI4",
+        "wire": "BSCAN_TDI4"
+      },
+      "BSCAN_TDO1": {
+        "dir": "INPUT",
+        "primary": "BSCAN_TDO1",
+        "wire": "BSCAN_TDO1"
+      },
+      "BSCAN_TDO2": {
+        "dir": "INPUT",
+        "primary": "BSCAN_TDO2",
+        "wire": "BSCAN_TDO2"
+      },
+      "BSCAN_TDO3": {
+        "dir": "INPUT",
+        "primary": "BSCAN_TDO3",
+        "wire": "BSCAN_TDO3"
+      },
+      "BSCAN_TDO4": {
+        "dir": "INPUT",
+        "primary": "BSCAN_TDO4",
+        "wire": "BSCAN_TDO4"
+      },
+      "BSCAN_TLR1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TLR1",
+        "wire": "BSCAN_TLR1"
+      },
+      "BSCAN_TLR2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TLR2",
+        "wire": "BSCAN_TLR2"
+      },
+      "BSCAN_TLR3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TLR3",
+        "wire": "BSCAN_TLR3"
+      },
+      "BSCAN_TLR4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TLR4",
+        "wire": "BSCAN_TLR4"
+      },
+      "BSCAN_TMS1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TMS1",
+        "wire": "BSCAN_TMS1"
+      },
+      "BSCAN_TMS2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TMS2",
+        "wire": "BSCAN_TMS2"
+      },
+      "BSCAN_TMS3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TMS3",
+        "wire": "BSCAN_TMS3"
+      },
+      "BSCAN_TMS4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_TMS4",
+        "wire": "BSCAN_TMS4"
+      },
+      "BSCAN_UDR1": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_UDR1",
+        "wire": "BSCAN_UDR1"
+      },
+      "BSCAN_UDR2": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_UDR2",
+        "wire": "BSCAN_UDR2"
+      },
+      "BSCAN_UDR3": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_UDR3",
+        "wire": "BSCAN_UDR3"
+      },
+      "BSCAN_UDR4": {
+        "dir": "OUTPUT",
+        "primary": "BSCAN_UDR4",
+        "wire": "BSCAN_UDR4"
+      },
+      "DCI_LOCK": {
+        "dir": "OUTPUT",
+        "primary": "DCI_LOCK",
+        "wire": "DCI_LOCK"
+      },
+      "DCI_USR_RESET_IN": {
+        "dir": "INPUT",
+        "primary": "DCI_USR_RESET_IN",
+        "wire": "DCI_USR_RESET_IN"
+      },
+      "ECC_END_OF_FRAME": {
+        "dir": "OUTPUT",
+        "primary": "ECC_END_OF_FRAME",
+        "wire": "ECC_END_OF_FRAME"
+      },
+      "ECC_END_OF_SCAN": {
+        "dir": "OUTPUT",
+        "primary": "ECC_END_OF_SCAN",
+        "wire": "ECC_END_OF_SCAN"
+      },
+      "ECC_ERROR_NOTSINGLE": {
+        "dir": "OUTPUT",
+        "primary": "ECC_ERROR_NOTSINGLE",
+        "wire": "ECC_ERROR_NOTSINGLE"
+      },
+      "ECC_ERROR_SINGLE": {
+        "dir": "OUTPUT",
+        "primary": "ECC_ERROR_SINGLE",
+        "wire": "ECC_ERROR_SINGLE"
+      },
+      "ECC_FAR0": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR0",
+        "wire": "ECC_FAR0"
+      },
+      "ECC_FAR1": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR1",
+        "wire": "ECC_FAR1"
+      },
+      "ECC_FAR10": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR10",
+        "wire": "ECC_FAR10"
+      },
+      "ECC_FAR11": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR11",
+        "wire": "ECC_FAR11"
+      },
+      "ECC_FAR12": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR12",
+        "wire": "ECC_FAR12"
+      },
+      "ECC_FAR13": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR13",
+        "wire": "ECC_FAR13"
+      },
+      "ECC_FAR14": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR14",
+        "wire": "ECC_FAR14"
+      },
+      "ECC_FAR15": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR15",
+        "wire": "ECC_FAR15"
+      },
+      "ECC_FAR16": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR16",
+        "wire": "ECC_FAR16"
+      },
+      "ECC_FAR17": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR17",
+        "wire": "ECC_FAR17"
+      },
+      "ECC_FAR18": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR18",
+        "wire": "ECC_FAR18"
+      },
+      "ECC_FAR19": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR19",
+        "wire": "ECC_FAR19"
+      },
+      "ECC_FAR2": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR2",
+        "wire": "ECC_FAR2"
+      },
+      "ECC_FAR20": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR20",
+        "wire": "ECC_FAR20"
+      },
+      "ECC_FAR21": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR21",
+        "wire": "ECC_FAR21"
+      },
+      "ECC_FAR22": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR22",
+        "wire": "ECC_FAR22"
+      },
+      "ECC_FAR23": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR23",
+        "wire": "ECC_FAR23"
+      },
+      "ECC_FAR24": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR24",
+        "wire": "ECC_FAR24"
+      },
+      "ECC_FAR25": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR25",
+        "wire": "ECC_FAR25"
+      },
+      "ECC_FAR26": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR26",
+        "wire": "ECC_FAR26"
+      },
+      "ECC_FAR3": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR3",
+        "wire": "ECC_FAR3"
+      },
+      "ECC_FAR4": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR4",
+        "wire": "ECC_FAR4"
+      },
+      "ECC_FAR5": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR5",
+        "wire": "ECC_FAR5"
+      },
+      "ECC_FAR6": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR6",
+        "wire": "ECC_FAR6"
+      },
+      "ECC_FAR7": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR7",
+        "wire": "ECC_FAR7"
+      },
+      "ECC_FAR8": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR8",
+        "wire": "ECC_FAR8"
+      },
+      "ECC_FAR9": {
+        "dir": "OUTPUT",
+        "primary": "ECC_FAR9",
+        "wire": "ECC_FAR9"
+      },
+      "ECC_FAR_SEL0": {
+        "dir": "INPUT",
+        "primary": "ECC_FAR_SEL0",
+        "wire": "ECC_FAR_SEL0"
+      },
+      "ECC_FAR_SEL1": {
+        "dir": "INPUT",
+        "primary": "ECC_FAR_SEL1",
+        "wire": "ECC_FAR_SEL1"
+      },
+      "EOS": {
+        "dir": "OUTPUT",
+        "primary": "EOS",
+        "wire": "EOS"
+      },
+      "ICAP_AVAIL_BOT": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_AVAIL_BOT",
+        "wire": "ICAP_AVAIL_BOT"
+      },
+      "ICAP_AVAIL_TOP": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_AVAIL_TOP",
+        "wire": "ICAP_AVAIL_TOP"
+      },
+      "ICAP_CLK_BOT": {
+        "dir": "INPUT",
+        "primary": "ICAP_CLK_BOT",
+        "wire": "ICAP_CLK_BOT"
+      },
+      "ICAP_CLK_TOP": {
+        "dir": "INPUT",
+        "primary": "ICAP_CLK_TOP",
+        "wire": "ICAP_CLK_TOP"
+      },
+      "ICAP_CS_B_BOT": {
+        "dir": "INPUT",
+        "primary": "ICAP_CS_B_BOT",
+        "wire": "ICAP_CS_B_BOT"
+      },
+      "ICAP_CS_B_TOP": {
+        "dir": "INPUT",
+        "primary": "ICAP_CS_B_TOP",
+        "wire": "ICAP_CS_B_TOP"
+      },
+      "ICAP_DATA_BOT0": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT0",
+        "wire": "ICAP_DATA_BOT0"
+      },
+      "ICAP_DATA_BOT1": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT1",
+        "wire": "ICAP_DATA_BOT1"
+      },
+      "ICAP_DATA_BOT10": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT10",
+        "wire": "ICAP_DATA_BOT10"
+      },
+      "ICAP_DATA_BOT11": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT11",
+        "wire": "ICAP_DATA_BOT11"
+      },
+      "ICAP_DATA_BOT12": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT12",
+        "wire": "ICAP_DATA_BOT12"
+      },
+      "ICAP_DATA_BOT13": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT13",
+        "wire": "ICAP_DATA_BOT13"
+      },
+      "ICAP_DATA_BOT14": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT14",
+        "wire": "ICAP_DATA_BOT14"
+      },
+      "ICAP_DATA_BOT15": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT15",
+        "wire": "ICAP_DATA_BOT15"
+      },
+      "ICAP_DATA_BOT16": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT16",
+        "wire": "ICAP_DATA_BOT16"
+      },
+      "ICAP_DATA_BOT17": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT17",
+        "wire": "ICAP_DATA_BOT17"
+      },
+      "ICAP_DATA_BOT18": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT18",
+        "wire": "ICAP_DATA_BOT18"
+      },
+      "ICAP_DATA_BOT19": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT19",
+        "wire": "ICAP_DATA_BOT19"
+      },
+      "ICAP_DATA_BOT2": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT2",
+        "wire": "ICAP_DATA_BOT2"
+      },
+      "ICAP_DATA_BOT20": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT20",
+        "wire": "ICAP_DATA_BOT20"
+      },
+      "ICAP_DATA_BOT21": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT21",
+        "wire": "ICAP_DATA_BOT21"
+      },
+      "ICAP_DATA_BOT22": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT22",
+        "wire": "ICAP_DATA_BOT22"
+      },
+      "ICAP_DATA_BOT23": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT23",
+        "wire": "ICAP_DATA_BOT23"
+      },
+      "ICAP_DATA_BOT24": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT24",
+        "wire": "ICAP_DATA_BOT24"
+      },
+      "ICAP_DATA_BOT25": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT25",
+        "wire": "ICAP_DATA_BOT25"
+      },
+      "ICAP_DATA_BOT26": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT26",
+        "wire": "ICAP_DATA_BOT26"
+      },
+      "ICAP_DATA_BOT27": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT27",
+        "wire": "ICAP_DATA_BOT27"
+      },
+      "ICAP_DATA_BOT28": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT28",
+        "wire": "ICAP_DATA_BOT28"
+      },
+      "ICAP_DATA_BOT29": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT29",
+        "wire": "ICAP_DATA_BOT29"
+      },
+      "ICAP_DATA_BOT3": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT3",
+        "wire": "ICAP_DATA_BOT3"
+      },
+      "ICAP_DATA_BOT30": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT30",
+        "wire": "ICAP_DATA_BOT30"
+      },
+      "ICAP_DATA_BOT31": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT31",
+        "wire": "ICAP_DATA_BOT31"
+      },
+      "ICAP_DATA_BOT4": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT4",
+        "wire": "ICAP_DATA_BOT4"
+      },
+      "ICAP_DATA_BOT5": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT5",
+        "wire": "ICAP_DATA_BOT5"
+      },
+      "ICAP_DATA_BOT6": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT6",
+        "wire": "ICAP_DATA_BOT6"
+      },
+      "ICAP_DATA_BOT7": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT7",
+        "wire": "ICAP_DATA_BOT7"
+      },
+      "ICAP_DATA_BOT8": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT8",
+        "wire": "ICAP_DATA_BOT8"
+      },
+      "ICAP_DATA_BOT9": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_BOT9",
+        "wire": "ICAP_DATA_BOT9"
+      },
+      "ICAP_DATA_TOP0": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP0",
+        "wire": "ICAP_DATA_TOP0"
+      },
+      "ICAP_DATA_TOP1": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP1",
+        "wire": "ICAP_DATA_TOP1"
+      },
+      "ICAP_DATA_TOP10": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP10",
+        "wire": "ICAP_DATA_TOP10"
+      },
+      "ICAP_DATA_TOP11": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP11",
+        "wire": "ICAP_DATA_TOP11"
+      },
+      "ICAP_DATA_TOP12": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP12",
+        "wire": "ICAP_DATA_TOP12"
+      },
+      "ICAP_DATA_TOP13": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP13",
+        "wire": "ICAP_DATA_TOP13"
+      },
+      "ICAP_DATA_TOP14": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP14",
+        "wire": "ICAP_DATA_TOP14"
+      },
+      "ICAP_DATA_TOP15": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP15",
+        "wire": "ICAP_DATA_TOP15"
+      },
+      "ICAP_DATA_TOP16": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP16",
+        "wire": "ICAP_DATA_TOP16"
+      },
+      "ICAP_DATA_TOP17": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP17",
+        "wire": "ICAP_DATA_TOP17"
+      },
+      "ICAP_DATA_TOP18": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP18",
+        "wire": "ICAP_DATA_TOP18"
+      },
+      "ICAP_DATA_TOP19": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP19",
+        "wire": "ICAP_DATA_TOP19"
+      },
+      "ICAP_DATA_TOP2": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP2",
+        "wire": "ICAP_DATA_TOP2"
+      },
+      "ICAP_DATA_TOP20": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP20",
+        "wire": "ICAP_DATA_TOP20"
+      },
+      "ICAP_DATA_TOP21": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP21",
+        "wire": "ICAP_DATA_TOP21"
+      },
+      "ICAP_DATA_TOP22": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP22",
+        "wire": "ICAP_DATA_TOP22"
+      },
+      "ICAP_DATA_TOP23": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP23",
+        "wire": "ICAP_DATA_TOP23"
+      },
+      "ICAP_DATA_TOP24": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP24",
+        "wire": "ICAP_DATA_TOP24"
+      },
+      "ICAP_DATA_TOP25": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP25",
+        "wire": "ICAP_DATA_TOP25"
+      },
+      "ICAP_DATA_TOP26": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP26",
+        "wire": "ICAP_DATA_TOP26"
+      },
+      "ICAP_DATA_TOP27": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP27",
+        "wire": "ICAP_DATA_TOP27"
+      },
+      "ICAP_DATA_TOP28": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP28",
+        "wire": "ICAP_DATA_TOP28"
+      },
+      "ICAP_DATA_TOP29": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP29",
+        "wire": "ICAP_DATA_TOP29"
+      },
+      "ICAP_DATA_TOP3": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP3",
+        "wire": "ICAP_DATA_TOP3"
+      },
+      "ICAP_DATA_TOP30": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP30",
+        "wire": "ICAP_DATA_TOP30"
+      },
+      "ICAP_DATA_TOP31": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP31",
+        "wire": "ICAP_DATA_TOP31"
+      },
+      "ICAP_DATA_TOP4": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP4",
+        "wire": "ICAP_DATA_TOP4"
+      },
+      "ICAP_DATA_TOP5": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP5",
+        "wire": "ICAP_DATA_TOP5"
+      },
+      "ICAP_DATA_TOP6": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP6",
+        "wire": "ICAP_DATA_TOP6"
+      },
+      "ICAP_DATA_TOP7": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP7",
+        "wire": "ICAP_DATA_TOP7"
+      },
+      "ICAP_DATA_TOP8": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP8",
+        "wire": "ICAP_DATA_TOP8"
+      },
+      "ICAP_DATA_TOP9": {
+        "dir": "INPUT",
+        "primary": "ICAP_DATA_TOP9",
+        "wire": "ICAP_DATA_TOP9"
+      },
+      "ICAP_OUT_BOT0": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT0",
+        "wire": "ICAP_OUT_BOT0"
+      },
+      "ICAP_OUT_BOT1": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT1",
+        "wire": "ICAP_OUT_BOT1"
+      },
+      "ICAP_OUT_BOT10": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT10",
+        "wire": "ICAP_OUT_BOT10"
+      },
+      "ICAP_OUT_BOT11": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT11",
+        "wire": "ICAP_OUT_BOT11"
+      },
+      "ICAP_OUT_BOT12": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT12",
+        "wire": "ICAP_OUT_BOT12"
+      },
+      "ICAP_OUT_BOT13": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT13",
+        "wire": "ICAP_OUT_BOT13"
+      },
+      "ICAP_OUT_BOT14": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT14",
+        "wire": "ICAP_OUT_BOT14"
+      },
+      "ICAP_OUT_BOT15": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT15",
+        "wire": "ICAP_OUT_BOT15"
+      },
+      "ICAP_OUT_BOT16": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT16",
+        "wire": "ICAP_OUT_BOT16"
+      },
+      "ICAP_OUT_BOT17": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT17",
+        "wire": "ICAP_OUT_BOT17"
+      },
+      "ICAP_OUT_BOT18": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT18",
+        "wire": "ICAP_OUT_BOT18"
+      },
+      "ICAP_OUT_BOT19": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT19",
+        "wire": "ICAP_OUT_BOT19"
+      },
+      "ICAP_OUT_BOT2": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT2",
+        "wire": "ICAP_OUT_BOT2"
+      },
+      "ICAP_OUT_BOT20": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT20",
+        "wire": "ICAP_OUT_BOT20"
+      },
+      "ICAP_OUT_BOT21": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT21",
+        "wire": "ICAP_OUT_BOT21"
+      },
+      "ICAP_OUT_BOT22": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT22",
+        "wire": "ICAP_OUT_BOT22"
+      },
+      "ICAP_OUT_BOT23": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT23",
+        "wire": "ICAP_OUT_BOT23"
+      },
+      "ICAP_OUT_BOT24": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT24",
+        "wire": "ICAP_OUT_BOT24"
+      },
+      "ICAP_OUT_BOT25": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT25",
+        "wire": "ICAP_OUT_BOT25"
+      },
+      "ICAP_OUT_BOT26": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT26",
+        "wire": "ICAP_OUT_BOT26"
+      },
+      "ICAP_OUT_BOT27": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT27",
+        "wire": "ICAP_OUT_BOT27"
+      },
+      "ICAP_OUT_BOT28": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT28",
+        "wire": "ICAP_OUT_BOT28"
+      },
+      "ICAP_OUT_BOT29": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT29",
+        "wire": "ICAP_OUT_BOT29"
+      },
+      "ICAP_OUT_BOT3": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT3",
+        "wire": "ICAP_OUT_BOT3"
+      },
+      "ICAP_OUT_BOT30": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT30",
+        "wire": "ICAP_OUT_BOT30"
+      },
+      "ICAP_OUT_BOT31": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT31",
+        "wire": "ICAP_OUT_BOT31"
+      },
+      "ICAP_OUT_BOT4": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT4",
+        "wire": "ICAP_OUT_BOT4"
+      },
+      "ICAP_OUT_BOT5": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT5",
+        "wire": "ICAP_OUT_BOT5"
+      },
+      "ICAP_OUT_BOT6": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT6",
+        "wire": "ICAP_OUT_BOT6"
+      },
+      "ICAP_OUT_BOT7": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT7",
+        "wire": "ICAP_OUT_BOT7"
+      },
+      "ICAP_OUT_BOT8": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT8",
+        "wire": "ICAP_OUT_BOT8"
+      },
+      "ICAP_OUT_BOT9": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_BOT9",
+        "wire": "ICAP_OUT_BOT9"
+      },
+      "ICAP_OUT_TOP0": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP0",
+        "wire": "ICAP_OUT_TOP0"
+      },
+      "ICAP_OUT_TOP1": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP1",
+        "wire": "ICAP_OUT_TOP1"
+      },
+      "ICAP_OUT_TOP10": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP10",
+        "wire": "ICAP_OUT_TOP10"
+      },
+      "ICAP_OUT_TOP11": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP11",
+        "wire": "ICAP_OUT_TOP11"
+      },
+      "ICAP_OUT_TOP12": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP12",
+        "wire": "ICAP_OUT_TOP12"
+      },
+      "ICAP_OUT_TOP13": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP13",
+        "wire": "ICAP_OUT_TOP13"
+      },
+      "ICAP_OUT_TOP14": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP14",
+        "wire": "ICAP_OUT_TOP14"
+      },
+      "ICAP_OUT_TOP15": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP15",
+        "wire": "ICAP_OUT_TOP15"
+      },
+      "ICAP_OUT_TOP16": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP16",
+        "wire": "ICAP_OUT_TOP16"
+      },
+      "ICAP_OUT_TOP17": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP17",
+        "wire": "ICAP_OUT_TOP17"
+      },
+      "ICAP_OUT_TOP18": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP18",
+        "wire": "ICAP_OUT_TOP18"
+      },
+      "ICAP_OUT_TOP19": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP19",
+        "wire": "ICAP_OUT_TOP19"
+      },
+      "ICAP_OUT_TOP2": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP2",
+        "wire": "ICAP_OUT_TOP2"
+      },
+      "ICAP_OUT_TOP20": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP20",
+        "wire": "ICAP_OUT_TOP20"
+      },
+      "ICAP_OUT_TOP21": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP21",
+        "wire": "ICAP_OUT_TOP21"
+      },
+      "ICAP_OUT_TOP22": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP22",
+        "wire": "ICAP_OUT_TOP22"
+      },
+      "ICAP_OUT_TOP23": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP23",
+        "wire": "ICAP_OUT_TOP23"
+      },
+      "ICAP_OUT_TOP24": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP24",
+        "wire": "ICAP_OUT_TOP24"
+      },
+      "ICAP_OUT_TOP25": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP25",
+        "wire": "ICAP_OUT_TOP25"
+      },
+      "ICAP_OUT_TOP26": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP26",
+        "wire": "ICAP_OUT_TOP26"
+      },
+      "ICAP_OUT_TOP27": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP27",
+        "wire": "ICAP_OUT_TOP27"
+      },
+      "ICAP_OUT_TOP28": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP28",
+        "wire": "ICAP_OUT_TOP28"
+      },
+      "ICAP_OUT_TOP29": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP29",
+        "wire": "ICAP_OUT_TOP29"
+      },
+      "ICAP_OUT_TOP3": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP3",
+        "wire": "ICAP_OUT_TOP3"
+      },
+      "ICAP_OUT_TOP30": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP30",
+        "wire": "ICAP_OUT_TOP30"
+      },
+      "ICAP_OUT_TOP31": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP31",
+        "wire": "ICAP_OUT_TOP31"
+      },
+      "ICAP_OUT_TOP4": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP4",
+        "wire": "ICAP_OUT_TOP4"
+      },
+      "ICAP_OUT_TOP5": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP5",
+        "wire": "ICAP_OUT_TOP5"
+      },
+      "ICAP_OUT_TOP6": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP6",
+        "wire": "ICAP_OUT_TOP6"
+      },
+      "ICAP_OUT_TOP7": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP7",
+        "wire": "ICAP_OUT_TOP7"
+      },
+      "ICAP_OUT_TOP8": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP8",
+        "wire": "ICAP_OUT_TOP8"
+      },
+      "ICAP_OUT_TOP9": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_OUT_TOP9",
+        "wire": "ICAP_OUT_TOP9"
+      },
+      "ICAP_PR_DONE_BOT": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_PR_DONE_BOT",
+        "wire": "ICAP_PR_DONE_BOT"
+      },
+      "ICAP_PR_DONE_TOP": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_PR_DONE_TOP",
+        "wire": "ICAP_PR_DONE_TOP"
+      },
+      "ICAP_PR_ERROR_BOT": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_PR_ERROR_BOT",
+        "wire": "ICAP_PR_ERROR_BOT"
+      },
+      "ICAP_PR_ERROR_TOP": {
+        "dir": "OUTPUT",
+        "primary": "ICAP_PR_ERROR_TOP",
+        "wire": "ICAP_PR_ERROR_TOP"
+      },
+      "ICAP_RDWR_B_BOT": {
+        "dir": "INPUT",
+        "primary": "ICAP_RDWR_B_BOT",
+        "wire": "ICAP_RDWR_B_BOT"
+      },
+      "ICAP_RDWR_B_TOP": {
+        "dir": "INPUT",
+        "primary": "ICAP_RDWR_B_TOP",
+        "wire": "ICAP_RDWR_B_TOP"
+      },
+      "IOX_CCLK": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CCLK",
+        "wire": "IOX_CCLK"
+      },
+      "IOX_CFGDATA0": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA0",
+        "wire": "IOX_CFGDATA0"
+      },
+      "IOX_CFGDATA1": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA1",
+        "wire": "IOX_CFGDATA1"
+      },
+      "IOX_CFGDATA10": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA10",
+        "wire": "IOX_CFGDATA10"
+      },
+      "IOX_CFGDATA11": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA11",
+        "wire": "IOX_CFGDATA11"
+      },
+      "IOX_CFGDATA12": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA12",
+        "wire": "IOX_CFGDATA12"
+      },
+      "IOX_CFGDATA13": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA13",
+        "wire": "IOX_CFGDATA13"
+      },
+      "IOX_CFGDATA14": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA14",
+        "wire": "IOX_CFGDATA14"
+      },
+      "IOX_CFGDATA15": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA15",
+        "wire": "IOX_CFGDATA15"
+      },
+      "IOX_CFGDATA16": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA16",
+        "wire": "IOX_CFGDATA16"
+      },
+      "IOX_CFGDATA17": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA17",
+        "wire": "IOX_CFGDATA17"
+      },
+      "IOX_CFGDATA18": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA18",
+        "wire": "IOX_CFGDATA18"
+      },
+      "IOX_CFGDATA19": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA19",
+        "wire": "IOX_CFGDATA19"
+      },
+      "IOX_CFGDATA2": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA2",
+        "wire": "IOX_CFGDATA2"
+      },
+      "IOX_CFGDATA20": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA20",
+        "wire": "IOX_CFGDATA20"
+      },
+      "IOX_CFGDATA21": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA21",
+        "wire": "IOX_CFGDATA21"
+      },
+      "IOX_CFGDATA22": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA22",
+        "wire": "IOX_CFGDATA22"
+      },
+      "IOX_CFGDATA23": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA23",
+        "wire": "IOX_CFGDATA23"
+      },
+      "IOX_CFGDATA24": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA24",
+        "wire": "IOX_CFGDATA24"
+      },
+      "IOX_CFGDATA25": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA25",
+        "wire": "IOX_CFGDATA25"
+      },
+      "IOX_CFGDATA26": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA26",
+        "wire": "IOX_CFGDATA26"
+      },
+      "IOX_CFGDATA27": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA27",
+        "wire": "IOX_CFGDATA27"
+      },
+      "IOX_CFGDATA28": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA28",
+        "wire": "IOX_CFGDATA28"
+      },
+      "IOX_CFGDATA29": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA29",
+        "wire": "IOX_CFGDATA29"
+      },
+      "IOX_CFGDATA3": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA3",
+        "wire": "IOX_CFGDATA3"
+      },
+      "IOX_CFGDATA30": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA30",
+        "wire": "IOX_CFGDATA30"
+      },
+      "IOX_CFGDATA31": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA31",
+        "wire": "IOX_CFGDATA31"
+      },
+      "IOX_CFGDATA4": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA4",
+        "wire": "IOX_CFGDATA4"
+      },
+      "IOX_CFGDATA5": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA5",
+        "wire": "IOX_CFGDATA5"
+      },
+      "IOX_CFGDATA6": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA6",
+        "wire": "IOX_CFGDATA6"
+      },
+      "IOX_CFGDATA7": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA7",
+        "wire": "IOX_CFGDATA7"
+      },
+      "IOX_CFGDATA8": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA8",
+        "wire": "IOX_CFGDATA8"
+      },
+      "IOX_CFGDATA9": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGDATA9",
+        "wire": "IOX_CFGDATA9"
+      },
+      "IOX_CFGMASTER": {
+        "dir": "OUTPUT",
+        "primary": "IOX_CFGMASTER",
+        "wire": "IOX_CFGMASTER"
+      },
+      "IOX_INITBI": {
+        "dir": "OUTPUT",
+        "primary": "IOX_INITBI",
+        "wire": "IOX_INITBI"
+      },
+      "IOX_INITBO": {
+        "dir": "INPUT",
+        "primary": "IOX_INITBO",
+        "wire": "IOX_INITBO"
+      },
+      "IOX_MODE0": {
+        "dir": "OUTPUT",
+        "primary": "IOX_MODE0",
+        "wire": "IOX_MODE0"
+      },
+      "IOX_MODE1": {
+        "dir": "OUTPUT",
+        "primary": "IOX_MODE1",
+        "wire": "IOX_MODE1"
+      },
+      "IOX_MODE2": {
+        "dir": "OUTPUT",
+        "primary": "IOX_MODE2",
+        "wire": "IOX_MODE2"
+      },
+      "IOX_PUDCB": {
+        "dir": "OUTPUT",
+        "primary": "IOX_PUDCB",
+        "wire": "IOX_PUDCB"
+      },
+      "IOX_RDWRB": {
+        "dir": "OUTPUT",
+        "primary": "IOX_RDWRB",
+        "wire": "IOX_RDWRB"
+      },
+      "IOX_TDO": {
+        "dir": "INPUT",
+        "primary": "IOX_TDO",
+        "wire": "IOX_TDO"
+      },
+      "IOX_VGG_COMP_OUT": {
+        "dir": "OUTPUT",
+        "primary": "IOX_VGG_COMP_OUT",
+        "wire": "IOX_VGG_COMP_OUT"
+      },
+      "KEY_CLEAR": {
+        "dir": "INPUT",
+        "primary": "KEY_CLEAR",
+        "wire": "KEY_CLEAR"
+      },
+      "PROG_ACK": {
+        "dir": "INPUT",
+        "primary": "PROG_ACK",
+        "wire": "PROG_ACK"
+      },
+      "PROG_REQ": {
+        "dir": "OUTPUT",
+        "primary": "PROG_REQ",
+        "wire": "PROG_REQ"
+      },
+      "RBCRC_ERROR": {
+        "dir": "OUTPUT",
+        "primary": "RBCRC_ERROR",
+        "wire": "RBCRC_ERROR"
+      },
+      "START_CFG_CLK": {
+        "dir": "OUTPUT",
+        "primary": "START_CFG_CLK",
+        "wire": "START_CFG_CLK"
+      },
+      "START_CFG_MCLK": {
+        "dir": "OUTPUT",
+        "primary": "START_CFG_MCLK",
+        "wire": "START_CFG_MCLK"
+      },
+      "USR_ACCESS_CLK": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_CLK",
+        "wire": "USR_ACCESS_CLK"
+      },
+      "USR_ACCESS_DATA0": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA0",
+        "wire": "USR_ACCESS_DATA0"
+      },
+      "USR_ACCESS_DATA1": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA1",
+        "wire": "USR_ACCESS_DATA1"
+      },
+      "USR_ACCESS_DATA10": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA10",
+        "wire": "USR_ACCESS_DATA10"
+      },
+      "USR_ACCESS_DATA11": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA11",
+        "wire": "USR_ACCESS_DATA11"
+      },
+      "USR_ACCESS_DATA12": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA12",
+        "wire": "USR_ACCESS_DATA12"
+      },
+      "USR_ACCESS_DATA13": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA13",
+        "wire": "USR_ACCESS_DATA13"
+      },
+      "USR_ACCESS_DATA14": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA14",
+        "wire": "USR_ACCESS_DATA14"
+      },
+      "USR_ACCESS_DATA15": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA15",
+        "wire": "USR_ACCESS_DATA15"
+      },
+      "USR_ACCESS_DATA16": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA16",
+        "wire": "USR_ACCESS_DATA16"
+      },
+      "USR_ACCESS_DATA17": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA17",
+        "wire": "USR_ACCESS_DATA17"
+      },
+      "USR_ACCESS_DATA18": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA18",
+        "wire": "USR_ACCESS_DATA18"
+      },
+      "USR_ACCESS_DATA19": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA19",
+        "wire": "USR_ACCESS_DATA19"
+      },
+      "USR_ACCESS_DATA2": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA2",
+        "wire": "USR_ACCESS_DATA2"
+      },
+      "USR_ACCESS_DATA20": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA20",
+        "wire": "USR_ACCESS_DATA20"
+      },
+      "USR_ACCESS_DATA21": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA21",
+        "wire": "USR_ACCESS_DATA21"
+      },
+      "USR_ACCESS_DATA22": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA22",
+        "wire": "USR_ACCESS_DATA22"
+      },
+      "USR_ACCESS_DATA23": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA23",
+        "wire": "USR_ACCESS_DATA23"
+      },
+      "USR_ACCESS_DATA24": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA24",
+        "wire": "USR_ACCESS_DATA24"
+      },
+      "USR_ACCESS_DATA25": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA25",
+        "wire": "USR_ACCESS_DATA25"
+      },
+      "USR_ACCESS_DATA26": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA26",
+        "wire": "USR_ACCESS_DATA26"
+      },
+      "USR_ACCESS_DATA27": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA27",
+        "wire": "USR_ACCESS_DATA27"
+      },
+      "USR_ACCESS_DATA28": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA28",
+        "wire": "USR_ACCESS_DATA28"
+      },
+      "USR_ACCESS_DATA29": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA29",
+        "wire": "USR_ACCESS_DATA29"
+      },
+      "USR_ACCESS_DATA3": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA3",
+        "wire": "USR_ACCESS_DATA3"
+      },
+      "USR_ACCESS_DATA30": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA30",
+        "wire": "USR_ACCESS_DATA30"
+      },
+      "USR_ACCESS_DATA31": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA31",
+        "wire": "USR_ACCESS_DATA31"
+      },
+      "USR_ACCESS_DATA4": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA4",
+        "wire": "USR_ACCESS_DATA4"
+      },
+      "USR_ACCESS_DATA5": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA5",
+        "wire": "USR_ACCESS_DATA5"
+      },
+      "USR_ACCESS_DATA6": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA6",
+        "wire": "USR_ACCESS_DATA6"
+      },
+      "USR_ACCESS_DATA7": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA7",
+        "wire": "USR_ACCESS_DATA7"
+      },
+      "USR_ACCESS_DATA8": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA8",
+        "wire": "USR_ACCESS_DATA8"
+      },
+      "USR_ACCESS_DATA9": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_DATA9",
+        "wire": "USR_ACCESS_DATA9"
+      },
+      "USR_ACCESS_VALID": {
+        "dir": "OUTPUT",
+        "primary": "USR_ACCESS_VALID",
+        "wire": "USR_ACCESS_VALID"
+      },
+      "USR_CCLK_O": {
+        "dir": "INPUT",
+        "primary": "USR_CCLK_O",
+        "wire": "USR_CCLK_O"
+      },
+      "USR_CCLK_TS": {
+        "dir": "INPUT",
+        "primary": "USR_CCLK_TS",
+        "wire": "USR_CCLK_TS"
+      },
+      "USR_DNA_CLK": {
+        "dir": "INPUT",
+        "primary": "USR_DNA_CLK",
+        "wire": "USR_DNA_CLK"
+      },
+      "USR_DNA_DIN": {
+        "dir": "INPUT",
+        "primary": "USR_DNA_DIN",
+        "wire": "USR_DNA_DIN"
+      },
+      "USR_DNA_OUT": {
+        "dir": "OUTPUT",
+        "primary": "USR_DNA_OUT",
+        "wire": "USR_DNA_OUT"
+      },
+      "USR_DNA_READ": {
+        "dir": "INPUT",
+        "primary": "USR_DNA_READ",
+        "wire": "USR_DNA_READ"
+      },
+      "USR_DNA_SHIFT": {
+        "dir": "INPUT",
+        "primary": "USR_DNA_SHIFT",
+        "wire": "USR_DNA_SHIFT"
+      },
+      "USR_DONE_O": {
+        "dir": "INPUT",
+        "primary": "USR_DONE_O",
+        "wire": "USR_DONE_O"
+      },
+      "USR_DONE_TS": {
+        "dir": "INPUT",
+        "primary": "USR_DONE_TS",
+        "wire": "USR_DONE_TS"
+      },
+      "USR_D_O_CFGIO0": {
+        "dir": "INPUT",
+        "primary": "USR_D_O_CFGIO0",
+        "wire": "USR_D_O_CFGIO0"
+      },
+      "USR_D_O_CFGIO1": {
+        "dir": "INPUT",
+        "primary": "USR_D_O_CFGIO1",
+        "wire": "USR_D_O_CFGIO1"
+      },
+      "USR_D_O_CFGIO2": {
+        "dir": "INPUT",
+        "primary": "USR_D_O_CFGIO2",
+        "wire": "USR_D_O_CFGIO2"
+      },
+      "USR_D_O_CFGIO3": {
+        "dir": "INPUT",
+        "primary": "USR_D_O_CFGIO3",
+        "wire": "USR_D_O_CFGIO3"
+      },
+      "USR_D_PIN_CFGIO0": {
+        "dir": "OUTPUT",
+        "primary": "USR_D_PIN_CFGIO0",
+        "wire": "USR_D_PIN_CFGIO0"
+      },
+      "USR_D_PIN_CFGIO1": {
+        "dir": "OUTPUT",
+        "primary": "USR_D_PIN_CFGIO1",
+        "wire": "USR_D_PIN_CFGIO1"
+      },
+      "USR_D_PIN_CFGIO2": {
+        "dir": "OUTPUT",
+        "primary": "USR_D_PIN_CFGIO2",
+        "wire": "USR_D_PIN_CFGIO2"
+      },
+      "USR_D_PIN_CFGIO3": {
+        "dir": "OUTPUT",
+        "primary": "USR_D_PIN_CFGIO3",
+        "wire": "USR_D_PIN_CFGIO3"
+      },
+      "USR_D_TS_CFGIO0": {
+        "dir": "INPUT",
+        "primary": "USR_D_TS_CFGIO0",
+        "wire": "USR_D_TS_CFGIO0"
+      },
+      "USR_D_TS_CFGIO1": {
+        "dir": "INPUT",
+        "primary": "USR_D_TS_CFGIO1",
+        "wire": "USR_D_TS_CFGIO1"
+      },
+      "USR_D_TS_CFGIO2": {
+        "dir": "INPUT",
+        "primary": "USR_D_TS_CFGIO2",
+        "wire": "USR_D_TS_CFGIO2"
+      },
+      "USR_D_TS_CFGIO3": {
+        "dir": "INPUT",
+        "primary": "USR_D_TS_CFGIO3",
+        "wire": "USR_D_TS_CFGIO3"
+      },
+      "USR_EFUSE0": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE0",
+        "wire": "USR_EFUSE0"
+      },
+      "USR_EFUSE1": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE1",
+        "wire": "USR_EFUSE1"
+      },
+      "USR_EFUSE10": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE10",
+        "wire": "USR_EFUSE10"
+      },
+      "USR_EFUSE11": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE11",
+        "wire": "USR_EFUSE11"
+      },
+      "USR_EFUSE12": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE12",
+        "wire": "USR_EFUSE12"
+      },
+      "USR_EFUSE13": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE13",
+        "wire": "USR_EFUSE13"
+      },
+      "USR_EFUSE14": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE14",
+        "wire": "USR_EFUSE14"
+      },
+      "USR_EFUSE15": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE15",
+        "wire": "USR_EFUSE15"
+      },
+      "USR_EFUSE16": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE16",
+        "wire": "USR_EFUSE16"
+      },
+      "USR_EFUSE17": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE17",
+        "wire": "USR_EFUSE17"
+      },
+      "USR_EFUSE18": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE18",
+        "wire": "USR_EFUSE18"
+      },
+      "USR_EFUSE19": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE19",
+        "wire": "USR_EFUSE19"
+      },
+      "USR_EFUSE2": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE2",
+        "wire": "USR_EFUSE2"
+      },
+      "USR_EFUSE20": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE20",
+        "wire": "USR_EFUSE20"
+      },
+      "USR_EFUSE21": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE21",
+        "wire": "USR_EFUSE21"
+      },
+      "USR_EFUSE22": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE22",
+        "wire": "USR_EFUSE22"
+      },
+      "USR_EFUSE23": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE23",
+        "wire": "USR_EFUSE23"
+      },
+      "USR_EFUSE24": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE24",
+        "wire": "USR_EFUSE24"
+      },
+      "USR_EFUSE25": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE25",
+        "wire": "USR_EFUSE25"
+      },
+      "USR_EFUSE26": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE26",
+        "wire": "USR_EFUSE26"
+      },
+      "USR_EFUSE27": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE27",
+        "wire": "USR_EFUSE27"
+      },
+      "USR_EFUSE28": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE28",
+        "wire": "USR_EFUSE28"
+      },
+      "USR_EFUSE29": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE29",
+        "wire": "USR_EFUSE29"
+      },
+      "USR_EFUSE3": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE3",
+        "wire": "USR_EFUSE3"
+      },
+      "USR_EFUSE30": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE30",
+        "wire": "USR_EFUSE30"
+      },
+      "USR_EFUSE31": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE31",
+        "wire": "USR_EFUSE31"
+      },
+      "USR_EFUSE4": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE4",
+        "wire": "USR_EFUSE4"
+      },
+      "USR_EFUSE5": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE5",
+        "wire": "USR_EFUSE5"
+      },
+      "USR_EFUSE6": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE6",
+        "wire": "USR_EFUSE6"
+      },
+      "USR_EFUSE7": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE7",
+        "wire": "USR_EFUSE7"
+      },
+      "USR_EFUSE8": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE8",
+        "wire": "USR_EFUSE8"
+      },
+      "USR_EFUSE9": {
+        "dir": "OUTPUT",
+        "primary": "USR_EFUSE9",
+        "wire": "USR_EFUSE9"
+      },
+      "USR_FCS_B_O": {
+        "dir": "INPUT",
+        "primary": "USR_FCS_B_O",
+        "wire": "USR_FCS_B_O"
+      },
+      "USR_FCS_B_TS": {
+        "dir": "INPUT",
+        "primary": "USR_FCS_B_TS",
+        "wire": "USR_FCS_B_TS"
+      },
+      "USR_GSR": {
+        "dir": "INPUT",
+        "primary": "USR_GSR",
+        "wire": "USR_GSR"
+      },
+      "USR_GTS": {
+        "dir": "INPUT",
+        "primary": "USR_GTS",
+        "wire": "USR_GTS"
+      },
+      "USR_TCK": {
+        "dir": "INPUT",
+        "primary": "USR_TCK",
+        "wire": "USR_TCK"
+      },
+      "USR_TDI": {
+        "dir": "INPUT",
+        "primary": "USR_TDI",
+        "wire": "USR_TDI"
+      },
+      "USR_TDO": {
+        "dir": "OUTPUT",
+        "primary": "USR_TDO",
+        "wire": "USR_TDO"
+      },
+      "USR_TMS": {
+        "dir": "INPUT",
+        "primary": "USR_TMS",
+        "wire": "USR_TMS"
+      }
+    },
+    "pips": []
+  }
+}

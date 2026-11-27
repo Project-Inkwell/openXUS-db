@@ -1,0 +1,13 @@
+{
+  "pips": {},
+  "sites": [],
+  "tile_type": "GTY_R_RBRK",
+  "wires": {
+    "CLK_NORTH_FT0_0": null,
+    "CLK_NORTH_FT0_1": null,
+    "CLK_SOUTH_FT0_0": null,
+    "CLK_SOUTH_FT0_1": null,
+    "CLOCK_DR_IN": null,
+    "SHIFT_DR_IN": null
+  }
+}

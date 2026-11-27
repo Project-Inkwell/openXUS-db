@@ -1,0 +1,4107 @@
+{
+  "GTYE4_COMMON": {
+    "bels": {
+      "GTYE4_COMMON": {
+        "class": "BEL",
+        "pins": {
+          "BGBYPASSB": {
+            "dir": "INPUT",
+            "wire": "BGBYPASS_FS_1"
+          },
+          "BGMONITORENB": {
+            "dir": "INPUT",
+            "wire": "BGTESTEN_FS_1"
+          },
+          "BGPDB": {
+            "dir": "INPUT",
+            "wire": "PWRDNBGB_FS_1"
+          },
+          "BGRCALOVRD0": {
+            "dir": "INPUT",
+            "wire": "BGRCALCTL_FS_1_0"
+          },
+          "BGRCALOVRD1": {
+            "dir": "INPUT",
+            "wire": "BGRCALCTL_FS_1_1"
+          },
+          "BGRCALOVRD2": {
+            "dir": "INPUT",
+            "wire": "BGRCALCTL_FS_1_2"
+          },
+          "BGRCALOVRD3": {
+            "dir": "INPUT",
+            "wire": "BGRCALCTL_FS_1_3"
+          },
+          "BGRCALOVRD4": {
+            "dir": "INPUT",
+            "wire": "BGRCALCTL_FS_1_4"
+          },
+          "BGRCALOVRDENB": {
+            "dir": "INPUT",
+            "wire": "BGRCALOVRDENB_FS_1"
+          },
+          "CSSDSTOPCLK0": {
+            "dir": "INPUT",
+            "wire": "CSSDSTOPCLKCM_FS_0"
+          },
+          "CSSDSTOPCLK1": {
+            "dir": "INPUT",
+            "wire": "CSSDSTOPCLKCM_FS_1"
+          },
+          "CSSDSTOPCLKDONE0": {
+            "dir": "OUTPUT",
+            "wire": "CSSDSTOPCLKDONECM_SF_0"
+          },
+          "CSSDSTOPCLKDONE1": {
+            "dir": "OUTPUT",
+            "wire": "CSSDSTOPCLKDONECM_SF_1"
+          },
+          "DRPADDR0": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS0"
+          },
+          "DRPADDR1": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS1"
+          },
+          "DRPADDR10": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS10"
+          },
+          "DRPADDR11": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS11"
+          },
+          "DRPADDR12": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS12"
+          },
+          "DRPADDR13": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS13"
+          },
+          "DRPADDR14": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS14"
+          },
+          "DRPADDR15": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS15"
+          },
+          "DRPADDR2": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS2"
+          },
+          "DRPADDR3": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS3"
+          },
+          "DRPADDR4": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS4"
+          },
+          "DRPADDR5": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS5"
+          },
+          "DRPADDR6": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS6"
+          },
+          "DRPADDR7": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS7"
+          },
+          "DRPADDR8": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS8"
+          },
+          "DRPADDR9": {
+            "dir": "INPUT",
+            "wire": "DADDR_FS9"
+          },
+          "DRPCLK": {
+            "dir": "INPUT",
+            "wire": "DCLK_FS"
+          },
+          "DRPDI0": {
+            "dir": "INPUT",
+            "wire": "DI_FS0"
+          },
+          "DRPDI1": {
+            "dir": "INPUT",
+            "wire": "DI_FS1"
+          },
+          "DRPDI10": {
+            "dir": "INPUT",
+            "wire": "DI_FS10"
+          },
+          "DRPDI11": {
+            "dir": "INPUT",
+            "wire": "DI_FS11"
+          },
+          "DRPDI12": {
+            "dir": "INPUT",
+            "wire": "DI_FS12"
+          },
+          "DRPDI13": {
+            "dir": "INPUT",
+            "wire": "DI_FS13"
+          },
+          "DRPDI14": {
+            "dir": "INPUT",
+            "wire": "DI_FS14"
+          },
+          "DRPDI15": {
+            "dir": "INPUT",
+            "wire": "DI_FS15"
+          },
+          "DRPDI2": {
+            "dir": "INPUT",
+            "wire": "DI_FS2"
+          },
+          "DRPDI3": {
+            "dir": "INPUT",
+            "wire": "DI_FS3"
+          },
+          "DRPDI4": {
+            "dir": "INPUT",
+            "wire": "DI_FS4"
+          },
+          "DRPDI5": {
+            "dir": "INPUT",
+            "wire": "DI_FS5"
+          },
+          "DRPDI6": {
+            "dir": "INPUT",
+            "wire": "DI_FS6"
+          },
+          "DRPDI7": {
+            "dir": "INPUT",
+            "wire": "DI_FS7"
+          },
+          "DRPDI8": {
+            "dir": "INPUT",
+            "wire": "DI_FS8"
+          },
+          "DRPDI9": {
+            "dir": "INPUT",
+            "wire": "DI_FS9"
+          },
+          "DRPDO0": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF0"
+          },
+          "DRPDO1": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF1"
+          },
+          "DRPDO10": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF10"
+          },
+          "DRPDO11": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF11"
+          },
+          "DRPDO12": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF12"
+          },
+          "DRPDO13": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF13"
+          },
+          "DRPDO14": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF14"
+          },
+          "DRPDO15": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF15"
+          },
+          "DRPDO2": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF2"
+          },
+          "DRPDO3": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF3"
+          },
+          "DRPDO4": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF4"
+          },
+          "DRPDO5": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF5"
+          },
+          "DRPDO6": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF6"
+          },
+          "DRPDO7": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF7"
+          },
+          "DRPDO8": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF8"
+          },
+          "DRPDO9": {
+            "dir": "OUTPUT",
+            "wire": "DRPDO_SF9"
+          },
+          "DRPEN": {
+            "dir": "INPUT",
+            "wire": "DEN_FS"
+          },
+          "DRPRDY": {
+            "dir": "OUTPUT",
+            "wire": "DRDY_SF"
+          },
+          "DRPWE": {
+            "dir": "INPUT",
+            "wire": "DWE_FS"
+          },
+          "GTGREFCLK0": {
+            "dir": "INPUT",
+            "wire": "QDCOREREFCLK_FS_0"
+          },
+          "GTGREFCLK1": {
+            "dir": "INPUT",
+            "wire": "QDCOREREFCLK_FS_1"
+          },
+          "GTNORTHREFCLK00": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT2"
+          },
+          "GTNORTHREFCLK01": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT2"
+          },
+          "GTNORTHREFCLK10": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT3"
+          },
+          "GTNORTHREFCLK11": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT3"
+          },
+          "GTREFCLK00": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT0"
+          },
+          "GTREFCLK01": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT0"
+          },
+          "GTREFCLK10": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT1"
+          },
+          "GTREFCLK11": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT1"
+          },
+          "GTSOUTHREFCLK00": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT4"
+          },
+          "GTSOUTHREFCLK01": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT4"
+          },
+          "GTSOUTHREFCLK10": {
+            "dir": "INPUT",
+            "wire": "COM0_REFCLKOUT5"
+          },
+          "GTSOUTHREFCLK11": {
+            "dir": "INPUT",
+            "wire": "COM2_REFCLKOUT5"
+          },
+          "PCIERATEQPLL00": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_0_0"
+          },
+          "PCIERATEQPLL01": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_0_1"
+          },
+          "PCIERATEQPLL02": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_0_2"
+          },
+          "PCIERATEQPLL10": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_1_0"
+          },
+          "PCIERATEQPLL11": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_1_1"
+          },
+          "PCIERATEQPLL12": {
+            "dir": "INPUT",
+            "wire": "TXRATE_CM_FS_1_2"
+          },
+          "PMARSVD00": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_0"
+          },
+          "PMARSVD01": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_1"
+          },
+          "PMARSVD02": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_2"
+          },
+          "PMARSVD03": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_3"
+          },
+          "PMARSVD04": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_4"
+          },
+          "PMARSVD05": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_5"
+          },
+          "PMARSVD06": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_6"
+          },
+          "PMARSVD07": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_0_7"
+          },
+          "PMARSVD10": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_0"
+          },
+          "PMARSVD11": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_1"
+          },
+          "PMARSVD12": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_2"
+          },
+          "PMARSVD13": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_3"
+          },
+          "PMARSVD14": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_4"
+          },
+          "PMARSVD15": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_5"
+          },
+          "PMARSVD16": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_6"
+          },
+          "PMARSVD17": {
+            "dir": "INPUT",
+            "wire": "QDPMAPINRSVD_FS_1_7"
+          },
+          "PMARSVDOUT00": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_0"
+          },
+          "PMARSVDOUT01": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_1"
+          },
+          "PMARSVDOUT02": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_2"
+          },
+          "PMARSVDOUT03": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_3"
+          },
+          "PMARSVDOUT04": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_4"
+          },
+          "PMARSVDOUT05": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_5"
+          },
+          "PMARSVDOUT06": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_6"
+          },
+          "PMARSVDOUT07": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_0_7"
+          },
+          "PMARSVDOUT10": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_0"
+          },
+          "PMARSVDOUT11": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_1"
+          },
+          "PMARSVDOUT12": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_2"
+          },
+          "PMARSVDOUT13": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_3"
+          },
+          "PMARSVDOUT14": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_4"
+          },
+          "PMARSVDOUT15": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_5"
+          },
+          "PMARSVDOUT16": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_6"
+          },
+          "PMARSVDOUT17": {
+            "dir": "OUTPUT",
+            "wire": "QDCMRSVDOUT_SF_1_7"
+          },
+          "PMASCANCLK0": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS0"
+          },
+          "PMASCANCLK1": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS1"
+          },
+          "PMASCANCLK10": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS10"
+          },
+          "PMASCANCLK11": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS11"
+          },
+          "PMASCANCLK12": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS12"
+          },
+          "PMASCANCLK13": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS13"
+          },
+          "PMASCANCLK2": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS2"
+          },
+          "PMASCANCLK3": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS3"
+          },
+          "PMASCANCLK4": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS4"
+          },
+          "PMASCANCLK5": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS5"
+          },
+          "PMASCANCLK6": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS6"
+          },
+          "PMASCANCLK7": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS7"
+          },
+          "PMASCANCLK8": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS8"
+          },
+          "PMASCANCLK9": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANCLK_FS9"
+          },
+          "PMASCANENB": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANENB_FS"
+          },
+          "PMASCANIN0": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS0"
+          },
+          "PMASCANIN1": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS1"
+          },
+          "PMASCANIN10": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS10"
+          },
+          "PMASCANIN11": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS11"
+          },
+          "PMASCANIN12": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS12"
+          },
+          "PMASCANIN13": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS13"
+          },
+          "PMASCANIN2": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS2"
+          },
+          "PMASCANIN3": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS3"
+          },
+          "PMASCANIN4": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS4"
+          },
+          "PMASCANIN5": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS5"
+          },
+          "PMASCANIN6": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS6"
+          },
+          "PMASCANIN7": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS7"
+          },
+          "PMASCANIN8": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS8"
+          },
+          "PMASCANIN9": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANIN_FS9"
+          },
+          "PMASCANOUT0": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF0"
+          },
+          "PMASCANOUT1": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF1"
+          },
+          "PMASCANOUT10": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF10"
+          },
+          "PMASCANOUT11": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF11"
+          },
+          "PMASCANOUT12": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF12"
+          },
+          "PMASCANOUT13": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF13"
+          },
+          "PMASCANOUT2": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF2"
+          },
+          "PMASCANOUT3": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF3"
+          },
+          "PMASCANOUT4": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF4"
+          },
+          "PMASCANOUT5": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF5"
+          },
+          "PMASCANOUT6": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF6"
+          },
+          "PMASCANOUT7": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF7"
+          },
+          "PMASCANOUT8": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF8"
+          },
+          "PMASCANOUT9": {
+            "dir": "OUTPUT",
+            "wire": "QDPMASCANOUT_SF9"
+          },
+          "QDPMASCANMODEB": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANMODEB_FS"
+          },
+          "QDPMASCANRSTEN": {
+            "dir": "INPUT",
+            "wire": "QDPMASCANRSTEN_FS"
+          },
+          "QPLL0CLKRSVD0": {
+            "dir": "INPUT",
+            "wire": "QDCLKPINSPRD0_FS_0"
+          },
+          "QPLL0CLKRSVD1": {
+            "dir": "INPUT",
+            "wire": "QDCLKPINSPRD1_FS_0"
+          },
+          "QPLL0FBCLKLOST": {
+            "dir": "OUTPUT",
+            "wire": "QPLFBLOSS_SF_0"
+          },
+          "QPLL0FBDIV0": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_0"
+          },
+          "QPLL0FBDIV1": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_1"
+          },
+          "QPLL0FBDIV2": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_2"
+          },
+          "QPLL0FBDIV3": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_3"
+          },
+          "QPLL0FBDIV4": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_4"
+          },
+          "QPLL0FBDIV5": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_5"
+          },
+          "QPLL0FBDIV6": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_6"
+          },
+          "QPLL0FBDIV7": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_0_7"
+          },
+          "QPLL0LOCK": {
+            "dir": "OUTPUT",
+            "wire": "QPLFREQLOCK_SF_0"
+          },
+          "QPLL0LOCKDETCLK": {
+            "dir": "INPUT",
+            "wire": "QPLLDMONCLK_FS_0"
+          },
+          "QPLL0LOCKEN": {
+            "dir": "INPUT",
+            "wire": "QPLLKDETEN_FS_0"
+          },
+          "QPLL0OUTCLK": {
+            "dir": "OUTPUT",
+            "wire": "QDPLLCLK0P_0"
+          },
+          "QPLL0OUTREFCLK": {
+            "dir": "OUTPUT",
+            "wire": "QDCMREFCLK_INT_0"
+          },
+          "QPLL0PD": {
+            "dir": "INPUT",
+            "wire": "QPLPWRDN_FS_0"
+          },
+          "QPLL0REFCLKLOST": {
+            "dir": "OUTPUT",
+            "wire": "QPLREFLOSS_SF_0"
+          },
+          "QPLL0REFCLKSEL0": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_0_0"
+          },
+          "QPLL0REFCLKSEL1": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_0_1"
+          },
+          "QPLL0REFCLKSEL2": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_0_2"
+          },
+          "QPLL0RESET": {
+            "dir": "INPUT",
+            "wire": "QPLRESET_FS_0"
+          },
+          "QPLL1CLKRSVD0": {
+            "dir": "INPUT",
+            "wire": "QDCLKPINSPRD0_FS_1"
+          },
+          "QPLL1CLKRSVD1": {
+            "dir": "INPUT",
+            "wire": "QDCLKPINSPRD1_FS_1"
+          },
+          "QPLL1FBCLKLOST": {
+            "dir": "OUTPUT",
+            "wire": "QPLFBLOSS_SF_1"
+          },
+          "QPLL1FBDIV0": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_0"
+          },
+          "QPLL1FBDIV1": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_1"
+          },
+          "QPLL1FBDIV2": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_2"
+          },
+          "QPLL1FBDIV3": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_3"
+          },
+          "QPLL1FBDIV4": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_4"
+          },
+          "QPLL1FBDIV5": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_5"
+          },
+          "QPLL1FBDIV6": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_6"
+          },
+          "QPLL1FBDIV7": {
+            "dir": "INPUT",
+            "wire": "QPLFBDIV_FS_1_7"
+          },
+          "QPLL1LOCK": {
+            "dir": "OUTPUT",
+            "wire": "QPLFREQLOCK_SF_1"
+          },
+          "QPLL1LOCKDETCLK": {
+            "dir": "INPUT",
+            "wire": "QPLLDMONCLK_FS_1"
+          },
+          "QPLL1LOCKEN": {
+            "dir": "INPUT",
+            "wire": "QPLLKDETEN_FS_1"
+          },
+          "QPLL1OUTCLK": {
+            "dir": "OUTPUT",
+            "wire": "QDPLLCLK0P_1"
+          },
+          "QPLL1OUTREFCLK": {
+            "dir": "OUTPUT",
+            "wire": "QDCMREFCLK_INT_1"
+          },
+          "QPLL1PD": {
+            "dir": "INPUT",
+            "wire": "QPLPWRDN_FS_1"
+          },
+          "QPLL1REFCLKLOST": {
+            "dir": "OUTPUT",
+            "wire": "QPLREFLOSS_SF_1"
+          },
+          "QPLL1REFCLKSEL0": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_1_0"
+          },
+          "QPLL1REFCLKSEL1": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_1_1"
+          },
+          "QPLL1REFCLKSEL2": {
+            "dir": "INPUT",
+            "wire": "QPLREFDYN_FS_1_2"
+          },
+          "QPLL1RESET": {
+            "dir": "INPUT",
+            "wire": "QPLRESET_FS_1"
+          },
+          "QPLLDMONITOR00": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_0"
+          },
+          "QPLLDMONITOR01": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_1"
+          },
+          "QPLLDMONITOR02": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_2"
+          },
+          "QPLLDMONITOR03": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_3"
+          },
+          "QPLLDMONITOR04": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_4"
+          },
+          "QPLLDMONITOR05": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_5"
+          },
+          "QPLLDMONITOR06": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_6"
+          },
+          "QPLLDMONITOR07": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_0_7"
+          },
+          "QPLLDMONITOR10": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_0"
+          },
+          "QPLLDMONITOR11": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_1"
+          },
+          "QPLLDMONITOR12": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_2"
+          },
+          "QPLLDMONITOR13": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_3"
+          },
+          "QPLLDMONITOR14": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_4"
+          },
+          "QPLLDMONITOR15": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_5"
+          },
+          "QPLLDMONITOR16": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_6"
+          },
+          "QPLLDMONITOR17": {
+            "dir": "OUTPUT",
+            "wire": "DMONOUT_QDCM_SF_1_7"
+          },
+          "QPLLRSVD10": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_0"
+          },
+          "QPLLRSVD11": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_1"
+          },
+          "QPLLRSVD12": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_2"
+          },
+          "QPLLRSVD13": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_3"
+          },
+          "QPLLRSVD14": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_4"
+          },
+          "QPLLRSVD15": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_5"
+          },
+          "QPLLRSVD16": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_6"
+          },
+          "QPLLRSVD17": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_0_7"
+          },
+          "QPLLRSVD20": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_0_0"
+          },
+          "QPLLRSVD21": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_0_1"
+          },
+          "QPLLRSVD22": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_0_2"
+          },
+          "QPLLRSVD23": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_0_3"
+          },
+          "QPLLRSVD24": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_0_4"
+          },
+          "QPLLRSVD30": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_1_0"
+          },
+          "QPLLRSVD31": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_1_1"
+          },
+          "QPLLRSVD32": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_1_2"
+          },
+          "QPLLRSVD33": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_1_3"
+          },
+          "QPLLRSVD34": {
+            "dir": "INPUT",
+            "wire": "QDPINSPRD_FS_1_4"
+          },
+          "QPLLRSVD40": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_0"
+          },
+          "QPLLRSVD41": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_1"
+          },
+          "QPLLRSVD42": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_2"
+          },
+          "QPLLRSVD43": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_3"
+          },
+          "QPLLRSVD44": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_4"
+          },
+          "QPLLRSVD45": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_5"
+          },
+          "QPLLRSVD46": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_6"
+          },
+          "QPLLRSVD47": {
+            "dir": "INPUT",
+            "wire": "QDCMRSVDPIN_FS_1_7"
+          },
+          "RCALENB": {
+            "dir": "INPUT",
+            "wire": "RCALENB_FS_1"
+          },
+          "REFCLKOUTMONITOR0": {
+            "dir": "OUTPUT",
+            "wire": "MGTREFCLKFA_SF_0"
+          },
+          "REFCLKOUTMONITOR1": {
+            "dir": "OUTPUT",
+            "wire": "MGTREFCLKFA_SF_1"
+          },
+          "RXRECCLK0": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK0"
+          },
+          "RXRECCLK0SEL0": {
+            "dir": "OUTPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK0SEL0"
+          },
+          "RXRECCLK0SEL1": {
+            "dir": "OUTPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK0SEL1"
+          },
+          "RXRECCLK1": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK1"
+          },
+          "RXRECCLK1SEL0": {
+            "dir": "OUTPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK1SEL0"
+          },
+          "RXRECCLK1SEL1": {
+            "dir": "OUTPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK1SEL1"
+          },
+          "RXRECCLK2": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK2"
+          },
+          "RXRECCLK3": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK3"
+          },
+          "SARCCLK0": {
+            "dir": "OUTPUT",
+            "wire": "SARC_CLK0"
+          },
+          "SARCCLK1": {
+            "dir": "OUTPUT",
+            "wire": "SARC_CLK1"
+          },
+          "SARCCLK2": {
+            "dir": "OUTPUT",
+            "wire": "SARC_CLK2"
+          },
+          "SARCCLK3": {
+            "dir": "OUTPUT",
+            "wire": "SARC_CLK3"
+          },
+          "SDM0DATA0": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_0"
+          },
+          "SDM0DATA1": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_1"
+          },
+          "SDM0DATA10": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_10"
+          },
+          "SDM0DATA11": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_11"
+          },
+          "SDM0DATA12": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_12"
+          },
+          "SDM0DATA13": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_13"
+          },
+          "SDM0DATA14": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_14"
+          },
+          "SDM0DATA15": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_15"
+          },
+          "SDM0DATA16": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_16"
+          },
+          "SDM0DATA17": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_17"
+          },
+          "SDM0DATA18": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_18"
+          },
+          "SDM0DATA19": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_19"
+          },
+          "SDM0DATA2": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_2"
+          },
+          "SDM0DATA20": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_20"
+          },
+          "SDM0DATA21": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_21"
+          },
+          "SDM0DATA22": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_22"
+          },
+          "SDM0DATA23": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_23"
+          },
+          "SDM0DATA24": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_24"
+          },
+          "SDM0DATA3": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_3"
+          },
+          "SDM0DATA4": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_4"
+          },
+          "SDM0DATA5": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_5"
+          },
+          "SDM0DATA6": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_6"
+          },
+          "SDM0DATA7": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_7"
+          },
+          "SDM0DATA8": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_8"
+          },
+          "SDM0DATA9": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_0_9"
+          },
+          "SDM0FINALOUT0": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_0_0"
+          },
+          "SDM0FINALOUT1": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_0_1"
+          },
+          "SDM0FINALOUT2": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_0_2"
+          },
+          "SDM0FINALOUT3": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_0_3"
+          },
+          "SDM0RESET": {
+            "dir": "INPUT",
+            "wire": "SDMRESET_FS_0"
+          },
+          "SDM0TESTDATA0": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_0"
+          },
+          "SDM0TESTDATA1": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_1"
+          },
+          "SDM0TESTDATA10": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_10"
+          },
+          "SDM0TESTDATA11": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_11"
+          },
+          "SDM0TESTDATA12": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_12"
+          },
+          "SDM0TESTDATA13": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_13"
+          },
+          "SDM0TESTDATA14": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_14"
+          },
+          "SDM0TESTDATA2": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_2"
+          },
+          "SDM0TESTDATA3": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_3"
+          },
+          "SDM0TESTDATA4": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_4"
+          },
+          "SDM0TESTDATA5": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_5"
+          },
+          "SDM0TESTDATA6": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_6"
+          },
+          "SDM0TESTDATA7": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_7"
+          },
+          "SDM0TESTDATA8": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_8"
+          },
+          "SDM0TESTDATA9": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_0_9"
+          },
+          "SDM0TOGGLE": {
+            "dir": "INPUT",
+            "wire": "SDMTOGGLE_FS_0"
+          },
+          "SDM0WIDTH0": {
+            "dir": "INPUT",
+            "wire": "SDMWIDTH_FS_0_0"
+          },
+          "SDM0WIDTH1": {
+            "dir": "INPUT",
+            "wire": "SDMWIDTH_FS_0_1"
+          },
+          "SDM1DATA0": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_0"
+          },
+          "SDM1DATA1": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_1"
+          },
+          "SDM1DATA10": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_10"
+          },
+          "SDM1DATA11": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_11"
+          },
+          "SDM1DATA12": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_12"
+          },
+          "SDM1DATA13": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_13"
+          },
+          "SDM1DATA14": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_14"
+          },
+          "SDM1DATA15": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_15"
+          },
+          "SDM1DATA16": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_16"
+          },
+          "SDM1DATA17": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_17"
+          },
+          "SDM1DATA18": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_18"
+          },
+          "SDM1DATA19": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_19"
+          },
+          "SDM1DATA2": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_2"
+          },
+          "SDM1DATA20": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_20"
+          },
+          "SDM1DATA21": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_21"
+          },
+          "SDM1DATA22": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_22"
+          },
+          "SDM1DATA23": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_23"
+          },
+          "SDM1DATA24": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_24"
+          },
+          "SDM1DATA3": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_3"
+          },
+          "SDM1DATA4": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_4"
+          },
+          "SDM1DATA5": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_5"
+          },
+          "SDM1DATA6": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_6"
+          },
+          "SDM1DATA7": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_7"
+          },
+          "SDM1DATA8": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_8"
+          },
+          "SDM1DATA9": {
+            "dir": "INPUT",
+            "wire": "SDMDATA_FS_1_9"
+          },
+          "SDM1FINALOUT0": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_1_0"
+          },
+          "SDM1FINALOUT1": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_1_1"
+          },
+          "SDM1FINALOUT2": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_1_2"
+          },
+          "SDM1FINALOUT3": {
+            "dir": "OUTPUT",
+            "wire": "SDMFINALOUT_SF_1_3"
+          },
+          "SDM1RESET": {
+            "dir": "INPUT",
+            "wire": "SDMRESET_FS_1"
+          },
+          "SDM1TESTDATA0": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_0"
+          },
+          "SDM1TESTDATA1": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_1"
+          },
+          "SDM1TESTDATA10": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_10"
+          },
+          "SDM1TESTDATA11": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_11"
+          },
+          "SDM1TESTDATA12": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_12"
+          },
+          "SDM1TESTDATA13": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_13"
+          },
+          "SDM1TESTDATA14": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_14"
+          },
+          "SDM1TESTDATA2": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_2"
+          },
+          "SDM1TESTDATA3": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_3"
+          },
+          "SDM1TESTDATA4": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_4"
+          },
+          "SDM1TESTDATA5": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_5"
+          },
+          "SDM1TESTDATA6": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_6"
+          },
+          "SDM1TESTDATA7": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_7"
+          },
+          "SDM1TESTDATA8": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_8"
+          },
+          "SDM1TESTDATA9": {
+            "dir": "OUTPUT",
+            "wire": "SDMTESTDATA_SF_1_9"
+          },
+          "SDM1TOGGLE": {
+            "dir": "INPUT",
+            "wire": "SDMTOGGLE_FS_1"
+          },
+          "SDM1WIDTH0": {
+            "dir": "INPUT",
+            "wire": "SDMWIDTH_FS_1_0"
+          },
+          "SDM1WIDTH1": {
+            "dir": "INPUT",
+            "wire": "SDMWIDTH_FS_1_1"
+          },
+          "UBCFGSTREAMEN": {
+            "dir": "INPUT",
+            "wire": "UB_RSVDIN_FS"
+          },
+          "UBDADDR0": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF0"
+          },
+          "UBDADDR1": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF1"
+          },
+          "UBDADDR10": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF10"
+          },
+          "UBDADDR11": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF11"
+          },
+          "UBDADDR12": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF12"
+          },
+          "UBDADDR13": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF13"
+          },
+          "UBDADDR14": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF14"
+          },
+          "UBDADDR15": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF15"
+          },
+          "UBDADDR2": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF2"
+          },
+          "UBDADDR3": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF3"
+          },
+          "UBDADDR4": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF4"
+          },
+          "UBDADDR5": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF5"
+          },
+          "UBDADDR6": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF6"
+          },
+          "UBDADDR7": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF7"
+          },
+          "UBDADDR8": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF8"
+          },
+          "UBDADDR9": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDADDR_SF9"
+          },
+          "UBDEN": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDEN_SF"
+          },
+          "UBDI0": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF0"
+          },
+          "UBDI1": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF1"
+          },
+          "UBDI10": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF10"
+          },
+          "UBDI11": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF11"
+          },
+          "UBDI12": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF12"
+          },
+          "UBDI13": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF13"
+          },
+          "UBDI14": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF14"
+          },
+          "UBDI15": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF15"
+          },
+          "UBDI2": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF2"
+          },
+          "UBDI3": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF3"
+          },
+          "UBDI4": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF4"
+          },
+          "UBDI5": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF5"
+          },
+          "UBDI6": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF6"
+          },
+          "UBDI7": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF7"
+          },
+          "UBDI8": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF8"
+          },
+          "UBDI9": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDI_SF9"
+          },
+          "UBDO0": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS0"
+          },
+          "UBDO1": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS1"
+          },
+          "UBDO10": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS10"
+          },
+          "UBDO11": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS11"
+          },
+          "UBDO12": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS12"
+          },
+          "UBDO13": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS13"
+          },
+          "UBDO14": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS14"
+          },
+          "UBDO15": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS15"
+          },
+          "UBDO2": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS2"
+          },
+          "UBDO3": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS3"
+          },
+          "UBDO4": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS4"
+          },
+          "UBDO5": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS5"
+          },
+          "UBDO6": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS6"
+          },
+          "UBDO7": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS7"
+          },
+          "UBDO8": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS8"
+          },
+          "UBDO9": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDO_FS9"
+          },
+          "UBDRDY": {
+            "dir": "INPUT",
+            "wire": "UB_OUTDRDY_FS"
+          },
+          "UBDWE": {
+            "dir": "OUTPUT",
+            "wire": "UB_OUTDWE_SF"
+          },
+          "UBENABLE": {
+            "dir": "INPUT",
+            "wire": "UB_ENABLE_FS"
+          },
+          "UBGPI0": {
+            "dir": "INPUT",
+            "wire": "UB_GPI_FS0"
+          },
+          "UBGPI1": {
+            "dir": "INPUT",
+            "wire": "UB_GPI_FS1"
+          },
+          "UBINTR0": {
+            "dir": "INPUT",
+            "wire": "UB_INTR_FS0"
+          },
+          "UBINTR1": {
+            "dir": "INPUT",
+            "wire": "UB_INTR_FS1"
+          },
+          "UBIOLMBRST": {
+            "dir": "INPUT",
+            "wire": "UB_IOLMBRST_FS"
+          },
+          "UBMBRST": {
+            "dir": "INPUT",
+            "wire": "UB_MBRST_FS"
+          },
+          "UBMDMCAPTURE": {
+            "dir": "INPUT",
+            "wire": "UB_MDMCAPTURE_FS"
+          },
+          "UBMDMDBGRST": {
+            "dir": "INPUT",
+            "wire": "UB_MDMDBGRST_FS"
+          },
+          "UBMDMDBGUPDATE": {
+            "dir": "INPUT",
+            "wire": "UB_MDMDBGUPDATE_FS"
+          },
+          "UBMDMREGEN0": {
+            "dir": "INPUT",
+            "wire": "UB_MDMREGEN_FS0"
+          },
+          "UBMDMREGEN1": {
+            "dir": "INPUT",
+            "wire": "UB_MDMREGEN_FS1"
+          },
+          "UBMDMREGEN2": {
+            "dir": "INPUT",
+            "wire": "UB_MDMREGEN_FS2"
+          },
+          "UBMDMREGEN3": {
+            "dir": "INPUT",
+            "wire": "UB_MDMREGEN_FS3"
+          },
+          "UBMDMSHIFT": {
+            "dir": "INPUT",
+            "wire": "UB_MDMSHIFT_FS"
+          },
+          "UBMDMSYSRST": {
+            "dir": "INPUT",
+            "wire": "UB_MDMSYSRST_FS"
+          },
+          "UBMDMTCK": {
+            "dir": "INPUT",
+            "wire": "UB_MDMTCK_FS"
+          },
+          "UBMDMTDI": {
+            "dir": "INPUT",
+            "wire": "UB_MDMTDI_FS"
+          },
+          "UBMDMTDO": {
+            "dir": "OUTPUT",
+            "wire": "UB_MDMTDO_SF"
+          },
+          "UBRSVDOUT": {
+            "dir": "OUTPUT",
+            "wire": "UB_RSVDOUT_SF"
+          },
+          "UBTXUART": {
+            "dir": "OUTPUT",
+            "wire": "UB_TXUART_SF"
+          }
+        },
+        "type": "GTYE4_COMMON_GTYE4_COMMON"
+      },
+      "IBUFDS0_GTYE4": {
+        "class": "BEL",
+        "pins": {
+          "CEB": {
+            "dir": "INPUT",
+            "wire": "REFCLKPD_FS_0"
+          },
+          "CLKTESTSIG": {
+            "dir": "INPUT",
+            "wire": "HROW_TEST_CK_FS_0"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "OBUFDS0_GTYE4_O"
+          },
+          "IB": {
+            "dir": "INPUT",
+            "wire": "OBUFDS0_GTYE4_OB"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "MGTREFCLK0"
+          },
+          "ODIV2": {
+            "dir": "OUTPUT",
+            "wire": "REFCLK2HROW0"
+          }
+        },
+        "type": "IBUFDS0_GTYE4"
+      },
+      "IBUFDS1_GTYE4": {
+        "class": "BEL",
+        "pins": {
+          "CEB": {
+            "dir": "INPUT",
+            "wire": "REFCLKPD_FS_1"
+          },
+          "CLKTESTSIG": {
+            "dir": "INPUT",
+            "wire": "HROW_TEST_CK_FS_1"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "OBUFDS1_GTYE4_O"
+          },
+          "IB": {
+            "dir": "INPUT",
+            "wire": "OBUFDS1_GTYE4_OB"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "MGTREFCLK1"
+          },
+          "ODIV2": {
+            "dir": "OUTPUT",
+            "wire": "REFCLK2HROW1"
+          }
+        },
+        "type": "IBUFDS1_GTYE4"
+      },
+      "OBUFDS0_GTYE4": {
+        "class": "BEL",
+        "pins": {
+          "CEB": {
+            "dir": "INPUT",
+            "wire": "REFCLKPD_FS_0"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK1"
+          },
+          "I2": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK2"
+          },
+          "I3": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK3"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OBUFDS0_GTYE4_O"
+          },
+          "OB": {
+            "dir": "OUTPUT",
+            "wire": "OBUFDS0_GTYE4_OB"
+          },
+          "RXRECCLK_SEL0": {
+            "dir": "INPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK0SEL0"
+          },
+          "RXRECCLK_SEL1": {
+            "dir": "INPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK0SEL1"
+          }
+        },
+        "type": "OBUFDS0_GTYE4"
+      },
+      "OBUFDS1_GTYE4": {
+        "class": "BEL",
+        "pins": {
+          "CEB": {
+            "dir": "INPUT",
+            "wire": "REFCLKPD_FS_1"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK1"
+          },
+          "I2": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK2"
+          },
+          "I3": {
+            "dir": "INPUT",
+            "wire": "RXRECCLK3"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "OBUFDS1_GTYE4_O"
+          },
+          "OB": {
+            "dir": "OUTPUT",
+            "wire": "OBUFDS1_GTYE4_OB"
+          },
+          "RXRECCLK_SEL0": {
+            "dir": "INPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK1SEL0"
+          },
+          "RXRECCLK_SEL1": {
+            "dir": "INPUT",
+            "wire": "GTYE4_COMMON_RXRECCLK1SEL1"
+          }
+        },
+        "type": "OBUFDS1_GTYE4"
+      },
+      "REFCLK0N": {
+        "class": "BEL",
+        "pins": {
+          "IO": {
+            "dir": "BIDIR",
+            "wire": "OBUFDS0_GTYE4_OB"
+          }
+        },
+        "type": "GTYE4_COMMON_PADN"
+      },
+      "REFCLK0P": {
+        "class": "BEL",
+        "pins": {
+          "IO": {
+            "dir": "BIDIR",
+            "wire": "OBUFDS0_GTYE4_O"
+          }
+        },
+        "type": "GTYE4_COMMON_PADP"
+      },
+      "REFCLK1N": {
+        "class": "BEL",
+        "pins": {
+          "IO": {
+            "dir": "BIDIR",
+            "wire": "OBUFDS1_GTYE4_OB"
+          }
+        },
+        "type": "GTYE4_COMMON_PADN"
+      },
+      "REFCLK1P": {
+        "class": "BEL",
+        "pins": {
+          "IO": {
+            "dir": "BIDIR",
+            "wire": "OBUFDS1_GTYE4_O"
+          }
+        },
+        "type": "GTYE4_COMMON_PADP"
+      }
+    },
+    "pins": {
+      "BGBYPASS_FS_1": {
+        "dir": "INPUT",
+        "primary": "BGBYPASS_FS_1",
+        "wire": "BGBYPASS_FS_1"
+      },
+      "BGRCALCTL_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "BGRCALCTL_FS_1_0",
+        "wire": "BGRCALCTL_FS_1_0"
+      },
+      "BGRCALCTL_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "BGRCALCTL_FS_1_1",
+        "wire": "BGRCALCTL_FS_1_1"
+      },
+      "BGRCALCTL_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "BGRCALCTL_FS_1_2",
+        "wire": "BGRCALCTL_FS_1_2"
+      },
+      "BGRCALCTL_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "BGRCALCTL_FS_1_3",
+        "wire": "BGRCALCTL_FS_1_3"
+      },
+      "BGRCALCTL_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "BGRCALCTL_FS_1_4",
+        "wire": "BGRCALCTL_FS_1_4"
+      },
+      "BGRCALOVRDENB_FS_1": {
+        "dir": "INPUT",
+        "primary": "BGRCALOVRDENB_FS_1",
+        "wire": "BGRCALOVRDENB_FS_1"
+      },
+      "BGTESTEN_FS_1": {
+        "dir": "INPUT",
+        "primary": "BGTESTEN_FS_1",
+        "wire": "BGTESTEN_FS_1"
+      },
+      "COM0_REFCLKOUT0": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT0",
+        "wire": "COM0_REFCLKOUT0"
+      },
+      "COM0_REFCLKOUT1": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT1",
+        "wire": "COM0_REFCLKOUT1"
+      },
+      "COM0_REFCLKOUT2": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT2",
+        "wire": "COM0_REFCLKOUT2"
+      },
+      "COM0_REFCLKOUT3": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT3",
+        "wire": "COM0_REFCLKOUT3"
+      },
+      "COM0_REFCLKOUT4": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT4",
+        "wire": "COM0_REFCLKOUT4"
+      },
+      "COM0_REFCLKOUT5": {
+        "dir": "INPUT",
+        "primary": "COM0_REFCLKOUT5",
+        "wire": "COM0_REFCLKOUT5"
+      },
+      "COM2_REFCLKOUT0": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT0",
+        "wire": "COM2_REFCLKOUT0"
+      },
+      "COM2_REFCLKOUT1": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT1",
+        "wire": "COM2_REFCLKOUT1"
+      },
+      "COM2_REFCLKOUT2": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT2",
+        "wire": "COM2_REFCLKOUT2"
+      },
+      "COM2_REFCLKOUT3": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT3",
+        "wire": "COM2_REFCLKOUT3"
+      },
+      "COM2_REFCLKOUT4": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT4",
+        "wire": "COM2_REFCLKOUT4"
+      },
+      "COM2_REFCLKOUT5": {
+        "dir": "INPUT",
+        "primary": "COM2_REFCLKOUT5",
+        "wire": "COM2_REFCLKOUT5"
+      },
+      "CSSDSTOPCLKCM_FS_0": {
+        "dir": "INPUT",
+        "primary": "CSSDSTOPCLKCM_FS_0",
+        "wire": "CSSDSTOPCLKCM_FS_0"
+      },
+      "CSSDSTOPCLKCM_FS_1": {
+        "dir": "INPUT",
+        "primary": "CSSDSTOPCLKCM_FS_1",
+        "wire": "CSSDSTOPCLKCM_FS_1"
+      },
+      "CSSDSTOPCLKDONECM_SF_0": {
+        "dir": "OUTPUT",
+        "primary": "CSSDSTOPCLKDONECM_SF_0",
+        "wire": "CSSDSTOPCLKDONECM_SF_0"
+      },
+      "CSSDSTOPCLKDONECM_SF_1": {
+        "dir": "OUTPUT",
+        "primary": "CSSDSTOPCLKDONECM_SF_1",
+        "wire": "CSSDSTOPCLKDONECM_SF_1"
+      },
+      "DADDR_FS0": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS0",
+        "wire": "DADDR_FS0"
+      },
+      "DADDR_FS1": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS1",
+        "wire": "DADDR_FS1"
+      },
+      "DADDR_FS10": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS10",
+        "wire": "DADDR_FS10"
+      },
+      "DADDR_FS11": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS11",
+        "wire": "DADDR_FS11"
+      },
+      "DADDR_FS12": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS12",
+        "wire": "DADDR_FS12"
+      },
+      "DADDR_FS13": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS13",
+        "wire": "DADDR_FS13"
+      },
+      "DADDR_FS14": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS14",
+        "wire": "DADDR_FS14"
+      },
+      "DADDR_FS15": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS15",
+        "wire": "DADDR_FS15"
+      },
+      "DADDR_FS2": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS2",
+        "wire": "DADDR_FS2"
+      },
+      "DADDR_FS3": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS3",
+        "wire": "DADDR_FS3"
+      },
+      "DADDR_FS4": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS4",
+        "wire": "DADDR_FS4"
+      },
+      "DADDR_FS5": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS5",
+        "wire": "DADDR_FS5"
+      },
+      "DADDR_FS6": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS6",
+        "wire": "DADDR_FS6"
+      },
+      "DADDR_FS7": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS7",
+        "wire": "DADDR_FS7"
+      },
+      "DADDR_FS8": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS8",
+        "wire": "DADDR_FS8"
+      },
+      "DADDR_FS9": {
+        "dir": "INPUT",
+        "primary": "DADDR_FS9",
+        "wire": "DADDR_FS9"
+      },
+      "DCLK_FS": {
+        "dir": "INPUT",
+        "primary": "DCLK_FS",
+        "wire": "DCLK_FS"
+      },
+      "DEN_FS": {
+        "dir": "INPUT",
+        "primary": "DEN_FS",
+        "wire": "DEN_FS"
+      },
+      "DI_FS0": {
+        "dir": "INPUT",
+        "primary": "DI_FS0",
+        "wire": "DI_FS0"
+      },
+      "DI_FS1": {
+        "dir": "INPUT",
+        "primary": "DI_FS1",
+        "wire": "DI_FS1"
+      },
+      "DI_FS10": {
+        "dir": "INPUT",
+        "primary": "DI_FS10",
+        "wire": "DI_FS10"
+      },
+      "DI_FS11": {
+        "dir": "INPUT",
+        "primary": "DI_FS11",
+        "wire": "DI_FS11"
+      },
+      "DI_FS12": {
+        "dir": "INPUT",
+        "primary": "DI_FS12",
+        "wire": "DI_FS12"
+      },
+      "DI_FS13": {
+        "dir": "INPUT",
+        "primary": "DI_FS13",
+        "wire": "DI_FS13"
+      },
+      "DI_FS14": {
+        "dir": "INPUT",
+        "primary": "DI_FS14",
+        "wire": "DI_FS14"
+      },
+      "DI_FS15": {
+        "dir": "INPUT",
+        "primary": "DI_FS15",
+        "wire": "DI_FS15"
+      },
+      "DI_FS2": {
+        "dir": "INPUT",
+        "primary": "DI_FS2",
+        "wire": "DI_FS2"
+      },
+      "DI_FS3": {
+        "dir": "INPUT",
+        "primary": "DI_FS3",
+        "wire": "DI_FS3"
+      },
+      "DI_FS4": {
+        "dir": "INPUT",
+        "primary": "DI_FS4",
+        "wire": "DI_FS4"
+      },
+      "DI_FS5": {
+        "dir": "INPUT",
+        "primary": "DI_FS5",
+        "wire": "DI_FS5"
+      },
+      "DI_FS6": {
+        "dir": "INPUT",
+        "primary": "DI_FS6",
+        "wire": "DI_FS6"
+      },
+      "DI_FS7": {
+        "dir": "INPUT",
+        "primary": "DI_FS7",
+        "wire": "DI_FS7"
+      },
+      "DI_FS8": {
+        "dir": "INPUT",
+        "primary": "DI_FS8",
+        "wire": "DI_FS8"
+      },
+      "DI_FS9": {
+        "dir": "INPUT",
+        "primary": "DI_FS9",
+        "wire": "DI_FS9"
+      },
+      "DMONOUT_QDCM_SF_0_0": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_0",
+        "wire": "DMONOUT_QDCM_SF_0_0"
+      },
+      "DMONOUT_QDCM_SF_0_1": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_1",
+        "wire": "DMONOUT_QDCM_SF_0_1"
+      },
+      "DMONOUT_QDCM_SF_0_2": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_2",
+        "wire": "DMONOUT_QDCM_SF_0_2"
+      },
+      "DMONOUT_QDCM_SF_0_3": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_3",
+        "wire": "DMONOUT_QDCM_SF_0_3"
+      },
+      "DMONOUT_QDCM_SF_0_4": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_4",
+        "wire": "DMONOUT_QDCM_SF_0_4"
+      },
+      "DMONOUT_QDCM_SF_0_5": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_5",
+        "wire": "DMONOUT_QDCM_SF_0_5"
+      },
+      "DMONOUT_QDCM_SF_0_6": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_6",
+        "wire": "DMONOUT_QDCM_SF_0_6"
+      },
+      "DMONOUT_QDCM_SF_0_7": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_0_7",
+        "wire": "DMONOUT_QDCM_SF_0_7"
+      },
+      "DMONOUT_QDCM_SF_1_0": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_0",
+        "wire": "DMONOUT_QDCM_SF_1_0"
+      },
+      "DMONOUT_QDCM_SF_1_1": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_1",
+        "wire": "DMONOUT_QDCM_SF_1_1"
+      },
+      "DMONOUT_QDCM_SF_1_2": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_2",
+        "wire": "DMONOUT_QDCM_SF_1_2"
+      },
+      "DMONOUT_QDCM_SF_1_3": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_3",
+        "wire": "DMONOUT_QDCM_SF_1_3"
+      },
+      "DMONOUT_QDCM_SF_1_4": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_4",
+        "wire": "DMONOUT_QDCM_SF_1_4"
+      },
+      "DMONOUT_QDCM_SF_1_5": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_5",
+        "wire": "DMONOUT_QDCM_SF_1_5"
+      },
+      "DMONOUT_QDCM_SF_1_6": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_6",
+        "wire": "DMONOUT_QDCM_SF_1_6"
+      },
+      "DMONOUT_QDCM_SF_1_7": {
+        "dir": "OUTPUT",
+        "primary": "DMONOUT_QDCM_SF_1_7",
+        "wire": "DMONOUT_QDCM_SF_1_7"
+      },
+      "DRDY_SF": {
+        "dir": "OUTPUT",
+        "primary": "DRDY_SF",
+        "wire": "DRDY_SF"
+      },
+      "DRPDO_SF0": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF0",
+        "wire": "DRPDO_SF0"
+      },
+      "DRPDO_SF1": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF1",
+        "wire": "DRPDO_SF1"
+      },
+      "DRPDO_SF10": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF10",
+        "wire": "DRPDO_SF10"
+      },
+      "DRPDO_SF11": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF11",
+        "wire": "DRPDO_SF11"
+      },
+      "DRPDO_SF12": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF12",
+        "wire": "DRPDO_SF12"
+      },
+      "DRPDO_SF13": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF13",
+        "wire": "DRPDO_SF13"
+      },
+      "DRPDO_SF14": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF14",
+        "wire": "DRPDO_SF14"
+      },
+      "DRPDO_SF15": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF15",
+        "wire": "DRPDO_SF15"
+      },
+      "DRPDO_SF2": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF2",
+        "wire": "DRPDO_SF2"
+      },
+      "DRPDO_SF3": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF3",
+        "wire": "DRPDO_SF3"
+      },
+      "DRPDO_SF4": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF4",
+        "wire": "DRPDO_SF4"
+      },
+      "DRPDO_SF5": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF5",
+        "wire": "DRPDO_SF5"
+      },
+      "DRPDO_SF6": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF6",
+        "wire": "DRPDO_SF6"
+      },
+      "DRPDO_SF7": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF7",
+        "wire": "DRPDO_SF7"
+      },
+      "DRPDO_SF8": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF8",
+        "wire": "DRPDO_SF8"
+      },
+      "DRPDO_SF9": {
+        "dir": "OUTPUT",
+        "primary": "DRPDO_SF9",
+        "wire": "DRPDO_SF9"
+      },
+      "DWE_FS": {
+        "dir": "INPUT",
+        "primary": "DWE_FS",
+        "wire": "DWE_FS"
+      },
+      "HROW_TEST_CK_FS_0": {
+        "dir": "INPUT",
+        "primary": "HROW_TEST_CK_FS_0",
+        "wire": "HROW_TEST_CK_FS_0"
+      },
+      "HROW_TEST_CK_FS_1": {
+        "dir": "INPUT",
+        "primary": "HROW_TEST_CK_FS_1",
+        "wire": "HROW_TEST_CK_FS_1"
+      },
+      "MGTREFCLK0": {
+        "dir": "OUTPUT",
+        "primary": "MGTREFCLK0",
+        "wire": "MGTREFCLK0"
+      },
+      "MGTREFCLK1": {
+        "dir": "OUTPUT",
+        "primary": "MGTREFCLK1",
+        "wire": "MGTREFCLK1"
+      },
+      "MGTREFCLKFA_SF_0": {
+        "dir": "OUTPUT",
+        "primary": "MGTREFCLKFA_SF_0",
+        "wire": "MGTREFCLKFA_SF_0"
+      },
+      "MGTREFCLKFA_SF_1": {
+        "dir": "OUTPUT",
+        "primary": "MGTREFCLKFA_SF_1",
+        "wire": "MGTREFCLKFA_SF_1"
+      },
+      "PWRDNBGB_FS_1": {
+        "dir": "INPUT",
+        "primary": "PWRDNBGB_FS_1",
+        "wire": "PWRDNBGB_FS_1"
+      },
+      "QDCLKPINSPRD0_FS_0": {
+        "dir": "INPUT",
+        "primary": "QDCLKPINSPRD0_FS_0",
+        "wire": "QDCLKPINSPRD0_FS_0"
+      },
+      "QDCLKPINSPRD0_FS_1": {
+        "dir": "INPUT",
+        "primary": "QDCLKPINSPRD0_FS_1",
+        "wire": "QDCLKPINSPRD0_FS_1"
+      },
+      "QDCLKPINSPRD1_FS_0": {
+        "dir": "INPUT",
+        "primary": "QDCLKPINSPRD1_FS_0",
+        "wire": "QDCLKPINSPRD1_FS_0"
+      },
+      "QDCLKPINSPRD1_FS_1": {
+        "dir": "INPUT",
+        "primary": "QDCLKPINSPRD1_FS_1",
+        "wire": "QDCLKPINSPRD1_FS_1"
+      },
+      "QDCMREFCLK_INT_0": {
+        "dir": "OUTPUT",
+        "primary": "QDCMREFCLK_INT_0",
+        "wire": "QDCMREFCLK_INT_0"
+      },
+      "QDCMREFCLK_INT_1": {
+        "dir": "OUTPUT",
+        "primary": "QDCMREFCLK_INT_1",
+        "wire": "QDCMREFCLK_INT_1"
+      },
+      "QDCMRSVDOUT_SF_0_0": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_0",
+        "wire": "QDCMRSVDOUT_SF_0_0"
+      },
+      "QDCMRSVDOUT_SF_0_1": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_1",
+        "wire": "QDCMRSVDOUT_SF_0_1"
+      },
+      "QDCMRSVDOUT_SF_0_2": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_2",
+        "wire": "QDCMRSVDOUT_SF_0_2"
+      },
+      "QDCMRSVDOUT_SF_0_3": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_3",
+        "wire": "QDCMRSVDOUT_SF_0_3"
+      },
+      "QDCMRSVDOUT_SF_0_4": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_4",
+        "wire": "QDCMRSVDOUT_SF_0_4"
+      },
+      "QDCMRSVDOUT_SF_0_5": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_5",
+        "wire": "QDCMRSVDOUT_SF_0_5"
+      },
+      "QDCMRSVDOUT_SF_0_6": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_6",
+        "wire": "QDCMRSVDOUT_SF_0_6"
+      },
+      "QDCMRSVDOUT_SF_0_7": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_0_7",
+        "wire": "QDCMRSVDOUT_SF_0_7"
+      },
+      "QDCMRSVDOUT_SF_1_0": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_0",
+        "wire": "QDCMRSVDOUT_SF_1_0"
+      },
+      "QDCMRSVDOUT_SF_1_1": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_1",
+        "wire": "QDCMRSVDOUT_SF_1_1"
+      },
+      "QDCMRSVDOUT_SF_1_2": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_2",
+        "wire": "QDCMRSVDOUT_SF_1_2"
+      },
+      "QDCMRSVDOUT_SF_1_3": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_3",
+        "wire": "QDCMRSVDOUT_SF_1_3"
+      },
+      "QDCMRSVDOUT_SF_1_4": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_4",
+        "wire": "QDCMRSVDOUT_SF_1_4"
+      },
+      "QDCMRSVDOUT_SF_1_5": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_5",
+        "wire": "QDCMRSVDOUT_SF_1_5"
+      },
+      "QDCMRSVDOUT_SF_1_6": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_6",
+        "wire": "QDCMRSVDOUT_SF_1_6"
+      },
+      "QDCMRSVDOUT_SF_1_7": {
+        "dir": "OUTPUT",
+        "primary": "QDCMRSVDOUT_SF_1_7",
+        "wire": "QDCMRSVDOUT_SF_1_7"
+      },
+      "QDCMRSVDPIN_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_0",
+        "wire": "QDCMRSVDPIN_FS_0_0"
+      },
+      "QDCMRSVDPIN_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_1",
+        "wire": "QDCMRSVDPIN_FS_0_1"
+      },
+      "QDCMRSVDPIN_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_2",
+        "wire": "QDCMRSVDPIN_FS_0_2"
+      },
+      "QDCMRSVDPIN_FS_0_3": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_3",
+        "wire": "QDCMRSVDPIN_FS_0_3"
+      },
+      "QDCMRSVDPIN_FS_0_4": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_4",
+        "wire": "QDCMRSVDPIN_FS_0_4"
+      },
+      "QDCMRSVDPIN_FS_0_5": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_5",
+        "wire": "QDCMRSVDPIN_FS_0_5"
+      },
+      "QDCMRSVDPIN_FS_0_6": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_6",
+        "wire": "QDCMRSVDPIN_FS_0_6"
+      },
+      "QDCMRSVDPIN_FS_0_7": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_0_7",
+        "wire": "QDCMRSVDPIN_FS_0_7"
+      },
+      "QDCMRSVDPIN_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_0",
+        "wire": "QDCMRSVDPIN_FS_1_0"
+      },
+      "QDCMRSVDPIN_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_1",
+        "wire": "QDCMRSVDPIN_FS_1_1"
+      },
+      "QDCMRSVDPIN_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_2",
+        "wire": "QDCMRSVDPIN_FS_1_2"
+      },
+      "QDCMRSVDPIN_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_3",
+        "wire": "QDCMRSVDPIN_FS_1_3"
+      },
+      "QDCMRSVDPIN_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_4",
+        "wire": "QDCMRSVDPIN_FS_1_4"
+      },
+      "QDCMRSVDPIN_FS_1_5": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_5",
+        "wire": "QDCMRSVDPIN_FS_1_5"
+      },
+      "QDCMRSVDPIN_FS_1_6": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_6",
+        "wire": "QDCMRSVDPIN_FS_1_6"
+      },
+      "QDCMRSVDPIN_FS_1_7": {
+        "dir": "INPUT",
+        "primary": "QDCMRSVDPIN_FS_1_7",
+        "wire": "QDCMRSVDPIN_FS_1_7"
+      },
+      "QDCOREREFCLK_FS_0": {
+        "dir": "INPUT",
+        "primary": "QDCOREREFCLK_FS_0",
+        "wire": "QDCOREREFCLK_FS_0"
+      },
+      "QDCOREREFCLK_FS_1": {
+        "dir": "INPUT",
+        "primary": "QDCOREREFCLK_FS_1",
+        "wire": "QDCOREREFCLK_FS_1"
+      },
+      "QDPINSPRD_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_0_0",
+        "wire": "QDPINSPRD_FS_0_0"
+      },
+      "QDPINSPRD_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_0_1",
+        "wire": "QDPINSPRD_FS_0_1"
+      },
+      "QDPINSPRD_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_0_2",
+        "wire": "QDPINSPRD_FS_0_2"
+      },
+      "QDPINSPRD_FS_0_3": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_0_3",
+        "wire": "QDPINSPRD_FS_0_3"
+      },
+      "QDPINSPRD_FS_0_4": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_0_4",
+        "wire": "QDPINSPRD_FS_0_4"
+      },
+      "QDPINSPRD_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_1_0",
+        "wire": "QDPINSPRD_FS_1_0"
+      },
+      "QDPINSPRD_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_1_1",
+        "wire": "QDPINSPRD_FS_1_1"
+      },
+      "QDPINSPRD_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_1_2",
+        "wire": "QDPINSPRD_FS_1_2"
+      },
+      "QDPINSPRD_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_1_3",
+        "wire": "QDPINSPRD_FS_1_3"
+      },
+      "QDPINSPRD_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "QDPINSPRD_FS_1_4",
+        "wire": "QDPINSPRD_FS_1_4"
+      },
+      "QDPLLCLK0P_0": {
+        "dir": "OUTPUT",
+        "primary": "QDPLLCLK0P_0",
+        "wire": "QDPLLCLK0P_0"
+      },
+      "QDPLLCLK0P_1": {
+        "dir": "OUTPUT",
+        "primary": "QDPLLCLK0P_1",
+        "wire": "QDPLLCLK0P_1"
+      },
+      "QDPMAPINRSVD_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_0",
+        "wire": "QDPMAPINRSVD_FS_0_0"
+      },
+      "QDPMAPINRSVD_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_1",
+        "wire": "QDPMAPINRSVD_FS_0_1"
+      },
+      "QDPMAPINRSVD_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_2",
+        "wire": "QDPMAPINRSVD_FS_0_2"
+      },
+      "QDPMAPINRSVD_FS_0_3": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_3",
+        "wire": "QDPMAPINRSVD_FS_0_3"
+      },
+      "QDPMAPINRSVD_FS_0_4": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_4",
+        "wire": "QDPMAPINRSVD_FS_0_4"
+      },
+      "QDPMAPINRSVD_FS_0_5": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_5",
+        "wire": "QDPMAPINRSVD_FS_0_5"
+      },
+      "QDPMAPINRSVD_FS_0_6": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_6",
+        "wire": "QDPMAPINRSVD_FS_0_6"
+      },
+      "QDPMAPINRSVD_FS_0_7": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_0_7",
+        "wire": "QDPMAPINRSVD_FS_0_7"
+      },
+      "QDPMAPINRSVD_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_0",
+        "wire": "QDPMAPINRSVD_FS_1_0"
+      },
+      "QDPMAPINRSVD_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_1",
+        "wire": "QDPMAPINRSVD_FS_1_1"
+      },
+      "QDPMAPINRSVD_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_2",
+        "wire": "QDPMAPINRSVD_FS_1_2"
+      },
+      "QDPMAPINRSVD_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_3",
+        "wire": "QDPMAPINRSVD_FS_1_3"
+      },
+      "QDPMAPINRSVD_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_4",
+        "wire": "QDPMAPINRSVD_FS_1_4"
+      },
+      "QDPMAPINRSVD_FS_1_5": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_5",
+        "wire": "QDPMAPINRSVD_FS_1_5"
+      },
+      "QDPMAPINRSVD_FS_1_6": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_6",
+        "wire": "QDPMAPINRSVD_FS_1_6"
+      },
+      "QDPMAPINRSVD_FS_1_7": {
+        "dir": "INPUT",
+        "primary": "QDPMAPINRSVD_FS_1_7",
+        "wire": "QDPMAPINRSVD_FS_1_7"
+      },
+      "QDPMASCANCLK_FS0": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS0",
+        "wire": "QDPMASCANCLK_FS0"
+      },
+      "QDPMASCANCLK_FS1": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS1",
+        "wire": "QDPMASCANCLK_FS1"
+      },
+      "QDPMASCANCLK_FS10": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS10",
+        "wire": "QDPMASCANCLK_FS10"
+      },
+      "QDPMASCANCLK_FS11": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS11",
+        "wire": "QDPMASCANCLK_FS11"
+      },
+      "QDPMASCANCLK_FS12": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS12",
+        "wire": "QDPMASCANCLK_FS12"
+      },
+      "QDPMASCANCLK_FS13": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS13",
+        "wire": "QDPMASCANCLK_FS13"
+      },
+      "QDPMASCANCLK_FS2": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS2",
+        "wire": "QDPMASCANCLK_FS2"
+      },
+      "QDPMASCANCLK_FS3": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS3",
+        "wire": "QDPMASCANCLK_FS3"
+      },
+      "QDPMASCANCLK_FS4": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS4",
+        "wire": "QDPMASCANCLK_FS4"
+      },
+      "QDPMASCANCLK_FS5": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS5",
+        "wire": "QDPMASCANCLK_FS5"
+      },
+      "QDPMASCANCLK_FS6": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS6",
+        "wire": "QDPMASCANCLK_FS6"
+      },
+      "QDPMASCANCLK_FS7": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS7",
+        "wire": "QDPMASCANCLK_FS7"
+      },
+      "QDPMASCANCLK_FS8": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS8",
+        "wire": "QDPMASCANCLK_FS8"
+      },
+      "QDPMASCANCLK_FS9": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANCLK_FS9",
+        "wire": "QDPMASCANCLK_FS9"
+      },
+      "QDPMASCANENB_FS": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANENB_FS",
+        "wire": "QDPMASCANENB_FS"
+      },
+      "QDPMASCANIN_FS0": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS0",
+        "wire": "QDPMASCANIN_FS0"
+      },
+      "QDPMASCANIN_FS1": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS1",
+        "wire": "QDPMASCANIN_FS1"
+      },
+      "QDPMASCANIN_FS10": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS10",
+        "wire": "QDPMASCANIN_FS10"
+      },
+      "QDPMASCANIN_FS11": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS11",
+        "wire": "QDPMASCANIN_FS11"
+      },
+      "QDPMASCANIN_FS12": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS12",
+        "wire": "QDPMASCANIN_FS12"
+      },
+      "QDPMASCANIN_FS13": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS13",
+        "wire": "QDPMASCANIN_FS13"
+      },
+      "QDPMASCANIN_FS2": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS2",
+        "wire": "QDPMASCANIN_FS2"
+      },
+      "QDPMASCANIN_FS3": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS3",
+        "wire": "QDPMASCANIN_FS3"
+      },
+      "QDPMASCANIN_FS4": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS4",
+        "wire": "QDPMASCANIN_FS4"
+      },
+      "QDPMASCANIN_FS5": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS5",
+        "wire": "QDPMASCANIN_FS5"
+      },
+      "QDPMASCANIN_FS6": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS6",
+        "wire": "QDPMASCANIN_FS6"
+      },
+      "QDPMASCANIN_FS7": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS7",
+        "wire": "QDPMASCANIN_FS7"
+      },
+      "QDPMASCANIN_FS8": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS8",
+        "wire": "QDPMASCANIN_FS8"
+      },
+      "QDPMASCANIN_FS9": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANIN_FS9",
+        "wire": "QDPMASCANIN_FS9"
+      },
+      "QDPMASCANMODEB_FS": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANMODEB_FS",
+        "wire": "QDPMASCANMODEB_FS"
+      },
+      "QDPMASCANOUT_SF0": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF0",
+        "wire": "QDPMASCANOUT_SF0"
+      },
+      "QDPMASCANOUT_SF1": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF1",
+        "wire": "QDPMASCANOUT_SF1"
+      },
+      "QDPMASCANOUT_SF10": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF10",
+        "wire": "QDPMASCANOUT_SF10"
+      },
+      "QDPMASCANOUT_SF11": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF11",
+        "wire": "QDPMASCANOUT_SF11"
+      },
+      "QDPMASCANOUT_SF12": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF12",
+        "wire": "QDPMASCANOUT_SF12"
+      },
+      "QDPMASCANOUT_SF13": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF13",
+        "wire": "QDPMASCANOUT_SF13"
+      },
+      "QDPMASCANOUT_SF2": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF2",
+        "wire": "QDPMASCANOUT_SF2"
+      },
+      "QDPMASCANOUT_SF3": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF3",
+        "wire": "QDPMASCANOUT_SF3"
+      },
+      "QDPMASCANOUT_SF4": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF4",
+        "wire": "QDPMASCANOUT_SF4"
+      },
+      "QDPMASCANOUT_SF5": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF5",
+        "wire": "QDPMASCANOUT_SF5"
+      },
+      "QDPMASCANOUT_SF6": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF6",
+        "wire": "QDPMASCANOUT_SF6"
+      },
+      "QDPMASCANOUT_SF7": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF7",
+        "wire": "QDPMASCANOUT_SF7"
+      },
+      "QDPMASCANOUT_SF8": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF8",
+        "wire": "QDPMASCANOUT_SF8"
+      },
+      "QDPMASCANOUT_SF9": {
+        "dir": "OUTPUT",
+        "primary": "QDPMASCANOUT_SF9",
+        "wire": "QDPMASCANOUT_SF9"
+      },
+      "QDPMASCANRSTEN_FS": {
+        "dir": "INPUT",
+        "primary": "QDPMASCANRSTEN_FS",
+        "wire": "QDPMASCANRSTEN_FS"
+      },
+      "QPLFBDIV_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_0",
+        "wire": "QPLFBDIV_FS_0_0"
+      },
+      "QPLFBDIV_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_1",
+        "wire": "QPLFBDIV_FS_0_1"
+      },
+      "QPLFBDIV_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_2",
+        "wire": "QPLFBDIV_FS_0_2"
+      },
+      "QPLFBDIV_FS_0_3": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_3",
+        "wire": "QPLFBDIV_FS_0_3"
+      },
+      "QPLFBDIV_FS_0_4": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_4",
+        "wire": "QPLFBDIV_FS_0_4"
+      },
+      "QPLFBDIV_FS_0_5": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_5",
+        "wire": "QPLFBDIV_FS_0_5"
+      },
+      "QPLFBDIV_FS_0_6": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_6",
+        "wire": "QPLFBDIV_FS_0_6"
+      },
+      "QPLFBDIV_FS_0_7": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_0_7",
+        "wire": "QPLFBDIV_FS_0_7"
+      },
+      "QPLFBDIV_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_0",
+        "wire": "QPLFBDIV_FS_1_0"
+      },
+      "QPLFBDIV_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_1",
+        "wire": "QPLFBDIV_FS_1_1"
+      },
+      "QPLFBDIV_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_2",
+        "wire": "QPLFBDIV_FS_1_2"
+      },
+      "QPLFBDIV_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_3",
+        "wire": "QPLFBDIV_FS_1_3"
+      },
+      "QPLFBDIV_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_4",
+        "wire": "QPLFBDIV_FS_1_4"
+      },
+      "QPLFBDIV_FS_1_5": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_5",
+        "wire": "QPLFBDIV_FS_1_5"
+      },
+      "QPLFBDIV_FS_1_6": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_6",
+        "wire": "QPLFBDIV_FS_1_6"
+      },
+      "QPLFBDIV_FS_1_7": {
+        "dir": "INPUT",
+        "primary": "QPLFBDIV_FS_1_7",
+        "wire": "QPLFBDIV_FS_1_7"
+      },
+      "QPLFBLOSS_SF_0": {
+        "dir": "OUTPUT",
+        "primary": "QPLFBLOSS_SF_0",
+        "wire": "QPLFBLOSS_SF_0"
+      },
+      "QPLFBLOSS_SF_1": {
+        "dir": "OUTPUT",
+        "primary": "QPLFBLOSS_SF_1",
+        "wire": "QPLFBLOSS_SF_1"
+      },
+      "QPLFREQLOCK_SF_0": {
+        "dir": "OUTPUT",
+        "primary": "QPLFREQLOCK_SF_0",
+        "wire": "QPLFREQLOCK_SF_0"
+      },
+      "QPLFREQLOCK_SF_1": {
+        "dir": "OUTPUT",
+        "primary": "QPLFREQLOCK_SF_1",
+        "wire": "QPLFREQLOCK_SF_1"
+      },
+      "QPLLDMONCLK_FS_0": {
+        "dir": "INPUT",
+        "primary": "QPLLDMONCLK_FS_0",
+        "wire": "QPLLDMONCLK_FS_0"
+      },
+      "QPLLDMONCLK_FS_1": {
+        "dir": "INPUT",
+        "primary": "QPLLDMONCLK_FS_1",
+        "wire": "QPLLDMONCLK_FS_1"
+      },
+      "QPLLKDETEN_FS_0": {
+        "dir": "INPUT",
+        "primary": "QPLLKDETEN_FS_0",
+        "wire": "QPLLKDETEN_FS_0"
+      },
+      "QPLLKDETEN_FS_1": {
+        "dir": "INPUT",
+        "primary": "QPLLKDETEN_FS_1",
+        "wire": "QPLLKDETEN_FS_1"
+      },
+      "QPLPWRDN_FS_0": {
+        "dir": "INPUT",
+        "primary": "QPLPWRDN_FS_0",
+        "wire": "QPLPWRDN_FS_0"
+      },
+      "QPLPWRDN_FS_1": {
+        "dir": "INPUT",
+        "primary": "QPLPWRDN_FS_1",
+        "wire": "QPLPWRDN_FS_1"
+      },
+      "QPLREFDYN_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_0_0",
+        "wire": "QPLREFDYN_FS_0_0"
+      },
+      "QPLREFDYN_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_0_1",
+        "wire": "QPLREFDYN_FS_0_1"
+      },
+      "QPLREFDYN_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_0_2",
+        "wire": "QPLREFDYN_FS_0_2"
+      },
+      "QPLREFDYN_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_1_0",
+        "wire": "QPLREFDYN_FS_1_0"
+      },
+      "QPLREFDYN_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_1_1",
+        "wire": "QPLREFDYN_FS_1_1"
+      },
+      "QPLREFDYN_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "QPLREFDYN_FS_1_2",
+        "wire": "QPLREFDYN_FS_1_2"
+      },
+      "QPLREFLOSS_SF_0": {
+        "dir": "OUTPUT",
+        "primary": "QPLREFLOSS_SF_0",
+        "wire": "QPLREFLOSS_SF_0"
+      },
+      "QPLREFLOSS_SF_1": {
+        "dir": "OUTPUT",
+        "primary": "QPLREFLOSS_SF_1",
+        "wire": "QPLREFLOSS_SF_1"
+      },
+      "QPLRESET_FS_0": {
+        "dir": "INPUT",
+        "primary": "QPLRESET_FS_0",
+        "wire": "QPLRESET_FS_0"
+      },
+      "QPLRESET_FS_1": {
+        "dir": "INPUT",
+        "primary": "QPLRESET_FS_1",
+        "wire": "QPLRESET_FS_1"
+      },
+      "RCALENB_FS_1": {
+        "dir": "INPUT",
+        "primary": "RCALENB_FS_1",
+        "wire": "RCALENB_FS_1"
+      },
+      "REFCLK2HROW0": {
+        "dir": "OUTPUT",
+        "primary": "REFCLK2HROW0",
+        "wire": "REFCLK2HROW0"
+      },
+      "REFCLK2HROW1": {
+        "dir": "OUTPUT",
+        "primary": "REFCLK2HROW1",
+        "wire": "REFCLK2HROW1"
+      },
+      "REFCLKPD_FS_0": {
+        "dir": "INPUT",
+        "primary": "REFCLKPD_FS_0",
+        "wire": "REFCLKPD_FS_0"
+      },
+      "REFCLKPD_FS_1": {
+        "dir": "INPUT",
+        "primary": "REFCLKPD_FS_1",
+        "wire": "REFCLKPD_FS_1"
+      },
+      "RXRECCLK0": {
+        "dir": "INPUT",
+        "primary": "RXRECCLK0",
+        "wire": "RXRECCLK0"
+      },
+      "RXRECCLK1": {
+        "dir": "INPUT",
+        "primary": "RXRECCLK1",
+        "wire": "RXRECCLK1"
+      },
+      "RXRECCLK2": {
+        "dir": "INPUT",
+        "primary": "RXRECCLK2",
+        "wire": "RXRECCLK2"
+      },
+      "RXRECCLK3": {
+        "dir": "INPUT",
+        "primary": "RXRECCLK3",
+        "wire": "RXRECCLK3"
+      },
+      "SARC_CLK0": {
+        "dir": "OUTPUT",
+        "primary": "SARC_CLK0",
+        "wire": "SARC_CLK0"
+      },
+      "SARC_CLK1": {
+        "dir": "OUTPUT",
+        "primary": "SARC_CLK1",
+        "wire": "SARC_CLK1"
+      },
+      "SARC_CLK2": {
+        "dir": "OUTPUT",
+        "primary": "SARC_CLK2",
+        "wire": "SARC_CLK2"
+      },
+      "SARC_CLK3": {
+        "dir": "OUTPUT",
+        "primary": "SARC_CLK3",
+        "wire": "SARC_CLK3"
+      },
+      "SDMDATA_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_0",
+        "wire": "SDMDATA_FS_0_0"
+      },
+      "SDMDATA_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_1",
+        "wire": "SDMDATA_FS_0_1"
+      },
+      "SDMDATA_FS_0_10": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_10",
+        "wire": "SDMDATA_FS_0_10"
+      },
+      "SDMDATA_FS_0_11": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_11",
+        "wire": "SDMDATA_FS_0_11"
+      },
+      "SDMDATA_FS_0_12": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_12",
+        "wire": "SDMDATA_FS_0_12"
+      },
+      "SDMDATA_FS_0_13": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_13",
+        "wire": "SDMDATA_FS_0_13"
+      },
+      "SDMDATA_FS_0_14": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_14",
+        "wire": "SDMDATA_FS_0_14"
+      },
+      "SDMDATA_FS_0_15": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_15",
+        "wire": "SDMDATA_FS_0_15"
+      },
+      "SDMDATA_FS_0_16": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_16",
+        "wire": "SDMDATA_FS_0_16"
+      },
+      "SDMDATA_FS_0_17": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_17",
+        "wire": "SDMDATA_FS_0_17"
+      },
+      "SDMDATA_FS_0_18": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_18",
+        "wire": "SDMDATA_FS_0_18"
+      },
+      "SDMDATA_FS_0_19": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_19",
+        "wire": "SDMDATA_FS_0_19"
+      },
+      "SDMDATA_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_2",
+        "wire": "SDMDATA_FS_0_2"
+      },
+      "SDMDATA_FS_0_20": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_20",
+        "wire": "SDMDATA_FS_0_20"
+      },
+      "SDMDATA_FS_0_21": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_21",
+        "wire": "SDMDATA_FS_0_21"
+      },
+      "SDMDATA_FS_0_22": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_22",
+        "wire": "SDMDATA_FS_0_22"
+      },
+      "SDMDATA_FS_0_23": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_23",
+        "wire": "SDMDATA_FS_0_23"
+      },
+      "SDMDATA_FS_0_24": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_24",
+        "wire": "SDMDATA_FS_0_24"
+      },
+      "SDMDATA_FS_0_3": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_3",
+        "wire": "SDMDATA_FS_0_3"
+      },
+      "SDMDATA_FS_0_4": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_4",
+        "wire": "SDMDATA_FS_0_4"
+      },
+      "SDMDATA_FS_0_5": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_5",
+        "wire": "SDMDATA_FS_0_5"
+      },
+      "SDMDATA_FS_0_6": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_6",
+        "wire": "SDMDATA_FS_0_6"
+      },
+      "SDMDATA_FS_0_7": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_7",
+        "wire": "SDMDATA_FS_0_7"
+      },
+      "SDMDATA_FS_0_8": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_8",
+        "wire": "SDMDATA_FS_0_8"
+      },
+      "SDMDATA_FS_0_9": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_0_9",
+        "wire": "SDMDATA_FS_0_9"
+      },
+      "SDMDATA_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_0",
+        "wire": "SDMDATA_FS_1_0"
+      },
+      "SDMDATA_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_1",
+        "wire": "SDMDATA_FS_1_1"
+      },
+      "SDMDATA_FS_1_10": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_10",
+        "wire": "SDMDATA_FS_1_10"
+      },
+      "SDMDATA_FS_1_11": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_11",
+        "wire": "SDMDATA_FS_1_11"
+      },
+      "SDMDATA_FS_1_12": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_12",
+        "wire": "SDMDATA_FS_1_12"
+      },
+      "SDMDATA_FS_1_13": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_13",
+        "wire": "SDMDATA_FS_1_13"
+      },
+      "SDMDATA_FS_1_14": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_14",
+        "wire": "SDMDATA_FS_1_14"
+      },
+      "SDMDATA_FS_1_15": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_15",
+        "wire": "SDMDATA_FS_1_15"
+      },
+      "SDMDATA_FS_1_16": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_16",
+        "wire": "SDMDATA_FS_1_16"
+      },
+      "SDMDATA_FS_1_17": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_17",
+        "wire": "SDMDATA_FS_1_17"
+      },
+      "SDMDATA_FS_1_18": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_18",
+        "wire": "SDMDATA_FS_1_18"
+      },
+      "SDMDATA_FS_1_19": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_19",
+        "wire": "SDMDATA_FS_1_19"
+      },
+      "SDMDATA_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_2",
+        "wire": "SDMDATA_FS_1_2"
+      },
+      "SDMDATA_FS_1_20": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_20",
+        "wire": "SDMDATA_FS_1_20"
+      },
+      "SDMDATA_FS_1_21": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_21",
+        "wire": "SDMDATA_FS_1_21"
+      },
+      "SDMDATA_FS_1_22": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_22",
+        "wire": "SDMDATA_FS_1_22"
+      },
+      "SDMDATA_FS_1_23": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_23",
+        "wire": "SDMDATA_FS_1_23"
+      },
+      "SDMDATA_FS_1_24": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_24",
+        "wire": "SDMDATA_FS_1_24"
+      },
+      "SDMDATA_FS_1_3": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_3",
+        "wire": "SDMDATA_FS_1_3"
+      },
+      "SDMDATA_FS_1_4": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_4",
+        "wire": "SDMDATA_FS_1_4"
+      },
+      "SDMDATA_FS_1_5": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_5",
+        "wire": "SDMDATA_FS_1_5"
+      },
+      "SDMDATA_FS_1_6": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_6",
+        "wire": "SDMDATA_FS_1_6"
+      },
+      "SDMDATA_FS_1_7": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_7",
+        "wire": "SDMDATA_FS_1_7"
+      },
+      "SDMDATA_FS_1_8": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_8",
+        "wire": "SDMDATA_FS_1_8"
+      },
+      "SDMDATA_FS_1_9": {
+        "dir": "INPUT",
+        "primary": "SDMDATA_FS_1_9",
+        "wire": "SDMDATA_FS_1_9"
+      },
+      "SDMFINALOUT_SF_0_0": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_0_0",
+        "wire": "SDMFINALOUT_SF_0_0"
+      },
+      "SDMFINALOUT_SF_0_1": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_0_1",
+        "wire": "SDMFINALOUT_SF_0_1"
+      },
+      "SDMFINALOUT_SF_0_2": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_0_2",
+        "wire": "SDMFINALOUT_SF_0_2"
+      },
+      "SDMFINALOUT_SF_0_3": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_0_3",
+        "wire": "SDMFINALOUT_SF_0_3"
+      },
+      "SDMFINALOUT_SF_1_0": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_1_0",
+        "wire": "SDMFINALOUT_SF_1_0"
+      },
+      "SDMFINALOUT_SF_1_1": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_1_1",
+        "wire": "SDMFINALOUT_SF_1_1"
+      },
+      "SDMFINALOUT_SF_1_2": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_1_2",
+        "wire": "SDMFINALOUT_SF_1_2"
+      },
+      "SDMFINALOUT_SF_1_3": {
+        "dir": "OUTPUT",
+        "primary": "SDMFINALOUT_SF_1_3",
+        "wire": "SDMFINALOUT_SF_1_3"
+      },
+      "SDMRESET_FS_0": {
+        "dir": "INPUT",
+        "primary": "SDMRESET_FS_0",
+        "wire": "SDMRESET_FS_0"
+      },
+      "SDMRESET_FS_1": {
+        "dir": "INPUT",
+        "primary": "SDMRESET_FS_1",
+        "wire": "SDMRESET_FS_1"
+      },
+      "SDMTESTDATA_SF_0_0": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_0",
+        "wire": "SDMTESTDATA_SF_0_0"
+      },
+      "SDMTESTDATA_SF_0_1": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_1",
+        "wire": "SDMTESTDATA_SF_0_1"
+      },
+      "SDMTESTDATA_SF_0_10": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_10",
+        "wire": "SDMTESTDATA_SF_0_10"
+      },
+      "SDMTESTDATA_SF_0_11": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_11",
+        "wire": "SDMTESTDATA_SF_0_11"
+      },
+      "SDMTESTDATA_SF_0_12": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_12",
+        "wire": "SDMTESTDATA_SF_0_12"
+      },
+      "SDMTESTDATA_SF_0_13": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_13",
+        "wire": "SDMTESTDATA_SF_0_13"
+      },
+      "SDMTESTDATA_SF_0_14": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_14",
+        "wire": "SDMTESTDATA_SF_0_14"
+      },
+      "SDMTESTDATA_SF_0_2": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_2",
+        "wire": "SDMTESTDATA_SF_0_2"
+      },
+      "SDMTESTDATA_SF_0_3": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_3",
+        "wire": "SDMTESTDATA_SF_0_3"
+      },
+      "SDMTESTDATA_SF_0_4": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_4",
+        "wire": "SDMTESTDATA_SF_0_4"
+      },
+      "SDMTESTDATA_SF_0_5": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_5",
+        "wire": "SDMTESTDATA_SF_0_5"
+      },
+      "SDMTESTDATA_SF_0_6": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_6",
+        "wire": "SDMTESTDATA_SF_0_6"
+      },
+      "SDMTESTDATA_SF_0_7": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_7",
+        "wire": "SDMTESTDATA_SF_0_7"
+      },
+      "SDMTESTDATA_SF_0_8": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_8",
+        "wire": "SDMTESTDATA_SF_0_8"
+      },
+      "SDMTESTDATA_SF_0_9": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_0_9",
+        "wire": "SDMTESTDATA_SF_0_9"
+      },
+      "SDMTESTDATA_SF_1_0": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_0",
+        "wire": "SDMTESTDATA_SF_1_0"
+      },
+      "SDMTESTDATA_SF_1_1": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_1",
+        "wire": "SDMTESTDATA_SF_1_1"
+      },
+      "SDMTESTDATA_SF_1_10": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_10",
+        "wire": "SDMTESTDATA_SF_1_10"
+      },
+      "SDMTESTDATA_SF_1_11": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_11",
+        "wire": "SDMTESTDATA_SF_1_11"
+      },
+      "SDMTESTDATA_SF_1_12": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_12",
+        "wire": "SDMTESTDATA_SF_1_12"
+      },
+      "SDMTESTDATA_SF_1_13": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_13",
+        "wire": "SDMTESTDATA_SF_1_13"
+      },
+      "SDMTESTDATA_SF_1_14": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_14",
+        "wire": "SDMTESTDATA_SF_1_14"
+      },
+      "SDMTESTDATA_SF_1_2": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_2",
+        "wire": "SDMTESTDATA_SF_1_2"
+      },
+      "SDMTESTDATA_SF_1_3": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_3",
+        "wire": "SDMTESTDATA_SF_1_3"
+      },
+      "SDMTESTDATA_SF_1_4": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_4",
+        "wire": "SDMTESTDATA_SF_1_4"
+      },
+      "SDMTESTDATA_SF_1_5": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_5",
+        "wire": "SDMTESTDATA_SF_1_5"
+      },
+      "SDMTESTDATA_SF_1_6": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_6",
+        "wire": "SDMTESTDATA_SF_1_6"
+      },
+      "SDMTESTDATA_SF_1_7": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_7",
+        "wire": "SDMTESTDATA_SF_1_7"
+      },
+      "SDMTESTDATA_SF_1_8": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_8",
+        "wire": "SDMTESTDATA_SF_1_8"
+      },
+      "SDMTESTDATA_SF_1_9": {
+        "dir": "OUTPUT",
+        "primary": "SDMTESTDATA_SF_1_9",
+        "wire": "SDMTESTDATA_SF_1_9"
+      },
+      "SDMTOGGLE_FS_0": {
+        "dir": "INPUT",
+        "primary": "SDMTOGGLE_FS_0",
+        "wire": "SDMTOGGLE_FS_0"
+      },
+      "SDMTOGGLE_FS_1": {
+        "dir": "INPUT",
+        "primary": "SDMTOGGLE_FS_1",
+        "wire": "SDMTOGGLE_FS_1"
+      },
+      "SDMWIDTH_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "SDMWIDTH_FS_0_0",
+        "wire": "SDMWIDTH_FS_0_0"
+      },
+      "SDMWIDTH_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "SDMWIDTH_FS_0_1",
+        "wire": "SDMWIDTH_FS_0_1"
+      },
+      "SDMWIDTH_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "SDMWIDTH_FS_1_0",
+        "wire": "SDMWIDTH_FS_1_0"
+      },
+      "SDMWIDTH_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "SDMWIDTH_FS_1_1",
+        "wire": "SDMWIDTH_FS_1_1"
+      },
+      "TXRATE_CM_FS_0_0": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_0_0",
+        "wire": "TXRATE_CM_FS_0_0"
+      },
+      "TXRATE_CM_FS_0_1": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_0_1",
+        "wire": "TXRATE_CM_FS_0_1"
+      },
+      "TXRATE_CM_FS_0_2": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_0_2",
+        "wire": "TXRATE_CM_FS_0_2"
+      },
+      "TXRATE_CM_FS_1_0": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_1_0",
+        "wire": "TXRATE_CM_FS_1_0"
+      },
+      "TXRATE_CM_FS_1_1": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_1_1",
+        "wire": "TXRATE_CM_FS_1_1"
+      },
+      "TXRATE_CM_FS_1_2": {
+        "dir": "INPUT",
+        "primary": "TXRATE_CM_FS_1_2",
+        "wire": "TXRATE_CM_FS_1_2"
+      },
+      "UB_ENABLE_FS": {
+        "dir": "INPUT",
+        "primary": "UB_ENABLE_FS",
+        "wire": "UB_ENABLE_FS"
+      },
+      "UB_GPI_FS0": {
+        "dir": "INPUT",
+        "primary": "UB_GPI_FS0",
+        "wire": "UB_GPI_FS0"
+      },
+      "UB_GPI_FS1": {
+        "dir": "INPUT",
+        "primary": "UB_GPI_FS1",
+        "wire": "UB_GPI_FS1"
+      },
+      "UB_INTR_FS0": {
+        "dir": "INPUT",
+        "primary": "UB_INTR_FS0",
+        "wire": "UB_INTR_FS0"
+      },
+      "UB_INTR_FS1": {
+        "dir": "INPUT",
+        "primary": "UB_INTR_FS1",
+        "wire": "UB_INTR_FS1"
+      },
+      "UB_IOLMBRST_FS": {
+        "dir": "INPUT",
+        "primary": "UB_IOLMBRST_FS",
+        "wire": "UB_IOLMBRST_FS"
+      },
+      "UB_MBRST_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MBRST_FS",
+        "wire": "UB_MBRST_FS"
+      },
+      "UB_MDMCAPTURE_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMCAPTURE_FS",
+        "wire": "UB_MDMCAPTURE_FS"
+      },
+      "UB_MDMDBGRST_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMDBGRST_FS",
+        "wire": "UB_MDMDBGRST_FS"
+      },
+      "UB_MDMDBGUPDATE_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMDBGUPDATE_FS",
+        "wire": "UB_MDMDBGUPDATE_FS"
+      },
+      "UB_MDMREGEN_FS0": {
+        "dir": "INPUT",
+        "primary": "UB_MDMREGEN_FS0",
+        "wire": "UB_MDMREGEN_FS0"
+      },
+      "UB_MDMREGEN_FS1": {
+        "dir": "INPUT",
+        "primary": "UB_MDMREGEN_FS1",
+        "wire": "UB_MDMREGEN_FS1"
+      },
+      "UB_MDMREGEN_FS2": {
+        "dir": "INPUT",
+        "primary": "UB_MDMREGEN_FS2",
+        "wire": "UB_MDMREGEN_FS2"
+      },
+      "UB_MDMREGEN_FS3": {
+        "dir": "INPUT",
+        "primary": "UB_MDMREGEN_FS3",
+        "wire": "UB_MDMREGEN_FS3"
+      },
+      "UB_MDMSHIFT_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMSHIFT_FS",
+        "wire": "UB_MDMSHIFT_FS"
+      },
+      "UB_MDMSYSRST_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMSYSRST_FS",
+        "wire": "UB_MDMSYSRST_FS"
+      },
+      "UB_MDMTCK_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMTCK_FS",
+        "wire": "UB_MDMTCK_FS"
+      },
+      "UB_MDMTDI_FS": {
+        "dir": "INPUT",
+        "primary": "UB_MDMTDI_FS",
+        "wire": "UB_MDMTDI_FS"
+      },
+      "UB_MDMTDO_SF": {
+        "dir": "OUTPUT",
+        "primary": "UB_MDMTDO_SF",
+        "wire": "UB_MDMTDO_SF"
+      },
+      "UB_OUTDADDR_SF0": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF0",
+        "wire": "UB_OUTDADDR_SF0"
+      },
+      "UB_OUTDADDR_SF1": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF1",
+        "wire": "UB_OUTDADDR_SF1"
+      },
+      "UB_OUTDADDR_SF10": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF10",
+        "wire": "UB_OUTDADDR_SF10"
+      },
+      "UB_OUTDADDR_SF11": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF11",
+        "wire": "UB_OUTDADDR_SF11"
+      },
+      "UB_OUTDADDR_SF12": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF12",
+        "wire": "UB_OUTDADDR_SF12"
+      },
+      "UB_OUTDADDR_SF13": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF13",
+        "wire": "UB_OUTDADDR_SF13"
+      },
+      "UB_OUTDADDR_SF14": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF14",
+        "wire": "UB_OUTDADDR_SF14"
+      },
+      "UB_OUTDADDR_SF15": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF15",
+        "wire": "UB_OUTDADDR_SF15"
+      },
+      "UB_OUTDADDR_SF2": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF2",
+        "wire": "UB_OUTDADDR_SF2"
+      },
+      "UB_OUTDADDR_SF3": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF3",
+        "wire": "UB_OUTDADDR_SF3"
+      },
+      "UB_OUTDADDR_SF4": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF4",
+        "wire": "UB_OUTDADDR_SF4"
+      },
+      "UB_OUTDADDR_SF5": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF5",
+        "wire": "UB_OUTDADDR_SF5"
+      },
+      "UB_OUTDADDR_SF6": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF6",
+        "wire": "UB_OUTDADDR_SF6"
+      },
+      "UB_OUTDADDR_SF7": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF7",
+        "wire": "UB_OUTDADDR_SF7"
+      },
+      "UB_OUTDADDR_SF8": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF8",
+        "wire": "UB_OUTDADDR_SF8"
+      },
+      "UB_OUTDADDR_SF9": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDADDR_SF9",
+        "wire": "UB_OUTDADDR_SF9"
+      },
+      "UB_OUTDEN_SF": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDEN_SF",
+        "wire": "UB_OUTDEN_SF"
+      },
+      "UB_OUTDI_SF0": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF0",
+        "wire": "UB_OUTDI_SF0"
+      },
+      "UB_OUTDI_SF1": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF1",
+        "wire": "UB_OUTDI_SF1"
+      },
+      "UB_OUTDI_SF10": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF10",
+        "wire": "UB_OUTDI_SF10"
+      },
+      "UB_OUTDI_SF11": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF11",
+        "wire": "UB_OUTDI_SF11"
+      },
+      "UB_OUTDI_SF12": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF12",
+        "wire": "UB_OUTDI_SF12"
+      },
+      "UB_OUTDI_SF13": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF13",
+        "wire": "UB_OUTDI_SF13"
+      },
+      "UB_OUTDI_SF14": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF14",
+        "wire": "UB_OUTDI_SF14"
+      },
+      "UB_OUTDI_SF15": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF15",
+        "wire": "UB_OUTDI_SF15"
+      },
+      "UB_OUTDI_SF2": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF2",
+        "wire": "UB_OUTDI_SF2"
+      },
+      "UB_OUTDI_SF3": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF3",
+        "wire": "UB_OUTDI_SF3"
+      },
+      "UB_OUTDI_SF4": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF4",
+        "wire": "UB_OUTDI_SF4"
+      },
+      "UB_OUTDI_SF5": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF5",
+        "wire": "UB_OUTDI_SF5"
+      },
+      "UB_OUTDI_SF6": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF6",
+        "wire": "UB_OUTDI_SF6"
+      },
+      "UB_OUTDI_SF7": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF7",
+        "wire": "UB_OUTDI_SF7"
+      },
+      "UB_OUTDI_SF8": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF8",
+        "wire": "UB_OUTDI_SF8"
+      },
+      "UB_OUTDI_SF9": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDI_SF9",
+        "wire": "UB_OUTDI_SF9"
+      },
+      "UB_OUTDO_FS0": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS0",
+        "wire": "UB_OUTDO_FS0"
+      },
+      "UB_OUTDO_FS1": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS1",
+        "wire": "UB_OUTDO_FS1"
+      },
+      "UB_OUTDO_FS10": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS10",
+        "wire": "UB_OUTDO_FS10"
+      },
+      "UB_OUTDO_FS11": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS11",
+        "wire": "UB_OUTDO_FS11"
+      },
+      "UB_OUTDO_FS12": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS12",
+        "wire": "UB_OUTDO_FS12"
+      },
+      "UB_OUTDO_FS13": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS13",
+        "wire": "UB_OUTDO_FS13"
+      },
+      "UB_OUTDO_FS14": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS14",
+        "wire": "UB_OUTDO_FS14"
+      },
+      "UB_OUTDO_FS15": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS15",
+        "wire": "UB_OUTDO_FS15"
+      },
+      "UB_OUTDO_FS2": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS2",
+        "wire": "UB_OUTDO_FS2"
+      },
+      "UB_OUTDO_FS3": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS3",
+        "wire": "UB_OUTDO_FS3"
+      },
+      "UB_OUTDO_FS4": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS4",
+        "wire": "UB_OUTDO_FS4"
+      },
+      "UB_OUTDO_FS5": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS5",
+        "wire": "UB_OUTDO_FS5"
+      },
+      "UB_OUTDO_FS6": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS6",
+        "wire": "UB_OUTDO_FS6"
+      },
+      "UB_OUTDO_FS7": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS7",
+        "wire": "UB_OUTDO_FS7"
+      },
+      "UB_OUTDO_FS8": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS8",
+        "wire": "UB_OUTDO_FS8"
+      },
+      "UB_OUTDO_FS9": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDO_FS9",
+        "wire": "UB_OUTDO_FS9"
+      },
+      "UB_OUTDRDY_FS": {
+        "dir": "INPUT",
+        "primary": "UB_OUTDRDY_FS",
+        "wire": "UB_OUTDRDY_FS"
+      },
+      "UB_OUTDWE_SF": {
+        "dir": "OUTPUT",
+        "primary": "UB_OUTDWE_SF",
+        "wire": "UB_OUTDWE_SF"
+      },
+      "UB_RSVDIN_FS": {
+        "dir": "INPUT",
+        "primary": "UB_RSVDIN_FS",
+        "wire": "UB_RSVDIN_FS"
+      },
+      "UB_RSVDOUT_SF": {
+        "dir": "OUTPUT",
+        "primary": "UB_RSVDOUT_SF",
+        "wire": "UB_RSVDOUT_SF"
+      },
+      "UB_TXUART_SF": {
+        "dir": "OUTPUT",
+        "primary": "UB_TXUART_SF",
+        "wire": "UB_TXUART_SF"
+      }
+    },
+    "pips": []
+  }
+}

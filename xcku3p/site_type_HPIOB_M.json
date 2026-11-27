@@ -1,0 +1,399 @@
+{
+  "HPIOB_M": {
+    "bels": {
+      "IBUFCTRL": {
+        "class": "BEL",
+        "pins": {
+          "I": {
+            "dir": "INPUT",
+            "wire": "DOUT"
+          },
+          "IBUFDISABLE": {
+            "dir": "INPUT",
+            "wire": "IBUF_DISABLE"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "I"
+          },
+          "TRI": {
+            "dir": "INPUT",
+            "wire": "TSTATEB"
+          }
+        },
+        "type": "HPIOB_IBUFCTRL_M"
+      },
+      "INBUF": {
+        "class": "BEL",
+        "pins": {
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "SWITCH_OUT"
+          },
+          "OSC0": {
+            "dir": "INPUT",
+            "wire": "OSC0"
+          },
+          "OSC1": {
+            "dir": "INPUT",
+            "wire": "OSC1"
+          },
+          "OSC2": {
+            "dir": "INPUT",
+            "wire": "OSC2"
+          },
+          "OSC3": {
+            "dir": "INPUT",
+            "wire": "OSC3"
+          },
+          "OSC_EN": {
+            "dir": "INPUT",
+            "wire": "OSC_EN"
+          },
+          "PAD": {
+            "dir": "INPUT",
+            "wire": "IO"
+          },
+          "VREF": {
+            "dir": "INPUT",
+            "wire": "VREF"
+          }
+        },
+        "type": "HPIOB_INBUF_M"
+      },
+      "INPUTMUX": {
+        "class": "RBEL",
+        "pins": {
+          "IN1": {
+            "dir": "INPUT",
+            "wire": "SWITCH_OUT"
+          },
+          "IN2": {
+            "dir": "INPUT",
+            "wire": "LVDS_TRUE"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "DOUT"
+          }
+        },
+        "type": "HPIO_INPUTMUX"
+      },
+      "OUTBUF": {
+        "class": "BEL",
+        "pins": {
+          "DCITERMDISABLE": {
+            "dir": "INPUT",
+            "wire": "DYNAMIC_DCI_TS"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "O_B"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "IO"
+          },
+          "TRI": {
+            "dir": "INPUT",
+            "wire": "TSTATEB"
+          }
+        },
+        "type": "HPIOB_OUTBUF_M"
+      },
+      "OUTINV": {
+        "class": "BEL",
+        "pins": {
+          "IN": {
+            "dir": "INPUT",
+            "wire": "OP"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "OUTB_B"
+          }
+        },
+        "type": "HPIO_OUTINV"
+      },
+      "OUTMUX": {
+        "class": "RBEL",
+        "pins": {
+          "OP": {
+            "dir": "INPUT",
+            "wire": "OP"
+          },
+          "OUTB": {
+            "dir": "OUTPUT",
+            "wire": "O_B"
+          },
+          "OUTB_B_IN": {
+            "dir": "INPUT",
+            "wire": "OUTB_B_IN"
+          }
+        },
+        "type": "HPIOB_OUTMUX_M"
+      },
+      "PAD": {
+        "class": "BEL",
+        "pins": {
+          "PAD": {
+            "dir": "BIDIR",
+            "wire": "IO"
+          }
+        },
+        "type": "HPIOB_PAD_M"
+      },
+      "PADOUT": {
+        "class": "RBEL",
+        "pins": {
+          "IN": {
+            "dir": "INPUT",
+            "wire": "IO"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "PAD_RES"
+          }
+        },
+        "type": "HPIO_PADOUT_M"
+      },
+      "PULL": {
+        "class": "BEL",
+        "pins": {
+          "KEEPER_INT_EN": {
+            "dir": "INPUT",
+            "wire": "KEEPER_EN"
+          },
+          "PAD": {
+            "dir": "OUTPUT",
+            "wire": "IO"
+          },
+          "PD_INT_EN": {
+            "dir": "INPUT",
+            "wire": "PD_EN"
+          },
+          "PU_INT_EN": {
+            "dir": "INPUT",
+            "wire": "PU_EN"
+          }
+        },
+        "type": "HPIOB_PULL_M"
+      },
+      "TRIBUF": {
+        "class": "RBEL",
+        "pins": {
+          "IN": {
+            "dir": "INPUT",
+            "wire": "TSP"
+          },
+          "OUT": {
+            "dir": "OUTPUT",
+            "wire": "TSTATE_OUT"
+          }
+        },
+        "type": "HPIO_TRIBUF"
+      },
+      "TRIMUX": {
+        "class": "RBEL",
+        "pins": {
+          "TSDI": {
+            "dir": "INPUT",
+            "wire": "TSDI"
+          },
+          "TSP": {
+            "dir": "INPUT",
+            "wire": "TSP"
+          },
+          "TSTATEB": {
+            "dir": "OUTPUT",
+            "wire": "TSTATEB"
+          },
+          "TSTATE_IN": {
+            "dir": "INPUT",
+            "wire": "TSTATE_IN"
+          }
+        },
+        "type": "HPIOB_TRIMUX_M"
+      }
+    },
+    "pins": {
+      "DOUT": {
+        "dir": "OUTPUT",
+        "primary": "DOUT",
+        "wire": "DOUT"
+      },
+      "DYNAMIC_DCI_TS": {
+        "dir": "INPUT",
+        "primary": "DYNAMIC_DCI_TS",
+        "wire": "DYNAMIC_DCI_TS"
+      },
+      "I": {
+        "dir": "OUTPUT",
+        "primary": "I",
+        "wire": "I"
+      },
+      "IBUF_DISABLE": {
+        "dir": "INPUT",
+        "primary": "IBUF_DISABLE",
+        "wire": "IBUF_DISABLE"
+      },
+      "IO": {
+        "dir": "INPUT",
+        "primary": "IO",
+        "wire": "IO"
+      },
+      "KEEPER_EN": {
+        "dir": "INPUT",
+        "primary": "KEEPER_EN",
+        "wire": "KEEPER_EN"
+      },
+      "LVDS_TRUE": {
+        "dir": "INPUT",
+        "primary": "LVDS_TRUE",
+        "wire": "LVDS_TRUE"
+      },
+      "OP": {
+        "dir": "INPUT",
+        "primary": "OP",
+        "wire": "OP"
+      },
+      "OSC0": {
+        "dir": "INPUT",
+        "primary": "OSC0",
+        "wire": "OSC0"
+      },
+      "OSC1": {
+        "dir": "INPUT",
+        "primary": "OSC1",
+        "wire": "OSC1"
+      },
+      "OSC2": {
+        "dir": "INPUT",
+        "primary": "OSC2",
+        "wire": "OSC2"
+      },
+      "OSC3": {
+        "dir": "INPUT",
+        "primary": "OSC3",
+        "wire": "OSC3"
+      },
+      "OSC_EN": {
+        "dir": "INPUT",
+        "primary": "OSC_EN",
+        "wire": "OSC_EN"
+      },
+      "OUTB_B": {
+        "dir": "OUTPUT",
+        "primary": "OUTB_B",
+        "wire": "OUTB_B"
+      },
+      "OUTB_B_IN": {
+        "dir": "INPUT",
+        "primary": "OUTB_B_IN",
+        "wire": "OUTB_B_IN"
+      },
+      "O_B": {
+        "dir": "OUTPUT",
+        "primary": "O_B",
+        "wire": "O_B"
+      },
+      "PAD_RES": {
+        "dir": "OUTPUT",
+        "primary": "PAD_RES",
+        "wire": "PAD_RES"
+      },
+      "PD_EN": {
+        "dir": "INPUT",
+        "primary": "PD_EN",
+        "wire": "PD_EN"
+      },
+      "PU_EN": {
+        "dir": "INPUT",
+        "primary": "PU_EN",
+        "wire": "PU_EN"
+      },
+      "SWITCH_OUT": {
+        "dir": "OUTPUT",
+        "primary": "SWITCH_OUT",
+        "wire": "SWITCH_OUT"
+      },
+      "TSDI": {
+        "dir": "INPUT",
+        "primary": "TSDI",
+        "wire": "TSDI"
+      },
+      "TSP": {
+        "dir": "INPUT",
+        "primary": "TSP",
+        "wire": "TSP"
+      },
+      "TSTATEB": {
+        "dir": "OUTPUT",
+        "primary": "TSTATEB",
+        "wire": "TSTATEB"
+      },
+      "TSTATE_IN": {
+        "dir": "INPUT",
+        "primary": "TSTATE_IN",
+        "wire": "TSTATE_IN"
+      },
+      "TSTATE_OUT": {
+        "dir": "OUTPUT",
+        "primary": "TSTATE_OUT",
+        "wire": "TSTATE_OUT"
+      },
+      "VREF": {
+        "dir": "INPUT",
+        "primary": "VREF",
+        "wire": "VREF"
+      }
+    },
+    "pips": [
+      {
+        "bel": "INPUTMUX",
+        "from_pin": "IN1",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "INPUTMUX",
+        "from_pin": "IN2",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "OUTMUX",
+        "from_pin": "OP",
+        "to_pin": "OUTB"
+      },
+      {
+        "bel": "OUTMUX",
+        "from_pin": "OUTB_B_IN",
+        "to_pin": "OUTB"
+      },
+      {
+        "bel": "PADOUT",
+        "from_pin": "IN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TRIBUF",
+        "from_pin": "IN",
+        "to_pin": "OUT"
+      },
+      {
+        "bel": "TRIMUX",
+        "from_pin": "TSDI",
+        "to_pin": "TSTATEB"
+      },
+      {
+        "bel": "TRIMUX",
+        "from_pin": "TSP",
+        "to_pin": "TSTATEB"
+      },
+      {
+        "bel": "TRIMUX",
+        "from_pin": "TSTATE_IN",
+        "to_pin": "TSTATEB"
+      }
+    ]
+  }
+}

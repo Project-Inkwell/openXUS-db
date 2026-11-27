@@ -1,0 +1,1941 @@
+{
+  "XIPHY_FEEDTHROUGH": {
+    "bels": {
+      "XIPHY_FEEDTHROUGH": {
+        "class": "BEL",
+        "pins": {
+          "CLK_STOP_LOW": {
+            "dir": "OUTPUT",
+            "wire": "XIPHY_CLK_STOP_CTRL_LOW"
+          },
+          "CLK_STOP_UPP": {
+            "dir": "OUTPUT",
+            "wire": "XIPHY_CLK_STOP_CTRL_UPP"
+          },
+          "CTRL_CLK_LOWER": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_CTRL_CLK_LOW"
+          },
+          "CTRL_CLK_UPPER": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_CTRL_CLK_UPP"
+          },
+          "CTRL_RST_LOWER": {
+            "dir": "INPUT",
+            "wire": "CTRL_RST_LOW"
+          },
+          "CTRL_RST_LOWER_SMX": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_CTRL_RST_LOW_SMX"
+          },
+          "CTRL_RST_UPPER": {
+            "dir": "INPUT",
+            "wire": "CTRL_RST_UPP"
+          },
+          "CTRL_RST_UPPER_SMX": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_CTRL_RST_UPP_SMX"
+          },
+          "DBG_CLK_STOP_FLG_DLY_IN": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_DBG_CLK_STOP_FLG_DLY_OUT"
+          },
+          "DBG_CLK_STOP_FLG_DLY_OUT": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_DBG_CLK_STOP_FLG_DLY_OUT"
+          },
+          "DBG_CLK_STOP_FLG_IN": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_DBG_CLK_STOP_FLG_OUT"
+          },
+          "DBG_CLK_STOP_FLG_OUT": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_DBG_CLK_STOP_FLG_OUT"
+          },
+          "DBG_CLK_STOP_OUT": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_DBG_CLK_STOP_OUT"
+          },
+          "DBG_CT_START_EN": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_DBG_CT_START_EN"
+          },
+          "DIV_CLK_OUT_LOWER": {
+            "dir": "INPUT",
+            "wire": "DIV_CLK_OUT_LOW"
+          },
+          "DIV_CLK_OUT_UPPER": {
+            "dir": "INPUT",
+            "wire": "DIV_CLK_OUT_UPP"
+          },
+          "FIFO_CLK0": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK0"
+          },
+          "FIFO_CLK1": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK1"
+          },
+          "FIFO_CLK10": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK10"
+          },
+          "FIFO_CLK11": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK11"
+          },
+          "FIFO_CLK12": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK12"
+          },
+          "FIFO_CLK2": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK2"
+          },
+          "FIFO_CLK3": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK3"
+          },
+          "FIFO_CLK4": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK4"
+          },
+          "FIFO_CLK5": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK5"
+          },
+          "FIFO_CLK6": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK6"
+          },
+          "FIFO_CLK7": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK7"
+          },
+          "FIFO_CLK8": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK8"
+          },
+          "FIFO_CLK9": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_FIFO_CLK9"
+          },
+          "FIFO_CLK_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX0"
+          },
+          "FIFO_CLK_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX1"
+          },
+          "FIFO_CLK_SMX10": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX10"
+          },
+          "FIFO_CLK_SMX11": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX11"
+          },
+          "FIFO_CLK_SMX12": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX12"
+          },
+          "FIFO_CLK_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX2"
+          },
+          "FIFO_CLK_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX3"
+          },
+          "FIFO_CLK_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX4"
+          },
+          "FIFO_CLK_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX5"
+          },
+          "FIFO_CLK_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX6"
+          },
+          "FIFO_CLK_SMX7": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX7"
+          },
+          "FIFO_CLK_SMX8": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX8"
+          },
+          "FIFO_CLK_SMX9": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_FIFO_CLK_SMX9"
+          },
+          "IDELAY_RST0": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST0"
+          },
+          "IDELAY_RST1": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST1"
+          },
+          "IDELAY_RST10": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST10"
+          },
+          "IDELAY_RST11": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST11"
+          },
+          "IDELAY_RST12": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST12"
+          },
+          "IDELAY_RST2": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST2"
+          },
+          "IDELAY_RST3": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST3"
+          },
+          "IDELAY_RST4": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST4"
+          },
+          "IDELAY_RST5": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST5"
+          },
+          "IDELAY_RST6": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST6"
+          },
+          "IDELAY_RST7": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST7"
+          },
+          "IDELAY_RST8": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST8"
+          },
+          "IDELAY_RST9": {
+            "dir": "INPUT",
+            "wire": "IDELAY_RST9"
+          },
+          "IDELAY_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX0"
+          },
+          "IDELAY_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX1"
+          },
+          "IDELAY_RST_SMX10": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX10"
+          },
+          "IDELAY_RST_SMX11": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX11"
+          },
+          "IDELAY_RST_SMX12": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX12"
+          },
+          "IDELAY_RST_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX2"
+          },
+          "IDELAY_RST_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX3"
+          },
+          "IDELAY_RST_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX4"
+          },
+          "IDELAY_RST_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX5"
+          },
+          "IDELAY_RST_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX6"
+          },
+          "IDELAY_RST_SMX7": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX7"
+          },
+          "IDELAY_RST_SMX8": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX8"
+          },
+          "IDELAY_RST_SMX9": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_IDELAY_RST_SMX9"
+          },
+          "ISERDES_RST0": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST0"
+          },
+          "ISERDES_RST1": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST1"
+          },
+          "ISERDES_RST10": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST10"
+          },
+          "ISERDES_RST11": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST11"
+          },
+          "ISERDES_RST12": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST12"
+          },
+          "ISERDES_RST2": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST2"
+          },
+          "ISERDES_RST3": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST3"
+          },
+          "ISERDES_RST4": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST4"
+          },
+          "ISERDES_RST5": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST5"
+          },
+          "ISERDES_RST6": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST6"
+          },
+          "ISERDES_RST7": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST7"
+          },
+          "ISERDES_RST8": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST8"
+          },
+          "ISERDES_RST9": {
+            "dir": "INPUT",
+            "wire": "RXBIT_RST9"
+          },
+          "ISERDES_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX0"
+          },
+          "ISERDES_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX1"
+          },
+          "ISERDES_RST_SMX10": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX10"
+          },
+          "ISERDES_RST_SMX11": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX11"
+          },
+          "ISERDES_RST_SMX12": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX12"
+          },
+          "ISERDES_RST_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX2"
+          },
+          "ISERDES_RST_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX3"
+          },
+          "ISERDES_RST_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX4"
+          },
+          "ISERDES_RST_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX5"
+          },
+          "ISERDES_RST_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX6"
+          },
+          "ISERDES_RST_SMX7": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX7"
+          },
+          "ISERDES_RST_SMX8": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX8"
+          },
+          "ISERDES_RST_SMX9": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_RXBIT_RST_SMX9"
+          },
+          "ODELAY_RST0": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST0"
+          },
+          "ODELAY_RST1": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST1"
+          },
+          "ODELAY_RST10": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST10"
+          },
+          "ODELAY_RST11": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST11"
+          },
+          "ODELAY_RST12": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST12"
+          },
+          "ODELAY_RST2": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST2"
+          },
+          "ODELAY_RST3": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST3"
+          },
+          "ODELAY_RST4": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST4"
+          },
+          "ODELAY_RST5": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST5"
+          },
+          "ODELAY_RST6": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST6"
+          },
+          "ODELAY_RST7": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST7"
+          },
+          "ODELAY_RST8": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST8"
+          },
+          "ODELAY_RST9": {
+            "dir": "INPUT",
+            "wire": "ODELAY_RST9"
+          },
+          "ODELAY_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX0"
+          },
+          "ODELAY_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX1"
+          },
+          "ODELAY_RST_SMX10": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX10"
+          },
+          "ODELAY_RST_SMX11": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX11"
+          },
+          "ODELAY_RST_SMX12": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX12"
+          },
+          "ODELAY_RST_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX2"
+          },
+          "ODELAY_RST_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX3"
+          },
+          "ODELAY_RST_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX4"
+          },
+          "ODELAY_RST_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX5"
+          },
+          "ODELAY_RST_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX6"
+          },
+          "ODELAY_RST_SMX7": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX7"
+          },
+          "ODELAY_RST_SMX8": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX8"
+          },
+          "ODELAY_RST_SMX9": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_ODELAY_RST_SMX9"
+          },
+          "OSERDES_RST0": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST0"
+          },
+          "OSERDES_RST1": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST1"
+          },
+          "OSERDES_RST10": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST10"
+          },
+          "OSERDES_RST11": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST11"
+          },
+          "OSERDES_RST12": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST12"
+          },
+          "OSERDES_RST2": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST2"
+          },
+          "OSERDES_RST3": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST3"
+          },
+          "OSERDES_RST4": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST4"
+          },
+          "OSERDES_RST5": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST5"
+          },
+          "OSERDES_RST6": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST6"
+          },
+          "OSERDES_RST7": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST7"
+          },
+          "OSERDES_RST8": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST8"
+          },
+          "OSERDES_RST9": {
+            "dir": "INPUT",
+            "wire": "TXBIT_RST9"
+          },
+          "OSERDES_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX0"
+          },
+          "OSERDES_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX1"
+          },
+          "OSERDES_RST_SMX10": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX10"
+          },
+          "OSERDES_RST_SMX11": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX11"
+          },
+          "OSERDES_RST_SMX12": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX12"
+          },
+          "OSERDES_RST_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX2"
+          },
+          "OSERDES_RST_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX3"
+          },
+          "OSERDES_RST_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX4"
+          },
+          "OSERDES_RST_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX5"
+          },
+          "OSERDES_RST_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX6"
+          },
+          "OSERDES_RST_SMX7": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX7"
+          },
+          "OSERDES_RST_SMX8": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX8"
+          },
+          "OSERDES_RST_SMX9": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_RST_SMX9"
+          },
+          "RCLK_CLKDR": {
+            "dir": "INPUT",
+            "wire": "RCLK2PHY_CLKDR"
+          },
+          "RCLK_SHIFTDR": {
+            "dir": "INPUT",
+            "wire": "RCLK2PHY_SHIFTDR"
+          },
+          "REFCLK_EN_LOW0": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW0"
+          },
+          "REFCLK_EN_LOW1": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW1"
+          },
+          "REFCLK_EN_LOW2": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW2"
+          },
+          "REFCLK_EN_LOW3": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW3"
+          },
+          "REFCLK_EN_LOW4": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW4"
+          },
+          "REFCLK_EN_LOW5": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW5"
+          },
+          "REFCLK_EN_LOW6": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW6"
+          },
+          "REFCLK_EN_LOW_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX0"
+          },
+          "REFCLK_EN_LOW_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX1"
+          },
+          "REFCLK_EN_LOW_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX2"
+          },
+          "REFCLK_EN_LOW_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX3"
+          },
+          "REFCLK_EN_LOW_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX4"
+          },
+          "REFCLK_EN_LOW_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_LOW_SMX5"
+          },
+          "REFCLK_EN_UPP0": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP0"
+          },
+          "REFCLK_EN_UPP1": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP1"
+          },
+          "REFCLK_EN_UPP2": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP2"
+          },
+          "REFCLK_EN_UPP3": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP3"
+          },
+          "REFCLK_EN_UPP4": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP4"
+          },
+          "REFCLK_EN_UPP5": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP5"
+          },
+          "REFCLK_EN_UPP6": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP6"
+          },
+          "REFCLK_EN_UPP_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX0"
+          },
+          "REFCLK_EN_UPP_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX1"
+          },
+          "REFCLK_EN_UPP_SMX2": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX2"
+          },
+          "REFCLK_EN_UPP_SMX3": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX3"
+          },
+          "REFCLK_EN_UPP_SMX4": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX4"
+          },
+          "REFCLK_EN_UPP_SMX5": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX5"
+          },
+          "REFCLK_EN_UPP_SMX6": {
+            "dir": "OUTPUT",
+            "wire": "CTL2BS_REFCLK_EN_UPP_SMX6"
+          },
+          "SCAN_CLK_DIV2": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_CLK_DIV2"
+          },
+          "SCAN_CLK_DIV4": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_CLK_DIV4"
+          },
+          "SCAN_CLK_SDR": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_CLK_SDR"
+          },
+          "SCAN_ENABLE_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_EN_B"
+          },
+          "SCAN_IN0": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN0"
+          },
+          "SCAN_IN1": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN1"
+          },
+          "SCAN_IN2": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN2"
+          },
+          "SCAN_IN3": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN3"
+          },
+          "SCAN_IN4": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN4"
+          },
+          "SCAN_IN5": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN5"
+          },
+          "SCAN_IN6": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN6"
+          },
+          "SCAN_IN7": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_IN7"
+          },
+          "SCAN_INT_LOWER": {
+            "dir": "OUTPUT",
+            "wire": "SCAN_INT_LOWER"
+          },
+          "SCAN_INT_UPPER": {
+            "dir": "OUTPUT",
+            "wire": "SCAN_INT_UPPER"
+          },
+          "SCAN_MODE_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_MODE_B"
+          },
+          "SCAN_OUT0": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT0"
+          },
+          "SCAN_OUT1": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT1"
+          },
+          "SCAN_OUT2": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT2"
+          },
+          "SCAN_OUT3": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT3"
+          },
+          "SCAN_OUT4": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT4"
+          },
+          "SCAN_OUT5": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT5"
+          },
+          "SCAN_OUT6": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT6"
+          },
+          "SCAN_OUT7": {
+            "dir": "OUTPUT",
+            "wire": "PHY2CLB_SCAN_OUT7"
+          },
+          "SCAN_RST_MASK_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_SCAN_RST_MASK_B"
+          },
+          "TEST_B0": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_SPARE_B0"
+          },
+          "TEST_B1": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_SPARE_B1"
+          },
+          "TEST_B2": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_SPARE_B2"
+          },
+          "TEST_B3": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_SPARE_B3"
+          },
+          "TEST_DIV2_CLK_SEL_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_DIV2_CLK_SEL_B"
+          },
+          "TEST_DIV4_CLK_SEL_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_DIV4_CLK_SEL_B"
+          },
+          "TEST_SDR_CLK_SEL_B": {
+            "dir": "INPUT",
+            "wire": "CLB2PHY_TEST_SDR_CLK_SEL_B"
+          },
+          "TRISTATE_ODELAY_RST0": {
+            "dir": "INPUT",
+            "wire": "TRISTATE_ODELAY_RST0"
+          },
+          "TRISTATE_ODELAY_RST1": {
+            "dir": "INPUT",
+            "wire": "TRISTATE_ODELAY_RST1"
+          },
+          "TRISTATE_ODELAY_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TRISTATE_ODELAY_RST_SMX0"
+          },
+          "TRISTATE_ODELAY_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TRISTATE_ODELAY_RST_SMX1"
+          },
+          "TRISTATE_OSERDES_RST0": {
+            "dir": "INPUT",
+            "wire": "TXBIT_TRI_RST0"
+          },
+          "TRISTATE_OSERDES_RST1": {
+            "dir": "INPUT",
+            "wire": "TXBIT_TRI_RST1"
+          },
+          "TRISTATE_OSERDES_RST_SMX0": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_TRI_RST_SMX0"
+          },
+          "TRISTATE_OSERDES_RST_SMX1": {
+            "dir": "OUTPUT",
+            "wire": "CLB2PHY_TXBIT_TRI_RST_SMX1"
+          }
+        },
+        "type": "XIPHY_FEEDTHROUGH_BEL"
+      }
+    },
+    "pins": {
+      "CLB2PHY_CTRL_CLK_LOW": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_CTRL_CLK_LOW",
+        "wire": "CLB2PHY_CTRL_CLK_LOW"
+      },
+      "CLB2PHY_CTRL_CLK_UPP": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_CTRL_CLK_UPP",
+        "wire": "CLB2PHY_CTRL_CLK_UPP"
+      },
+      "CLB2PHY_CTRL_RST_LOW_SMX": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_CTRL_RST_LOW_SMX",
+        "wire": "CLB2PHY_CTRL_RST_LOW_SMX"
+      },
+      "CLB2PHY_CTRL_RST_UPP_SMX": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_CTRL_RST_UPP_SMX",
+        "wire": "CLB2PHY_CTRL_RST_UPP_SMX"
+      },
+      "CLB2PHY_DBG_CLK_STOP_FLG_DLY_OUT": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_DBG_CLK_STOP_FLG_DLY_OUT",
+        "wire": "CLB2PHY_DBG_CLK_STOP_FLG_DLY_OUT"
+      },
+      "CLB2PHY_DBG_CLK_STOP_FLG_OUT": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_DBG_CLK_STOP_FLG_OUT",
+        "wire": "CLB2PHY_DBG_CLK_STOP_FLG_OUT"
+      },
+      "CLB2PHY_DBG_CT_START_EN": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_DBG_CT_START_EN",
+        "wire": "CLB2PHY_DBG_CT_START_EN"
+      },
+      "CLB2PHY_FIFO_CLK0": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK0",
+        "wire": "CLB2PHY_FIFO_CLK0"
+      },
+      "CLB2PHY_FIFO_CLK1": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK1",
+        "wire": "CLB2PHY_FIFO_CLK1"
+      },
+      "CLB2PHY_FIFO_CLK10": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK10",
+        "wire": "CLB2PHY_FIFO_CLK10"
+      },
+      "CLB2PHY_FIFO_CLK11": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK11",
+        "wire": "CLB2PHY_FIFO_CLK11"
+      },
+      "CLB2PHY_FIFO_CLK12": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK12",
+        "wire": "CLB2PHY_FIFO_CLK12"
+      },
+      "CLB2PHY_FIFO_CLK2": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK2",
+        "wire": "CLB2PHY_FIFO_CLK2"
+      },
+      "CLB2PHY_FIFO_CLK3": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK3",
+        "wire": "CLB2PHY_FIFO_CLK3"
+      },
+      "CLB2PHY_FIFO_CLK4": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK4",
+        "wire": "CLB2PHY_FIFO_CLK4"
+      },
+      "CLB2PHY_FIFO_CLK5": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK5",
+        "wire": "CLB2PHY_FIFO_CLK5"
+      },
+      "CLB2PHY_FIFO_CLK6": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK6",
+        "wire": "CLB2PHY_FIFO_CLK6"
+      },
+      "CLB2PHY_FIFO_CLK7": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK7",
+        "wire": "CLB2PHY_FIFO_CLK7"
+      },
+      "CLB2PHY_FIFO_CLK8": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK8",
+        "wire": "CLB2PHY_FIFO_CLK8"
+      },
+      "CLB2PHY_FIFO_CLK9": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_FIFO_CLK9",
+        "wire": "CLB2PHY_FIFO_CLK9"
+      },
+      "CLB2PHY_FIFO_CLK_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX0",
+        "wire": "CLB2PHY_FIFO_CLK_SMX0"
+      },
+      "CLB2PHY_FIFO_CLK_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX1",
+        "wire": "CLB2PHY_FIFO_CLK_SMX1"
+      },
+      "CLB2PHY_FIFO_CLK_SMX10": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX10",
+        "wire": "CLB2PHY_FIFO_CLK_SMX10"
+      },
+      "CLB2PHY_FIFO_CLK_SMX11": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX11",
+        "wire": "CLB2PHY_FIFO_CLK_SMX11"
+      },
+      "CLB2PHY_FIFO_CLK_SMX12": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX12",
+        "wire": "CLB2PHY_FIFO_CLK_SMX12"
+      },
+      "CLB2PHY_FIFO_CLK_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX2",
+        "wire": "CLB2PHY_FIFO_CLK_SMX2"
+      },
+      "CLB2PHY_FIFO_CLK_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX3",
+        "wire": "CLB2PHY_FIFO_CLK_SMX3"
+      },
+      "CLB2PHY_FIFO_CLK_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX4",
+        "wire": "CLB2PHY_FIFO_CLK_SMX4"
+      },
+      "CLB2PHY_FIFO_CLK_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX5",
+        "wire": "CLB2PHY_FIFO_CLK_SMX5"
+      },
+      "CLB2PHY_FIFO_CLK_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX6",
+        "wire": "CLB2PHY_FIFO_CLK_SMX6"
+      },
+      "CLB2PHY_FIFO_CLK_SMX7": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX7",
+        "wire": "CLB2PHY_FIFO_CLK_SMX7"
+      },
+      "CLB2PHY_FIFO_CLK_SMX8": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX8",
+        "wire": "CLB2PHY_FIFO_CLK_SMX8"
+      },
+      "CLB2PHY_FIFO_CLK_SMX9": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_FIFO_CLK_SMX9",
+        "wire": "CLB2PHY_FIFO_CLK_SMX9"
+      },
+      "CLB2PHY_IDELAY_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX0",
+        "wire": "CLB2PHY_IDELAY_RST_SMX0"
+      },
+      "CLB2PHY_IDELAY_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX1",
+        "wire": "CLB2PHY_IDELAY_RST_SMX1"
+      },
+      "CLB2PHY_IDELAY_RST_SMX10": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX10",
+        "wire": "CLB2PHY_IDELAY_RST_SMX10"
+      },
+      "CLB2PHY_IDELAY_RST_SMX11": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX11",
+        "wire": "CLB2PHY_IDELAY_RST_SMX11"
+      },
+      "CLB2PHY_IDELAY_RST_SMX12": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX12",
+        "wire": "CLB2PHY_IDELAY_RST_SMX12"
+      },
+      "CLB2PHY_IDELAY_RST_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX2",
+        "wire": "CLB2PHY_IDELAY_RST_SMX2"
+      },
+      "CLB2PHY_IDELAY_RST_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX3",
+        "wire": "CLB2PHY_IDELAY_RST_SMX3"
+      },
+      "CLB2PHY_IDELAY_RST_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX4",
+        "wire": "CLB2PHY_IDELAY_RST_SMX4"
+      },
+      "CLB2PHY_IDELAY_RST_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX5",
+        "wire": "CLB2PHY_IDELAY_RST_SMX5"
+      },
+      "CLB2PHY_IDELAY_RST_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX6",
+        "wire": "CLB2PHY_IDELAY_RST_SMX6"
+      },
+      "CLB2PHY_IDELAY_RST_SMX7": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX7",
+        "wire": "CLB2PHY_IDELAY_RST_SMX7"
+      },
+      "CLB2PHY_IDELAY_RST_SMX8": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX8",
+        "wire": "CLB2PHY_IDELAY_RST_SMX8"
+      },
+      "CLB2PHY_IDELAY_RST_SMX9": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_IDELAY_RST_SMX9",
+        "wire": "CLB2PHY_IDELAY_RST_SMX9"
+      },
+      "CLB2PHY_ODELAY_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX0",
+        "wire": "CLB2PHY_ODELAY_RST_SMX0"
+      },
+      "CLB2PHY_ODELAY_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX1",
+        "wire": "CLB2PHY_ODELAY_RST_SMX1"
+      },
+      "CLB2PHY_ODELAY_RST_SMX10": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX10",
+        "wire": "CLB2PHY_ODELAY_RST_SMX10"
+      },
+      "CLB2PHY_ODELAY_RST_SMX11": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX11",
+        "wire": "CLB2PHY_ODELAY_RST_SMX11"
+      },
+      "CLB2PHY_ODELAY_RST_SMX12": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX12",
+        "wire": "CLB2PHY_ODELAY_RST_SMX12"
+      },
+      "CLB2PHY_ODELAY_RST_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX2",
+        "wire": "CLB2PHY_ODELAY_RST_SMX2"
+      },
+      "CLB2PHY_ODELAY_RST_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX3",
+        "wire": "CLB2PHY_ODELAY_RST_SMX3"
+      },
+      "CLB2PHY_ODELAY_RST_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX4",
+        "wire": "CLB2PHY_ODELAY_RST_SMX4"
+      },
+      "CLB2PHY_ODELAY_RST_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX5",
+        "wire": "CLB2PHY_ODELAY_RST_SMX5"
+      },
+      "CLB2PHY_ODELAY_RST_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX6",
+        "wire": "CLB2PHY_ODELAY_RST_SMX6"
+      },
+      "CLB2PHY_ODELAY_RST_SMX7": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX7",
+        "wire": "CLB2PHY_ODELAY_RST_SMX7"
+      },
+      "CLB2PHY_ODELAY_RST_SMX8": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX8",
+        "wire": "CLB2PHY_ODELAY_RST_SMX8"
+      },
+      "CLB2PHY_ODELAY_RST_SMX9": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_ODELAY_RST_SMX9",
+        "wire": "CLB2PHY_ODELAY_RST_SMX9"
+      },
+      "CLB2PHY_RXBIT_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX0",
+        "wire": "CLB2PHY_RXBIT_RST_SMX0"
+      },
+      "CLB2PHY_RXBIT_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX1",
+        "wire": "CLB2PHY_RXBIT_RST_SMX1"
+      },
+      "CLB2PHY_RXBIT_RST_SMX10": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX10",
+        "wire": "CLB2PHY_RXBIT_RST_SMX10"
+      },
+      "CLB2PHY_RXBIT_RST_SMX11": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX11",
+        "wire": "CLB2PHY_RXBIT_RST_SMX11"
+      },
+      "CLB2PHY_RXBIT_RST_SMX12": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX12",
+        "wire": "CLB2PHY_RXBIT_RST_SMX12"
+      },
+      "CLB2PHY_RXBIT_RST_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX2",
+        "wire": "CLB2PHY_RXBIT_RST_SMX2"
+      },
+      "CLB2PHY_RXBIT_RST_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX3",
+        "wire": "CLB2PHY_RXBIT_RST_SMX3"
+      },
+      "CLB2PHY_RXBIT_RST_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX4",
+        "wire": "CLB2PHY_RXBIT_RST_SMX4"
+      },
+      "CLB2PHY_RXBIT_RST_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX5",
+        "wire": "CLB2PHY_RXBIT_RST_SMX5"
+      },
+      "CLB2PHY_RXBIT_RST_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX6",
+        "wire": "CLB2PHY_RXBIT_RST_SMX6"
+      },
+      "CLB2PHY_RXBIT_RST_SMX7": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX7",
+        "wire": "CLB2PHY_RXBIT_RST_SMX7"
+      },
+      "CLB2PHY_RXBIT_RST_SMX8": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX8",
+        "wire": "CLB2PHY_RXBIT_RST_SMX8"
+      },
+      "CLB2PHY_RXBIT_RST_SMX9": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_RXBIT_RST_SMX9",
+        "wire": "CLB2PHY_RXBIT_RST_SMX9"
+      },
+      "CLB2PHY_SCAN_CLK_DIV2": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_CLK_DIV2",
+        "wire": "CLB2PHY_SCAN_CLK_DIV2"
+      },
+      "CLB2PHY_SCAN_CLK_DIV4": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_CLK_DIV4",
+        "wire": "CLB2PHY_SCAN_CLK_DIV4"
+      },
+      "CLB2PHY_SCAN_CLK_SDR": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_CLK_SDR",
+        "wire": "CLB2PHY_SCAN_CLK_SDR"
+      },
+      "CLB2PHY_SCAN_EN_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_EN_B",
+        "wire": "CLB2PHY_SCAN_EN_B"
+      },
+      "CLB2PHY_SCAN_IN0": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN0",
+        "wire": "CLB2PHY_SCAN_IN0"
+      },
+      "CLB2PHY_SCAN_IN1": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN1",
+        "wire": "CLB2PHY_SCAN_IN1"
+      },
+      "CLB2PHY_SCAN_IN2": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN2",
+        "wire": "CLB2PHY_SCAN_IN2"
+      },
+      "CLB2PHY_SCAN_IN3": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN3",
+        "wire": "CLB2PHY_SCAN_IN3"
+      },
+      "CLB2PHY_SCAN_IN4": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN4",
+        "wire": "CLB2PHY_SCAN_IN4"
+      },
+      "CLB2PHY_SCAN_IN5": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN5",
+        "wire": "CLB2PHY_SCAN_IN5"
+      },
+      "CLB2PHY_SCAN_IN6": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN6",
+        "wire": "CLB2PHY_SCAN_IN6"
+      },
+      "CLB2PHY_SCAN_IN7": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_IN7",
+        "wire": "CLB2PHY_SCAN_IN7"
+      },
+      "CLB2PHY_SCAN_MODE_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_MODE_B",
+        "wire": "CLB2PHY_SCAN_MODE_B"
+      },
+      "CLB2PHY_SCAN_RST_MASK_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_SCAN_RST_MASK_B",
+        "wire": "CLB2PHY_SCAN_RST_MASK_B"
+      },
+      "CLB2PHY_TEST_DIV2_CLK_SEL_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_DIV2_CLK_SEL_B",
+        "wire": "CLB2PHY_TEST_DIV2_CLK_SEL_B"
+      },
+      "CLB2PHY_TEST_DIV4_CLK_SEL_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_DIV4_CLK_SEL_B",
+        "wire": "CLB2PHY_TEST_DIV4_CLK_SEL_B"
+      },
+      "CLB2PHY_TEST_SDR_CLK_SEL_B": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_SDR_CLK_SEL_B",
+        "wire": "CLB2PHY_TEST_SDR_CLK_SEL_B"
+      },
+      "CLB2PHY_TEST_SPARE_B0": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_SPARE_B0",
+        "wire": "CLB2PHY_TEST_SPARE_B0"
+      },
+      "CLB2PHY_TEST_SPARE_B1": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_SPARE_B1",
+        "wire": "CLB2PHY_TEST_SPARE_B1"
+      },
+      "CLB2PHY_TEST_SPARE_B2": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_SPARE_B2",
+        "wire": "CLB2PHY_TEST_SPARE_B2"
+      },
+      "CLB2PHY_TEST_SPARE_B3": {
+        "dir": "INPUT",
+        "primary": "CLB2PHY_TEST_SPARE_B3",
+        "wire": "CLB2PHY_TEST_SPARE_B3"
+      },
+      "CLB2PHY_TRISTATE_ODELAY_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TRISTATE_ODELAY_RST_SMX0",
+        "wire": "CLB2PHY_TRISTATE_ODELAY_RST_SMX0"
+      },
+      "CLB2PHY_TRISTATE_ODELAY_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TRISTATE_ODELAY_RST_SMX1",
+        "wire": "CLB2PHY_TRISTATE_ODELAY_RST_SMX1"
+      },
+      "CLB2PHY_TXBIT_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX0",
+        "wire": "CLB2PHY_TXBIT_RST_SMX0"
+      },
+      "CLB2PHY_TXBIT_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX1",
+        "wire": "CLB2PHY_TXBIT_RST_SMX1"
+      },
+      "CLB2PHY_TXBIT_RST_SMX10": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX10",
+        "wire": "CLB2PHY_TXBIT_RST_SMX10"
+      },
+      "CLB2PHY_TXBIT_RST_SMX11": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX11",
+        "wire": "CLB2PHY_TXBIT_RST_SMX11"
+      },
+      "CLB2PHY_TXBIT_RST_SMX12": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX12",
+        "wire": "CLB2PHY_TXBIT_RST_SMX12"
+      },
+      "CLB2PHY_TXBIT_RST_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX2",
+        "wire": "CLB2PHY_TXBIT_RST_SMX2"
+      },
+      "CLB2PHY_TXBIT_RST_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX3",
+        "wire": "CLB2PHY_TXBIT_RST_SMX3"
+      },
+      "CLB2PHY_TXBIT_RST_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX4",
+        "wire": "CLB2PHY_TXBIT_RST_SMX4"
+      },
+      "CLB2PHY_TXBIT_RST_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX5",
+        "wire": "CLB2PHY_TXBIT_RST_SMX5"
+      },
+      "CLB2PHY_TXBIT_RST_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX6",
+        "wire": "CLB2PHY_TXBIT_RST_SMX6"
+      },
+      "CLB2PHY_TXBIT_RST_SMX7": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX7",
+        "wire": "CLB2PHY_TXBIT_RST_SMX7"
+      },
+      "CLB2PHY_TXBIT_RST_SMX8": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX8",
+        "wire": "CLB2PHY_TXBIT_RST_SMX8"
+      },
+      "CLB2PHY_TXBIT_RST_SMX9": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_RST_SMX9",
+        "wire": "CLB2PHY_TXBIT_RST_SMX9"
+      },
+      "CLB2PHY_TXBIT_TRI_RST_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_TRI_RST_SMX0",
+        "wire": "CLB2PHY_TXBIT_TRI_RST_SMX0"
+      },
+      "CLB2PHY_TXBIT_TRI_RST_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CLB2PHY_TXBIT_TRI_RST_SMX1",
+        "wire": "CLB2PHY_TXBIT_TRI_RST_SMX1"
+      },
+      "CTL2BS_REFCLK_EN_LOW0": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW0",
+        "wire": "CTL2BS_REFCLK_EN_LOW0"
+      },
+      "CTL2BS_REFCLK_EN_LOW1": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW1",
+        "wire": "CTL2BS_REFCLK_EN_LOW1"
+      },
+      "CTL2BS_REFCLK_EN_LOW2": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW2",
+        "wire": "CTL2BS_REFCLK_EN_LOW2"
+      },
+      "CTL2BS_REFCLK_EN_LOW3": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW3",
+        "wire": "CTL2BS_REFCLK_EN_LOW3"
+      },
+      "CTL2BS_REFCLK_EN_LOW4": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW4",
+        "wire": "CTL2BS_REFCLK_EN_LOW4"
+      },
+      "CTL2BS_REFCLK_EN_LOW5": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW5",
+        "wire": "CTL2BS_REFCLK_EN_LOW5"
+      },
+      "CTL2BS_REFCLK_EN_LOW6": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW6",
+        "wire": "CTL2BS_REFCLK_EN_LOW6"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX0",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX0"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX1",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX1"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX2",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX2"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX3",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX3"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX4",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX4"
+      },
+      "CTL2BS_REFCLK_EN_LOW_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_LOW_SMX5",
+        "wire": "CTL2BS_REFCLK_EN_LOW_SMX5"
+      },
+      "CTL2BS_REFCLK_EN_UPP0": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP0",
+        "wire": "CTL2BS_REFCLK_EN_UPP0"
+      },
+      "CTL2BS_REFCLK_EN_UPP1": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP1",
+        "wire": "CTL2BS_REFCLK_EN_UPP1"
+      },
+      "CTL2BS_REFCLK_EN_UPP2": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP2",
+        "wire": "CTL2BS_REFCLK_EN_UPP2"
+      },
+      "CTL2BS_REFCLK_EN_UPP3": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP3",
+        "wire": "CTL2BS_REFCLK_EN_UPP3"
+      },
+      "CTL2BS_REFCLK_EN_UPP4": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP4",
+        "wire": "CTL2BS_REFCLK_EN_UPP4"
+      },
+      "CTL2BS_REFCLK_EN_UPP5": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP5",
+        "wire": "CTL2BS_REFCLK_EN_UPP5"
+      },
+      "CTL2BS_REFCLK_EN_UPP6": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP6",
+        "wire": "CTL2BS_REFCLK_EN_UPP6"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX0": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX0",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX0"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX1": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX1",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX1"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX2": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX2",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX2"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX3": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX3",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX3"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX4": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX4",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX4"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX5": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX5",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX5"
+      },
+      "CTL2BS_REFCLK_EN_UPP_SMX6": {
+        "dir": "OUTPUT",
+        "primary": "CTL2BS_REFCLK_EN_UPP_SMX6",
+        "wire": "CTL2BS_REFCLK_EN_UPP_SMX6"
+      },
+      "CTRL_RST_LOW": {
+        "dir": "INPUT",
+        "primary": "CTRL_RST_LOW",
+        "wire": "CTRL_RST_LOW"
+      },
+      "CTRL_RST_UPP": {
+        "dir": "INPUT",
+        "primary": "CTRL_RST_UPP",
+        "wire": "CTRL_RST_UPP"
+      },
+      "DIV_CLK_OUT_LOW": {
+        "dir": "INPUT",
+        "primary": "DIV_CLK_OUT_LOW",
+        "wire": "DIV_CLK_OUT_LOW"
+      },
+      "DIV_CLK_OUT_UPP": {
+        "dir": "INPUT",
+        "primary": "DIV_CLK_OUT_UPP",
+        "wire": "DIV_CLK_OUT_UPP"
+      },
+      "IDELAY_RST0": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST0",
+        "wire": "IDELAY_RST0"
+      },
+      "IDELAY_RST1": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST1",
+        "wire": "IDELAY_RST1"
+      },
+      "IDELAY_RST10": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST10",
+        "wire": "IDELAY_RST10"
+      },
+      "IDELAY_RST11": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST11",
+        "wire": "IDELAY_RST11"
+      },
+      "IDELAY_RST12": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST12",
+        "wire": "IDELAY_RST12"
+      },
+      "IDELAY_RST2": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST2",
+        "wire": "IDELAY_RST2"
+      },
+      "IDELAY_RST3": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST3",
+        "wire": "IDELAY_RST3"
+      },
+      "IDELAY_RST4": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST4",
+        "wire": "IDELAY_RST4"
+      },
+      "IDELAY_RST5": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST5",
+        "wire": "IDELAY_RST5"
+      },
+      "IDELAY_RST6": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST6",
+        "wire": "IDELAY_RST6"
+      },
+      "IDELAY_RST7": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST7",
+        "wire": "IDELAY_RST7"
+      },
+      "IDELAY_RST8": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST8",
+        "wire": "IDELAY_RST8"
+      },
+      "IDELAY_RST9": {
+        "dir": "INPUT",
+        "primary": "IDELAY_RST9",
+        "wire": "IDELAY_RST9"
+      },
+      "ODELAY_RST0": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST0",
+        "wire": "ODELAY_RST0"
+      },
+      "ODELAY_RST1": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST1",
+        "wire": "ODELAY_RST1"
+      },
+      "ODELAY_RST10": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST10",
+        "wire": "ODELAY_RST10"
+      },
+      "ODELAY_RST11": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST11",
+        "wire": "ODELAY_RST11"
+      },
+      "ODELAY_RST12": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST12",
+        "wire": "ODELAY_RST12"
+      },
+      "ODELAY_RST2": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST2",
+        "wire": "ODELAY_RST2"
+      },
+      "ODELAY_RST3": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST3",
+        "wire": "ODELAY_RST3"
+      },
+      "ODELAY_RST4": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST4",
+        "wire": "ODELAY_RST4"
+      },
+      "ODELAY_RST5": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST5",
+        "wire": "ODELAY_RST5"
+      },
+      "ODELAY_RST6": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST6",
+        "wire": "ODELAY_RST6"
+      },
+      "ODELAY_RST7": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST7",
+        "wire": "ODELAY_RST7"
+      },
+      "ODELAY_RST8": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST8",
+        "wire": "ODELAY_RST8"
+      },
+      "ODELAY_RST9": {
+        "dir": "INPUT",
+        "primary": "ODELAY_RST9",
+        "wire": "ODELAY_RST9"
+      },
+      "PHY2CLB_DBG_CLK_STOP_FLG_DLY_OUT": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_DBG_CLK_STOP_FLG_DLY_OUT",
+        "wire": "PHY2CLB_DBG_CLK_STOP_FLG_DLY_OUT"
+      },
+      "PHY2CLB_DBG_CLK_STOP_FLG_OUT": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_DBG_CLK_STOP_FLG_OUT",
+        "wire": "PHY2CLB_DBG_CLK_STOP_FLG_OUT"
+      },
+      "PHY2CLB_DBG_CLK_STOP_OUT": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_DBG_CLK_STOP_OUT",
+        "wire": "PHY2CLB_DBG_CLK_STOP_OUT"
+      },
+      "PHY2CLB_SCAN_OUT0": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT0",
+        "wire": "PHY2CLB_SCAN_OUT0"
+      },
+      "PHY2CLB_SCAN_OUT1": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT1",
+        "wire": "PHY2CLB_SCAN_OUT1"
+      },
+      "PHY2CLB_SCAN_OUT2": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT2",
+        "wire": "PHY2CLB_SCAN_OUT2"
+      },
+      "PHY2CLB_SCAN_OUT3": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT3",
+        "wire": "PHY2CLB_SCAN_OUT3"
+      },
+      "PHY2CLB_SCAN_OUT4": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT4",
+        "wire": "PHY2CLB_SCAN_OUT4"
+      },
+      "PHY2CLB_SCAN_OUT5": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT5",
+        "wire": "PHY2CLB_SCAN_OUT5"
+      },
+      "PHY2CLB_SCAN_OUT6": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT6",
+        "wire": "PHY2CLB_SCAN_OUT6"
+      },
+      "PHY2CLB_SCAN_OUT7": {
+        "dir": "OUTPUT",
+        "primary": "PHY2CLB_SCAN_OUT7",
+        "wire": "PHY2CLB_SCAN_OUT7"
+      },
+      "RCLK2PHY_CLKDR": {
+        "dir": "INPUT",
+        "primary": "RCLK2PHY_CLKDR",
+        "wire": "RCLK2PHY_CLKDR"
+      },
+      "RCLK2PHY_SHIFTDR": {
+        "dir": "INPUT",
+        "primary": "RCLK2PHY_SHIFTDR",
+        "wire": "RCLK2PHY_SHIFTDR"
+      },
+      "RXBIT_RST0": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST0",
+        "wire": "RXBIT_RST0"
+      },
+      "RXBIT_RST1": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST1",
+        "wire": "RXBIT_RST1"
+      },
+      "RXBIT_RST10": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST10",
+        "wire": "RXBIT_RST10"
+      },
+      "RXBIT_RST11": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST11",
+        "wire": "RXBIT_RST11"
+      },
+      "RXBIT_RST12": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST12",
+        "wire": "RXBIT_RST12"
+      },
+      "RXBIT_RST2": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST2",
+        "wire": "RXBIT_RST2"
+      },
+      "RXBIT_RST3": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST3",
+        "wire": "RXBIT_RST3"
+      },
+      "RXBIT_RST4": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST4",
+        "wire": "RXBIT_RST4"
+      },
+      "RXBIT_RST5": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST5",
+        "wire": "RXBIT_RST5"
+      },
+      "RXBIT_RST6": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST6",
+        "wire": "RXBIT_RST6"
+      },
+      "RXBIT_RST7": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST7",
+        "wire": "RXBIT_RST7"
+      },
+      "RXBIT_RST8": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST8",
+        "wire": "RXBIT_RST8"
+      },
+      "RXBIT_RST9": {
+        "dir": "INPUT",
+        "primary": "RXBIT_RST9",
+        "wire": "RXBIT_RST9"
+      },
+      "SCAN_INT_LOWER": {
+        "dir": "OUTPUT",
+        "primary": "SCAN_INT_LOWER",
+        "wire": "SCAN_INT_LOWER"
+      },
+      "SCAN_INT_UPPER": {
+        "dir": "OUTPUT",
+        "primary": "SCAN_INT_UPPER",
+        "wire": "SCAN_INT_UPPER"
+      },
+      "TRISTATE_ODELAY_RST0": {
+        "dir": "INPUT",
+        "primary": "TRISTATE_ODELAY_RST0",
+        "wire": "TRISTATE_ODELAY_RST0"
+      },
+      "TRISTATE_ODELAY_RST1": {
+        "dir": "INPUT",
+        "primary": "TRISTATE_ODELAY_RST1",
+        "wire": "TRISTATE_ODELAY_RST1"
+      },
+      "TXBIT_RST0": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST0",
+        "wire": "TXBIT_RST0"
+      },
+      "TXBIT_RST1": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST1",
+        "wire": "TXBIT_RST1"
+      },
+      "TXBIT_RST10": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST10",
+        "wire": "TXBIT_RST10"
+      },
+      "TXBIT_RST11": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST11",
+        "wire": "TXBIT_RST11"
+      },
+      "TXBIT_RST12": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST12",
+        "wire": "TXBIT_RST12"
+      },
+      "TXBIT_RST2": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST2",
+        "wire": "TXBIT_RST2"
+      },
+      "TXBIT_RST3": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST3",
+        "wire": "TXBIT_RST3"
+      },
+      "TXBIT_RST4": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST4",
+        "wire": "TXBIT_RST4"
+      },
+      "TXBIT_RST5": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST5",
+        "wire": "TXBIT_RST5"
+      },
+      "TXBIT_RST6": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST6",
+        "wire": "TXBIT_RST6"
+      },
+      "TXBIT_RST7": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST7",
+        "wire": "TXBIT_RST7"
+      },
+      "TXBIT_RST8": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST8",
+        "wire": "TXBIT_RST8"
+      },
+      "TXBIT_RST9": {
+        "dir": "INPUT",
+        "primary": "TXBIT_RST9",
+        "wire": "TXBIT_RST9"
+      },
+      "TXBIT_TRI_RST0": {
+        "dir": "INPUT",
+        "primary": "TXBIT_TRI_RST0",
+        "wire": "TXBIT_TRI_RST0"
+      },
+      "TXBIT_TRI_RST1": {
+        "dir": "INPUT",
+        "primary": "TXBIT_TRI_RST1",
+        "wire": "TXBIT_TRI_RST1"
+      },
+      "XIPHY_CLK_STOP_CTRL_LOW": {
+        "dir": "OUTPUT",
+        "primary": "XIPHY_CLK_STOP_CTRL_LOW",
+        "wire": "XIPHY_CLK_STOP_CTRL_LOW"
+      },
+      "XIPHY_CLK_STOP_CTRL_UPP": {
+        "dir": "OUTPUT",
+        "primary": "XIPHY_CLK_STOP_CTRL_UPP",
+        "wire": "XIPHY_CLK_STOP_CTRL_UPP"
+      }
+    },
+    "pips": []
+  }
+}

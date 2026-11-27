@@ -1,0 +1,96 @@
+{
+  "BUFG_GT": {
+    "bels": {
+      "BUFG_GT": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE"
+          },
+          "CEMASK": {
+            "dir": "INPUT",
+            "wire": "CEMASK"
+          },
+          "CLR": {
+            "dir": "INPUT",
+            "wire": "RST_PRE_OPTINV"
+          },
+          "CLRMASK": {
+            "dir": "INPUT",
+            "wire": "RSTMASK"
+          },
+          "DIV0": {
+            "dir": "INPUT",
+            "wire": "DIV0"
+          },
+          "DIV1": {
+            "dir": "INPUT",
+            "wire": "DIV1"
+          },
+          "DIV2": {
+            "dir": "INPUT",
+            "wire": "DIV2"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT"
+          }
+        },
+        "type": "BUFG_GT_BUFG_GT"
+      }
+    },
+    "pins": {
+      "CE": {
+        "dir": "INPUT",
+        "primary": "CE",
+        "wire": "CE"
+      },
+      "CEMASK": {
+        "dir": "INPUT",
+        "primary": "CEMASK",
+        "wire": "CEMASK"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "CLK_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT",
+        "wire": "CLK_OUT"
+      },
+      "DIV0": {
+        "dir": "INPUT",
+        "primary": "DIV0",
+        "wire": "DIV0"
+      },
+      "DIV1": {
+        "dir": "INPUT",
+        "primary": "DIV1",
+        "wire": "DIV1"
+      },
+      "DIV2": {
+        "dir": "INPUT",
+        "primary": "DIV2",
+        "wire": "DIV2"
+      },
+      "RSTMASK": {
+        "dir": "INPUT",
+        "primary": "RSTMASK",
+        "wire": "RSTMASK"
+      },
+      "RST_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "RST_PRE_OPTINV",
+        "wire": "RST_PRE_OPTINV"
+      }
+    },
+    "pips": []
+  }
+}

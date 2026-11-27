@@ -1,0 +1,757 @@
+{
+  "BITSLICE_TX": {
+    "bels": {
+      "TRISTATE_TX_BITSLICE": {
+        "class": "BEL",
+        "pins": {
+          "BIT_CTRL_IN0": {
+            "dir": "INPUT",
+            "wire": "DDR_CLK"
+          },
+          "BIT_CTRL_IN1": {
+            "dir": "INPUT",
+            "wire": "CTRL_CLK"
+          },
+          "BIT_CTRL_IN10": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY8"
+          },
+          "BIT_CTRL_IN11": {
+            "dir": "INPUT",
+            "wire": "CTRL_LD"
+          },
+          "BIT_CTRL_IN12": {
+            "dir": "INPUT",
+            "wire": "CTRL_INC"
+          },
+          "BIT_CTRL_IN13": {
+            "dir": "INPUT",
+            "wire": "CTRL_CE"
+          },
+          "BIT_CTRL_IN14": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_DYNAMIC_MODE_EN"
+          },
+          "BIT_CTRL_IN15": {
+            "dir": "INPUT",
+            "wire": "TOGGLE_DIV2_SEL"
+          },
+          "BIT_CTRL_IN16": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_720_P3_SEL"
+          },
+          "BIT_CTRL_IN17": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_720_P2_SEL"
+          },
+          "BIT_CTRL_IN18": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_720_P1_SEL"
+          },
+          "BIT_CTRL_IN19": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_720_P0_SEL"
+          },
+          "BIT_CTRL_IN2": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY0"
+          },
+          "BIT_CTRL_IN20": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_360_N_SEL"
+          },
+          "BIT_CTRL_IN21": {
+            "dir": "INPUT",
+            "wire": "TX_MUX_360_P_SEL"
+          },
+          "BIT_CTRL_IN22": {
+            "dir": "INPUT",
+            "wire": "BS_RESET"
+          },
+          "BIT_CTRL_IN23": {
+            "dir": "INPUT",
+            "wire": "CTL2BS_TX_DDR_PHASE_SEL"
+          },
+          "BIT_CTRL_IN24": {
+            "dir": "INPUT",
+            "wire": "D0"
+          },
+          "BIT_CTRL_IN25": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "BIT_CTRL_IN26": {
+            "dir": "INPUT",
+            "wire": "D2"
+          },
+          "BIT_CTRL_IN27": {
+            "dir": "INPUT",
+            "wire": "D3"
+          },
+          "BIT_CTRL_IN28": {
+            "dir": "INPUT",
+            "wire": "D4"
+          },
+          "BIT_CTRL_IN29": {
+            "dir": "INPUT",
+            "wire": "D5"
+          },
+          "BIT_CTRL_IN3": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY1"
+          },
+          "BIT_CTRL_IN30": {
+            "dir": "INPUT",
+            "wire": "D6"
+          },
+          "BIT_CTRL_IN31": {
+            "dir": "INPUT",
+            "wire": "D7"
+          },
+          "BIT_CTRL_IN32": {
+            "dir": "INPUT",
+            "wire": "FORCE_OE_B"
+          },
+          "BIT_CTRL_IN33": {
+            "dir": "INPUT",
+            "wire": "DIV2_CLK"
+          },
+          "BIT_CTRL_IN34": {
+            "dir": "INPUT",
+            "wire": "DIV4_CLK"
+          },
+          "BIT_CTRL_IN4": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY2"
+          },
+          "BIT_CTRL_IN5": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY3"
+          },
+          "BIT_CTRL_IN6": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY4"
+          },
+          "BIT_CTRL_IN7": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY5"
+          },
+          "BIT_CTRL_IN8": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY6"
+          },
+          "BIT_CTRL_IN9": {
+            "dir": "INPUT",
+            "wire": "CTRL_DLY7"
+          },
+          "BIT_CTRL_OUT0": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT0"
+          },
+          "BIT_CTRL_OUT1": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT1"
+          },
+          "BIT_CTRL_OUT10": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_TX_DDR_PHASE_SEL"
+          },
+          "BIT_CTRL_OUT2": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT2"
+          },
+          "BIT_CTRL_OUT3": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT3"
+          },
+          "BIT_CTRL_OUT4": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT4"
+          },
+          "BIT_CTRL_OUT5": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT5"
+          },
+          "BIT_CTRL_OUT6": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT6"
+          },
+          "BIT_CTRL_OUT7": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT7"
+          },
+          "BIT_CTRL_OUT8": {
+            "dir": "OUTPUT",
+            "wire": "BS2CTL_CNTVALUEOUT8"
+          },
+          "BIT_CTRL_OUT9": {
+            "dir": "OUTPUT",
+            "wire": "VTC_READY"
+          },
+          "CDATAIN0": {
+            "dir": "INPUT",
+            "wire": "CDATAIN0"
+          },
+          "CDATAIN1": {
+            "dir": "INPUT",
+            "wire": "CDATAIN1"
+          },
+          "CDATAOUT": {
+            "dir": "OUTPUT",
+            "wire": "CDATAOUT"
+          },
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE_ODELAY"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "XIPHY_ODELAY_CLK_OPTINV_CLK_B"
+          },
+          "CNTVALUEIN0": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN0"
+          },
+          "CNTVALUEIN1": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN1"
+          },
+          "CNTVALUEIN2": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN2"
+          },
+          "CNTVALUEIN3": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN3"
+          },
+          "CNTVALUEIN4": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN4"
+          },
+          "CNTVALUEIN5": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN5"
+          },
+          "CNTVALUEIN6": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN6"
+          },
+          "CNTVALUEIN7": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN7"
+          },
+          "CNTVALUEIN8": {
+            "dir": "INPUT",
+            "wire": "CNTVALUEIN8"
+          },
+          "CNTVALUEOUT0": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT0"
+          },
+          "CNTVALUEOUT1": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT1"
+          },
+          "CNTVALUEOUT2": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT2"
+          },
+          "CNTVALUEOUT3": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT3"
+          },
+          "CNTVALUEOUT4": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT4"
+          },
+          "CNTVALUEOUT5": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT5"
+          },
+          "CNTVALUEOUT6": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT6"
+          },
+          "CNTVALUEOUT7": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT7"
+          },
+          "CNTVALUEOUT8": {
+            "dir": "OUTPUT",
+            "wire": "CNTVALUEOUT8"
+          },
+          "EN_VTC": {
+            "dir": "INPUT",
+            "wire": "EN_VTC"
+          },
+          "INC": {
+            "dir": "INPUT",
+            "wire": "INC"
+          },
+          "LOAD": {
+            "dir": "INPUT",
+            "wire": "LD"
+          },
+          "OFD_CE": {
+            "dir": "INPUT",
+            "wire": "CE_OFD"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "XIPHY_OSERDES_RST_OPTINV_CLK_B"
+          },
+          "RST_DLY": {
+            "dir": "INPUT",
+            "wire": "XIPHY_ODELAY_RST_OPTINV_CLK_B"
+          },
+          "TRI_OUT": {
+            "dir": "OUTPUT",
+            "wire": "Q"
+          }
+        },
+        "type": "TRISTATE_TX_BITSLICE"
+      },
+      "XIPHY_ODELAY_CLK_OPTINV": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK"
+          },
+          "CLK_B": {
+            "dir": "OUTPUT",
+            "wire": "XIPHY_ODELAY_CLK_OPTINV_CLK_B"
+          }
+        },
+        "type": "XIPHY_CLK_OPTINV"
+      },
+      "XIPHY_ODELAY_RST_OPTINV": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "REGRST"
+          },
+          "CLK_B": {
+            "dir": "OUTPUT",
+            "wire": "XIPHY_ODELAY_RST_OPTINV_CLK_B"
+          }
+        },
+        "type": "XIPHY_CLK_OPTINV"
+      },
+      "XIPHY_OSERDES_RST_OPTINV": {
+        "class": "RBEL",
+        "pins": {
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "RST"
+          },
+          "CLK_B": {
+            "dir": "OUTPUT",
+            "wire": "XIPHY_OSERDES_RST_OPTINV_CLK_B"
+          }
+        },
+        "type": "XIPHY_CLK_OPTINV"
+      }
+    },
+    "pins": {
+      "BS2CTL_CNTVALUEOUT0": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT0",
+        "wire": "BS2CTL_CNTVALUEOUT0"
+      },
+      "BS2CTL_CNTVALUEOUT1": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT1",
+        "wire": "BS2CTL_CNTVALUEOUT1"
+      },
+      "BS2CTL_CNTVALUEOUT2": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT2",
+        "wire": "BS2CTL_CNTVALUEOUT2"
+      },
+      "BS2CTL_CNTVALUEOUT3": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT3",
+        "wire": "BS2CTL_CNTVALUEOUT3"
+      },
+      "BS2CTL_CNTVALUEOUT4": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT4",
+        "wire": "BS2CTL_CNTVALUEOUT4"
+      },
+      "BS2CTL_CNTVALUEOUT5": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT5",
+        "wire": "BS2CTL_CNTVALUEOUT5"
+      },
+      "BS2CTL_CNTVALUEOUT6": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT6",
+        "wire": "BS2CTL_CNTVALUEOUT6"
+      },
+      "BS2CTL_CNTVALUEOUT7": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT7",
+        "wire": "BS2CTL_CNTVALUEOUT7"
+      },
+      "BS2CTL_CNTVALUEOUT8": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_CNTVALUEOUT8",
+        "wire": "BS2CTL_CNTVALUEOUT8"
+      },
+      "BS2CTL_TX_DDR_PHASE_SEL": {
+        "dir": "OUTPUT",
+        "primary": "BS2CTL_TX_DDR_PHASE_SEL",
+        "wire": "BS2CTL_TX_DDR_PHASE_SEL"
+      },
+      "BS_RESET": {
+        "dir": "INPUT",
+        "primary": "BS_RESET",
+        "wire": "BS_RESET"
+      },
+      "CDATAIN0": {
+        "dir": "INPUT",
+        "primary": "CDATAIN0",
+        "wire": "CDATAIN0"
+      },
+      "CDATAIN1": {
+        "dir": "INPUT",
+        "primary": "CDATAIN1",
+        "wire": "CDATAIN1"
+      },
+      "CDATAOUT": {
+        "dir": "OUTPUT",
+        "primary": "CDATAOUT",
+        "wire": "CDATAOUT"
+      },
+      "CE_ODELAY": {
+        "dir": "INPUT",
+        "primary": "CE_ODELAY",
+        "wire": "CE_ODELAY"
+      },
+      "CE_OFD": {
+        "dir": "INPUT",
+        "primary": "CE_OFD",
+        "wire": "CE_OFD"
+      },
+      "CLK": {
+        "dir": "INPUT",
+        "primary": "CLK",
+        "wire": "CLK"
+      },
+      "CNTVALUEIN0": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN0",
+        "wire": "CNTVALUEIN0"
+      },
+      "CNTVALUEIN1": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN1",
+        "wire": "CNTVALUEIN1"
+      },
+      "CNTVALUEIN2": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN2",
+        "wire": "CNTVALUEIN2"
+      },
+      "CNTVALUEIN3": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN3",
+        "wire": "CNTVALUEIN3"
+      },
+      "CNTVALUEIN4": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN4",
+        "wire": "CNTVALUEIN4"
+      },
+      "CNTVALUEIN5": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN5",
+        "wire": "CNTVALUEIN5"
+      },
+      "CNTVALUEIN6": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN6",
+        "wire": "CNTVALUEIN6"
+      },
+      "CNTVALUEIN7": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN7",
+        "wire": "CNTVALUEIN7"
+      },
+      "CNTVALUEIN8": {
+        "dir": "INPUT",
+        "primary": "CNTVALUEIN8",
+        "wire": "CNTVALUEIN8"
+      },
+      "CNTVALUEOUT0": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT0",
+        "wire": "CNTVALUEOUT0"
+      },
+      "CNTVALUEOUT1": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT1",
+        "wire": "CNTVALUEOUT1"
+      },
+      "CNTVALUEOUT2": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT2",
+        "wire": "CNTVALUEOUT2"
+      },
+      "CNTVALUEOUT3": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT3",
+        "wire": "CNTVALUEOUT3"
+      },
+      "CNTVALUEOUT4": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT4",
+        "wire": "CNTVALUEOUT4"
+      },
+      "CNTVALUEOUT5": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT5",
+        "wire": "CNTVALUEOUT5"
+      },
+      "CNTVALUEOUT6": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT6",
+        "wire": "CNTVALUEOUT6"
+      },
+      "CNTVALUEOUT7": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT7",
+        "wire": "CNTVALUEOUT7"
+      },
+      "CNTVALUEOUT8": {
+        "dir": "OUTPUT",
+        "primary": "CNTVALUEOUT8",
+        "wire": "CNTVALUEOUT8"
+      },
+      "CTL2BS_DYNAMIC_MODE_EN": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_DYNAMIC_MODE_EN",
+        "wire": "CTL2BS_DYNAMIC_MODE_EN"
+      },
+      "CTL2BS_TX_DDR_PHASE_SEL": {
+        "dir": "INPUT",
+        "primary": "CTL2BS_TX_DDR_PHASE_SEL",
+        "wire": "CTL2BS_TX_DDR_PHASE_SEL"
+      },
+      "CTRL_CE": {
+        "dir": "INPUT",
+        "primary": "CTRL_CE",
+        "wire": "CTRL_CE"
+      },
+      "CTRL_CLK": {
+        "dir": "INPUT",
+        "primary": "CTRL_CLK",
+        "wire": "CTRL_CLK"
+      },
+      "CTRL_DLY0": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY0",
+        "wire": "CTRL_DLY0"
+      },
+      "CTRL_DLY1": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY1",
+        "wire": "CTRL_DLY1"
+      },
+      "CTRL_DLY2": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY2",
+        "wire": "CTRL_DLY2"
+      },
+      "CTRL_DLY3": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY3",
+        "wire": "CTRL_DLY3"
+      },
+      "CTRL_DLY4": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY4",
+        "wire": "CTRL_DLY4"
+      },
+      "CTRL_DLY5": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY5",
+        "wire": "CTRL_DLY5"
+      },
+      "CTRL_DLY6": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY6",
+        "wire": "CTRL_DLY6"
+      },
+      "CTRL_DLY7": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY7",
+        "wire": "CTRL_DLY7"
+      },
+      "CTRL_DLY8": {
+        "dir": "INPUT",
+        "primary": "CTRL_DLY8",
+        "wire": "CTRL_DLY8"
+      },
+      "CTRL_INC": {
+        "dir": "INPUT",
+        "primary": "CTRL_INC",
+        "wire": "CTRL_INC"
+      },
+      "CTRL_LD": {
+        "dir": "INPUT",
+        "primary": "CTRL_LD",
+        "wire": "CTRL_LD"
+      },
+      "D0": {
+        "dir": "INPUT",
+        "primary": "D0",
+        "wire": "D0"
+      },
+      "D1": {
+        "dir": "INPUT",
+        "primary": "D1",
+        "wire": "D1"
+      },
+      "D2": {
+        "dir": "INPUT",
+        "primary": "D2",
+        "wire": "D2"
+      },
+      "D3": {
+        "dir": "INPUT",
+        "primary": "D3",
+        "wire": "D3"
+      },
+      "D4": {
+        "dir": "INPUT",
+        "primary": "D4",
+        "wire": "D4"
+      },
+      "D5": {
+        "dir": "INPUT",
+        "primary": "D5",
+        "wire": "D5"
+      },
+      "D6": {
+        "dir": "INPUT",
+        "primary": "D6",
+        "wire": "D6"
+      },
+      "D7": {
+        "dir": "INPUT",
+        "primary": "D7",
+        "wire": "D7"
+      },
+      "DDR_CLK": {
+        "dir": "INPUT",
+        "primary": "DDR_CLK",
+        "wire": "DDR_CLK"
+      },
+      "DIV2_CLK": {
+        "dir": "INPUT",
+        "primary": "DIV2_CLK",
+        "wire": "DIV2_CLK"
+      },
+      "DIV4_CLK": {
+        "dir": "INPUT",
+        "primary": "DIV4_CLK",
+        "wire": "DIV4_CLK"
+      },
+      "EN_VTC": {
+        "dir": "INPUT",
+        "primary": "EN_VTC",
+        "wire": "EN_VTC"
+      },
+      "FORCE_OE_B": {
+        "dir": "INPUT",
+        "primary": "FORCE_OE_B",
+        "wire": "FORCE_OE_B"
+      },
+      "INC": {
+        "dir": "INPUT",
+        "primary": "INC",
+        "wire": "INC"
+      },
+      "LD": {
+        "dir": "INPUT",
+        "primary": "LD",
+        "wire": "LD"
+      },
+      "Q": {
+        "dir": "OUTPUT",
+        "primary": "Q",
+        "wire": "Q"
+      },
+      "REGRST": {
+        "dir": "INPUT",
+        "primary": "REGRST",
+        "wire": "REGRST"
+      },
+      "RST": {
+        "dir": "INPUT",
+        "primary": "RST",
+        "wire": "RST"
+      },
+      "TOGGLE_DIV2_SEL": {
+        "dir": "INPUT",
+        "primary": "TOGGLE_DIV2_SEL",
+        "wire": "TOGGLE_DIV2_SEL"
+      },
+      "TX_MUX_360_N_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_360_N_SEL",
+        "wire": "TX_MUX_360_N_SEL"
+      },
+      "TX_MUX_360_P_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_360_P_SEL",
+        "wire": "TX_MUX_360_P_SEL"
+      },
+      "TX_MUX_720_P0_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_720_P0_SEL",
+        "wire": "TX_MUX_720_P0_SEL"
+      },
+      "TX_MUX_720_P1_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_720_P1_SEL",
+        "wire": "TX_MUX_720_P1_SEL"
+      },
+      "TX_MUX_720_P2_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_720_P2_SEL",
+        "wire": "TX_MUX_720_P2_SEL"
+      },
+      "TX_MUX_720_P3_SEL": {
+        "dir": "INPUT",
+        "primary": "TX_MUX_720_P3_SEL",
+        "wire": "TX_MUX_720_P3_SEL"
+      },
+      "VTC_READY": {
+        "dir": "OUTPUT",
+        "primary": "VTC_READY",
+        "wire": "VTC_READY"
+      }
+    },
+    "pips": [
+      {
+        "bel": "XIPHY_ODELAY_CLK_OPTINV",
+        "from_pin": "CLK",
+        "to_pin": "CLK_B"
+      },
+      {
+        "bel": "XIPHY_ODELAY_RST_OPTINV",
+        "from_pin": "CLK",
+        "to_pin": "CLK_B"
+      },
+      {
+        "bel": "XIPHY_OSERDES_RST_OPTINV",
+        "from_pin": "CLK",
+        "to_pin": "CLK_B"
+      }
+    ]
+  }
+}

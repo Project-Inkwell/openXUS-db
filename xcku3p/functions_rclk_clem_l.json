@@ -1,0 +1,33 @@
+{
+  "functions": [
+    {
+      "bit": 9,
+      "occupancies": [
+        [
+          "0:BUFCE_ROW_FSR",
+          {
+            "entries": [
+              [
+                [
+                  "SYNC"
+                ],
+                0
+              ],
+              [
+                [
+                  "ASYNC"
+                ],
+                1
+              ]
+            ],
+            "table": [
+              "0/BUFCE/CE_TYPE"
+            ]
+          }
+        ]
+      ],
+      "row": 9
+    }
+  ],
+  "tile_type": "RCLK_CLEM_L"
+}

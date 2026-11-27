@@ -1,0 +1,1103 @@
+{
+  "functions": [
+    {
+      "bit": 1,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 1,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 1,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 1,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 1,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 10,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 10,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 11,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 11,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 11,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 17,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 17,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 17,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 18,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 18,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 19,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 19,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 19,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 21,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 23,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 27,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 29,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 29,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 29,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 29,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 3,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 3,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 30,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 30,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 31,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 31,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 31,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 4
+    },
+    {
+      "bit": 37,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 37,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 37,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 38,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 38,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 39,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 39,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 41,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 41,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 41,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 42,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 42,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 42,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 43,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 43,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 45,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 46,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 46,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 5,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 5,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 5,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 6,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 6,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 7,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 7,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    },
+    {
+      "bit": 7,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 1
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 0
+          }
+        ]
+      ],
+      "row": 5
+    },
+    {
+      "bit": 9,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 0
+    },
+    {
+      "bit": 9,
+      "occupancies": [
+        [
+          "@1:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@1:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 1
+    },
+    {
+      "bit": 9,
+      "occupancies": [
+        [
+          "@2:",
+          {
+            "constant": 0
+          }
+        ],
+        [
+          "@2:BUFCE_ROW_FSR",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 2
+    }
+  ],
+  "tile_type": "RCLK_BRAM_INTF_TD_L"
+}

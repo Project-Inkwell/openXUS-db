@@ -1,0 +1,109 @@
+{
+  "HPIOBDIFFOUTBUF": {
+    "bels": {
+      "DIFFOUTBUF": {
+        "class": "BEL",
+        "pins": {
+          "AOUT": {
+            "dir": "OUTPUT",
+            "wire": "AOUT"
+          },
+          "BOUT": {
+            "dir": "OUTPUT",
+            "wire": "BOUT"
+          },
+          "DIFF_TERM_EN": {
+            "dir": "INPUT",
+            "wire": "TERM_EN"
+          },
+          "O_B": {
+            "dir": "INPUT",
+            "wire": "O_B"
+          },
+          "TRI": {
+            "dir": "INPUT",
+            "wire": "TSTATEB"
+          }
+        },
+        "type": "HPIOBDIFFOUTBUF_DIFFOUTBUF"
+      },
+      "DPHY_DIFFOUTBUF": {
+        "class": "BEL",
+        "pins": {
+          "AOUT": {
+            "dir": "OUTPUT",
+            "wire": "AOUT"
+          },
+          "BOUT": {
+            "dir": "OUTPUT",
+            "wire": "BOUT"
+          },
+          "HSTX_I": {
+            "dir": "INPUT",
+            "wire": "O_B"
+          },
+          "HSTX_T": {
+            "dir": "INPUT",
+            "wire": "TSTATEB"
+          },
+          "LPTX_I_N": {
+            "dir": "INPUT",
+            "wire": "LPTX_I_N"
+          },
+          "LPTX_I_P": {
+            "dir": "INPUT",
+            "wire": "LPTX_I_P"
+          },
+          "LPTX_T": {
+            "dir": "INPUT",
+            "wire": "LPTX_T"
+          }
+        },
+        "type": "HPIOB_DPHY_DIFFOUTBUF"
+      }
+    },
+    "pins": {
+      "AOUT": {
+        "dir": "OUTPUT",
+        "primary": "AOUT",
+        "wire": "AOUT"
+      },
+      "BOUT": {
+        "dir": "OUTPUT",
+        "primary": "BOUT",
+        "wire": "BOUT"
+      },
+      "LPTX_I_N": {
+        "dir": "INPUT",
+        "primary": "LPTX_I_N",
+        "wire": "LPTX_I_N"
+      },
+      "LPTX_I_P": {
+        "dir": "INPUT",
+        "primary": "LPTX_I_P",
+        "wire": "LPTX_I_P"
+      },
+      "LPTX_T": {
+        "dir": "INPUT",
+        "primary": "LPTX_T",
+        "wire": "LPTX_T"
+      },
+      "O_B": {
+        "dir": "INPUT",
+        "primary": "O_B",
+        "wire": "O_B"
+      },
+      "TERM_EN": {
+        "dir": "INPUT",
+        "primary": "TERM_EN",
+        "wire": "TERM_EN"
+      },
+      "TSTATEB": {
+        "dir": "INPUT",
+        "primary": "TSTATEB",
+        "wire": "TSTATEB"
+      }
+    },
+    "pips": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "BUFG_GT_SYNC": {
+    "bels": {
+      "BUFG_GT_SYNC": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CE_IN"
+          },
+          "CESYNC": {
+            "dir": "OUTPUT",
+            "wire": "CE_OUT"
+          },
+          "CLK": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          },
+          "CLR": {
+            "dir": "INPUT",
+            "wire": "RST_IN"
+          },
+          "CLRSYNC": {
+            "dir": "OUTPUT",
+            "wire": "RST_OUT"
+          }
+        },
+        "type": "BUFG_GT_BUFG_GT_SYNC"
+      }
+    },
+    "pins": {
+      "CE_IN": {
+        "dir": "INPUT",
+        "primary": "CE_IN",
+        "wire": "CE_IN"
+      },
+      "CE_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CE_OUT",
+        "wire": "CE_OUT"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "RST_IN": {
+        "dir": "INPUT",
+        "primary": "RST_IN",
+        "wire": "RST_IN"
+      },
+      "RST_OUT": {
+        "dir": "OUTPUT",
+        "primary": "RST_OUT",
+        "wire": "RST_OUT"
+      }
+    },
+    "pips": []
+  }
+}

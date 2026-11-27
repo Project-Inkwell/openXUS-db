@@ -1,0 +1,233 @@
+{
+  "functions": [
+    {
+      "bit": 1440,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1441,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1443,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1447,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1447,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    },
+    {
+      "bit": 1448,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1450,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    },
+    {
+      "bit": 1451,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1451,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    },
+    {
+      "bit": 1452,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1453,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1456,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1460,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1461,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1470,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    },
+    {
+      "bit": 1471,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    },
+    {
+      "bit": 1484,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1485,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 6
+    },
+    {
+      "bit": 1487,
+      "occupancies": [
+        [
+          "3:BUFGCE",
+          {
+            "constant": 1
+          }
+        ]
+      ],
+      "row": 7
+    }
+  ],
+  "tile_type": "CMT_L"
+}

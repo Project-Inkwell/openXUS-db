@@ -1,0 +1,13 @@
+{
+  "BIAS": {
+    "bels": {
+      "BIAS": {
+        "class": "BEL",
+        "pins": {},
+        "type": "HPIO_BIAS"
+      }
+    },
+    "pins": {},
+    "pips": []
+  }
+}

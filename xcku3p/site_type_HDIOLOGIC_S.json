@@ -1,0 +1,278 @@
+{
+  "HDIOLOGIC_S": {
+    "bels": {
+      "COMBBUF": {
+        "class": "BEL",
+        "pins": {
+          "COMBOUT": {
+            "dir": "OUTPUT",
+            "wire": "IPFFS_BYPASS"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "IPFFS_D"
+          }
+        },
+        "type": "COMBBUF_S"
+      },
+      "IDDR": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CE"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CK"
+          },
+          "CK_C": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CK_C"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "IPFFS_D"
+          },
+          "Q1": {
+            "dir": "OUTPUT",
+            "wire": "IPFFS_Q1"
+          },
+          "Q2": {
+            "dir": "OUTPUT",
+            "wire": "IPFFS_Q2"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "IPFFS_RST"
+          }
+        },
+        "type": "IDDR_S"
+      },
+      "IPFF": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CE"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CK"
+          },
+          "CK_C": {
+            "dir": "INPUT",
+            "wire": "IPFFS_CK_C"
+          },
+          "D": {
+            "dir": "INPUT",
+            "wire": "IPFFS_D"
+          },
+          "Q1": {
+            "dir": "OUTPUT",
+            "wire": "IPFFS_Q1"
+          },
+          "Q2": {
+            "dir": "OUTPUT",
+            "wire": "IPFFS_Q2"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "IPFFS_RST"
+          }
+        },
+        "type": "IPFF_S"
+      },
+      "OPFF": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CE"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CK"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "OPFFS_D1"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "OPFFS_D2"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "OPFFS_Q"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "OPFFS_RST"
+          }
+        },
+        "type": "OPFF_S"
+      },
+      "OPTFF": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CE"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CK"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "OPFFS_D1"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "OPFFS_D2"
+          },
+          "OQ": {
+            "dir": "OUTPUT",
+            "wire": "OPFFS_Q"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "OPFFS_RST"
+          },
+          "T1": {
+            "dir": "INPUT",
+            "wire": "TFFS_D1"
+          },
+          "T2": {
+            "dir": "INPUT",
+            "wire": "TFFS_D2"
+          },
+          "TQ": {
+            "dir": "OUTPUT",
+            "wire": "TFFS_Q"
+          }
+        },
+        "type": "OPTFF_S"
+      },
+      "TFF": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CE"
+          },
+          "CK": {
+            "dir": "INPUT",
+            "wire": "OPFFS_CK"
+          },
+          "D1": {
+            "dir": "INPUT",
+            "wire": "TFFS_D1"
+          },
+          "D2": {
+            "dir": "INPUT",
+            "wire": "TFFS_D2"
+          },
+          "Q": {
+            "dir": "OUTPUT",
+            "wire": "TFFS_Q"
+          },
+          "RST": {
+            "dir": "INPUT",
+            "wire": "OPFFS_RST"
+          }
+        },
+        "type": "TFF_S"
+      }
+    },
+    "pins": {
+      "IPFFS_BYPASS": {
+        "dir": "OUTPUT",
+        "primary": "IPFFS_BYPASS",
+        "wire": "IPFFS_BYPASS"
+      },
+      "IPFFS_CE": {
+        "dir": "INPUT",
+        "primary": "IPFFS_CE",
+        "wire": "IPFFS_CE"
+      },
+      "IPFFS_CK": {
+        "dir": "INPUT",
+        "primary": "IPFFS_CK",
+        "wire": "IPFFS_CK"
+      },
+      "IPFFS_CK_C": {
+        "dir": "INPUT",
+        "primary": "IPFFS_CK_C",
+        "wire": "IPFFS_CK_C"
+      },
+      "IPFFS_D": {
+        "dir": "INPUT",
+        "primary": "IPFFS_D",
+        "wire": "IPFFS_D"
+      },
+      "IPFFS_Q1": {
+        "dir": "OUTPUT",
+        "primary": "IPFFS_Q1",
+        "wire": "IPFFS_Q1"
+      },
+      "IPFFS_Q2": {
+        "dir": "OUTPUT",
+        "primary": "IPFFS_Q2",
+        "wire": "IPFFS_Q2"
+      },
+      "IPFFS_RST": {
+        "dir": "INPUT",
+        "primary": "IPFFS_RST",
+        "wire": "IPFFS_RST"
+      },
+      "OPFFS_CE": {
+        "dir": "INPUT",
+        "primary": "OPFFS_CE",
+        "wire": "OPFFS_CE"
+      },
+      "OPFFS_CK": {
+        "dir": "INPUT",
+        "primary": "OPFFS_CK",
+        "wire": "OPFFS_CK"
+      },
+      "OPFFS_D1": {
+        "dir": "INPUT",
+        "primary": "OPFFS_D1",
+        "wire": "OPFFS_D1"
+      },
+      "OPFFS_D2": {
+        "dir": "INPUT",
+        "primary": "OPFFS_D2",
+        "wire": "OPFFS_D2"
+      },
+      "OPFFS_Q": {
+        "dir": "OUTPUT",
+        "primary": "OPFFS_Q",
+        "wire": "OPFFS_Q"
+      },
+      "OPFFS_RST": {
+        "dir": "INPUT",
+        "primary": "OPFFS_RST",
+        "wire": "OPFFS_RST"
+      },
+      "TFFS_D1": {
+        "dir": "INPUT",
+        "primary": "TFFS_D1",
+        "wire": "TFFS_D1"
+      },
+      "TFFS_D2": {
+        "dir": "INPUT",
+        "primary": "TFFS_D2",
+        "wire": "TFFS_D2"
+      },
+      "TFFS_Q": {
+        "dir": "OUTPUT",
+        "primary": "TFFS_Q",
+        "wire": "TFFS_Q"
+      }
+    },
+    "pips": []
+  }
+}

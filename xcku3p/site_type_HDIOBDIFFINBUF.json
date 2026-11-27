@@ -1,0 +1,51 @@
+{
+  "HDIOBDIFFINBUF": {
+    "bels": {
+      "DIFFINBUF": {
+        "class": "BEL",
+        "pins": {
+          "DIFF_IN_N": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_1"
+          },
+          "DIFF_IN_P": {
+            "dir": "INPUT",
+            "wire": "PAD_RES_0"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "LVDS_TRUE"
+          },
+          "O_B": {
+            "dir": "OUTPUT",
+            "wire": "LVDS_COMP"
+          }
+        },
+        "type": "HDIOBDIFFINBUF_DIFFINBUF"
+      }
+    },
+    "pins": {
+      "LVDS_COMP": {
+        "dir": "OUTPUT",
+        "primary": "LVDS_COMP",
+        "wire": "LVDS_COMP"
+      },
+      "LVDS_TRUE": {
+        "dir": "OUTPUT",
+        "primary": "LVDS_TRUE",
+        "wire": "LVDS_TRUE"
+      },
+      "PAD_RES_0": {
+        "dir": "INPUT",
+        "primary": "PAD_RES_0",
+        "wire": "PAD_RES_0"
+      },
+      "PAD_RES_1": {
+        "dir": "INPUT",
+        "primary": "PAD_RES_1",
+        "wire": "PAD_RES_1"
+      }
+    },
+    "pips": []
+  }
+}

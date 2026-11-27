@@ -1,0 +1,109 @@
+{
+  "BUFGCE_DIV": {
+    "bels": {
+      "BUFGCE_DIV": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEINV_CE"
+          },
+          "CLR": {
+            "dir": "INPUT",
+            "wire": "CLRINV_CLR"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IINV_I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT"
+          }
+        },
+        "type": "BUFGCE_DIV_BUFGCE_DIV"
+      },
+      "CEINV": {
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "OUTPUT",
+            "wire": "CEINV_CE"
+          },
+          "CE_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCE_DIV_CEINV"
+      },
+      "CLRINV": {
+        "class": "RBEL",
+        "pins": {
+          "CLR": {
+            "dir": "OUTPUT",
+            "wire": "CLRINV_CLR"
+          },
+          "CLR_PREINV": {
+            "dir": "INPUT",
+            "wire": "RST_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCE_DIV_CLRINV"
+      },
+      "IINV": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "OUTPUT",
+            "wire": "IINV_I"
+          },
+          "I_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          }
+        },
+        "type": "BUFGCEDIV_IINV"
+      }
+    },
+    "pins": {
+      "CE_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "CE_PRE_OPTINV",
+        "wire": "CE_PRE_OPTINV"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "CLK_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT",
+        "wire": "CLK_OUT"
+      },
+      "RST_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "RST_PRE_OPTINV",
+        "wire": "RST_PRE_OPTINV"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CEINV",
+        "from_pin": "CE_PREINV",
+        "to_pin": "CE"
+      },
+      {
+        "bel": "CLRINV",
+        "from_pin": "CLR_PREINV",
+        "to_pin": "CLR"
+      },
+      {
+        "bel": "IINV",
+        "from_pin": "I_PREINV",
+        "to_pin": "I"
+      }
+    ]
+  }
+}

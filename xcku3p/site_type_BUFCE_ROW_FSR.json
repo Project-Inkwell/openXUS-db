@@ -1,0 +1,127 @@
+{
+  "BUFCE_ROW_FSR": {
+    "bels": {
+      "BUFCE": {
+        "class": "BEL",
+        "pins": {
+          "CE": {
+            "dir": "INPUT",
+            "wire": "CEINV_CE"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "IINV_I"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT"
+          }
+        },
+        "type": "BUFCE_BUFCE_ROW"
+      },
+      "CEINV": {
+        "class": "RBEL",
+        "pins": {
+          "CE": {
+            "dir": "OUTPUT",
+            "wire": "CEINV_CE"
+          },
+          "CE_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE_PRE_OPTINV"
+          }
+        },
+        "type": "BUFCE_CEINV"
+      },
+      "GCLK_TEST_DELAY": {
+        "class": "BEL",
+        "pins": {
+          "DELAY_TEST0": {
+            "dir": "INPUT",
+            "wire": "OPT_DELAY_TEST0"
+          },
+          "DELAY_TEST1": {
+            "dir": "INPUT",
+            "wire": "OPT_DELAY_TEST1"
+          },
+          "DELAY_TEST2": {
+            "dir": "INPUT",
+            "wire": "OPT_DELAY_TEST2"
+          },
+          "I": {
+            "dir": "INPUT",
+            "wire": "CLK_IN"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT_OPT_DLY"
+          }
+        },
+        "type": "GCLK_DELAY_FSR"
+      },
+      "IINV": {
+        "class": "RBEL",
+        "pins": {
+          "I": {
+            "dir": "OUTPUT",
+            "wire": "IINV_I"
+          },
+          "I_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_OUT_OPT_DLY"
+          }
+        },
+        "type": "BUFCE_IINV"
+      }
+    },
+    "pins": {
+      "CE_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "CE_PRE_OPTINV",
+        "wire": "CE_PRE_OPTINV"
+      },
+      "CLK_IN": {
+        "dir": "INPUT",
+        "primary": "CLK_IN",
+        "wire": "CLK_IN"
+      },
+      "CLK_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT",
+        "wire": "CLK_OUT"
+      },
+      "CLK_OUT_OPT_DLY": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT_OPT_DLY",
+        "wire": "CLK_OUT_OPT_DLY"
+      },
+      "OPT_DELAY_TEST0": {
+        "dir": "INPUT",
+        "primary": "OPT_DELAY_TEST0",
+        "wire": "OPT_DELAY_TEST0"
+      },
+      "OPT_DELAY_TEST1": {
+        "dir": "INPUT",
+        "primary": "OPT_DELAY_TEST1",
+        "wire": "OPT_DELAY_TEST1"
+      },
+      "OPT_DELAY_TEST2": {
+        "dir": "INPUT",
+        "primary": "OPT_DELAY_TEST2",
+        "wire": "OPT_DELAY_TEST2"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CEINV",
+        "from_pin": "CE_PREINV",
+        "to_pin": "CE"
+      },
+      {
+        "bel": "IINV",
+        "from_pin": "I_PREINV",
+        "to_pin": "I"
+      }
+    ]
+  }
+}

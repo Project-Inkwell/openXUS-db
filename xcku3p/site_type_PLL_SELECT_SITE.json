@@ -1,0 +1,60 @@
+{
+  "PLL_SELECT_SITE": {
+    "bels": {
+      "PLL_SELECT": {
+        "class": "BEL",
+        "pins": {
+          "CLOCK_OUT": {
+            "dir": "OUTPUT",
+            "wire": "Z"
+          },
+          "PLL0": {
+            "dir": "INPUT",
+            "wire": "D0"
+          },
+          "PLL1": {
+            "dir": "INPUT",
+            "wire": "D1"
+          },
+          "PLL_CLK_EN": {
+            "dir": "INPUT",
+            "wire": "PLL_CLK_EN"
+          },
+          "REFCLK_DFD": {
+            "dir": "INPUT",
+            "wire": "REFCLK_DFD"
+          }
+        },
+        "type": "PLL_SELECT_BEL"
+      }
+    },
+    "pins": {
+      "D0": {
+        "dir": "INPUT",
+        "primary": "D0",
+        "wire": "D0"
+      },
+      "D1": {
+        "dir": "INPUT",
+        "primary": "D1",
+        "wire": "D1"
+      },
+      "PLL_CLK_EN": {
+        "dir": "INPUT",
+        "primary": "PLL_CLK_EN",
+        "wire": "PLL_CLK_EN"
+      },
+      "REFCLK_DFD": {
+        "dir": "INPUT",
+        "primary": "REFCLK_DFD",
+        "wire": "REFCLK_DFD"
+      },
+      "Z": {
+        "dir": "OUTPUT",
+        "primary": "Z",
+        "wire": "Z"
+      }
+    },
+    "pips": []
+  }
+}

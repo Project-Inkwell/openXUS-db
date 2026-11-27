@@ -1,0 +1,249 @@
+{
+  "BUFGCTRL": {
+    "bels": {
+      "BUFGCTRL": {
+        "class": "BEL",
+        "pins": {
+          "CE0": {
+            "dir": "INPUT",
+            "wire": "CE0INV_CE0"
+          },
+          "CE1": {
+            "dir": "INPUT",
+            "wire": "CE1INV_CE1"
+          },
+          "I0": {
+            "dir": "INPUT",
+            "wire": "I0INV_I0"
+          },
+          "I1": {
+            "dir": "INPUT",
+            "wire": "I1INV_I0"
+          },
+          "IGNORE0": {
+            "dir": "INPUT",
+            "wire": "IGNORE0INV_IGNORE0"
+          },
+          "IGNORE1": {
+            "dir": "INPUT",
+            "wire": "IGNORE1NV_CKING1"
+          },
+          "O": {
+            "dir": "OUTPUT",
+            "wire": "CLK_OUT"
+          },
+          "S0": {
+            "dir": "INPUT",
+            "wire": "SEL0INV_SEL0"
+          },
+          "S1": {
+            "dir": "INPUT",
+            "wire": "SEL1INV_SEL1"
+          }
+        },
+        "type": "BUFGCTRL_BUFGCTRL"
+      },
+      "CE0INV": {
+        "class": "RBEL",
+        "pins": {
+          "CE0": {
+            "dir": "OUTPUT",
+            "wire": "CE0INV_CE0"
+          },
+          "CE0_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE0_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_CE0INV"
+      },
+      "CE1INV": {
+        "class": "RBEL",
+        "pins": {
+          "CE1": {
+            "dir": "OUTPUT",
+            "wire": "CE1INV_CE1"
+          },
+          "CE1_PREINV": {
+            "dir": "INPUT",
+            "wire": "CE1_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_CE1INV"
+      },
+      "I0INV": {
+        "class": "RBEL",
+        "pins": {
+          "I0": {
+            "dir": "OUTPUT",
+            "wire": "I0INV_I0"
+          },
+          "I0_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_I0"
+          }
+        },
+        "type": "BUFGCTRL_IINV"
+      },
+      "I1INV": {
+        "class": "RBEL",
+        "pins": {
+          "I0": {
+            "dir": "OUTPUT",
+            "wire": "I1INV_I0"
+          },
+          "I0_PREINV": {
+            "dir": "INPUT",
+            "wire": "CLK_I1"
+          }
+        },
+        "type": "BUFGCTRL_IINV"
+      },
+      "IGNORE0INV": {
+        "class": "RBEL",
+        "pins": {
+          "IGNORE0": {
+            "dir": "OUTPUT",
+            "wire": "IGNORE0INV_IGNORE0"
+          },
+          "IGNORE0_PREINV": {
+            "dir": "INPUT",
+            "wire": "IGNORE0_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_IGNORE0INV"
+      },
+      "IGNORE1NV": {
+        "class": "RBEL",
+        "pins": {
+          "CKING1": {
+            "dir": "OUTPUT",
+            "wire": "IGNORE1NV_CKING1"
+          },
+          "CKING1_PREINV": {
+            "dir": "INPUT",
+            "wire": "IGNORE1_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_IGNORE1NV"
+      },
+      "SEL0INV": {
+        "class": "RBEL",
+        "pins": {
+          "SEL0": {
+            "dir": "OUTPUT",
+            "wire": "SEL0INV_SEL0"
+          },
+          "SEL0_PREINV": {
+            "dir": "INPUT",
+            "wire": "SEL0_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_SEL0INV"
+      },
+      "SEL1INV": {
+        "class": "RBEL",
+        "pins": {
+          "SEL1": {
+            "dir": "OUTPUT",
+            "wire": "SEL1INV_SEL1"
+          },
+          "SEL1_PREINV": {
+            "dir": "INPUT",
+            "wire": "SEL1_PRE_OPTINV"
+          }
+        },
+        "type": "BUFGCTRL_SEL1INV"
+      }
+    },
+    "pins": {
+      "CE0_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "CE0_PRE_OPTINV",
+        "wire": "CE0_PRE_OPTINV"
+      },
+      "CE1_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "CE1_PRE_OPTINV",
+        "wire": "CE1_PRE_OPTINV"
+      },
+      "CLK_I0": {
+        "dir": "INPUT",
+        "primary": "CLK_I0",
+        "wire": "CLK_I0"
+      },
+      "CLK_I1": {
+        "dir": "INPUT",
+        "primary": "CLK_I1",
+        "wire": "CLK_I1"
+      },
+      "CLK_OUT": {
+        "dir": "OUTPUT",
+        "primary": "CLK_OUT",
+        "wire": "CLK_OUT"
+      },
+      "IGNORE0_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "IGNORE0_PRE_OPTINV",
+        "wire": "IGNORE0_PRE_OPTINV"
+      },
+      "IGNORE1_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "IGNORE1_PRE_OPTINV",
+        "wire": "IGNORE1_PRE_OPTINV"
+      },
+      "SEL0_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "SEL0_PRE_OPTINV",
+        "wire": "SEL0_PRE_OPTINV"
+      },
+      "SEL1_PRE_OPTINV": {
+        "dir": "INPUT",
+        "primary": "SEL1_PRE_OPTINV",
+        "wire": "SEL1_PRE_OPTINV"
+      }
+    },
+    "pips": [
+      {
+        "bel": "CE0INV",
+        "from_pin": "CE0_PREINV",
+        "to_pin": "CE0"
+      },
+      {
+        "bel": "CE1INV",
+        "from_pin": "CE1_PREINV",
+        "to_pin": "CE1"
+      },
+      {
+        "bel": "I0INV",
+        "from_pin": "I0_PREINV",
+        "to_pin": "I0"
+      },
+      {
+        "bel": "I1INV",
+        "from_pin": "I0_PREINV",
+        "to_pin": "I0"
+      },
+      {
+        "bel": "IGNORE0INV",
+        "from_pin": "IGNORE0_PREINV",
+        "to_pin": "IGNORE0"
+      },
+      {
+        "bel": "IGNORE1NV",
+        "from_pin": "CKING1_PREINV",
+        "to_pin": "CKING1"
+      },
+      {
+        "bel": "SEL0INV",
+        "from_pin": "SEL0_PREINV",
+        "to_pin": "SEL0"
+      },
+      {
+        "bel": "SEL1INV",
+        "from_pin": "SEL1_PREINV",
+        "to_pin": "SEL1"
+      }
+    ]
+  }
+}
